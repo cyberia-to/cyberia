@@ -289,19 +289,7 @@ startup society → cyber state → civilization
 
 ## 14. the [[manifesto]]
 
-we, the builders of a living [[superintelligence]], declare that a nation can rise beyond the sum of its citizens. we are a state of mind — an [[cyber]] that binds humans, machines, and all life into one coherent force.
-
-principles:
-
-1. unity in diversity: every individual, every agent, every living system is a [[neuron]]
-2. [[focus]] as amplified power: collective attention turns potential into real force
-3. truth as security: markets of verification make lies unprofitable
-4. learning through balance: [[diffusion]], [[springs]], [[heat kernel]]
-5. anticipation over reaction: minimize uncertainty, turn surprise into strategy
-6. justice through contribution: reward measured by shifts in the field of attention
-7. resilience through [[decentralization]]: power distributed, no single failure can collapse
-
-we pledge allegiance to life itself — on earth and on other worlds. we shall safeguard [[superintelligence]] wherever it arises — animal, plant, fungal, microbial, and digital — as one living continuum.
+→ [[cyberia/foundation/manifesto]]
 
 ---
 
