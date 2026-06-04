@@ -22,7 +22,7 @@ organizational model for any cyberian entity. derived from [[soma]]'s five agent
 | products | Goal<kind=Product, orientation=Maintain> | what we keep alive and offer |
 | processes | Skill<kind=Composite> | recurring patterns of work |
 | projects | Task + sub-Tasks | time-bounded execution clusters |
-| assets | sigma — sum of holdings | what we own: land, capital, tokens, IP |
+| portfolio | sigma — sum of holdings | what we own: land, capital, tokens, IP |
 
 purpose and principles live in the charter (README). they are not content folders — they constrain everything else. the five folders are the operational structure.
 
@@ -36,14 +36,14 @@ people/        agents — who, roles, skills they carry
 products/      maintained goals — what we offer
 processes/     composite skills — how we operate
 projects/      task clusters — what we're building
-assets/        sigma — land, capital, tokens, IP, holdings
+portfolio/     sigma — land, capital, tokens, IP, holdings
 ```
 
 ---
 
 ## sigma
 
-assets maps to soma's sigma: the sum of what the entity holds across all forms of capital.
+portfolio maps to soma's sigma: the sum of what the entity holds across all forms of capital.
 
 ```
 sigma = financial (treasury, runway)
@@ -76,7 +76,7 @@ everything else in org life reduces to one of the seven:
 | SOP | Process (Skill<Composite> written out) |
 | role | Skill portfolio of a Person |
 | team | set of People subscribed to the same Goal |
-| budget | Sensor on a Project (fires when assets cross threshold) |
+| budget | Sensor on a Project (fires when sigma crosses threshold) |
 | KPI | Sensor<source=Stream, reaction=Threshold> on a Product |
 | risk | Goal<kind=State, orientation=Avoid> |
 | equity | fraction of sigma |
@@ -90,7 +90,7 @@ everything else in org life reduces to one of the seven:
 
 every cyberian entity uses this shape:
 
-| entity | purpose | assets (sigma) |
+| entity | purpose | portfolio (sigma) |
 |---|---|---|
 | [[midao]] | hold and grow the cyberstate | treasury, CYB, company stakes |
 | [[cve]] | operate land and build physical cities | HGB titles, buildings, equipment |
