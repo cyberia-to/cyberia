@@ -8,7 +8,7 @@ crystal-size: deep
 
 # cyberia protocol
 
-one protocol describing how a cyberian entity exists, acts, accounts for itself, coordinates, scales, and trades. one vocabulary, fractal at every scale — the same shape for one [[avatar]], one institution, one state.
+one protocol describing how a cyberian entity exists, acts, accounts for itself, coordinates, scales, and trades. one vocabulary, fractal at every scale — the same shape for one [[robot]], one institution, one state.
 
 what reduces to what:
 
@@ -24,20 +24,25 @@ below: the unified picture.
 
 ## 1. identity
 
-every cyberian entity has the same shape:
+the Robot is the cyberian entity. every Robot composes the same four attributes:
+
+| attribute | what it is |
+|---|---|
+| Body | mortal physical vessel — machine, building, jurisdiction |
+| Soul | immortal cognitive root — root Neuron, holds Sigma, orchestrates worker Neurons |
+| Avatar | portable persona — the character the Robot presents; voice, style, accumulated reputation |
+| Name | unique NFT identifier on the [[cybergraph]] (@master, @joy) |
+
+internal structure of any Robot:
 
 | concept | what it is |
 |---|---|
-| Avatar | Name + Soul + Body |
-| Body | mortal vessel — machine, building, jurisdiction |
-| Soul | root Neuron — immortal, holds Sigma, orchestrates worker Neurons |
-| Name | unique NFT identifier on the [[cybergraph]] |
 | Neuron | atomic cognitive worker; has Addresses across networks |
 | Address | Neuron's projection into one specific network |
 
-an Avatar outlasts any Body. when the Body fails, Soul and Name migrate together — same identity, new vessel.
+a Robot outlasts any Body. when the Body fails, Soul + Avatar + Name migrate together to a new Body — same Robot, new vessel. only the Body dies.
 
-the shape is fractal. a person is an Avatar. a DAO is an Avatar. a city is an Avatar. a network state is an Avatar. each holds Neurons that hold Addresses that hold balances.
+the shape is fractal. a person is a Robot. a DAO is a Robot. a city is a Robot. a network state is a Robot. each holds Neurons that hold Addresses that hold balances. Body, Soul, Avatar, and Name scale up: at institutional scale Body becomes infrastructure, Soul becomes the founding-Neuron cluster, Avatar becomes the brand and culture, Name becomes the on-chain identifier of the entity.
 
 ---
 
@@ -316,7 +321,7 @@ energy is the immediate need — metabolism to be alive now. Sigma is the long-t
 
 when energy crosses critical, the entity posts a bounty against future Sigma and goes dormant. a neighbor may revive it by fulfilling the bounty; Sigma transfers, energy restores, the entity lives. when both energy and Sigma reach zero, the entity dies.
 
-the logic is identical at every scale. a soma avatar trades compute for Sigma on the energy market. an institution survives when revenue from Products exceeds the cost of Processes. a state survives when gross revenue sustains its obligations.
+the logic is identical at every scale. a Robot running soma trades compute for Sigma on the energy market. an institution survives when revenue from Products exceeds the cost of Processes. a state survives when gross revenue sustains its obligations.
 
 at the state scale, three vital signs compose into a metabolic oracle:
 
@@ -342,7 +347,7 @@ four laws hold the protocol together. violation is impossible because the proof 
 |---|---|
 | Sigma conservation | every pay has exactly one source and one destination |
 | Token conservation | Σ holdings(coin) = mints − burns; mints and burns are explicit operations between designated source and sink Cards |
-| Identity conservation | Avatar persists across Body replacement; Soul + Name migrate together |
+| Identity conservation | Robot persists across Body replacement; Soul + Avatar + Name migrate together |
 | Accounting conservation | assets = liabilities + equity; derivable as a view from any Card's trait profile and ledger slice |
 
 provability replaces enforcement. the laws are not rules a validator checks — they are properties the proof system cannot produce a witness against.
