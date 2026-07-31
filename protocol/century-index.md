@@ -8,7 +8,7 @@ crystal-domain: cyberia
 
 the unit of account for century-scale obligations: a fixed-quantity basket of seven world assets. first application — preserving the value of long-duration payment streams: land leases, city concessions, infrastructure rents. one formula, one basket, one oracle for every city cyberia develops; as the ecosystem matures, [[marketplace]] listings and treasury accounts quote in the same unit.
 
-status: draft v0.8 · unsigned · first deployment [[development|cyber valley]] (instrument B annual leaseholds, instrument G rent base, extension options of instrument A) · decided: BTC/ETH/GOLD/OIL/CU/CNH/USD = 20/15/15/10/10/15/15
+status: draft v0.9 · unsigned · first deployment [[development|cyber valley]] (instrument B annual leaseholds, instrument G rent base, extension options of instrument A) · decided: BTC/ETH/GOLD/OIL/CU/CNH/USD = 20/15/15/10/10/15/15 · numéraire = BTC
 
 ## 1. problem
 
@@ -22,7 +22,9 @@ at signing (t₀) the annual rent R₀ splits into sleeves by weight wᵢ, conve
 
 the tenant owes fixed quantities — dollars, yuan, gold grams, barrels, copper tonnes, satoshi, wei — settled in the payment currency at published fixes. renewals: L(T) = L₀ · I(T)/I(t₀). arithmetic (SDR-style) rather than geometric: if one asset dies the index loses at most wᵢ; a geometric index dies with it.
 
-the obligation itself is numéraire-free: measured in the index, the rent is R₀ forever — the index IS the numéraire of the contract, and changing the bookkeeping currency rescales every price without moving a single settlement amount. an external currency (USD) appears in exactly three operational places: the collar, the floor, and the invoice. it must be external: the collar and floor exist to manage the index's volatility relative to the tenant's income currency, and the index measured in itself has zero volatility — self-referential protections clamp nothing and floor nothing.
+the obligation itself is numéraire-free: measured in the index, the rent is R₀ forever — the index IS the numéraire of the contract, and changing the bookkeeping currency rescales every price without moving a single settlement amount. an external ruler appears in exactly three operational places — the collar, the floor, and the invoice — and it must be external, because the index measured in itself has zero volatility and self-referential protections clamp nothing.
+
+the ruler is BTC. the floor guarantees the lessor no fewer satoshi than year 0 — when bitcoin outruns the basket, the floor binds and the rent IS a fixed sat amount; the lease is a bitcoin-standard obligation with basket upside. the cost is symmetric and accepted: if bitcoin fails, the floor fails with it, and the tenant's fiat invoice is unsmoothed (the collar clamps in BTC units, so fiat swings pass through) — the instrument is built for crypto-native tenants. a fiat-income tenant takes the USD-numéraire variant as a deployment parameter. fixes stay USD-quoted by market convention: quote currency is bookkeeping, numéraire is the ruler.
 
 ## 3. basket
 
@@ -32,7 +34,7 @@ fixes are two-tier: primary = aggregated on-chain oracle feeds ([Pyth](https://p
 
 | leg | weight | layer | primary fix | fallback |
 |---|---|---|---|---|
-| USD | 15% | today's fiat | 1 (numéraire) | — |
+| USD | 15% | today's fiat | 1 (quote currency) | — |
 | CNH | 15% | today's fiat | Pyth USD/CNH (offshore yuan, freely traded, no PBOC fixing) | [WM/Refinitiv](https://www.lseg.com/en/data-analytics/financial-benchmarks/wm-refinitiv-fx-benchmarks), then [PBOC parity](https://www.chinamoney.com.cn/english/bmkcpr/) |
 | GOLD | 15% | hard money | Pyth XAU/USD | [LBMA PM fix](https://www.lbma.org.uk/prices-and-data/precious-metal-prices), then [COMEX settle](https://www.cmegroup.com/markets/metals/precious/gold.html) |
 | BTC | 20% | hard money | Pyth BTC/USD daily close | [CME CF BRR](https://www.cfbenchmarks.com/data/indices/BRR), then median of 3 named exchanges |
@@ -53,9 +55,10 @@ backtest (approximate year-end prices, no collar): 2020→2025 = 2.10x vs ~1.25x
 ## 5. collar, floor, cadence
 
 - reset: annual, using the TWAP ending 30 days before payment — the tenant knows the invoice a month ahead
-- collar: year-over-year change clamped in NUMÉRAIRE terms; settlement-currency conversion (T6) happens after the collar and is never capped — devaluation of the local currency flows through in full
+- collar: year-over-year change clamped in numéraire (BTC) terms; settlement-currency conversion (T6) happens after the collar and is never capped — local devaluation flows through in full
 - collar width: under discussion (§8) — ±20% symmetric captured only 73–88% of the index path in backtests; +35/−15 asymmetric captured 100%
-- floor: R(t) ≥ R₀ · renewal: same collar per elapsed year · undelivered increase does not carry over
+- floor: R(t) ≥ R₀ in BTC terms — fixed satoshi minimum · renewal: same collar per elapsed year · undelivered increase does not carry over
+- BTC-numéraire backtest 2020→2025: lessor path 3.28x (sat floor binds from 2024, rent rides bitcoin) vs 2.10x under USD numéraire; tenant fiat invoice touched 0.87x of year-0 in 2022 and jumped +88% in 2024 — unsmoothed by design
 
 ## 6. contract theses
 
@@ -78,5 +81,6 @@ the formula runs as a daily on-chain fix: fixed-point over the Goldilocks field 
 
 1. collar width: +35/−15 asymmetric proposed (100% path capture in backtests vs 73–88% for ±20% symmetric); optional tenant concession — cumulative envelope R(t) ≤ R₀ · 1.25ⁿ, never binding historically
 2. hybrid: rent = max(index path, assessed-land-value path) — covers both debasement and the land outgrowing the basket
+3. floor hardening: dual floor max(R₀ in BTC, R₀ in USD) — restores the year-0 fiat guarantee in the bitcoin-death tail at the tenant's expense
 
-resolved: numéraire — the obligation is numéraire-free (§2, fixed quantities; rent is constant measured in the index); USD serves only the collar, floor, and invoice, which must reference a currency external to the index or they measure nothing.
+resolved: numéraire — the obligation is numéraire-free (§2, fixed quantities); the external ruler for collar, floor, and invoice is BTC, with a USD-numéraire variant as a deployment parameter for fiat-income tenants.
