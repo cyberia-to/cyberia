@@ -6,37 +6,33 @@ crystal-domain: cyberia
 ---
 # century index
 
-the unit of account for century-scale obligations: a fixed-quantity basket of eight world assets, ticker CX. first application — preserving the value of long-duration payment streams: land leases, city concessions, infrastructure rents ([[development|cyber valley]] instrument B is the first consumer, model annex: [[century annex]]). one formula, one basket, one oracle for every city cyberia develops; as the ecosystem matures, [[marketplace]] listings and treasury accounts quote in the same unit.
+the unit of account for century-scale obligations — ticker CX. a fixed basket of eight world assets: whoever owes the index owes quantities, and the quantities never change. first application — long-duration payment streams: land leases, city concessions, infrastructure rents ([[development|cyber valley]] instrument B is the first consumer, model annex: [[century annex]]). as the ecosystem matures, [[marketplace]] listings and treasury accounts quote in the same unit.
 
-## 1. problem
+## 1. why
 
-a 25–80 year lease with annual payments carries three depreciation risks: local-currency debasement, reserve-currency debasement (~1.25x US CPI over 2020–2025), and the land outgrowing any fiat number written in year 0. a CPI clause lags real assets; the century index defines the payment as a fixed-quantity basket of world assets — the payment IS a portfolio. a city is a 50-year project funded by 25-year leases: a lessor who cannot preserve the stream sells land for survival, and [[development|the bootstrapped city]] dies.
+a 25–80 year lease outlives every currency it could be written in. the local currency debases fastest; the reserve currency compounded ~1.25x US CPI over 2020–2025 alone; the land itself outgrows any number fixed in year 0. the century index makes the payment a portfolio instead of a number — rent is a fixed set of quantities, and its value moves with the world. a city is a 50-year project funded by 25-year leases: the [[development|bootstrapped city]] stands on rent that keeps its value.
 
 ## 2. definition
 
-at signing (t₀) the annual rent R₀ splits into sleeves by weight wᵢ, converted to fixed quantities qᵢ at t₀ reference prices:
+at signing (t₀) the annual rent R₀ splits by weight wᵢ into fixed quantities at the reference prices:
 
-    qᵢ = wᵢ · R₀ / Pᵢ(t₀)        R(t) = Σ qᵢ · Pᵢ(t) = R₀ · Σ wᵢ · Pᵢ(t)/Pᵢ(t₀)
+    qᵢ = wᵢ · R₀ / Pᵢ(t₀)        R(t) = Σ qᵢ · Pᵢ(t)
 
-the tenant owes fixed quantities — dollars, yuan, gold grams, barrels, copper tonnes, satoshi, wei — settled in the payment currency at published fixes. renewals: L(T) = L₀ · I(T)/I(t₀). arithmetic (SDR-style) rather than geometric: if one asset dies the index loses at most wᵢ; a geometric index dies with it.
+the tenant owes satoshi, wei, gold grams, yuan, dollars, copper tonnes, barrels, and pounds of yellowcake — settled in the payment currency at published fixes. renewals scale the same way: L(T) = L₀ · I(T)/I(t₀). the sum is arithmetic, SDR-style: an asset going to zero costs the index at most that asset's weight (T2).
 
-the obligation itself is numéraire-free: measured in the index, the rent is R₀ forever — the index IS the numéraire of the contract, and changing the bookkeeping currency rescales every price without moving a single settlement amount. an external ruler appears in exactly three operational places — the collar, the floor, and the invoice — and it must be external, because the index measured in itself has zero volatility and self-referential protections clamp nothing.
+measured in itself the index is constant, so the obligation carries no numéraire. a ruler is needed only where the contract clamps and guarantees — the collar and the floor — and the ruler is bitcoin:
 
-the ruler is BTC, expressed through four variables:
-
-    X(t) = BTC/USD 365-day TWAP          — the bitcoin fix
-    S(t) = I(t)/X(t)                     — the basket priced in bitcoin (the sat target)
-    R(t) — the rent in sats:   R(t) = clamp( S(t), R(t−1)·[1−d, 1+u] )   — collar in sats
-    floor:   R(t) ≥ max( S(t₀), F/X(t) )                                  — dual floor
+    X(t) = BTC/USD 365-day TWAP                — the bitcoin fix
+    S(t) = I(t)/X(t)                           — the basket priced in bitcoin
+    R(t) = clamp( S(t), R(t−1)·[0.85, 1.35] )  — the sat rent, collared
+    floor:   R(t) ≥ max( S₀, F/X(t) )          — dual floor
     invoice: R(t) · X(t), converted per T6
 
-where F = the year-0 rent in dollars. the dual floor is one max() with two legs: the sat leg guarantees the lessor no fewer satoshi than year 0 (when bitcoin outruns the basket it binds and the lease IS a bitcoin-standard obligation); the fiat leg F/X(t) guarantees no fewer year-0 dollars when bitcoin crashes — the floor that survives either tail. economic reading: rent = S₀ sats + a call on basket-over-bitcoin outperformance + a fiat tail-put. if the bitcoin fix dies through the whole T3 waterfall, the numéraire reverts to USD — the last backstop. fixes stay USD-quoted by market convention: quote currency is bookkeeping, numéraire is the ruler. built for crypto-native tenants — a fiat-income tenant takes the USD-numéraire variant as a deployment parameter.
+F is the year-0 rent in dollars. the sat leg of the floor guarantees the lessor no fewer satoshi than year 0 — whenever bitcoin outruns the basket, the lease is a bitcoin-standard obligation. the fiat leg guarantees no fewer year-0 dollars when bitcoin crashes. read as one instrument: rent = S₀ sats + a call on the basket over bitcoin + a fiat tail-put. if the bitcoin fix dies through the whole T3 waterfall, the ruler reverts to USD. fixes stay USD-quoted by market convention — quote currency is bookkeeping, the ruler is the numéraire.
 
 ## 3. basket
 
-eight primary assets. no derivatives of institutions (equity indices), no policy assets (carbon allowances), no assets without a market (hydrogen). all prices enter as trailing 365-day averages of daily fixes (annual TWAP) — no single-day manipulation or spike risk.
-
-fixes are two-tier: primary = aggregated on-chain oracle feeds ([Pyth](https://pyth.network/price-feeds), 100+ first-party publishers, signed, historical via [benchmarks](https://docs.pyth.network/benchmarks); [Chainlink](https://data.chain.link/) as the second oracle network) — 24/7 wherever the underlying trades 24/7. institutional settles are the fallback tier of the T3 waterfall. the index publishes 365 days/yr; a leg whose market is closed carries its last fix forward, standard index practice. OIL and CU have no 24/7 market anywhere on earth — the exchange settle IS the world price, so it stays primary and the oracle mirrors it on-chain.
+eight primary assets — things the world prices directly, each with a deep liquid public fix. three layers: fiat of the present (30%), money that outlives fiat (50%), energy (20%).
 
 | leg | weight | layer | primary fix | fallback |
 |---|---|---|---|---|
@@ -49,24 +45,21 @@ fixes are two-tier: primary = aggregated on-chain oracle feeds ([Pyth](https://p
 | OIL | 5% | energy | [ICE Brent front-month settle](https://www.ice.com/products/219/Brent-Crude-Futures) | [EIA Brent spot](https://www.eia.gov/dnav/pet/hist/RBRTED.htm) |
 | UX | 5% | energy | [CME UxC U3O8 front-month settle](https://www.cmegroup.com/markets/metals/other/uranium.html) | [UxC](https://www.uxc.com/) / [TradeTech](https://www.uranium.info/) weekly spot, [Sprott physical trust](https://sprott.com/investment-strategies/physical-commodity-funds/uranium/) NAV as market check |
 
-the basket as a thesis on the century: fiat of the present (30%), money that outlives fiat (50%), energy (20%). oil: two-sided bet, peak demand (EV S-curve, IEA plateau ~2030) vs peak supply (5–8%/yr base decline, shale tier-1 depletion, capex under replacement) — held as a shock hedge. copper: the bottleneck of electrification — EVs carry 3–4x the copper of combustion cars, grids must double, ore grades halve while a mine takes 15+ years; aluminum substitution caps the upside. uranium (UX leg) — held as U3O8 yellowcake, the traded form ($/lb spot, CME futures ticker UX): baseload of the AI age — datacenter demand meets supply concentrated in few hands and 15-year mine lead times; fix is an assessment wrapped in an exchange settle, the weakest fix in the basket, accepted at 5%. BTC doubles as the only global electricity price: mining difficulty-adjusts the coin to the marginal world kWh.
+fixes are two-tier: aggregated on-chain oracle feeds first ([Pyth](https://pyth.network/price-feeds), 100+ first-party publishers, signed, historical via [benchmarks](https://docs.pyth.network/benchmarks); [Chainlink](https://data.chain.link/) second), institutional settles as the T3 fallback tier. every price enters as a trailing 365-day average of daily fixes — annual TWAP, immune to single-day manipulation. the index publishes 365 days a year; a closed market carries its last fix forward. the physical legs settle on exchanges — the settle IS the world price, and the oracle mirrors it on-chain.
 
-rejected: lithium (abundant, supply answered a 10x spike in 3 years, no contract-grade fix), EUA carbon (political construct), equity indices (derivative, jurisdiction-branded), hydrogen (no market). watchlist: compute, depoliticized carbon.
+why these eight. BTC is hard money and, through mining difficulty, the only global price of electricity. ETH is the productive digital asset. gold has held value for five thousand years. CNY and USD are the working money of the present. copper is the bottleneck of electrification: an EV carries 3–4x the copper of a combustion car, grids must double, a new mine takes 15 years. oil is the shock hedge — every crisis prices through it first. uranium, held as U3O8 yellowcake (CME ticker UX), is the baseload of the AI age; its fix, an assessment wrapped in an exchange settle, is the weakest in the basket and is sized accordingly.
 
-## 4. weights
+the primary-asset rule keeps the rest out: equity indices are claims on institutions, carbon allowances are claims on policy, lithium is abundant, hydrogen has no market to price. watchlist for the T4 valve: compute, a depoliticized carbon price.
 
-the structure reads in round layers: 30 fiat / 50 hard money / 20 energy. the 35% crypto tilt is deliberate lessor asymmetry: the §5 floor caps downside at R₀, the collar meters upside — the lessor holds a call-like payoff whose value grows with volatility; the tenant's compensation lives in the negotiated R₀, never in the formula. ETH at 15% records the lessor's judgment that the 2021–2025 ETH/BTC drawdown (−58%) was an early-asset artifact.
+## 4. mechanics
 
-backtest (approximate year-end prices, no collar): 2020→2025 = 2.17x vs ~1.25x US CPI; worst year 2021→2022 ≈ −24%, absorbed by the floor; 2015→2025 = 579x uncapped, early-ETH dominated — the collar is structural, not cosmetic.
+- reset: annual, on the contract anniversary, using the TWAP window that ends 30 days before payment — the tenant knows the invoice a month ahead
+- collar: +35/−15 per year in sats. +35 is wide enough to deliver the full historical index path (a ±20 collar surrendered a quarter of it); −15 halves the descent toward the floor. undelivered increase does not carry over
+- settlement conversion happens after the collar and is never capped — devaluation of the local currency flows through in full
+- backtest, 2020→2025 year-end prices: the basket returned 2.17x against ~1.25x US CPI; run through the machine, the invoice path is 1.00 → 1.80 → 1.00 → 2.16 → 4.07 → 3.54, the fiat floor holding 2022 at exactly year-0 dollars. uncollared from 2015 the basket runs 579x — the collar is structural, not cosmetic
+- the crypto weight is the lessor's asymmetry: the floor caps downside at year-0 value, the collar meters upside, so the lessor holds a call whose value grows with basket volatility. the tenant's compensation lives in the negotiated R₀, never in the formula
 
-## 5. collar, floor, cadence
-
-- reset: annual, using the TWAP ending 30 days before payment — the tenant knows the invoice a month ahead
-- collar: year-over-year change of the sat rent clamped +35/−15 (decided; +35 captured 100% of the backtested index path where ±20 lost up to a quarter, −15 halves descent toward the floor); settlement-currency conversion (T6) happens after and is never capped — local devaluation flows through in full
-- floor: dual, R(t) ≥ max(S₀ sats, F/X(t)) — see §2 · renewal: same collar per elapsed year · undelivered increase does not carry over
-- backtest 2020→2025 (year-end spot; production uses TWAP, smoother): sat-rent path 1.00→1.13→1.76→1.49→1.27→1.08, USD invoice 1.00→1.80→1.00→2.16→4.07→3.54 — vs 2.17x uncapped index; the fiat leg of the floor holds the 2022 invoice at exactly year-0 dollars where a sat-only floor let it dip to 0.87x
-
-## 6. contract theses
+## 5. contract theses
 
 model clauses; the annex algorithm is the contract, reproducible by a junior accountant from public data.
 
@@ -77,8 +70,8 @@ model clauses; the annex algorithm is the contract, reproducible by a junior acc
 - T5 recomputation: tenant may recompute any invoice from public sources within 30 days; recomputation prevails, manifest errors corrected retroactively. index disputes are arithmetic, never renegotiation.
 - T6 settlement: the formula adapts to local currency law — e.g. Indonesia ([UU 7/2011](https://peraturan.bpk.go.id/Details/39197/uu-no-7-tahun-2011)) requires IDR settlement at [JISDOR](https://www.bi.go.id/en/statistik/informasi-kurs/jisdor/default.aspx) on the invoice date.
 - T7 continuity: the annex survives assignment, sublease, succession; renewals reference the same t₀ quantities. quantities, not parties, define the obligation.
-- T8 oracle precedence: the on-chain fix (§7) is evidence and automation; on divergence the annex computation from public fixes prevails.
+- T8 oracle precedence: the on-chain fix (§6) is evidence and automation; on divergence the annex computation from public fixes prevails.
 
-## 7. oracle
+## 6. oracle
 
 the index publishes as a daily on-chain fix at the Ethereum contract `cyberia.eth/index` — one canonical number any lease, [[marketplace]] listing, or treasury anywhere can reference. per T8 the on-chain fix is evidence and automation: on divergence the annex computation from the named public fixes prevails. the long game: the fix migrates into the [[cybergraph]] — fixed-point over the Goldilocks field per [[soft3]], signed by the publishing [[neuron]], provable by [[zheng]].
