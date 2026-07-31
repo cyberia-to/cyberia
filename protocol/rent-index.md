@@ -8,7 +8,7 @@ crystal-domain: cyberia
 
 universal instrument for preserving the value of long-duration payment streams — land leases, city concessions, infrastructure rents, any contract where one party grants decades of use and receives years of payments. one formula, one basket, one oracle — every city cyberia develops prices its long leases with the same machine.
 
-status: draft v0.2 · unsigned · first deployment [[development|cyber valley]]
+status: draft v0.3 · unsigned · first deployment [[development|cyber valley]] · decided: CNY/USD at 15% each
 
 ## 1. problem
 
@@ -49,22 +49,24 @@ the reference basket spans four value classes: fiat anchors (USD, CNY), monetary
 
 all prices enter the formula as the trailing 365-day average of daily fixes (annual TWAP), which removes single-day manipulation and spike risk at reset dates. if a reference rate ceases publication, the fallback applies; if both cease, the parties adopt the successor rate by expert determination (ISDA-style waterfall).
 
-sleeve composition is a per-deployment parameter. the oil sleeve is a considered trade: oil is a consumption good with mean-reverting real price and demand plateauing ~2030, kept small (5–10%) purely as an inflation-shock hedge; copper (LME cash settle) is the candidate replacement on the growing side of electrification, and a broad commodity index (BCOM) collapses both into one leg.
+sleeve composition is a per-deployment parameter. the oil sleeve carries genuine two-sided uncertainty on a 25-year horizon. peak-demand case: transport is ~60% of demand, EV adoption is on an S-curve, China gasoline has peaked, IEA sees a demand plateau ~2030. peak-supply case: base decline of existing fields runs 5–8%/yr (millions of b/d of new supply needed annually just to stand still), shale tier-1 inventory is depleting and Permian productivity gains flattened after 2023, upstream capex has run below replacement since 2015, cheap conventional discoveries are at multi-decade lows — if supply peaks with or before demand, real prices hold or rise for decades. the empirical anchor between the two: real oil has no long-run drift (the 1980 real peak still stands). net: oil earns a 10% sleeve as an inflation-shock and supply-shock hedge; copper (LME cash settle) remains a candidate second commodity leg on the growing side of electrification.
 
 ## 4. weights
+
+decided: CNY 15% and USD 15%, symmetric fiat legs, no SDR. the remaining 70% distributes across BTC/ETH/GOLD/OIL.
 
 backtest on approximate year-end prices, fixed-quantity basket, no collar:
 
 | weights (BTC/ETH/GOLD/OIL/CNY/USD) | 2020→2025 | 2015→2025 |
 |---|---|---|
-| equal 1/6 | 2.09x | 630x |
-| hard-money 15/5/25/10/10/35 | 1.70x | 212x |
-| conservative 10/5/30/10/10/35 | 1.62x | 201x |
-| no-crypto 0/0/40/15/15/30 | 1.31x | 1.9x |
+| A 15/10/35/10/15/15 | 1.94x | 390x |
+| B 10/5/35/20/15/15 (oil-heavy) | 1.68x | 202x |
+| C 15/5/40/10/15/15 | 1.80x | 213x |
+| equal 1/6 (reference) | 2.09x | 630x |
 
 (2015 numbers are dominated by ETH from $0.9; they show why uncapped crypto sleeves are unsignable, and why the collar in §5 is structural — a tenant protection the index cannot work without.)
 
-recommended default: 10/5/30/10/10/35 (conservative). over 2020–2025 it returned 1.62x against ~1.25x US CPI — value preserved plus a real-asset premium, with two thirds of the basket in low-volatility sleeves.
+recommended default: C 15/5/40/10/15/15. over 2020–2025 it returned 1.80x against ~1.25x US CPI — value preserved plus a real-asset premium; gold at 40% is the monetary core, 20% total crypto is the lessor upside, 30% symmetric fiat damps the path.
 
 ## 5. collar, floor, cadence
 
@@ -91,9 +93,8 @@ the same formula runs as a daily on-chain fix: fixed-point arithmetic over the G
 
 ## 9. open questions
 
-1. weights — 10/5/30/10/10/35 proposed; is 15% total crypto the right lessor upside vs tenant signability trade?
+1. weights — CNY/USD fixed at 15/15 (decided); split of the remaining 70% across BTC/ETH/GOLD/OIL: variant C (15/5/40/10) recommended, variant B (10/5/35/20) if the peak-supply view on oil should carry more weight
 2. collar width — ±20% tested; ±15% is easier to sign, ±25% tracks the index tighter
-3. oil sleeve — keep 10%, cut to 5% + add copper 5%, or swap the leg for BCOM (§3)
-4. CNY sleeve — political optics of a yuan reference in some jurisdictions; keep, shrink, or replace with SDR
-5. numéraire — USD chosen; a local-currency numéraire would make the USD sleeve an explicit FX hedge and change the floor semantics
-6. assessed-land-value hybrid — the index tracks world money, assessed value tracks local land; rent = max(index path, assessed-value path) protects the lessor from both debasement and the land outgrowing the basket
+3. oil sleeve — 10% baseline vs 20% (peak-supply conviction) vs 5% + copper 5% (§3)
+4. numéraire — USD chosen; a local-currency numéraire would make the USD sleeve an explicit FX hedge and change the floor semantics
+5. assessed-land-value hybrid — the index tracks world money, assessed value tracks local land; rent = max(index path, assessed-value path) protects the lessor from both debasement and the land outgrowing the basket
