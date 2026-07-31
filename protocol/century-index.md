@@ -54,7 +54,7 @@ the primary-asset rule keeps the rest out: equity indices are claims on institut
 ## 4. mechanics
 
 - reset: annual, on the contract anniversary, using the TWAP window that ends 30 days before payment — the tenant knows the invoice a month ahead
-- collar: +35/−15 per year in sats. +35 is wide enough to deliver the full historical index path (a ±20 collar surrendered a quarter of it); −15 halves the descent toward the floor. undelivered increase does not carry over
+- collar: +35%/−15% per year in sats. +35% is wide enough to deliver the full historical index path (a ±20% collar surrendered a quarter of it); −15% halves the descent toward the floor. undelivered increase does not carry over
 - settlement conversion happens after the collar and is never capped — devaluation of the local currency flows through in full
 - backtest, 2020→2025 year-end prices: the basket returned 2.17x against ~1.25x US CPI; run through the machine, the invoice path is 1.00 → 1.80 → 1.00 → 2.16 → 4.07 → 3.54, the fiat floor holding 2022 at exactly year-0 dollars. uncollared from 2015 the basket runs 579x — the collar is structural, not cosmetic
 - the crypto weight is the lessor's asymmetry: the floor caps downside at year-0 value, the collar meters upside, so the lessor holds a call whose value grows with basket volatility. the tenant's compensation lives in the negotiated R₀, never in the formula
