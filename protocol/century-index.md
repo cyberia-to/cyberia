@@ -82,9 +82,3 @@ model clauses; the annex algorithm is the contract, reproducible by a junior acc
 ## 7. oracle
 
 the index publishes as a daily on-chain fix at the Ethereum contract `cyberia.eth/index` — one canonical number any lease, [[marketplace]] listing, or treasury anywhere can reference. per T8 the on-chain fix is evidence and automation: on divergence the annex computation from the named public fixes prevails. the long game: the fix migrates into the [[cybergraph]] — fixed-point over the Goldilocks field per [[soft3]], signed by the publishing [[neuron]], provable by [[zheng]].
-
-## 8. open questions
-
-1. hybrid: rent = max(index path, assessed-land-value path) — covers both debasement and the land outgrowing the basket
-
-resolved: numéraire = BTC via the §2 four-variable machine (sat collar, dual floor, USD reversion backstop) — the obligation itself stays numéraire-free, the ruler exists only in the collar and floor. collar = +35/−15 in sats. weights, basket, name: see status line.
