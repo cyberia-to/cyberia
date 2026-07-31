@@ -1,18 +1,18 @@
 ---
 tags: cyberia, protocol, cybernomics
-alias: land rent index, LRI, rent index, rent indexation, value preservation index
+alias: century index, rent index, land rent index, LRI, cyberia index, rent indexation, value preservation index
 crystal-type: pattern
 crystal-domain: cyberia
 ---
-# rent index
+# century index
 
-instrument for preserving the value of long-duration payment streams — land leases, city concessions, infrastructure rents. one formula, one basket, one oracle for every city cyberia develops.
+the unit of account for century-scale obligations: a fixed-quantity basket of seven world assets. first application — preserving the value of long-duration payment streams: land leases, city concessions, infrastructure rents. one formula, one basket, one oracle for every city cyberia develops; as the ecosystem matures, [[marketplace]] listings and treasury accounts quote in the same unit.
 
-status: draft v0.7 · unsigned · first deployment [[development|cyber valley]] (instrument B annual leaseholds, instrument G rent base, extension options of instrument A) · decided: BTC/ETH/GOLD/OIL/CU/CNH/USD = 20/15/15/10/10/15/15
+status: draft v0.8 · unsigned · first deployment [[development|cyber valley]] (instrument B annual leaseholds, instrument G rent base, extension options of instrument A) · decided: BTC/ETH/GOLD/OIL/CU/CNH/USD = 20/15/15/10/10/15/15
 
 ## 1. problem
 
-a 25–80 year lease with annual payments carries three depreciation risks: local-currency debasement, reserve-currency debasement (~1.25x US CPI over 2020–2025), and the land outgrowing any fiat number written in year 0. a CPI clause lags real assets; the rent index defines the payment as a fixed-quantity basket of world assets — the payment IS a portfolio. a city is a 50-year project funded by 25-year leases: a lessor who cannot preserve the stream sells land for survival, and [[development|the bootstrapped city]] dies.
+a 25–80 year lease with annual payments carries three depreciation risks: local-currency debasement, reserve-currency debasement (~1.25x US CPI over 2020–2025), and the land outgrowing any fiat number written in year 0. a CPI clause lags real assets; the century index defines the payment as a fixed-quantity basket of world assets — the payment IS a portfolio. a city is a 50-year project funded by 25-year leases: a lessor who cannot preserve the stream sells land for survival, and [[development|the bootstrapped city]] dies.
 
 ## 2. definition
 
@@ -21,6 +21,8 @@ at signing (t₀) the annual rent R₀ splits into sleeves by weight wᵢ, conve
     qᵢ = wᵢ · R₀ / Pᵢ(t₀)        R(t) = Σ qᵢ · Pᵢ(t) = R₀ · Σ wᵢ · Pᵢ(t)/Pᵢ(t₀)
 
 the tenant owes fixed quantities — dollars, yuan, gold grams, barrels, copper tonnes, satoshi, wei — settled in the payment currency at published fixes. renewals: L(T) = L₀ · I(T)/I(t₀). arithmetic (SDR-style) rather than geometric: if one asset dies the index loses at most wᵢ; a geometric index dies with it.
+
+the obligation itself is numéraire-free: measured in the index, the rent is R₀ forever — the index IS the numéraire of the contract, and changing the bookkeeping currency rescales every price without moving a single settlement amount. an external currency (USD) appears in exactly three operational places: the collar, the floor, and the invoice. it must be external: the collar and floor exist to manage the index's volatility relative to the tenant's income currency, and the index measured in itself has zero volatility — self-referential protections clamp nothing and floor nothing.
 
 ## 3. basket
 
@@ -70,10 +72,11 @@ model clauses; the annex algorithm is the contract, reproducible by a junior acc
 
 ## 7. oracle
 
-the formula runs as a daily on-chain fix: fixed-point over the Goldilocks field per [[soft3]] (no floats in the provable path), signed by the publishing [[neuron]], anchored in the [[cybergraph]], provable by [[zheng]] — a public good any lease anywhere can reference. the [[marketplace]] prices demand for one asset; the rent index preserves a stream across decades.
+the formula runs as a daily on-chain fix: fixed-point over the Goldilocks field per [[soft3]] (no floats in the provable path), signed by the publishing [[neuron]], anchored in the [[cybergraph]], provable by [[zheng]] — a public good any lease anywhere can reference. the [[marketplace]] prices demand for one asset; the century index preserves a stream across decades.
 
 ## 8. open questions
 
-1. collar width: ±20% tested; ±15% signs easier, ±25% tracks tighter
-2. numéraire: USD chosen; a local-currency numéraire changes floor semantics
-3. hybrid: rent = max(index path, assessed-land-value path) — covers both debasement and the land outgrowing the basket
+1. collar width: +35/−15 asymmetric proposed (100% path capture in backtests vs 73–88% for ±20% symmetric); optional tenant concession — cumulative envelope R(t) ≤ R₀ · 1.25ⁿ, never binding historically
+2. hybrid: rent = max(index path, assessed-land-value path) — covers both debasement and the land outgrowing the basket
+
+resolved: numéraire — the obligation is numéraire-free (§2, fixed quantities; rent is constant measured in the index); USD serves only the collar, floor, and invoice, which must reference a currency external to the index or they measure nothing.
