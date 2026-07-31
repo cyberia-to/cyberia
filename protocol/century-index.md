@@ -8,7 +8,7 @@ crystal-domain: cyberia
 
 the unit of account for century-scale obligations: a fixed-quantity basket of seven world assets. first application — preserving the value of long-duration payment streams: land leases, city concessions, infrastructure rents. one formula, one basket, one oracle for every city cyberia develops; as the ecosystem matures, [[marketplace]] listings and treasury accounts quote in the same unit.
 
-status: draft v0.9 · unsigned · first deployment [[development|cyber valley]] (instrument B annual leaseholds, instrument G rent base, extension options of instrument A) · decided: BTC/ETH/GOLD/OIL/CU/CNH/USD = 20/15/15/10/10/15/15 · numéraire = BTC
+status: v1.0 · first deployment [[development|cyber valley]] (instrument B annual leaseholds, instrument G rent base, extension options of instrument A) · decided: BTC/ETH/GOLD/OIL/CU/CNH/USD = 20/15/15/10/10/15/15 · numéraire = BTC · collar +35/−15 · model annex: [[century annex]]
 
 ## 1. problem
 
@@ -63,7 +63,7 @@ backtest (approximate year-end prices, no collar): 2020→2025 = 2.10x vs ~1.25x
 ## 5. collar, floor, cadence
 
 - reset: annual, using the TWAP ending 30 days before payment — the tenant knows the invoice a month ahead
-- collar: year-over-year change of the sat rent clamped [−d, +u], proposed +35/−15 (§8); settlement-currency conversion (T6) happens after and is never capped — local devaluation flows through in full
+- collar: year-over-year change of the sat rent clamped +35/−15 (decided; +35 captured 100% of the backtested index path where ±20 lost up to a quarter, −15 halves descent toward the floor); settlement-currency conversion (T6) happens after and is never capped — local devaluation flows through in full
 - floor: dual, R(t) ≥ max(S₀ sats, F/X(t)) — see §2 · renewal: same collar per elapsed year · undelivered increase does not carry over
 - backtest 2020→2025 (year-end spot; production uses TWAP, smoother): sat-rent path 1.00→1.14→1.76→1.49→1.27→1.08, USD invoice 1.00→1.80→1.00→2.16→4.07→3.54 — vs 2.10x under USD numéraire; the fiat leg of the floor holds the 2022 invoice at exactly year-0 dollars where a sat-only floor let it dip to 0.87x
 
@@ -71,7 +71,7 @@ backtest (approximate year-end prices, no collar): 2020→2025 = 2.10x vs ~1.25x
 
 model clauses; the annex algorithm is the contract, reproducible by a junior accountant from public data.
 
-- T1 annex: weights, t₀ prices, quantities qᵢ, fix sources with fallbacks, collar/floor, one worked invoice. prevails over prose.
+- T1 annex: weights, t₀ prices, quantities qᵢ, fix sources with fallbacks, collar/floor, one worked invoice. prevails over prose. model: [[century annex]].
 - T2 fix death ≠ asset death: an asset falling — even to zero — triggers nothing (the sleeve rides down); only death of a price SOURCE triggers replacement, which must price the same asset.
 - T3 cessation waterfall: dead = administrator cessation, 30 days unpublished, or methodology change. then: named fallback → regulator-designated successor (LIBOR→SOFR pattern) → equivalent fix by independent expert → last TWAP frozen as a bridge, never a settlement.
 - T4 review valve: every 5th anniversary, mutual written consent only, replace ≤1 leg of ≤10% weight at then-current TWAP (value-neutral). silence = no change; no unilateral right; CNH and USD excluded. the watchlist's entry path.
@@ -86,7 +86,6 @@ the formula runs as a daily on-chain fix: fixed-point over the Goldilocks field 
 
 ## 8. open questions
 
-1. collar width: +35/−15 asymmetric proposed (100% path capture in backtests vs 73–88% for ±20% symmetric); optional tenant concession — cumulative envelope, never binding historically
-2. hybrid: rent = max(index path, assessed-land-value path) — covers both debasement and the land outgrowing the basket
+1. hybrid: rent = max(index path, assessed-land-value path) — covers both debasement and the land outgrowing the basket
 
-resolved: numéraire = BTC via the §2 four-variable machine (sat collar, dual floor, USD reversion backstop); the obligation itself stays numéraire-free — the ruler exists only in the collar and floor.
+resolved: numéraire = BTC via the §2 four-variable machine (sat collar, dual floor, USD reversion backstop) — the obligation itself stays numéraire-free, the ruler exists only in the collar and floor. collar = +35/−15 in sats. weights, basket, name: see status line.
