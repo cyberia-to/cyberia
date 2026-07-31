@@ -1,12 +1,12 @@
 ---
 tags: cyberia, protocol, cybernomics
-alias: century index, rent index, land rent index, LRI, cyberia index, rent indexation, value preservation index
+alias: century index, rent index, land rent index, LRI, cyberia index, rent indexation, value preservation index, century annex, rent annex
 crystal-type: pattern
 crystal-domain: cyberia
 ---
 # century index
 
-the unit of account for century-scale obligations — ticker CX. a fixed basket of eight world assets: whoever owes the index owes quantities, and the quantities never change. first application — long-duration payment streams: land leases, city concessions, infrastructure rents ([[development|cyber valley]] instrument B is the first consumer, model annex: [[century annex]]). as the ecosystem matures, [[marketplace]] listings and treasury accounts quote in the same unit.
+the unit of account for century-scale obligations — ticker CX. a fixed basket of eight world assets: whoever owes the index owes quantities, and the quantities never change. first application — long-duration payment streams: land leases, city concessions, infrastructure rents ([[development|cyber valley]] instrument B is the first consumer; model annex in §6). as the ecosystem matures, [[marketplace]] listings and treasury accounts quote in the same unit.
 
 ## 1. why
 
@@ -63,15 +63,55 @@ the primary-asset rule keeps the rest out: equity indices are claims on institut
 
 model clauses; the annex algorithm is the contract, reproducible by a junior accountant from public data.
 
-- T1 annex: weights, t₀ prices, quantities qᵢ, fix sources with fallbacks, collar/floor, one worked invoice. prevails over prose. model: [[century annex]].
+- T1 annex: weights, t₀ prices, quantities qᵢ, fix sources with fallbacks, collar/floor, one worked invoice. prevails over prose. model: §6.
 - T2 fix death ≠ asset death: an asset falling — even to zero — triggers nothing (the sleeve rides down); only death of a price SOURCE triggers replacement, which must price the same asset.
 - T3 cessation waterfall: dead = administrator cessation, 30 days unpublished, or methodology change. then: named fallback → regulator-designated successor (LIBOR→SOFR pattern) → equivalent fix by independent expert → last TWAP frozen as a bridge, never a settlement.
 - T4 review valve: every 5th anniversary, mutual written consent only, replace ≤1 leg of ≤10% weight at then-current TWAP (value-neutral). silence = no change; no unilateral right; CNY and USD excluded. the watchlist's entry path.
 - T5 recomputation: tenant may recompute any invoice from public sources within 30 days; recomputation prevails, manifest errors corrected retroactively. index disputes are arithmetic, never renegotiation.
 - T6 settlement: the formula adapts to local currency law — e.g. Indonesia ([UU 7/2011](https://peraturan.bpk.go.id/Details/39197/uu-no-7-tahun-2011)) requires IDR settlement at [JISDOR](https://www.bi.go.id/en/statistik/informasi-kurs/jisdor/default.aspx) on the invoice date.
 - T7 continuity: the annex survives assignment, sublease, succession; renewals reference the same t₀ quantities. quantities, not parties, define the obligation.
-- T8 oracle precedence: the on-chain fix (§6) is evidence and automation; on divergence the annex computation from public fixes prevails.
+- T8 oracle precedence: the on-chain fix (§7) is evidence and automation; on divergence the annex computation from public fixes prevails.
 
-## 6. oracle
+## 6. model annex
+
+worked example at R₀ = $100,000/yr with indicative spot fixes of 2026-07-31; a signed annex replaces them with the 365-day TWAP fixes at signing.
+
+| parameter | value |
+|---|---|
+| R₀ (year-0 rent) | $100,000 |
+| F (fiat floor leg) | $100,000 |
+| weights BTC/ETH/GOLD/CNY/USD/CU/OIL/UX | 20/15/15/15/15/10/5/5 |
+| collar | +35% / −15% per year, in sats |
+| numéraire | BTC · fixes USD-quoted |
+| reset | annual anniversary, TWAP window ends 30 days before payment |
+| settlement | IDR at JISDOR on invoice date (UU 7/2011) |
+
+quantities, fixed for the life of the contract:
+
+| leg | t₀ fix (example) | quantity qᵢ |
+|---|---|---|
+| BTC | $62,626 | 0.31935618 BTC (31,935,618 sats) |
+| ETH | $1,857.97 | 8.073327 ETH |
+| GOLD | $4,039.38/oz | 115.501 g |
+| CNY | 6.765736 /USD (CNH quote) | ¥101,486.04 |
+| USD | 1 | $15,000.00 |
+| CU | $13,552.04/t | 737.90 kg |
+| OIL | $91.82/bbl | 54.454 bbl |
+| UX | $80.00/lb U3O8 (indicative assessment level) | 62.50 lb |
+
+derived: X(t₀) = $62,626 · S₀ = R₀/X(t₀) = 1.596781 BTC = 159,678,089 sats.
+
+worked invoice, hypothetical year-1 TWAP fixes — BTC $75,000 · ETH $2,200 · GOLD $4,400 · OIL $85 · CU $14,500/t · U3O8 $90/lb · USD/CNY 7.00 · JISDOR 19,000:
+
+1. mark quantities to market: I(t₁) = Σ qᵢ·Pᵢ = $108,503.30
+2. price in bitcoin: S(t₁) = I/X = 108,503.30 / 75,000 = 1.446711 BTC
+3. collar [S₀·0.85, S₀·1.35] = [1.357264, 2.155654] → 1.446711 passes unclamped
+4. dual floor: max(S₀ = 1.596781, F/X = 100,000/75,000 = 1.333333) = 1.596781 → floor BINDS
+5. R(t₁) = 1.596781 BTC = 159,678,089 sats
+6. invoice: R·X = $119,758.57 → × 19,000 = Rp 2,275,412,768
+
+reading of this year: the basket grew 8.5% but bitcoin grew 19.8% — the sat floor binds and the tenant owes the same sats as year 0, worth more dollars. the lease behaves as a bitcoin-standard obligation, exactly as designed.
+
+## 7. oracle
 
 the index publishes as a daily on-chain fix at the Ethereum contract `cyberia.eth/index` — one canonical number any lease, [[marketplace]] listing, or treasury anywhere can reference. per T8 the on-chain fix is evidence and automation: on divergence the annex computation from the named public fixes prevails. the long game: the fix migrates into the [[cybergraph]] — fixed-point over the Goldilocks field per [[soft3]], signed by the publishing [[neuron]], provable by [[zheng]].
