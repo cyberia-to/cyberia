@@ -8,7 +8,7 @@ crystal-domain: cyberia
 
 the unit of account for century-scale obligations: a fixed-quantity basket of seven world assets. first application — preserving the value of long-duration payment streams: land leases, city concessions, infrastructure rents. one formula, one basket, one oracle for every city cyberia develops; as the ecosystem matures, [[marketplace]] listings and treasury accounts quote in the same unit.
 
-status: v1.0 · first deployment [[development|cyber valley]] (instrument B annual leaseholds, instrument G rent base, extension options of instrument A) · decided: BTC/ETH/GOLD/OIL/CU/CNH/USD = 20/15/15/10/10/15/15 · numéraire = BTC · collar +35/−15 · model annex: [[century annex]]
+status: v1.1 · ticker CX · first deployment [[development|cyber valley]] (instrument B annual leaseholds, instrument G rent base, extension options of instrument A) · decided: BTC/ETH/GOLD/OIL/CU/U/CNH/USD = 20/15/15/5/10/5/15/15 · numéraire = BTC · collar +35/−15 · model annex: [[century annex]]
 
 ## 1. problem
 
@@ -36,7 +36,7 @@ where F = the year-0 rent in dollars. the dual floor is one max() with two legs:
 
 ## 3. basket
 
-seven primary assets. no derivatives of institutions (equity indices), no policy assets (carbon allowances), no assets without a market (hydrogen). all prices enter as trailing 365-day averages of daily fixes (annual TWAP) — no single-day manipulation or spike risk.
+eight primary assets. no derivatives of institutions (equity indices), no policy assets (carbon allowances), no assets without a market (hydrogen). all prices enter as trailing 365-day averages of daily fixes (annual TWAP) — no single-day manipulation or spike risk.
 
 fixes are two-tier: primary = aggregated on-chain oracle feeds ([Pyth](https://pyth.network/price-feeds), 100+ first-party publishers, signed, historical via [benchmarks](https://docs.pyth.network/benchmarks); [Chainlink](https://data.chain.link/) as the second oracle network) — 24/7 wherever the underlying trades 24/7. institutional settles are the fallback tier of the T3 waterfall. the index publishes 365 days/yr; a leg whose market is closed carries its last fix forward, standard index practice. OIL and CU have no 24/7 market anywhere on earth — the exchange settle IS the world price, so it stays primary and the oracle mirrors it on-chain.
 
@@ -47,25 +47,26 @@ fixes are two-tier: primary = aggregated on-chain oracle feeds ([Pyth](https://p
 | GOLD | 15% | hard money | Pyth XAU/USD | [LBMA PM fix](https://www.lbma.org.uk/prices-and-data/precious-metal-prices), then [COMEX settle](https://www.cmegroup.com/markets/metals/precious/gold.html) |
 | BTC | 20% | hard money | Pyth BTC/USD daily close | [CME CF BRR](https://www.cfbenchmarks.com/data/indices/BRR), then median of 3 named exchanges |
 | ETH | 15% | hard money | Pyth ETH/USD daily close | [CME CF ETH RR](https://www.cfbenchmarks.com/data/indices/ETHUSD_RR), then median of 3 named exchanges |
-| OIL | 10% | departing energy | [ICE Brent front-month settle](https://www.ice.com/products/219/Brent-Crude-Futures) | [EIA Brent spot](https://www.eia.gov/dnav/pet/hist/RBRTED.htm) |
+| OIL | 5% | departing energy | [ICE Brent front-month settle](https://www.ice.com/products/219/Brent-Crude-Futures) | [EIA Brent spot](https://www.eia.gov/dnav/pet/hist/RBRTED.htm) |
 | CU | 10% | arriving energy | [LME copper cash settle](https://www.lme.com/en/Metals/Non-ferrous/LME-Copper) | [COMEX HG settle](https://www.cmegroup.com/markets/metals/base/copper.html) |
+| U | 5% | arriving energy | [CME UxC U3O8 front-month settle](https://www.cmegroup.com/markets/metals/other/uranium.html) | [UxC](https://www.uxc.com/) / [TradeTech](https://www.uranium.info/) weekly spot, [Sprott physical trust](https://sprott.com/investment-strategies/physical-commodity-funds/uranium/) NAV as market check |
 
-the basket as a thesis on the century: fiat of the present (30%), money that outlives fiat (50%), energy departing (10%), energy arriving (10%). oil: two-sided bet, peak demand (EV S-curve, IEA plateau ~2030) vs peak supply (5–8%/yr base decline, shale tier-1 depletion, capex under replacement) — held as a shock hedge. copper: the bottleneck of electrification — EVs carry 3–4x the copper of combustion cars, grids must double, ore grades halve while a mine takes 15+ years; aluminum substitution caps the upside. BTC doubles as the only global electricity price: mining difficulty-adjusts the coin to the marginal world kWh.
+the basket as a thesis on the century: fiat of the present (30%), money that outlives fiat (50%), energy departing (5%), energy arriving (15%). oil: two-sided bet, peak demand (EV S-curve, IEA plateau ~2030) vs peak supply (5–8%/yr base decline, shale tier-1 depletion, capex under replacement) — held as a shock hedge. copper: the bottleneck of electrification — EVs carry 3–4x the copper of combustion cars, grids must double, ore grades halve while a mine takes 15+ years; aluminum substitution caps the upside. uranium: baseload of the AI age — datacenter demand meets supply concentrated in few hands and 15-year mine lead times; fix is an assessment wrapped in an exchange settle (CME UxC), the weakest fix in the basket, accepted at 5%. BTC doubles as the only global electricity price: mining difficulty-adjusts the coin to the marginal world kWh.
 
-rejected: lithium (abundant, supply answered a 10x spike in 3 years, no contract-grade fix), EUA carbon (political construct), equity indices (derivative, jurisdiction-branded), hydrogen (no market), uranium (strong thesis, assessment-grade fix — first T4 candidate). watchlist: uranium, compute, depoliticized carbon.
+rejected: lithium (abundant, supply answered a 10x spike in 3 years, no contract-grade fix), EUA carbon (political construct), equity indices (derivative, jurisdiction-branded), hydrogen (no market). watchlist: compute, depoliticized carbon.
 
 ## 4. weights
 
-the 35% crypto tilt is deliberate lessor asymmetry: the §5 floor caps downside at R₀, the collar meters upside — the lessor holds a call-like payoff whose value grows with volatility; the tenant's compensation lives in the negotiated R₀, never in the formula. ETH at 15% records the lessor's judgment that the 2021–2025 ETH/BTC drawdown (−58%) was an early-asset artifact.
+the structure reads in round layers: 30 fiat / 50 hard money / 20 energy — and inside energy, 5 departing / 15 arriving. the 35% crypto tilt is deliberate lessor asymmetry: the §5 floor caps downside at R₀, the collar meters upside — the lessor holds a call-like payoff whose value grows with volatility; the tenant's compensation lives in the negotiated R₀, never in the formula. ETH at 15% records the lessor's judgment that the 2021–2025 ETH/BTC drawdown (−58%) was an early-asset artifact.
 
-backtest (approximate year-end prices, no collar): 2020→2025 = 2.10x vs ~1.25x US CPI; worst year 2021→2022 = −24.5%, absorbed by the floor; 2015→2025 = 579x uncapped, early-ETH dominated — the collar is structural, not cosmetic.
+backtest (approximate year-end prices, no collar): 2020→2025 = 2.17x vs ~1.25x US CPI; worst year 2021→2022 ≈ −24%, absorbed by the floor; 2015→2025 = 579x uncapped, early-ETH dominated — the collar is structural, not cosmetic.
 
 ## 5. collar, floor, cadence
 
 - reset: annual, using the TWAP ending 30 days before payment — the tenant knows the invoice a month ahead
 - collar: year-over-year change of the sat rent clamped +35/−15 (decided; +35 captured 100% of the backtested index path where ±20 lost up to a quarter, −15 halves descent toward the floor); settlement-currency conversion (T6) happens after and is never capped — local devaluation flows through in full
 - floor: dual, R(t) ≥ max(S₀ sats, F/X(t)) — see §2 · renewal: same collar per elapsed year · undelivered increase does not carry over
-- backtest 2020→2025 (year-end spot; production uses TWAP, smoother): sat-rent path 1.00→1.14→1.76→1.49→1.27→1.08, USD invoice 1.00→1.80→1.00→2.16→4.07→3.54 — vs 2.10x under USD numéraire; the fiat leg of the floor holds the 2022 invoice at exactly year-0 dollars where a sat-only floor let it dip to 0.87x
+- backtest 2020→2025 (year-end spot; production uses TWAP, smoother): sat-rent path 1.00→1.13→1.76→1.49→1.27→1.08, USD invoice 1.00→1.80→1.00→2.16→4.07→3.54 — vs 2.17x uncapped index; the fiat leg of the floor holds the 2022 invoice at exactly year-0 dollars where a sat-only floor let it dip to 0.87x
 
 ## 6. contract theses
 
