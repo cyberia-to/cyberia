@@ -8,11 +8,11 @@ crystal-domain: cyberia
 
 instrument for preserving the value of long-duration payment streams — land leases, city concessions, infrastructure rents. one formula, one basket, one oracle for every city cyberia develops.
 
-status: draft v0.6 · unsigned · first deployment [[development|cyber valley]] (instrument B annual leaseholds, instrument G rent base, extension options of instrument A) · decided: BTC/ETH/GOLD/OIL/CU/CNY/USD = 20/15/15/10/10/15/15
+status: draft v0.7 · unsigned · first deployment [[development|cyber valley]] (instrument B annual leaseholds, instrument G rent base, extension options of instrument A) · decided: BTC/ETH/GOLD/OIL/CU/CNH/USD = 20/15/15/10/10/15/15
 
 ## 1. problem
 
-a 25–100 year lease with annual payments carries three depreciation risks: local-currency debasement, reserve-currency debasement (~1.25x US CPI over 2020–2025), and the land outgrowing any fiat number written in year 0. a CPI clause lags real assets; the rent index defines the payment as a fixed-quantity basket of world assets — the payment IS a portfolio. a city is a 50-year project funded by 25-year leases: a lessor who cannot preserve the stream sells land for survival, and [[development|the bootstrapped city]] dies.
+a 25–80 year lease with annual payments carries three depreciation risks: local-currency debasement, reserve-currency debasement (~1.25x US CPI over 2020–2025), and the land outgrowing any fiat number written in year 0. a CPI clause lags real assets; the rent index defines the payment as a fixed-quantity basket of world assets — the payment IS a portfolio. a city is a 50-year project funded by 25-year leases: a lessor who cannot preserve the stream sells land for survival, and [[development|the bootstrapped city]] dies.
 
 ## 2. definition
 
@@ -24,17 +24,19 @@ the tenant owes fixed quantities — dollars, yuan, gold grams, barrels, copper 
 
 ## 3. basket
 
-seven primary assets, each with a deep liquid public fix. no derivatives of institutions (equity indices), no policy assets (carbon allowances), no assets without a market (hydrogen). all prices enter as trailing 365-day averages of daily fixes (annual TWAP) — no single-day manipulation or spike risk.
+seven primary assets. no derivatives of institutions (equity indices), no policy assets (carbon allowances), no assets without a market (hydrogen). all prices enter as trailing 365-day averages of daily fixes (annual TWAP) — no single-day manipulation or spike risk.
 
-| leg | weight | layer | reference fix | fallback |
+fixes are two-tier: primary = aggregated on-chain oracle feeds ([Pyth](https://pyth.network/price-feeds), 100+ first-party publishers, signed, historical via [benchmarks](https://docs.pyth.network/benchmarks); [Chainlink](https://data.chain.link/) as the second oracle network) — 24/7 wherever the underlying trades 24/7. institutional settles are the fallback tier of the T3 waterfall. the index publishes 365 days/yr; a leg whose market is closed carries its last fix forward, standard index practice. OIL and CU have no 24/7 market anywhere on earth — the exchange settle IS the world price, so it stays primary and the oracle mirrors it on-chain.
+
+| leg | weight | layer | primary fix | fallback |
 |---|---|---|---|---|
 | USD | 15% | today's fiat | 1 (numéraire) | — |
-| CNY | 15% | today's fiat | [WM/Refinitiv 4pm London](https://www.lseg.com/en/data-analytics/financial-benchmarks/wm-refinitiv-fx-benchmarks) | [PBOC central parity](https://www.chinamoney.com.cn/english/bmkcpr/) |
-| GOLD | 15% | hard money | [LBMA PM fix](https://www.lbma.org.uk/prices-and-data/precious-metal-prices) | [COMEX front-month settle](https://www.cmegroup.com/markets/metals/precious/gold.html) |
-| BTC | 20% | hard money | [CME CF Bitcoin Reference Rate](https://www.cfbenchmarks.com/data/indices/BRR) | median daily close of 3 named exchanges |
-| ETH | 15% | hard money | [CME CF Ether Reference Rate](https://www.cfbenchmarks.com/data/indices/ETHUSD_RR) | median daily close of 3 named exchanges |
+| CNH | 15% | today's fiat | Pyth USD/CNH (offshore yuan, freely traded, no PBOC fixing) | [WM/Refinitiv](https://www.lseg.com/en/data-analytics/financial-benchmarks/wm-refinitiv-fx-benchmarks), then [PBOC parity](https://www.chinamoney.com.cn/english/bmkcpr/) |
+| GOLD | 15% | hard money | Pyth XAU/USD | [LBMA PM fix](https://www.lbma.org.uk/prices-and-data/precious-metal-prices), then [COMEX settle](https://www.cmegroup.com/markets/metals/precious/gold.html) |
+| BTC | 20% | hard money | Pyth BTC/USD daily close | [CME CF BRR](https://www.cfbenchmarks.com/data/indices/BRR), then median of 3 named exchanges |
+| ETH | 15% | hard money | Pyth ETH/USD daily close | [CME CF ETH RR](https://www.cfbenchmarks.com/data/indices/ETHUSD_RR), then median of 3 named exchanges |
 | OIL | 10% | departing energy | [ICE Brent front-month settle](https://www.ice.com/products/219/Brent-Crude-Futures) | [EIA Brent spot](https://www.eia.gov/dnav/pet/hist/RBRTED.htm) |
-| CU | 10% | arriving energy | [LME copper cash settle](https://www.lme.com/en/Metals/Non-ferrous/LME-Copper) | [COMEX HG front-month settle](https://www.cmegroup.com/markets/metals/base/copper.html) |
+| CU | 10% | arriving energy | [LME copper cash settle](https://www.lme.com/en/Metals/Non-ferrous/LME-Copper) | [COMEX HG settle](https://www.cmegroup.com/markets/metals/base/copper.html) |
 
 the basket as a thesis on the century: fiat of the present (30%), money that outlives fiat (50%), energy departing (10%), energy arriving (10%). oil: two-sided bet, peak demand (EV S-curve, IEA plateau ~2030) vs peak supply (5–8%/yr base decline, shale tier-1 depletion, capex under replacement) — held as a shock hedge. copper: the bottleneck of electrification — EVs carry 3–4x the copper of combustion cars, grids must double, ore grades halve while a mine takes 15+ years; aluminum substitution caps the upside. BTC doubles as the only global electricity price: mining difficulty-adjusts the coin to the marginal world kWh.
 
@@ -59,7 +61,7 @@ model clauses; the annex algorithm is the contract, reproducible by a junior acc
 - T1 annex: weights, t₀ prices, quantities qᵢ, fix sources with fallbacks, collar/floor, one worked invoice. prevails over prose.
 - T2 fix death ≠ asset death: an asset falling — even to zero — triggers nothing (the sleeve rides down); only death of a price SOURCE triggers replacement, which must price the same asset.
 - T3 cessation waterfall: dead = administrator cessation, 30 days unpublished, or methodology change. then: named fallback → regulator-designated successor (LIBOR→SOFR pattern) → equivalent fix by independent expert → last TWAP frozen as a bridge, never a settlement.
-- T4 review valve: every 5th anniversary, mutual written consent only, replace ≤1 leg of ≤10% weight at then-current TWAP (value-neutral). silence = no change; no unilateral right; CNY and USD excluded. the watchlist's entry path.
+- T4 review valve: every 5th anniversary, mutual written consent only, replace ≤1 leg of ≤10% weight at then-current TWAP (value-neutral). silence = no change; no unilateral right; CNH and USD excluded. the watchlist's entry path.
 - T5 recomputation: tenant may recompute any invoice from public sources within 30 days; recomputation prevails, manifest errors corrected retroactively. index disputes are arithmetic, never renegotiation.
 - T6 settlement: the formula adapts to local currency law — e.g. Indonesia ([UU 7/2011](https://peraturan.bpk.go.id/Details/39197/uu-no-7-tahun-2011)) requires IDR settlement at [JISDOR](https://www.bi.go.id/en/statistik/informasi-kurs/jisdor/default.aspx) on the invoice date.
 - T7 continuity: the annex survives assignment, sublease, succession; renewals reference the same t₀ quantities. quantities, not parties, define the obligation.
