@@ -81,7 +81,7 @@ model clauses; the annex algorithm is the contract, reproducible by a junior acc
 
 ## 7. oracle
 
-the formula runs as a daily on-chain fix: fixed-point over the Goldilocks field per [[soft3]] (no floats in the provable path), signed by the publishing [[neuron]], anchored in the [[cybergraph]], provable by [[zheng]] — a public good any lease anywhere can reference. the [[marketplace]] prices demand for one asset; the century index preserves a stream across decades.
+the index publishes as a daily on-chain fix at the Ethereum contract `cyberia.eth/index` — one canonical number any lease, [[marketplace]] listing, or treasury anywhere can reference. per T8 the on-chain fix is evidence and automation: on divergence the annex computation from the named public fixes prevails. the long game: the fix migrates into the [[cybergraph]] — fixed-point over the Goldilocks field per [[soft3]], signed by the publishing [[neuron]], provable by [[zheng]].
 
 ## 8. open questions
 
