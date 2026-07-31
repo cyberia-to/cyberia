@@ -8,7 +8,7 @@ crystal-domain: cyberia
 
 universal instrument for preserving the value of long-duration payment streams — land leases, city concessions, infrastructure rents, any contract where one party grants decades of use and receives years of payments. one formula, one basket, one oracle — every city cyberia develops prices its long leases with the same machine.
 
-status: draft v0.4 · unsigned · first deployment [[development|cyber valley]] · decided: 7-leg basket BTC/ETH/GOLD/OIL/CU/CNY/USD = 15/5/35/5/10/15/15
+status: draft v0.5 · unsigned · first deployment [[development|cyber valley]] · decided: 7-leg basket BTC/ETH/GOLD/OIL/CU/CNY/USD = 20/15/15/10/10/15/15
 
 ## 1. problem
 
@@ -42,17 +42,17 @@ seven legs, four value layers. every leg is a primary asset with a deep liquid p
 |---|---|---|---|---|
 | USD | 15% | today's fiat | 1 (numéraire) | — |
 | CNY | 15% | today's fiat | WM/Refinitiv 4pm London USD/CNY | PBOC central parity |
-| GOLD | 35% | hard money | LBMA PM fix (USD/oz) | COMEX front-month settle |
-| BTC | 15% | hard money | CME CF Bitcoin Reference Rate | median of 3 named exchanges' daily close |
-| ETH | 5% | hard money | CME CF Ether Reference Rate | median of 3 named exchanges' daily close |
-| OIL | 5% | departing energy | ICE Brent front-month monthly settle | EIA Brent spot monthly avg |
+| GOLD | 15% | hard money | LBMA PM fix (USD/oz) | COMEX front-month settle |
+| BTC | 20% | hard money | CME CF Bitcoin Reference Rate | median of 3 named exchanges' daily close |
+| ETH | 15% | hard money | CME CF Ether Reference Rate | median of 3 named exchanges' daily close |
+| OIL | 10% | departing energy | ICE Brent front-month monthly settle | EIA Brent spot monthly avg |
 | CU | 10% | arriving energy | LME copper cash official settle | COMEX HG front-month settle |
 
 all prices enter the formula as the trailing 365-day average of daily fixes (annual TWAP), which removes single-day manipulation and spike risk at reset dates.
 
-the basket reads as a thesis on the century: fiat of the present (30%), money that outlives fiat (55%), the energy passing away (5%), the energy arriving (10%). BTC doubles as the only global electricity price — mining arbitrages cheap power planet-wide and difficulty-adjusts the coin to the marginal world kWh, so the electric economy enters the basket twice: through its scarce metal (copper) and its monetized output (bitcoin).
+the basket reads as a thesis on the century: fiat of the present (30%), money that outlives fiat (50%), the energy passing away (10%), the energy arriving (10%). BTC doubles as the only global electricity price — mining arbitrages cheap power planet-wide and difficulty-adjusts the coin to the marginal world kWh, so the electric economy enters the basket twice: through its scarce metal (copper) and its monetized output (bitcoin).
 
-oil at 5% carries genuine two-sided uncertainty on a 25-year horizon. peak-demand case: transport is ~60% of demand, EV adoption is on an S-curve, China gasoline has peaked, IEA sees a demand plateau ~2030. peak-supply case: base decline of existing fields runs 5–8%/yr, shale tier-1 inventory is depleting and Permian productivity gains flattened after 2023, upstream capex has run below replacement since 2015 — if supply peaks with or before demand, real prices hold or rise for decades. the empirical anchor between the two: real oil has no long-run drift (the 1980 real peak still stands). net: a small sleeve as inflation-shock and supply-shock hedge.
+oil at 10% carries genuine two-sided uncertainty on a 25-year horizon. peak-demand case: transport is ~60% of demand, EV adoption is on an S-curve, China gasoline has peaked, IEA sees a demand plateau ~2030. peak-supply case: base decline of existing fields runs 5–8%/yr, shale tier-1 inventory is depleting and Permian productivity gains flattened after 2023, upstream capex has run below replacement since 2015 — if supply peaks with or before demand, real prices hold or rise for decades. the empirical anchor between the two: real oil has no long-run drift (the 1980 real peak still stands). net: a small sleeve as inflation-shock and supply-shock hedge.
 
 copper at 10% is the bottleneck of electrification: EVs carry 3–4x the copper of combustion cars, renewables multiples per MW of thermal, grids must roughly double, ore grades halve over decades and a new mine runs 15+ years from permit to production. the substitution ceiling (aluminum replaces at ~2.5–3x price ratio) and China-construction legacy demand are the honest caps on the thesis.
 
@@ -62,9 +62,11 @@ watchlist for the review valve: uranium (exchange-grade fix maturing), compute (
 
 ## 4. weights
 
-decided: CNY/USD symmetric at 15/15; remaining 70% = BTC 15 / ETH 5 / GOLD 35 / OIL 5 / CU 10.
+decided: CNY/USD symmetric at 15/15; remaining 70% = BTC 20 / ETH 15 / GOLD 15 / OIL 10 / CU 10.
 
-backtest on approximate year-end prices, fixed-quantity basket, no collar: 2020→2025 = 1.77x (vs ~1.25x US CPI), 2015→2025 = 213x uncapped — the 2015 number is dominated by ETH from $0.9 and shows why uncapped crypto sleeves are unsignable and why the collar in §5 is structural, a tenant protection the index cannot work without.
+the 35% crypto tilt is deliberate lessor asymmetry: with the §5 floor capping downside at R₀ and the collar metering upside, the lessor holds a call-like payoff whose value grows with basket volatility — a volatile basket is strictly better for the lessor at the same R₀, and the tenant's compensation for that asymmetry lives in the negotiated R₀, never in the formula. the ETH sleeve at 15% reflects the lessor's judgment that the 2021–2025 ETH/BTC drawdown (−58%) was an early-asset artifact, not a structural trend.
+
+backtest on approximate year-end prices, fixed-quantity basket, no collar: 2020→2025 = 2.10x (vs ~1.25x US CPI); worst single year 2021→2022 = −24.5%, fully absorbed by the floor; 2015→2025 = 579x uncapped — the 2015 number is dominated by ETH from $0.9 and shows why uncapped crypto sleeves are unsignable and why the collar in §5 is structural, a tenant protection the index cannot work without.
 
 ## 5. collar, floor, cadence
 
