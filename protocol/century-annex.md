@@ -14,7 +14,7 @@ model annex for a lease referencing the [[century index]] — the T1 document. e
 |---|---|
 | R₀ (year-0 rent) | $100,000 |
 | F (fiat floor leg) | $100,000 |
-| weights BTC/ETH/GOLD/OIL/CU/U/CNH/USD | 20/15/15/5/10/5/15/15 |
+| weights BTC/ETH/GOLD/OIL/CU/U3O8/CNH/USD | 20/15/15/5/10/5/15/15 |
 | collar | +35% / −15% per year, in sats |
 | numéraire | BTC · fixes USD-quoted |
 | reset | annual anniversary, TWAP window ends 30 days before payment |
@@ -29,7 +29,7 @@ model annex for a lease referencing the [[century index]] — the T1 document. e
 | GOLD | $4,039.38/oz | 115.501 g |
 | OIL | $91.82/bbl | 54.454 bbl |
 | CU | $13,552.04/t | 737.90 kg |
-| U | $80.00/lb U3O8 (indicative assessment level) | 62.50 lb |
+| U3O8 | $80.00/lb (indicative assessment level) | 62.50 lb |
 | CNH | 6.765736 /USD | ¥101,486.04 |
 | USD | 1 | $15,000.00 |
 
