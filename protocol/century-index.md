@@ -6,9 +6,7 @@ crystal-domain: cyberia
 ---
 # century index
 
-the unit of account for century-scale obligations: a fixed-quantity basket of seven world assets. first application — preserving the value of long-duration payment streams: land leases, city concessions, infrastructure rents. one formula, one basket, one oracle for every city cyberia develops; as the ecosystem matures, [[marketplace]] listings and treasury accounts quote in the same unit.
-
-status: v1.1 · ticker CX · first deployment [[development|cyber valley]] (instrument B annual leaseholds, instrument G rent base, extension options of instrument A) · decided: BTC/ETH/GOLD/OIL/CU/U/CNH/USD = 20/15/15/5/10/5/15/15 · numéraire = BTC · collar +35/−15 · model annex: [[century annex]]
+the unit of account for century-scale obligations: a fixed-quantity basket of eight world assets, ticker CX. first application — preserving the value of long-duration payment streams: land leases, city concessions, infrastructure rents ([[development|cyber valley]] instrument B is the first consumer, model annex: [[century annex]]). one formula, one basket, one oracle for every city cyberia develops; as the ecosystem matures, [[marketplace]] listings and treasury accounts quote in the same unit.
 
 ## 1. problem
 
