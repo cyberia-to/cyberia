@@ -51,8 +51,9 @@ backtest (approximate year-end prices, no collar): 2020→2025 = 2.10x vs ~1.25x
 ## 5. collar, floor, cadence
 
 - reset: annual, using the TWAP ending 30 days before payment — the tenant knows the invoice a month ahead
-- collar: year-over-year change clamped to ±20%; undelivered increase does not carry over
-- floor: R(t) ≥ R₀ · renewal: same collar per elapsed year
+- collar: year-over-year change clamped in NUMÉRAIRE terms; settlement-currency conversion (T6) happens after the collar and is never capped — devaluation of the local currency flows through in full
+- collar width: under discussion (§8) — ±20% symmetric captured only 73–88% of the index path in backtests; +35/−15 asymmetric captured 100%
+- floor: R(t) ≥ R₀ · renewal: same collar per elapsed year · undelivered increase does not carry over
 
 ## 6. contract theses
 
