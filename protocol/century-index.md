@@ -24,7 +24,15 @@ the tenant owes fixed quantities — dollars, yuan, gold grams, barrels, copper 
 
 the obligation itself is numéraire-free: measured in the index, the rent is R₀ forever — the index IS the numéraire of the contract, and changing the bookkeeping currency rescales every price without moving a single settlement amount. an external ruler appears in exactly three operational places — the collar, the floor, and the invoice — and it must be external, because the index measured in itself has zero volatility and self-referential protections clamp nothing.
 
-the ruler is BTC. the floor guarantees the lessor no fewer satoshi than year 0 — when bitcoin outruns the basket, the floor binds and the rent IS a fixed sat amount; the lease is a bitcoin-standard obligation with basket upside. the cost is symmetric and accepted: if bitcoin fails, the floor fails with it, and the tenant's fiat invoice is unsmoothed (the collar clamps in BTC units, so fiat swings pass through) — the instrument is built for crypto-native tenants. a fiat-income tenant takes the USD-numéraire variant as a deployment parameter. fixes stay USD-quoted by market convention: quote currency is bookkeeping, numéraire is the ruler.
+the ruler is BTC, expressed through four variables:
+
+    X(t) = BTC/USD 365-day TWAP          — the bitcoin fix
+    S(t) = I(t)/X(t)                     — the basket priced in bitcoin (the sat target)
+    R(t) — the rent in sats:   R(t) = clamp( S(t), R(t−1)·[1−d, 1+u] )   — collar in sats
+    floor:   R(t) ≥ max( S(t₀), F/X(t) )                                  — dual floor
+    invoice: R(t) · X(t), converted per T6
+
+where F = the year-0 rent in dollars. the dual floor is one max() with two legs: the sat leg guarantees the lessor no fewer satoshi than year 0 (when bitcoin outruns the basket it binds and the lease IS a bitcoin-standard obligation); the fiat leg F/X(t) guarantees no fewer year-0 dollars when bitcoin crashes — the floor that survives either tail. economic reading: rent = S₀ sats + a call on basket-over-bitcoin outperformance + a fiat tail-put. if the bitcoin fix dies through the whole T3 waterfall, the numéraire reverts to USD — the last backstop. fixes stay USD-quoted by market convention: quote currency is bookkeeping, numéraire is the ruler. built for crypto-native tenants — a fiat-income tenant takes the USD-numéraire variant as a deployment parameter.
 
 ## 3. basket
 
@@ -55,10 +63,9 @@ backtest (approximate year-end prices, no collar): 2020→2025 = 2.10x vs ~1.25x
 ## 5. collar, floor, cadence
 
 - reset: annual, using the TWAP ending 30 days before payment — the tenant knows the invoice a month ahead
-- collar: year-over-year change clamped in numéraire (BTC) terms; settlement-currency conversion (T6) happens after the collar and is never capped — local devaluation flows through in full
-- collar width: under discussion (§8) — ±20% symmetric captured only 73–88% of the index path in backtests; +35/−15 asymmetric captured 100%
-- floor: R(t) ≥ R₀ in BTC terms — fixed satoshi minimum · renewal: same collar per elapsed year · undelivered increase does not carry over
-- BTC-numéraire backtest 2020→2025: lessor path 3.28x (sat floor binds from 2024, rent rides bitcoin) vs 2.10x under USD numéraire; tenant fiat invoice touched 0.87x of year-0 in 2022 and jumped +88% in 2024 — unsmoothed by design
+- collar: year-over-year change of the sat rent clamped [−d, +u], proposed +35/−15 (§8); settlement-currency conversion (T6) happens after and is never capped — local devaluation flows through in full
+- floor: dual, R(t) ≥ max(S₀ sats, F/X(t)) — see §2 · renewal: same collar per elapsed year · undelivered increase does not carry over
+- backtest 2020→2025 (year-end spot; production uses TWAP, smoother): sat-rent path 1.00→1.14→1.76→1.49→1.27→1.08, USD invoice 1.00→1.80→1.00→2.16→4.07→3.54 — vs 2.10x under USD numéraire; the fiat leg of the floor holds the 2022 invoice at exactly year-0 dollars where a sat-only floor let it dip to 0.87x
 
 ## 6. contract theses
 
@@ -79,8 +86,7 @@ the formula runs as a daily on-chain fix: fixed-point over the Goldilocks field 
 
 ## 8. open questions
 
-1. collar width: +35/−15 asymmetric proposed (100% path capture in backtests vs 73–88% for ±20% symmetric); optional tenant concession — cumulative envelope R(t) ≤ R₀ · 1.25ⁿ, never binding historically
+1. collar width: +35/−15 asymmetric proposed (100% path capture in backtests vs 73–88% for ±20% symmetric); optional tenant concession — cumulative envelope, never binding historically
 2. hybrid: rent = max(index path, assessed-land-value path) — covers both debasement and the land outgrowing the basket
-3. floor hardening: dual floor max(R₀ in BTC, R₀ in USD) — restores the year-0 fiat guarantee in the bitcoin-death tail at the tenant's expense
 
-resolved: numéraire — the obligation is numéraire-free (§2, fixed quantities); the external ruler for collar, floor, and invoice is BTC, with a USD-numéraire variant as a deployment parameter for fiat-income tenants.
+resolved: numéraire = BTC via the §2 four-variable machine (sat collar, dual floor, USD reversion backstop); the obligation itself stays numéraire-free — the ruler exists only in the collar and floor.
