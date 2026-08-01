@@ -63,6 +63,18 @@ body {
     white-space: nowrap;
 }
 
+/* current landing: "in europe · by freedom" */
+.logo-suffix {
+    font-size: 11px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: rgba(0, 255, 65, 0.55);
+    margin-top: 4px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
 .search-input {
     flex: 0 1 420px;
     min-width: 180px;
@@ -174,6 +186,15 @@ body {
 
 .cyber-table th:hover {
     color: var(--cyber-cyan);
+}
+
+/* informational columns — not sortable, no affordance */
+.cyber-table th.th-static {
+    cursor: default;
+}
+
+.cyber-table th.th-static:hover {
+    color: var(--cyber-green);
 }
 
 .cyber-table th.sorted {

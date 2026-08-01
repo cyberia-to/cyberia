@@ -12,8 +12,8 @@ fn score_color(v: f64) -> &'static str {
 #[component]
 pub fn SortableHeader(
     field: SortField,
-    current: ReadSignal<SortField>,
-    ascending: ReadSignal<bool>,
+    #[prop(into)] current: Signal<SortField>,
+    #[prop(into)] ascending: Signal<bool>,
     on_click: SignalSetter<SortField>,
 ) -> impl IntoView {
     let is_sorted = move || current.get() == field;

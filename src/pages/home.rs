@@ -1,31 +1,106 @@
 use leptos::prelude::*;
+use leptos_router::hooks::{use_location, use_navigate};
 use wasm_bindgen::JsCast;
 use crate::data::*;
 use crate::components::table::*;
+
+fn region_slug(r: &str) -> String {
+    r.to_lowercase().replace(' ', "-")
+}
+
+fn region_from_slug(s: &str) -> Option<String> {
+    REGIONS.iter().find(|r| region_slug(r) == s).map(|r| r.to_string())
+}
+
+/// Canonical landing path for a view state. Root = All regions, cap descending.
+fn landing_path(region: &str, field: SortField, asc: bool) -> String {
+    let mut p = String::new();
+    if region != "All" {
+        p.push_str(&format!("/in/{}", region_slug(region)));
+    }
+    if field != SortField::Cap || asc {
+        p.push_str(&format!("/by/{}", field.slug()));
+        if asc {
+            p.push_str("/asc");
+        }
+    }
+    if p.is_empty() {
+        p.push('/');
+    }
+    p
+}
+
+/// Parse a landing path back into (region, field, ascending).
+fn parse_path(path: &str) -> (String, SortField, bool) {
+    let segs: Vec<&str> = path.split('/').filter(|s| !s.is_empty()).collect();
+    let mut region = "All".to_string();
+    let mut field = SortField::Cap;
+    let mut asc = false;
+    let mut i = 0;
+    while i < segs.len() {
+        match segs[i] {
+            "in" if i + 1 < segs.len() => {
+                if let Some(r) = region_from_slug(segs[i + 1]) {
+                    region = r;
+                }
+                i += 2;
+            }
+            "by" if i + 1 < segs.len() => {
+                if let Some(f) = SortField::from_slug(segs[i + 1]) {
+                    field = f;
+                }
+                i += 2;
+                if segs.get(i) == Some(&"asc") {
+                    asc = true;
+                    i += 1;
+                }
+            }
+            _ => i += 1,
+        }
+    }
+    (region, field, asc)
+}
 
 #[component]
 pub fn HomePage() -> impl IntoView {
     let countries = load_countries();
     let total = countries.len();
 
-    let (sort_field, set_sort_field) = signal(SortField::Cap);
-    let (ascending, set_ascending) = signal(false);
-    let (region_filter, set_region_filter) = signal("All".to_string());
+    // The URL is the single source of truth for region + sort landings.
+    let location = use_location();
+    let state = Memo::new(move |_| parse_path(&location.pathname.get()));
+    let sort_field = Signal::derive(move || state.get().1);
+    let ascending = Signal::derive(move || state.get().2);
+
     let (search, set_search) = signal(String::new());
 
+    let nav = use_navigate();
+    let nav_sort = nav.clone();
     let on_sort = SignalSetter::map(move |field: SortField| {
-        if sort_field.get() == field {
-            set_ascending.set(!ascending.get());
-        } else {
-            set_sort_field.set(field);
-            set_ascending.set(false);
+        let (region, cur, asc) = state.get();
+        let next_asc = if cur == field { !asc } else { false };
+        nav_sort(&landing_path(&region, field, next_asc), Default::default());
+    });
+
+    // Landing title: "Cyberstates in Europe by freedom"
+    Effect::new(move |_| {
+        let (region, field, asc) = state.get();
+        let mut t = String::from("Cyberstates");
+        if region != "All" {
+            t.push_str(&format!(" in {}", region));
         }
+        t.push_str(&format!(" by {}", field.label().to_lowercase()));
+        if asc {
+            t.push_str(" ascending");
+        }
+        t.push_str(" — Global Visa Openness Analytics");
+        document().set_title(&t);
     });
 
     let countries_for_count = countries.clone();
     let filtered_sorted = move || {
         let mut list = countries.clone();
-        let region = region_filter.get();
+        let (region, field, asc) = state.get();
         let query = search.get().to_lowercase();
 
         if region != "All" {
@@ -38,9 +113,6 @@ pub fn HomePage() -> impl IntoView {
                     || c.currency_code.to_lowercase().contains(&query)
             });
         }
-
-        let field = sort_field.get();
-        let asc = ascending.get();
 
         list.sort_by(|a, b| {
             let ord = match field {
@@ -67,6 +139,20 @@ pub fn HomePage() -> impl IntoView {
                         <span style="color: var(--cyber-green);">"CYBER"</span>
                         <span style="color: #fff;">"STATES"</span>
                     </h1>
+                    <div class="logo-suffix">
+                        {move || {
+                            let (region, field, asc) = state.get();
+                            let mut s = String::new();
+                            if region != "All" {
+                                s.push_str(&format!("in {} · ", region.to_lowercase()));
+                            }
+                            s.push_str(&format!("by {}", field.label().to_lowercase()));
+                            if asc {
+                                s.push_str(" ↑");
+                            }
+                            s
+                        }}
+                    </div>
                 </div>
                 <input
                     type="text"
@@ -90,16 +176,20 @@ pub fn HomePage() -> impl IntoView {
                         let r_owned = r.to_string();
                         let r_for_class = r.to_string();
                         let r_for_click = r.to_string();
+                        let nav_pill = nav.clone();
                         view! {
                             <button
                                 class=move || {
-                                    if region_filter.get() == r_for_class {
+                                    if state.get().0 == r_for_class {
                                         "region-pill active"
                                     } else {
                                         "region-pill"
                                     }
                                 }
-                                on:click=move |_| set_region_filter.set(r_for_click.clone())
+                                on:click=move |_| {
+                                    let (_, field, asc) = state.get();
+                                    nav_pill(&landing_path(&r_for_click, field, asc), Default::default());
+                                }
                             >
                                 {r_owned}
                             </button>
@@ -108,7 +198,7 @@ pub fn HomePage() -> impl IntoView {
                 </div>
                 <p class="state-count">
                     {move || {
-                        let region = region_filter.get();
+                        let region = state.get().0;
                         let query = search.get().to_lowercase();
                         let count = countries_for_count.iter().filter(|c| {
                             (region == "All" || c.region == region)

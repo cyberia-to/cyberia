@@ -344,4 +344,29 @@ impl SortField {
             Self::Openness => "OPENNESS",
         }
     }
+
+    pub fn slug(&self) -> &'static str {
+        match self {
+            Self::Name => "name",
+            Self::Population => "population",
+            Self::LandArea => "land",
+            Self::Token => "token",
+            Self::Cap => "cap",
+            Self::Freedom => "freedom",
+            Self::Openness => "openness",
+        }
+    }
+
+    pub fn from_slug(s: &str) -> Option<Self> {
+        Some(match s {
+            "name" => Self::Name,
+            "population" => Self::Population,
+            "land" => Self::LandArea,
+            "token" => Self::Token,
+            "cap" => Self::Cap,
+            "freedom" => Self::Freedom,
+            "openness" => Self::Openness,
+            _ => return None,
+        })
+    }
 }
