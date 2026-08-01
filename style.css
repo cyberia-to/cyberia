@@ -95,6 +95,10 @@ body {
     justify-content: flex-end;
 }
 
+.map-zone {
+    gap: 8px;
+}
+
 .map-btn {
     font-size: 12px;
     font-weight: 700;
@@ -105,6 +109,20 @@ body {
     padding: 9px 18px;
     border-radius: 2px;
     box-shadow: 0 0 14px rgba(57, 255, 20, 0.35);
+    transition: all 0.15s;
+}
+
+/* sibling nav button — token yellow, same shape as map */
+.tokens-btn {
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #000;
+    text-decoration: none;
+    background: var(--cyber-yellow);
+    padding: 9px 18px;
+    border-radius: 2px;
+    box-shadow: 0 0 14px rgba(255, 215, 0, 0.3);
     transition: all 0.15s;
 }
 
