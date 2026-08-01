@@ -66,19 +66,49 @@ pub fn HomePage() -> impl IntoView {
 
     view! {
         <div style="max-width: 1400px; margin: 0 auto; padding: 20px;">
-            // Header
-            <div style="margin-bottom: 30px;">
-                <div style="font-size: 10px; letter-spacing: 6px; color: #333; text-transform: uppercase; margin-bottom: 8px;">
-                    "GLOBAL VISA OPENNESS ANALYTICS 2026"
+            // Header row 1: logo | search | map
+            <div style="display: flex; align-items: center; gap: 20px; flex-wrap: wrap; margin-bottom: 16px;">
+                <h1 style="font-size: clamp(24px, 4vw, 42px); font-weight: 700; margin: 0; line-height: 1.1;">
+                    <span style="color: var(--cyber-green);">"CYBER"</span>
+                    <span style="color: #fff;">"STATES"</span>
+                </h1>
+                <input
+                    type="text"
+                    placeholder="Search country, code, or currency..."
+                    style="flex: 1 1 220px; max-width: 420px; padding: 10px 16px; background: #050505; border: 1px solid #222; border-radius: 2px; color: var(--cyber-green); font-family: 'Play', sans-serif; font-size: 13px; outline: none;"
+                    on:input=move |ev| {
+                        let target = ev.target().unwrap();
+                        let input: web_sys::HtmlInputElement = target.unchecked_into();
+                        set_search.set(input.value());
+                    }
+                />
+                <a href="/map" style="font-size: 12px; font-weight: 700; letter-spacing: 2px; color: #000; text-decoration: none; background: var(--cyber-green); padding: 9px 18px; border-radius: 2px; box-shadow: 0 0 14px rgba(57,255,20,0.35); transition: all 0.15s;">"MAP"</a>
+            </div>
+
+            // Header row 2: region filters | count
+            <div style="display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap; margin-bottom: 24px;">
+                <div style="display: flex; gap: 6px; flex-wrap: wrap;">
+                    {REGIONS.iter().map(|&r| {
+                        let r_owned = r.to_string();
+                        let r_for_class = r.to_string();
+                        let r_for_click = r.to_string();
+                        view! {
+                            <button
+                                class=move || {
+                                    if region_filter.get() == r_for_class {
+                                        "region-pill active"
+                                    } else {
+                                        "region-pill"
+                                    }
+                                }
+                                on:click=move |_| set_region_filter.set(r_for_click.clone())
+                            >
+                                {r_owned}
+                            </button>
+                        }
+                    }).collect::<Vec<_>>()}
                 </div>
-                <div style="display: flex; align-items: center; gap: 20px;">
-                    <h1 style="font-size: clamp(24px, 4vw, 42px); font-weight: 700; margin: 0; line-height: 1.1;">
-                        <span style="color: var(--cyber-green);">"CYBER"</span>
-                        <span style="color: #fff;">"STATES"</span>
-                    </h1>
-                    <a href="/map" style="font-size: 11px; letter-spacing: 2px; color: #555; text-decoration: none; border: 1px solid #333; padding: 6px 14px; border-radius: 2px; transition: all 0.15s;">"MAP"</a>
-                </div>
-                <p style="color: #444; font-size: 13px; margin-top: 8px;">
+                <p style="color: #444; font-size: 13px; margin: 0; white-space: nowrap;">
                     {move || {
                         let region = region_filter.get();
                         let query = search.get().to_lowercase();
@@ -86,46 +116,9 @@ pub fn HomePage() -> impl IntoView {
                             (region == "All" || c.region == region)
                             && (query.is_empty() || c.name.to_lowercase().contains(&query) || c.code.to_lowercase().contains(&query))
                         }).count();
-                        format!("{} of {} states — sorted by {}", count, total, sort_field.get().label())
+                        format!("{} of {} states", count, total)
                     }}
                 </p>
-            </div>
-
-            // Search
-            <div style="margin-bottom: 16px;">
-                <input
-                    type="text"
-                    placeholder="Search country, code, or currency..."
-                    style="width: 100%; max-width: 400px; padding: 10px 16px; background: #050505; border: 1px solid #222; border-radius: 2px; color: var(--cyber-green); font-family: 'Play', sans-serif; font-size: 13px; outline: none;"
-                    on:input=move |ev| {
-                        let target = ev.target().unwrap();
-                        let input: web_sys::HtmlInputElement = target.unchecked_into();
-                        set_search.set(input.value());
-                    }
-                />
-            </div>
-
-            // Region filters
-            <div style="display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 24px;">
-                {REGIONS.iter().map(|&r| {
-                    let r_owned = r.to_string();
-                    let r_for_class = r.to_string();
-                    let r_for_click = r.to_string();
-                    view! {
-                        <button
-                            class=move || {
-                                if region_filter.get() == r_for_class {
-                                    "region-pill active"
-                                } else {
-                                    "region-pill"
-                                }
-                            }
-                            on:click=move |_| set_region_filter.set(r_for_click.clone())
-                        >
-                            {r_owned}
-                        </button>
-                    }
-                }).collect::<Vec<_>>()}
             </div>
 
             // Table
