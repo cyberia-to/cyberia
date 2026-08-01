@@ -38,6 +38,8 @@ body {
 /* Cyber table */
 .cyber-table {
     width: 100%;
+    min-width: 1000px;
+    table-layout: fixed; /* widths come from colgroup — filtering must not reflow them */
     border-collapse: separate;
     border-spacing: 0;
 }
@@ -75,6 +77,8 @@ body {
     font-size: 13px;
     transition: background 0.1s;
     white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis; /* fixed layout: long names truncate instead of pushing the column */
 }
 
 .cyber-table tr {

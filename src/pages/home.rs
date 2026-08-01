@@ -128,6 +128,19 @@ pub fn HomePage() -> impl IntoView {
             // Table
             <div style="overflow-x: auto; border: 1px solid #111; border-radius: 4px;">
                 <table class="cyber-table">
+                    // fixed layout: widths live here, not in row content — filtering must not move columns
+                    <colgroup>
+                        <col style="width: 4%;" />   // #
+                        <col style="width: 19%;" />  // country
+                        <col style="width: 11%;" />  // population
+                        <col style="width: 12%;" />  // land area
+                        <col style="width: 7%;" />   // token
+                        <col style="width: 10%;" />  // price
+                        <col style="width: 9%;" />   // supply
+                        <col style="width: 9%;" />   // cap
+                        <col style="width: 9.5%;" /> // freedom
+                        <col style="width: 9.5%;" /> // openness
+                    </colgroup>
                     <thead>
                         <tr>
                             <th style="width: 40px; cursor: default;">"#"</th>
