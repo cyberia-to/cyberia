@@ -67,31 +67,31 @@ pub fn HomePage() -> impl IntoView {
     view! {
         <div style="max-width: 1400px; margin: 0 auto; padding: 20px;">
             // Header row 1: logo — centered search — map flush right
-            <div style="display: flex; align-items: center; gap: 20px; flex-wrap: wrap; margin-bottom: 16px;">
-                <div style="flex: 1 1 0; min-width: 0;">
-                    <h1 style="font-size: clamp(24px, 4vw, 42px); font-weight: 700; margin: 0; line-height: 1.1; white-space: nowrap;">
+            <div class="header-row1">
+                <div class="logo-zone">
+                    <h1 class="logo">
                         <span style="color: var(--cyber-green);">"CYBER"</span>
                         <span style="color: #fff;">"STATES"</span>
                     </h1>
                 </div>
                 <input
                     type="text"
+                    class="search-input"
                     placeholder="Search country, code, or currency..."
-                    style="flex: 0 1 420px; min-width: 180px; padding: 10px 16px; background: #050505; border: 1px solid #222; border-radius: 2px; color: var(--cyber-green); font-family: 'Play', sans-serif; font-size: 13px; outline: none;"
                     on:input=move |ev| {
                         let target = ev.target().unwrap();
                         let input: web_sys::HtmlInputElement = target.unchecked_into();
                         set_search.set(input.value());
                     }
                 />
-                <div style="flex: 1 1 0; min-width: 0; display: flex; justify-content: flex-end;">
-                    <a href="/map" style="font-size: 12px; font-weight: 700; letter-spacing: 2px; color: #000; text-decoration: none; background: var(--cyber-green); padding: 9px 18px; border-radius: 2px; box-shadow: 0 0 14px rgba(57,255,20,0.35); transition: all 0.15s;">"MAP"</a>
+                <div class="map-zone">
+                    <a href="/map" class="map-btn">"MAP"</a>
                 </div>
             </div>
 
             // Header row 2: region filters | count
-            <div style="display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap; margin-bottom: 24px;">
-                <div style="display: flex; gap: 6px; flex-wrap: wrap;">
+            <div class="header-row2">
+                <div class="region-pills">
                     {REGIONS.iter().map(|&r| {
                         let r_owned = r.to_string();
                         let r_for_class = r.to_string();
@@ -112,7 +112,7 @@ pub fn HomePage() -> impl IntoView {
                         }
                     }).collect::<Vec<_>>()}
                 </div>
-                <p style="color: #444; font-size: 13px; margin: 0; white-space: nowrap;">
+                <p class="state-count">
                     {move || {
                         let region = region_filter.get();
                         let query = search.get().to_lowercase();
@@ -130,8 +130,8 @@ pub fn HomePage() -> impl IntoView {
                 <table class="cyber-table">
                     // fixed layout: widths live here, not in row content — filtering must not move columns
                     <colgroup>
-                        <col style="width: 4%;" />   // #
-                        <col style="width: 19%;" />  // country
+                        <col style="width: 5%;" />   // #
+                        <col style="width: 18%;" />  // country
                         <col style="width: 11%;" />  // population
                         <col style="width: 12%;" />  // land area
                         <col style="width: 7%;" />   // token
