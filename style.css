@@ -21,6 +21,13 @@
     box-sizing: border-box;
 }
 
+html {
+    /* scrollbar track always present — filtering to a short list must not
+       widen the viewport and shift the layout */
+    overflow-y: scroll;
+    scrollbar-gutter: stable;
+}
+
 body {
     font-family: 'Play', sans-serif;
     background: var(--cyber-black);
