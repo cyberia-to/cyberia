@@ -8,6 +8,8 @@ crystal-domain: cyberia
 
 universal protocol for selling time-horizoned access to any asset. one contract architecture, one valuation oracle, one set of rules — venues, citizenship, memberships, subscriptions, commodities, licenses, and every other excludable good cyberia produces.
 
+the demand for the citizenship and residency claims priced here is mapped in the [[migration market model]]: a ~900M want-to-leave market against a shrinking global supply of rooting, which is why a well-run sovereign asset compounds.
+
 owner sets two numbers (reserve, premium). everything else clears against observed market demand.
 
 built on [[cyberia/protocol/system]] (TSP-1/TSP-2 + PLUMB + traits). runs as CosmWasm contracts on [[bostrom]]. revenue settled in USDT bridged from ethereum.

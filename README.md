@@ -17,3 +17,8 @@ Belong anywhere. Build everywhere.
 - [[cyberia/mimi]] — interface layer
 - [[cyberia/midao]] — decentralized autonomous organization
 - [[cyberia/my]] — personal portal
+
+Research on the demand cyberia serves — who moves, why, and how status is paid for:
+
+- [[migration market model]] — a unified model of the global migration market, with the nomad segment cyberia is built for ([[migration market funnel]] renders it on one screen)
+- [[attested genome protocol]] — proving kinship, ancestry, and citizenship claims without surrendering the underlying data

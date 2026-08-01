@@ -75,7 +75,7 @@ each robot is one mind (on-chain), one avatar (cyberspace presence), one optiona
 
 ## cyberia: nomad hub → future cities
 
-the world has abundant beautiful remote land at $1k/ha and 50 million nomads who want permanence but cannot find it. the gap is not supply — it is coordination. twenty families committing $50k each to the same land creates 50× appreciation immediately. the protocol solves coordination. the nomad hub provides the gravity.
+the world has abundant beautiful remote land at $1k/ha and 50 million nomads who want permanence but cannot find it — the visible tip of a ~900M want-to-leave market the [[migration market model]] maps in full. the gap is not supply — it is coordination. twenty families committing $50k each to the same land creates 50× appreciation immediately. the protocol solves coordination. the nomad hub provides the gravity.
 
 traditional hospitality leaks margin at every layer of the supply chain. cyberia captures it through vertical integration: the same land produces food, hosts events, generates energy, and shelters residents. coffee raw is $1/kg. roasted is $10/kg. in the cup is $500/kg. by owning soil to cup, cyberia captures what the supply chain leaks to intermediaries.
 

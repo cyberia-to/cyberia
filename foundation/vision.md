@@ -137,7 +137,7 @@ And [Burn.City](https://burn.city/), our upcoming "moonly" event set to kickstar
   
   Cyberia targets digital nomads, pop-up city enthusiasts, and cypherpunks seeking permanence — people tired of rebuilding social circles monthly, dealing with fragmented rentals, and externalizing costs for food and events. 
   
-  We're building the "last pop-up" for the 50 million global nomads with $3k-$5k+ monthly budgets who value sustainability, health, and innovation. Pricing is straightforward:
+  We're building the "last pop-up" for the 50 million global nomads with $3k-$5k+ monthly budgets who value sustainability, health, and innovation. That 50M is one segment of a ~900M want-to-leave market — the [[migration market model]] locates exactly where cyberia's demand sits and how it converts from visitor to citizen. Pricing is straightforward:
 - $2k/month for shared housing or
 - $3.5k for private accommodation 
   

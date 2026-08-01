@@ -178,6 +178,8 @@ Methods are the public API — the 81 specific workflows a person can initiate. 
 
 Identity methods mint and manage the tokens that represent who you are, what you can do, and what has happened to you. These are the most fundamental methods — almost every other method requires at least `identity.enter()` or `identity.register()` as a prerequisite.
 
+The kinship these methods assert — `record_birth` minting CITIZENSHIP, `record_union` a marriage, `family.reunify` a family visa — is exactly what the [[attested genome protocol]] lets a subject prove without surrendering the underlying data, and the VISIT→STAY→SETTLE→BELONG ladder is the supply side of the demand mapped in the [[migration market model]].
+
 | Method | Tokens involved |
 |--------|----------------|
 | `identity.enter()` | mints ENTRY_PERMIT |
