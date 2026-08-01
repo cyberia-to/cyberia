@@ -8,7 +8,7 @@ pub fn HomePage() -> impl IntoView {
     let countries = load_countries();
     let total = countries.len();
 
-    let (sort_field, set_sort_field) = signal(SortField::Freedom);
+    let (sort_field, set_sort_field) = signal(SortField::Cap);
     let (ascending, set_ascending) = signal(false);
     let (region_filter, set_region_filter) = signal("All".to_string());
     let (search, set_search) = signal(String::new());
