@@ -48,13 +48,7 @@ pub fn HomePage() -> impl IntoView {
                 SortField::Population => a.population.cmp(&b.population),
                 SortField::LandArea => a.land_area_km2.cmp(&b.land_area_km2),
                 SortField::Token => a.currency_code.cmp(&b.currency_code),
-                SortField::Price => a.token_price_usd.partial_cmp(&b.token_price_usd).unwrap_or(std::cmp::Ordering::Equal),
-                SortField::Supply => a.supply().partial_cmp(&b.supply()).unwrap_or(std::cmp::Ordering::Equal),
                 SortField::Cap => a.money_supply_b_usd.partial_cmp(&b.money_supply_b_usd).unwrap_or(std::cmp::Ordering::Equal),
-                SortField::EcoOut => a.index().eco_out_pct.partial_cmp(&b.index().eco_out_pct).unwrap_or(std::cmp::Ordering::Equal),
-                SortField::EcoIn => a.index().eco_in_pct.partial_cmp(&b.index().eco_in_pct).unwrap_or(std::cmp::Ordering::Equal),
-                SortField::PopOut => a.index().pop_out_pct.partial_cmp(&b.index().pop_out_pct).unwrap_or(std::cmp::Ordering::Equal),
-                SortField::PopIn => a.index().pop_in_pct.partial_cmp(&b.index().pop_in_pct).unwrap_or(std::cmp::Ordering::Equal),
                 SortField::Freedom => a.index().freedom.partial_cmp(&b.index().freedom).unwrap_or(std::cmp::Ordering::Equal),
                 SortField::Openness => a.index().openness.partial_cmp(&b.index().openness).unwrap_or(std::cmp::Ordering::Equal),
             };
@@ -148,8 +142,8 @@ pub fn HomePage() -> impl IntoView {
                             <SortableHeader field=SortField::Population current=sort_field ascending=ascending on_click=on_sort />
                             <SortableHeader field=SortField::LandArea current=sort_field ascending=ascending on_click=on_sort />
                             <SortableHeader field=SortField::Token current=sort_field ascending=ascending on_click=on_sort />
-                            <SortableHeader field=SortField::Price current=sort_field ascending=ascending on_click=on_sort />
-                            <SortableHeader field=SortField::Supply current=sort_field ascending=ascending on_click=on_sort />
+                            <th class="th-static">"PRICE"</th>
+                            <th class="th-static">"SUPPLY"</th>
                             <SortableHeader field=SortField::Cap current=sort_field ascending=ascending on_click=on_sort />
                             <SortableHeader field=SortField::Freedom current=sort_field ascending=ascending on_click=on_sort />
                             <SortableHeader field=SortField::Openness current=sort_field ascending=ascending on_click=on_sort />

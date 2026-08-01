@@ -52,10 +52,6 @@ pub fn CountryRow(country: Country, rank: usize) -> impl IntoView {
     let price_fmt = country.price_fmt();
     let supply_fmt = country.supply_fmt();
     let cap_fmt = country.cap_fmt();
-    let eco_out = format!("{:.1}", idx.eco_out_pct);
-    let eco_in = format!("{:.1}", idx.eco_in_pct);
-    let pop_out = format!("{:.1}", idx.pop_out_pct);
-    let pop_in = format!("{:.1}", idx.pop_in_pct);
     let freedom_str = format!("{:.1}", idx.freedom);
     let openness_str = format!("{:.1}", idx.openness);
 
