@@ -8,6 +8,8 @@ alias: cyberia erp, ledger model
 
 minimal ERP. one foundation, one framework, six trait categories, one operational layer above.
 
+on the [[soft3]] ladder this whole model is a [[dialect]] — an agreed convention of sentences and motifs over words and links. the tokens are words, the bonds are links, the templates are motifs, and every committed batch is a [[signal]]. the running implementation is the signal studio ([[cyberia/protocol/erp-core|erp-core]], cyberia.my/world).
+
 ---
 
 ## architecture
