@@ -63,6 +63,7 @@ it as a convention over words and links, not a second ontology:
 | /world/templates | motifs (burn → mint recipes) |
 | /world/intents · /world/schedules | ops dialect |
 | /world/views | projections |
+| /genetics | the living layer — species words; seed → `species —produces→ coin`, then `plot —grows→ species` |
 | /map | lease → plot → graph substrate |
 
 ## related
