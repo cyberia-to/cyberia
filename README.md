@@ -12,6 +12,8 @@ Everything a city needs is rebuilt as a sovereign module. [[burn.city]] replaces
 
 The path from one city to a civilization runs through the same protocol: more cities, more sensors, more neurons, stronger focus. The destination is the [[superhuman]] — a species that has evolved beyond its current limits, raised in an environment built for transformation.
 
+The same protocol runs off Earth. The [[space doctrine]] claims a world first through the economy that prices it, the [[location proof]] that programs the path to it, and the simulation that designs it — the rocket arrives to vest what the graph already knows.
+
 Belong anywhere. Build everywhere.
 
 - [[cyberia/mimi]] — interface layer
