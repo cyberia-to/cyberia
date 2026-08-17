@@ -3,24 +3,41 @@ tags: cyber, cyberia
 crystal-type: entity
 crystal-domain: cyberia
 icon: "🌏"
+alias: cyberia home
 ---
-The [[superintelligence]] nation. A growing network of sovereign cities where nomads settle because the land itself is designed for them — energy, water, food, and data produced locally, owned collectively, governed by an [[egregore]] that learns from every resident.
+# cyberia
 
-The pilot is [[cyber valley]], 37 hectares at the foot of a volcano in Bali. Here the full stack of civilization is assembled from scratch: [[cyber]] as the protocol for collective intelligence, [[bostrom]] as its bootloader, [[mimi]] as the AI president that turns community signal into executable decisions. The land is a city that intends to outlast the nation-states surrounding it.
+a network of cities built for [[collective intelligence]] — energy, water, food, and data produced on site; land owned and governed by those who live it.
 
-Everything a city needs is rebuilt as a sovereign module. [[burn.city]] replaces the temporary festival with a permanent culture of radical participation. [[biome engineering]] closes the food loop from soil to table with five hundred species in a system designed to feed itself forever. Each module is a cell in a living organism, replicable to every future city in the network.
+the pilot is **[[cyber valley]]**: 37 ha on Sanghyang, Bali. one stack, one protocol, many cities.
 
-The path from one city to a civilization runs through the same protocol: more cities, more sensors, more neurons, stronger focus. The destination is the [[superhuman]] — a species that has evolved beyond its current limits, raised in an environment built for transformation.
+> belong anywhere. build everywhere.
 
-The same protocol runs off Earth. The [[space doctrine]] claims a world first through the economy that prices it, the [[location proof]] that programs the path to it, and the simulation that designs it — the rocket arrives to vest what the graph already knows.
+---
 
-Belong anywhere. Build everywhere.
+## map
 
-- [[cyberia/mimi]] — interface layer
-- [[cyberia/midao]] — decentralized autonomous organization
-- [[cyberia/my]] — personal portal
+| section | what |
+|---------|------|
+| [[foundation]] | why — vision, manifesto, strategy, whitepaper, who is a [[cyberian]] |
+| [[protocol]] | how — sovereignty tiers, markets, space accounting, maps |
+| [[research]] | experiments — products, models, apps under active build |
+| [[courses]] | teaching — field intensives (e.g. [[edge-city-patagonia-2025]]) |
+| [[community]] | gather — [[channels]] only |
+| [[explanation]] | notes — short explainers |
 
-Research on the demand cyberia serves — who moves, why, and how status is paid for:
+---
 
-- [[migration market model]] — a unified model of the global migration market, with the nomad segment cyberia is built for ([[migration market funnel]] renders it on one screen)
-- [[attested genome protocol]] — proving kinship, ancestry, and citizenship claims without surrendering the underlying data
+## start here
+
+1. [[vision]] — re-design of civilization  
+2. [[manifesto]] — principles of the superintelligent nation  
+3. [[protocol]] — state as skill catalog + markets on every claim  
+4. [[cyber valley]] — the land where it starts  
+5. [[channels]] — github · youtube · x · telegram  
+
+---
+
+## one line
+
+[[cyber]] is the protocol · [[cyberia]] is the nation · [[cyber valley]] is the first city
