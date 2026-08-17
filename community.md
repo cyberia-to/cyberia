@@ -2,9 +2,11 @@
 tags: cyberia
 crystal-type: entity
 crystal-domain: cyberia
-alias: channels, cyberia channels
+alias: community, channels, cyberia channels
 ---
-# channels
+# community
+
+where [[cyberia]] gathers online.
 
 - [github.com/cyber-valley](https://github.com/cyber-valley)
 - [youtube.com/@cybervalleyland](https://www.youtube.com/@cybervalleyland)
