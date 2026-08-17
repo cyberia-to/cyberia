@@ -17,3 +17,4 @@ working research packs for [[cyberia]] — each folder is one project with a `RE
 | [[mimi]] | LLM assistant for Cyber Valley (RAG over Telegram, Logseq, GitHub) |
 | [[events]] | Cyber Valley tickets / events platform (was `my`) |
 | [[cyberia-my]] | cyberia.my fleets & flats land console |
+| [[tech]] | off-grid & materials stack — one folder per technology |
