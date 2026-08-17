@@ -45,4 +45,15 @@ Sayan, Ubud — the ridge above the Ayung River gorge. the physical address wher
 
 ---
 
+
+## docs
+
+| page | what |
+|------|------|
+| [[about]] | concept and space |
+| [[economics]] | financial model |
+| [[membership]] | membership design |
+| [[roadmap]] | four-stage build |
+| [[services]] | thermal circuit, universal chair zone |
+
 discover all [[concepts]]
