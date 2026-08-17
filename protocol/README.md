@@ -119,6 +119,7 @@ non-fungible Spot Assets compound through the oracle. every new citizen makes ci
 - [[cyberia/protocol/bank-above-banks]] — solvent synthetic FX for all sovereign currencies against one ETH reserve
 - [[cyberia/protocol/marketplace]] — the marketplace protocol in detail
 - [[cyberia/protocol/marketplace-spec]] — contract interfaces and data structures
+- [[cyberia/protocol/maps]] — nested spatial scales (sector · block · district · region)
 - [[cyberia/foundation/governance]] — the 147 agents and the capitulation curve
 - [[cyberia/foundation/org]] — the seven lenses applied to specific cyberian entities
 - [[soma]] — the runtime that animates a single Robot
