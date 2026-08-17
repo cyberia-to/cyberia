@@ -90,6 +90,8 @@ for Slot Assets, three layers compose:
 
 for Spot Assets, tier curves replace calendar overlap, and tier escalation lets holders upgrade by paying the differential.
 
+exclusive **where** (volume in a frame) is not the same as exclusive **when** (calendar on an asset). spatial title invariants — pairwise disjoint solids, deposit challenges, TSP-2 Cards — live in [[space accounting]].
+
 ### claim classes
 
 every Claim is one of two:
