@@ -236,7 +236,7 @@ a design framework for fusing societies, biomes, technology, and architecture. r
 - [[sensors, dev and control]]: automation and community leadership
 - [[token engineering]]: how to program society for good
 
-the [[edge city patagonia 2025]] teaches this curriculum in two-week intensives at [[cyber valley]].
+the [[edge-city-patagonia-2025]] teaches this curriculum in two-week intensives at [[cyber valley]].
 
 ---
 

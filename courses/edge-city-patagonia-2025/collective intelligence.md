@@ -7,7 +7,7 @@ crystal-domain: cyberia
 ---
 # collective intelligence
 
-part of [[edge city patagonia 2025]] — miniconf: history and (bright) future
+part of [[edge-city-patagonia-2025]] — miniconf: history and (bright) future
 
 published on [x.com](https://x.com/mastercyb/status/1985800930428928474)
 

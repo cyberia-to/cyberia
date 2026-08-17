@@ -4,7 +4,7 @@ tags: cyberia
 crystal-type: entity
 crystal-domain: energy
 ---
-part of [[edge city patagonia 2025]] course on off grid living in [[cyberia]]
+part of [[edge-city-patagonia-2025]] course on off grid living in [[cyberia]]
 
 published on [x.com](https://x.com/mastercyb/status/1983218412320108803)
 
