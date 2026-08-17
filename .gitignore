@@ -5,3 +5,4 @@ node_modules/
 # independent project repos nested under research (own git remotes)
 research/events/
 research/cyberia-my/
+research/mimi/
