@@ -5,7 +5,7 @@ crystal-domain: cyberia
 ---
 > the art of designing living systems in resonance with nature’s intelligence
 
-part of [[pirates of cyber states]] course on off grid living in [[cyberia]]
+part of [[edge city patagonia 2025]] course on off grid living in [[cyberia]]
 
 ## purpose
 

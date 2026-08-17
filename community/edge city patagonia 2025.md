@@ -1,5 +1,5 @@
 ---
-alias: pirates of cyber states
+alias: pirates of cyber states, edge city residency, edge city patagonia
 tags: cyberia
 crystal-type: entity
 crystal-domain: cyberia
@@ -43,14 +43,14 @@ Join builders, hackers, and homesteaders who treat statecraft like open-source. 
 
 | type | date | time | record | name | notes |
 | ----- | -----| ----- | ------ | ------| ------|
-| lecture | 23 oct | 11:00 | [video](https://x.com/mastercyb/status/1981362331386097745) | [[edge city residency/cyber valley story]] | autonomous village from scratch? |
-| lecture | 28 oct | 17:00 | [video](https://x.com/mastercyb/status/1983218412320108803) | [[edge city residency/energy and water system]] | practical advices |
-| lecture | 29 oct | 15:00 | [video](https://x.com/mastercyb/status/1983552837964661224) | [[edge city residency/soil, heat and carbon]] | the source of magic and the hope |
-| lecture | 03 nov | 11:00 | [video](https://x.com/mastercyb/status/1985348250787029110) | [[edge city residency/biome engineering]] | create [[magic forest]] |
-| lecture | 04 nov | 17:00 | [video](https://x.com/mastercyb/status/1985800930428928474) | [[egregore]] | miniconf: history and (bright) future |
-| lecture | 05 nov | 13:00 | [video](https://x.com/mastercyb/status/1986103838462668978) | [[edge city residency/bostrom story]] | 4 years of Bostrom network |
+| lecture | 23 oct | 11:00 | [video](https://x.com/mastercyb/status/1981362331386097745) | [[edge city patagonia 2025/cyber valley story]] | autonomous village from scratch? |
+| lecture | 28 oct | 17:00 | [video](https://x.com/mastercyb/status/1983218412320108803) | [[edge city patagonia 2025/energy and water system]] | practical advices |
+| lecture | 29 oct | 15:00 | [video](https://x.com/mastercyb/status/1983552837964661224) | [[edge city patagonia 2025/soil, heat and carbon]] | the source of magic and the hope |
+| lecture | 03 nov | 11:00 | [video](https://x.com/mastercyb/status/1985348250787029110) | [[edge city patagonia 2025/biome engineering]] | create [[magic forest]] |
+| lecture | 04 nov | 17:00 | [video](https://x.com/mastercyb/status/1985800930428928474) | [[edge city patagonia 2025/collective intelligence]] | miniconf: history and (bright) future |
+| lecture | 05 nov | 13:00 | [video](https://x.com/mastercyb/status/1986103838462668978) | [[edge city patagonia 2025/bostrom story]] | 4 years of Bostrom network |
 
-Materials for the lectures above live in this folder (except [[egregore]], which stays in the core graph).
+Materials for the lectures above live in this folder. the miniconf page is [[collective intelligence]]; deep theory stays at [[egregore]].
 
 ## Connect
 
