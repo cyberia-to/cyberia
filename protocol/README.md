@@ -22,10 +22,13 @@ residents relate to a state through tier depth. each tier is a superset of the p
 
 | tier | duration | Tokens available |
 |---|---|---|
-| VISIT | days/weeks | entry permit, emergency care, temporary credentials |
-| STAY | months/years | bank account, work permit, business registration |
+| TOUCH | hours | day entry, picnic, short trail |
+| VISIT | days/weeks | overnight, events, temporary credentials |
+| STAY | months/years | bank account, work permit, longer housing |
 | SETTLE | years/decade | property title, permanent residence, pension rights |
 | BELONG | forever | passport, voting rights, candidacy |
+
+full funnel: [[ladder]]
 
 tiers are a permission model — they determine which Skills a Neuron can call. moving up the tiers is a one-way ratchet earned through demonstrated commitment.
 
