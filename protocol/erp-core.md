@@ -1,6 +1,6 @@
 ---
 tags: cyberia, protocol, signal, construct
-alias: signal studio, erp core, world construct, constructor
+alias: orgs, signal studio, erp core, world construct, constructor
 crystal-type: pattern
 crystal-domain: cyberia
 ---
