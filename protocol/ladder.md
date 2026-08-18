@@ -12,24 +12,26 @@ four rungs. each is a permission model: which Skills a [[neuron]] can call, how 
 
 | tier | duration | what opens | who |
 |------|----------|------------|-----|
-| **VISIT** | days / weeks | entry, trails, events, temporary credentials | tourists · Indonesian mountain guests · hikers |
-| **STAY** | months / years | bank-like access, work, longer housing, community services | nomads · remote workers · retreat hosts |
-| **SETTLE** | years / decade | property-like rights, permanent residence signals, deep stake | foreign investors · affluent Indonesians · builders |
+| **VISIT** | days / weeks | entry, trails, events, temporary credentials | tourists · guests · hikers |
+| **STAY** | months / years | work, longer housing, community services | nomads · remote workers · hosts |
+| **SETTLE** | years / decade | property-like rights, permanent residence signals, deep stake | investors · builders · affluent locals |
 | **BELONG** | forever | passport-class membership, voting, candidacy — portable | network citizens of [[cyberia]] |
 
 ## physics
 
-- **VISIT → STAY → SETTLE** can happen on one site (e.g. [[cyber valley]] in [[gesing]]).
-- **BELONG** is a **network** product. Indonesia cannot sell foreign freehold or dual citizenship as the terminal rung — so BELONG rides Cyberia membership across cities, with land rights attached per jurisdiction.
+- **VISIT** and **STAY** almost every country can host.
+- **SETTLE** and **BELONG** are **not** offered by all countries by definition — land law, citizenship, and dual-status rules decide what a site may sell.
+- so **BELONG** is mostly a **network** product: Cyberia membership that travels with you, with local rights attached per city when the jurisdiction allows.
+- one of Cyberia’s missions: **you can belong to any place on earth** — not trapped by a single passport or a single plot.
 - conversion is the strategy: each rung measured on its own job (discovery, margin, or depth), never one vanity metric.
 - volume and sacredness do not share the same hectare at the same hour — zoning is how the ladder stays beautiful.
 
 ## site vs network
 
-| | [[cyber valley]] | [[cyberia]] network |
-|--|------------------|---------------------|
-| sells | VISIT · STAY · SETTLE | BELONG (+ local rights per city) |
-| instrument | day tickets · month plans · leaseholds / Hak Pakai / Hak Milik (WNI) | portable membership |
-| ceiling | time-bound tenure in Indonesia | citizenship of the network |
+| | one city (e.g. [[cyber valley]]) | [[cyberia]] network |
+|--|----------------------------------|---------------------|
+| usually sells | VISIT · STAY · (SETTLE if law allows) | **BELONG** + local rights per city |
+| instrument | tickets · month plans · local tenure | portable membership |
+| ceiling | whatever that jurisdiction can grant | belong anywhere the network goes |
 
 see also: [[protocol]] sovereignty tiers · [[strategy]] valley product ladder · [[attractors]]
