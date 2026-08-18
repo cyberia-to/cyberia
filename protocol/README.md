@@ -115,7 +115,7 @@ non-fungible Spot Assets compound through the oracle. every new citizen makes ci
 
 - [[cyb/robot]] — the Robot architecture this protocol assumes
 - [[cyberia/protocol/system]] — minimal ERP on tokens (Coin · Card · PLUMB · Template · Intent · View)
-- [[orgs]] — world construction / entities & skills ([[erp-core]])
+- [[orgs]] — world construction / entities & skills (was erp-core)
 - [[cyberia/protocol/bank-above-banks]] — solvent synthetic FX for all sovereign currencies against one ETH reserve
 - [[cyberia/protocol/marketplace]] — the marketplace protocol in detail
 - [[cyberia/protocol/marketplace-spec]] — contract interfaces and data structures

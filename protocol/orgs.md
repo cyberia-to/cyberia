@@ -1,14 +1,12 @@
 ---
 tags: cyberia, protocol, signal, construct
-alias: orgs, signal studio, erp core, world construct, constructor
+alias: orgs, erp-core, erp core, signal studio, world construct, constructor
 crystal-type: pattern
 crystal-domain: cyberia
 ---
-# signal studio — world construction surface
+# orgs
 
-the universe constructor on cyberia.my/world. one surface, built on the
-[[soft3]] ladder — the same primitives [[neural]] specifies, running
-local-first in the browser, real all the way down:
+world construction surface — entities, roles, skills. the universe constructor on cyberia.my/world, built on the [[soft3]] ladder — the same primitives [[neural]] specifies, running local-first in the browser, real all the way down:
 
 - a **particle** is a [[hemera]] (Poseidon2) hash — content addressing, not a fake id
 - the **neuron** is a [[mudra]] domain-scoped secp256k1 key (entropy → hemera KDF → d·G) — the same identity pipeline as the [[lytics]] tracker
