@@ -12,11 +12,11 @@ five rungs. each is a permission model: which Skills a [[neuron]] can call, how 
 
 | tier | duration | what opens |
 |------|----------|------------|
-| **TOUCH** | hours | day entry — picnic, short trail, same-day leave |
-| **VISIT** | days / weeks | overnight stay, events, temporary credentials |
-| **STAY** | months / years | work, longer housing, community services |
-| **SETTLE** | years / decade | property-like rights, permanent residence signals, deep stake |
-| **BELONG** | forever | passport-class membership, voting, candidacy — portable |
+| TOUCH | hours | day entry — picnic, short trail, same-day leave |
+| VISIT | days / weeks | overnight stay, events, temporary credentials |
+| STAY | months / years | work, longer housing, community services |
+| SETTLE | years / decade | property-like rights, permanent residence signals, deep stake |
+| BELONG | forever | passport-class membership, voting, candidacy — portable |
 
 ## physics
 
