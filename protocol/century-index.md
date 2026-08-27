@@ -108,7 +108,7 @@ worked invoice, hypothetical year-1 TWAP fixes — BTC $75,000 · ETH $2,200 · 
 3. collar [S₀·0.85, S₀·1.35] = [1.357264, 2.155654] → 1.446711 passes unclamped
 4. dual floor: max(S₀ = 1.596781, F/X = 100,000/75,000 = 1.333333) = 1.596781 → floor BINDS
 5. R(t₁) = 1.596781 BTC = 159,678,089 sats
-6. invoice: R·X = $119,758.57 → × 19,000 = Rp 2,275,412,768
+6. invoice: R·X = $119,758.57 → × 19,000 = Rp 2,275,412,830
 
 reading of this year: the basket grew 8.5% but bitcoin grew 19.8% — the sat floor binds and the tenant owes the same sats as year 0, worth more dollars. the lease behaves as a bitcoin-standard obligation, exactly as designed.
 
