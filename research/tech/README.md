@@ -39,7 +39,7 @@ off-grid and materials stack for [[cyberia]] — each folder is one technology w
 | [[pump]] | device that moves fluids (liquids or gases) by mechanical action |
 | [[rain water collection]] | — |
 | [[roman concrete]] | recipe for extreme longevity concrete with high thermal resistance |
-| [[soil battery]] | — |
+| [[soil battery]] | soil electrochemistry — copper, salt, diode, andosol: trail glow at night |
 | [[solar chimney]] | — |
 | [[stirling engine]] | — |
 | [[superwood]] | — |
