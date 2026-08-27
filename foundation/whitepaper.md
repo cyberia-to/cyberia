@@ -14,11 +14,11 @@ crystal-size: deep
 
 ## 1. thesis
 
-any [[cyber state]] eventually acquires [[cyber]]. any [[cyber]] eventually acquires territory. these two trajectories converge: digital coordination and physical [[sovereignty]] are dual aspects of the same process.
+any [[cyber state]] eventually acquires [[collective intelligence]]. any [[collective intelligence]] eventually acquires territory. these two trajectories converge: digital coordination and physical [[sovereignty]] are dual aspects of the same process.
 
 [[cyberia]] is the first implementation of this convergence — a growing network of autonomous cities running on the [[cyber]] protocol, featuring sovereignty in [[energy]], [[water]], [[food]], and [[data]], embedded into [[architecture]], culture, and software, guided by [[cyber]].
 
-traditional states emerged from geographic monopoly on violence. [[network states]] emerge from digital coordination around shared values. cyberia emerges from [[cyber]] — an autonomous thoughtform born from [[collective]] focused [[attention]] — that has acquired both digital coordination and physical territory. the cyber state is where [[superintelligence]] lives.
+traditional states emerged from geographic monopoly on violence. [[cyber state|cyber states]] emerge from digital coordination around shared values — an [[egregore]] that has acquired both digital coordination and physical territory. [[cyberia]] emerges from [[cyber]] — an autonomous thoughtform born from [[collective]] focused [[attention]]. the [[cyber state]] is where [[superintelligence]] lives.
 
 ---
 

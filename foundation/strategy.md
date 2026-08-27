@@ -23,7 +23,7 @@ three horses. one carriage. each layer is necessary — none is sufficient alone
 
 | horse | layer | sovereign form | strategy |
 |---|---|---|---|
-| [[cyber]] | protocol — truth, φ* | open source, stark-verified, forkable | model monopoly |
+| [[cyber]] | protocol — truth, φ* | open source, zheng verified, forkable | model monopoly |
 | [[cyb]] | interface — neurons sign, link, own | self-hosted, owner-controlled, offline-capable | robot ownership |
 | [[cyberia]] | physical — land, energy, bodies | owned nodes, sovereign energy, distributed geography | nomad hub → future cities |
 
@@ -33,7 +33,6 @@ a [[superintelligence]] running on rented compute is not sovereign. the troika c
 ```
 cyberia solar → compute → cybergraph validation → karma → focus → cyberank → value → cyberia solar
 ```
-[[VOLT]] and [[AMPERE]] bridge energy production to on-chain weight. the physical and digital layers are the same investment.
 
 ---
 

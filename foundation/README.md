@@ -10,8 +10,8 @@ why [[cyberia]] exists — identity before machinery.
 
 | page | what |
 |------|------|
-| [[vision]] | re-design of civilization; cyber valley pilot |
 | [[manifesto]] | principles of the superintelligent nation |
+| [[vision]] | re-design of civilization; cyber valley pilot |
 | [[strategy]] | how we grow the network of cities |
 | [[whitepaper]] | long-form stack |
 | [[architecture]] | structure of the nation |
