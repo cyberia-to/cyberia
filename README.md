@@ -13,6 +13,8 @@ the pilot is **[[cyber valley]]**: 37 ha on Sanghyang, Bali. one stack, one prot
 
 > belong anywhere. build everywhere.
 
+the flag: seven circles in a heptagon — the visible spectrum bent into a loop, each circle carrying its innate emotion and grown symbol per the [[color]] map.
+
 ---
 
 ## map
