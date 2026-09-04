@@ -102,7 +102,7 @@ Threshold matters in both directions: too tight and honest re-sequencing fails, 
 3. **Recognize.** States sign citizenship attestations over the commitments of their nationals — building, in aggregate, a queryable set of anchored citizens without a central registry.
 4. **Publish.** A state publishes policies: which predicate, which threshold, how many attestations, which attestors count.
 5. **Query.** A user pays to evaluate a policy against the network. Linear parts (projections, kinship scores) run in CKKS; set-based kinship (IBD windows) runs as private set intersection returning cardinality only; the threshold comparison switches to [[tfhe|TFHE]] and yields a single encrypted bit.
-6. **Prove.** The user receives a [[proof]] — a zheng-style zero-knowledge proof the verifier checks without learning anything but the outcome:
+6. **Prove.** The user receives a [[cybics/crystal/proof|proof]] — a zheng-style zero-knowledge proof the verifier checks without learning anything but the outcome:
 
 ```
 π = ZK{ ∃ G, r, {Aᵢ} :
