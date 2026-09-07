@@ -115,3 +115,5 @@ reading of this year: the basket grew 8.5% but bitcoin grew 19.8% — the sat fl
 ## 7. oracle
 
 the index publishes as a daily on-chain fix at the Ethereum contract `cyberia.eth/index` — one canonical number any lease, [[marketplace]] listing, or treasury anywhere can reference. per T8 the on-chain fix is evidence and automation: on divergence the annex computation from the named public fixes prevails. the long game: the fix migrates into the [[cybergraph]] — fixed-point over the Goldilocks field per [[soft3]], signed by the publishing [[neuron]], provable by [[zheng]].
+
+what the index has actually read, day by day, lives in [[cx]] — a reconstruction from free public sources, published at [cyberia.my/cx](https://cyberia.my/cx) and recomputed daily.
