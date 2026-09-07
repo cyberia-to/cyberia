@@ -56,7 +56,7 @@ cyber monopolizes the full cycle through four properties:
 
 the moat is the closed loop. competitors own fragments. cyber owns the cycle.
 
-→ [[cyb/root/model-lifecycle]] for engines, phases, and implementation state
+→ [[cyb/decide/model-lifecycle]] for engines, phases, and implementation state
 
 ---
 
