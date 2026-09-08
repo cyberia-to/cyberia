@@ -6,7 +6,7 @@ crystal-domain: cyberia
 ---
 # cx
 
-the published fix of the [[century-index]] — ticker CX. the protocol page defines the instrument; this subgraph carries what it actually read. latest fix 6,919.56 on 2026-09-07, base 100 on 2016-09-07.
+the published fix of the [[century-index]] — ticker CX. the protocol page defines the instrument; this subgraph carries what it actually read. latest fix 6,903.30 on 2026-09-08, base 100 on 2016-09-08.
 
 ## pages
 
@@ -26,8 +26,8 @@ the arithmetic is integer fixed-point end to end, so the same day's data yields 
 
 | leg | group | share | weight at base |
 |---|---|---|---|
-| BTC | crypto | 52.7% | 20% |
-| ETH | crypto | 45.3% | 15% |
+| BTC | crypto | 52.6% | 20% |
+| ETH | crypto | 45.4% | 15% |
 | CNY | fiat | 0.2% | 15% |
 | USD | fiat | 0.2% | 15% |
 | GOLD | elements | 0.7% | 15% |
