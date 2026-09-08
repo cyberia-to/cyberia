@@ -116,6 +116,26 @@ copper and uranium publish monthly and carry forward between prints, as a closed
 
 quantities never change, so shares do. the basket was written at 35% crypto, 30% fiat, 35% elements; a decade of bitcoin and ether outrunning everything else leaves it at 98.1% crypto today. this is the arithmetic of fixed quantities, not a flaw in the fixes — but over a 25-80 year lease it is the property that decides what the obligation actually tracks. the T4 review valve exists for exactly this question, and it moves at most one leg of at most 10% weight every fifth year.
 
+## what a lease actually paid
+
+the machinery of §2 run over this decade: the basket priced in bitcoin, each annual step collared at +35%/−15%, the dual floor holding underneath. a lease signed on 2016-09-08 at one CX of rent invoiced $0.99 in its first year and $181.78 in its last — +68.2% a year, compounded.
+
+| year | basket in btc | rent owed | invoice |
+|---|---|---|---|
+| 2016-09-08 | 0.00222206 | 0.00222207 | $0.99 |
+| 2017-09-08 | 0.00160332 | 0.00222206 | $3.54 |
+| 2018-09-08 | 0.00131125 | 0.00222206 | $18.80 |
+| 2019-09-08 | 0.00089009 | 0.00222206 | $14.35 |
+| 2020-09-08 | 0.00081512 | 0.00222206 | $19.59 |
+| 2021-09-08 | 0.00104000 | 0.00222206 | $78.94 |
+| 2022-09-08 | 0.00131985 | 0.00222206 | $87.15 |
+| 2023-09-08 | 0.00129012 | 0.00222206 | $53.02 |
+| 2024-09-08 | 0.00108562 | 0.00222206 | $115.68 |
+| 2025-09-08 | 0.00081847 | 0.00222206 | $209.70 |
+| 2026-09-08 | 0.00084382 | 0.00222206 | $181.78 |
+
+the collar never engaged. bitcoin outran the basket every single year, so the sat leg of the floor bound every year instead, holding the rent at exactly its year-zero satoshi. read as the protocol reads it: whenever bitcoin outruns the basket the lease is a bitcoin-standard obligation, and this decade it was one throughout. the tenant paid in dollars whatever bitcoin did.
+
 ## today
 
 | leg | fix (usd) | share |
