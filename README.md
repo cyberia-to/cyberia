@@ -23,6 +23,7 @@ the flag: seven circles in a heptagon — the visible spectrum bent into a loop,
 |---------|------|
 | [[foundation]] | why — vision, manifesto, strategy, whitepaper, who is a [[cyberian]] |
 | [[protocol]] | how — sovereignty tiers, markets, space accounting, maps |
+| [[land]] | where — the estate; [[flora]] |
 | [[research]] | experiments — products, models, apps under active build |
 | [[courses]] | teaching — field intensives (e.g. [[edge-city-patagonia-2025]]) |
 | [[community]] | gather — public channels |

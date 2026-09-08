@@ -18,3 +18,4 @@ working research packs for [[cyberia]] — each folder is one project with a `RE
 | [[events]] | Cyber Valley tickets / events platform (was `my`) |
 | [[cyberia-my]] | cyberia.my fleets & flats land console |
 | [[tech]] | off-grid & materials stack — one folder per technology |
+| [[smart capital]] | capital for local and global development at citadel genesis |
