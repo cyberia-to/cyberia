@@ -10,7 +10,7 @@ the published level of the [[century-index]] over the decade ending 2026-09-08. 
 
 ## reading
 
-- over the decade the basket returned +6803.2% in dollars
+- over the decade the basket returned +6803.3% in dollars
 - the last twelve months: -10.6%
 - the range of the decade: 0.99 low, 84.18 high
 
@@ -103,9 +103,9 @@ this series is a reconstruction from free public data — evidence and orientati
 |---|---|---|
 | BTC | Coinbase BTC-USD daily close | 2015-09-09 … 2026-09-08 · 4018 observations |
 | ETH | Coinbase ETH-USD daily close | 2016-05-18 … 2026-09-08 · 3764 observations |
-| CNY | ECB reference rate via Frankfurter | 2015-09-08 … 2026-09-04 · 2815 observations |
+| CNY | ECB reference rate via Frankfurter | 2015-09-09 … 2026-09-07 · 2815 observations |
 | USD | quote currency, fixed at 1 | 2015-09-09 … 2015-09-09 · 1 observations |
-| GOLD | LBMA gold PM fix (USD) | 1968-04-01 … 2026-09-04 · 14676 observations |
+| GOLD | LBMA gold PM fix (USD) | 1968-04-01 … 2026-09-07 · 14677 observations |
 | CU | IMF global copper price via FRED (monthly) | 1992-01-01 … 2026-07-01 · 415 observations |
 | OIL | Brent Europe spot via FRED (daily) | 1987-05-20 … 2026-09-01 · 9967 observations |
 | UX | IMF uranium price via FRED (monthly) | 1992-01-01 … 2026-07-01 · 415 observations |
@@ -140,11 +140,11 @@ the collar never engaged. bitcoin outran the basket every single year, so the sa
 
 | leg | fix (usd) | share |
 |---|---|---|
-| BTC | 81,809.11 | 52.6% |
+| BTC | 81,809.83 | 52.6% |
 | ETH | 2,623.77 | 45.4% |
 | CNY | 0.144658 | 0.2% |
 | USD | 1 | 0.2% |
-| GOLD | 4,409.36 | 0.7% |
+| GOLD | 4,409.29 | 0.7% |
 | CU | 12,483.48 | 0.3% |
 | OIL | 82.78 | 0.1% |
 | UX | 67.49 | 0.1% |
