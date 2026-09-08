@@ -6,7 +6,7 @@ crystal-domain: cyberia
 ---
 # cx
 
-the published fix of the [[century-index]] — ticker CX. the protocol page defines the instrument; this subgraph carries what it actually read. latest fix 6,903.30 on 2026-09-08, base 100 on 2016-09-08.
+the published fix of the [[century-index]] — ticker CX. the protocol page defines the instrument; this subgraph carries what it actually read. latest fix 6,903.32 on 2026-09-08, base 100 on 2016-09-08.
 
 ## pages
 

@@ -6,7 +6,7 @@ crystal-domain: cyberia
 ---
 # cx history
 
-the published level of the [[century-index]] over the decade ending 2026-09-08. base 100 on 2016-09-08; the latest fix reads 6,903.30. every price enters as a trailing 365-day average, so the series moves at the pace of a year, not a day — which is what a century-scale obligation asks of it.
+the published level of the [[century-index]] over the decade ending 2026-09-08. base 100 on 2016-09-08; the latest fix reads 6,903.32. every price enters as a trailing 365-day average, so the series moves at the pace of a year, not a day — which is what a century-scale obligation asks of it.
 
 ## reading
 
@@ -92,7 +92,7 @@ fixed on 2016-09-08, unchanged since — the obligation is these quantities, not
 | 2021-05 | 2,576.53 | 2026-06 | 7,701.92 |
 | 2021-06 | 2,880.27 | 2026-07 | 7,367.70 |
 | 2021-07 | 3,164.99 | 2026-08 | 6,982.34 |
-| 2021-08 | 3,567.97 | 2026-09 | 6,903.30 |
+| 2021-08 | 3,567.97 | 2026-09 | 6,903.32 |
 | 2021-09 | 3,989.56 | — | — |
 
 ## sources
@@ -120,8 +120,8 @@ quantities never change, so shares do. the basket was written at 35% crypto, 30%
 
 | leg | fix (usd) | share |
 |---|---|---|
-| BTC | 81,809.75 | 52.6% |
-| ETH | 2,623.77 | 45.4% |
+| BTC | 81,809.83 | 52.6% |
+| ETH | 2,623.78 | 45.4% |
 | CNY | 0.144658 | 0.2% |
 | USD | 1 | 0.2% |
 | GOLD | 4,409.29 | 0.7% |
