@@ -6,7 +6,7 @@ crystal-domain: cyberia
 ---
 # cx
 
-the published fix of the [[century-index]] — ticker CX. one CX is the basket that cost one dollar on the base date, so the level is a price: $67.95 on 2026-09-14, against $1 on 2016-09-14. the protocol page defines the instrument; this subgraph carries what it actually read.
+the published fix of the [[century-index]] — ticker CX. one CX is the basket that cost one dollar on the base date, so the level is a price: $67.77 on 2026-09-15, against $1 on 2016-09-15. the protocol page defines the instrument; this subgraph carries what it actually read.
 
 ## pages
 
