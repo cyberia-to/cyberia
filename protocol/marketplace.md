@@ -3,6 +3,7 @@ tags: cyberia, system, marketplace, protocol
 alias: marketplace, asset marketplace, cyberia marketplace, claim protocol
 crystal-type: pattern
 crystal-domain: cyberia
+status: proposal
 ---
 # marketplace
 
@@ -12,7 +13,26 @@ the demand for the citizenship and residency claims priced here is mapped in the
 
 owner sets two numbers (reserve, premium). everything else clears against observed market demand.
 
-built on [[cyberia/protocol/system]] (TSP-1/TSP-2 + PLUMB + traits). runs as CosmWasm contracts on [[bostrom]]. revenue settled in USDT bridged from ethereum.
+Built on [[cyberia/protocol/system]] (TSP-1/TSP-2 + PLUMB + traits). The foreign
+deployment profile proposed here uses CosmWasm on [[bostrom]] and USDT backed by
+an Ethereum reserve through the explicit attestor bridge described below. Its
+contract fields, addresses, token denominations and signed bytes retain their
+native meanings. The oikos home-book proposal requires a separate settlement
+profile; changing architectural terminology cannot convert the bridge's trust.
+
+Asset, issuance, claim and role IDs are application data. Issuers, owners,
+operators and attestors use authenticated neuron references qualified by the
+network/identity domain or the foreign contract's explicit authority policy.
+Services run progs under captured grants. A named robot may attach several such
+subjects; every market action retains its original subject, destination, payload,
+reservation and unresolved attempt through retries and operator changes. See
+[cyb architecture](../../cyb/specs/architecture.md) and the
+[domain model](../../cyber/specs/domain-ladder.md).
+
+Quorum and independent-attestor requirements concern distinct authorized
+principals. Running several tasks with one key cannot satisfy a k-of-n rule.
+Selling an asset, retiring an operator or replacing a program preserves existing
+claims, deposits, revenue commitments, expiry and settlement obligations.
 
 → for contract interfaces and data structures see [[cyberia/protocol/marketplace-spec]]
 
@@ -295,7 +315,7 @@ stage A = first ship; oracle live, V_implied = 0 for new assets is correct. stag
 
 - [[cyberia/protocol/marketplace-spec]] — contract interfaces, data structures, message types, implementation sequences
 - [[cyberia/protocol/system]] — ERP kernel: TSP-1/TSP-2, PLUMB, traits, intents, workflows
-- [[cyberia/foundation/architecture]] — agent organization; agents own and operate asset instances per zone
+- [[cyberia/foundation/architecture]] — organizational roles; authorized subjects own assets and progs operate them under explicit grants
 - [[cyberia/protocol/services]] — 81-method state API with tier model (VISIT, STAY, SETTLE, BELONG). marketplace implements `identity.enter`, `identity.register`, `identity.issue_passport` as Spot asset ExecuteMsgs
 - [[cyberia/foundation/whitepaper]] — the cyberstate vision; marketplace is the economic core that makes it computable
 

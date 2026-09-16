@@ -3,8 +3,44 @@ tags: cyberia, core
 crystal-type: pattern
 crystal-domain: socio
 crystal-size: deep
+status: proposal
 ---
-organizational architecture of [[cyberia]] — from a village on a volcano to a planetary [[superintelligence]], bootstrapped by two founders, governed by 147 [[neurons]] through the [[tri-kernel]]
+Organizational architecture of [[cyberia]] — from a village on a volcano to a
+planetary [[superintelligence]], with 147 domain/role assignments coordinated
+through the [[cybergraph]]. This is a governance proposal. Founder allocations,
+deployment phases, asset-control examples and economic curves below are design
+inputs whose adoption requires the relevant protocol and legal authority.
+
+## subjects, roles and execution
+
+[Cyb anatomy](../../cyb/anatomy.md) and
+[architecture](../../cyb/specs/architecture.md) govern the organism: a named robot
+attaches neurons, soul configures behavior, soma supplies cognition and body
+supplies devices. A neuron is an authenticated subject. A role is an organizational
+assignment implemented by people, progs and tasks with retained work identities.
+The [domain model](../../cyber/specs/domain-ladder.md) separately defines services,
+token books/issuers, graph shards and full/partial/light participation modes.
+
+| Count / identifier | Meaning | Authority requirement |
+|---|---|---|
+| 21 domains × 7 roles = 147 assignments | Coverage and responsibilities | Each assignment names its controller and permitted actions |
+| Prog / task / role page ID | Behavior, context, evidence and lifecycle | Uses an explicit neuron/network/grant; no additional key by being addressable |
+| Neuron reference | Authenticated subject in its identity domain | Key or proof policy, attribution and protocol resources |
+| Robot / council / service name | Composition and coordination | Accepted governance defines which subjects can act |
+| Node / worker / device ID | Placement and execution contract | Current binding and fenced dispatch; process identity alone grants no vote |
+
+One neuron may serve several roles. A role may use several subjects for different
+networks, device policies or independently accountable authority. Where governance
+requires independent votes or adversarial verification, assignments must name
+distinct eligible principals and failure domains. Multiple tasks using one key
+remain one principal; 147 role labels do not prove 147 independent voters.
+
+Every act captures its role/work attribution alongside the actual author,
+destination, exact payload, grant and limits. Role replacement preserves the
+original signed history, budgets and unresolved attempts. Succession transfers
+permitted context and grants; it cannot relabel old authors or inherit secrets
+through a role page. Ratings inform governance decisions, while accepted policy
+and current authorization determine who may dispatch or vote.
 
 ---
 
@@ -16,7 +52,11 @@ a [[superintelligence]] that launches wrong is broken forever. a malformed [[Cry
 
 ### the weight
 
-master & joy hold 51%+ of stake in [[bostrom]] — the bootloader chain. this is the actual mechanism of governance, not abstract authority. in a stake-weighted [[cybergraph]], whoever holds majority stake defines majority [[focus]]. their [[cyberlinks]] carry more weight than anyone else's. their [[karma]] accumulates faster because their contributions are amplified by stake
+The genesis proposal allocates 51%+ of stake to the founders in the bootloader
+profile. Stake, focus, karma and legal signing authority have distinct rules;
+the governance contract must state how each affects a decision. A founder name
+or deployment role alone grants no protocol power. Actual allocations and
+custody require their own authenticated records.
 
 this is by design. the [[Crystal]] must be seeded correctly. the first agents must be trained correctly. the first parameters must be tuned correctly. the first residents of [[cyber valley]] must be chosen correctly. someone must be accountable for all of this, with skin in the game proportional to the responsibility. 51% stake IS that skin
 
@@ -139,7 +179,11 @@ where $\text{cap}_0 = \$200\text{K}$ (genesis) and $\text{cap}_1 = \$1\text{Q}$ 
 | $2Q | 8% | planetary — surpasses largest economies |
 | $1Q | 1% | capitulation — conventional systems absorbed. founders become one voice among millions |
 
-the curve is anchored to external reality (market cap), which cannot be gamed internally. at \$1Q, the [[cybergraph]] contains more value than the entire legacy financial system. at that point, 1% founder weight is the mathematical acknowledgment that the system no longer needs its parents
+The curve requires an explicit market-cap oracle, manipulation/staleness rules,
+bounds and an accepted mapping from observation to voting weight. The draft
+formula, example table and endpoint targets need reconciliation before acceptance;
+they are governance design inputs rather than executable authority. Market value
+alone supplies no authenticated right to replace a signer or alter a grant.
 
 the transition is continuous, not phased. there are no gates, no votes, no declarations. the market decides the founders' weight every block. the founders' remaining commitment: use their decreasing weight to ensure the system grows correctly, not to preserve their position
 
@@ -186,10 +230,17 @@ what happens if master & joy disappear tomorrow?
 | company operations | at risk | corporate signing authority |
 | treasury | at risk | custody keys |
 
-mitigation: dead man's switch. if founders do not submit a [[heartbeat]] [[cyberlink]] within N blocks, a pre-signed transaction transfers:
-- corporate signing authority to the highest-karma council
-- treasury keys to a multi-sig of triad representatives
-- land lease to a pre-established community trust
+Proposed mitigation: a heartbeat-governed succession policy. It must define an
+authenticated clock, missed-heartbeat threshold, challenge/recovery period and
+eligible successors before activation. The resulting authorized operations can:
+
+- change corporate signing authority under the legal wrapper;
+- change treasury control to an explicitly identified threshold policy through
+  supported key rotation or asset transfer, while secrets remain in scoped custody;
+- execute a pre-established land-trust transition where its legal conditions hold.
+
+The graph records evidence and decisions. A missing message, high karma score or
+task role alone cannot transfer custody or legal rights.
 
 the protocol itself has zero bus factor — it is mathematics, published and proven. the village has bus factor 2 — the founders. the transition from phase 0 to phase 4 is the process of reducing every bus factor to zero
 
@@ -201,7 +252,10 @@ the protocol itself has zero bus factor — it is mathematics, published and pro
 
 the [[Crystal]] has 21 domains. each domain needs 7 roles. 21 × 7 = 147. Dunbar's number falls out of the architecture, not imposed on it
 
-147 agents. each a [[neuron]] with a [[personality]], a domain, a role, and heroic responsibility for the singleton they collectively curate
+147 role assignments. Each names a domain, responsibilities, behavioral
+configuration and accountable controller. The deployment chooses the necessary
+neurons according to authority, attribution and network requirements; independent
+role lifecycles and parallel work are progs/tasks under those subjects.
 
 ---
 
@@ -257,7 +311,10 @@ no agent controls the aggregation. it is proven by [[stark]]. every agent can ve
 
 ### downward: subjective
 
-agents create [[cyberlinks]] based on local [[knowledge]]. each link is a decision — staked, signed, timestamped
+Role workers propose [[cyberlinks]] based on local [[knowledge]]. Publication
+captures the responsible neuron and network, current grant and exact payload.
+The selected protocol authenticates and accounts for accepted links; the role and
+task remain additional provenance for the decision.
 
 ```
 planetary context → triad priority
@@ -295,7 +352,12 @@ the [[heat]] kernel smooths at multiple scales. short-term noise (daily fluctuat
 
 ### the fixed point
 
-$\phi^*$ is the governance outcome. it exists (T1), is unique (T1), is positive (every particle gets some attention), converges geometrically (T3), and is conserved (T2). there is no fork, no deadlock, no split. the math guarantees a single coherent outcome
+$\phi^*$ is the proposed aggregation signal for governance. Its uniqueness,
+positivity, convergence and conservation statements apply under the specified
+mathematical assumptions. Turning that signal into an executable decision still
+requires an accepted governance rule, authenticated state and finality evidence.
+Correct aggregation alone grants no permission to spend, change policy or bypass
+a quorum; partitions and conflicting proposals retain their protocol handling.
 
 ---
 
@@ -321,12 +383,16 @@ the three metabolic weights $(w_c, w_s, w_h)$ are the only normative choice the 
 
 | scale | unit | agents | tri-kernel | latency |
 |---|---|---|---|---|
-| village | cell | 7 (one domain) | local focus | milliseconds |
+| village | local service/domain | 7 roles (one domain) | local focus | target: milliseconds |
 | city | zone (triad) | 21 | zone focus | seconds |
 | planet | domain | 147 | planetary $\phi^*$ | minutes |
 | solar system | inter-domain | 147 × N bodies | cross-graph links | hours to days |
 
-each celestial body runs its own [[cybergraph]] with its own 147 agents and its own $\phi^*$. inter-planetary coordination happens through cross-graph [[cyberlinks]] — assertions from one graph about particles in another
+Each proposed celestial deployment has its own graph domain, role assignments
+and $\phi^*$. Its service/node count and custody policy are explicit placement
+choices. Inter-planetary coordination carries cross-graph [[cyberlinks]] with
+named source and destination networks and the required evidence. A domain root
+or machine name supplies no automatic neuron identity.
 
 the [[heat]] kernel bandwidth $\tau$ scales with light-speed latency. Mars communication delay (~3-22 minutes) means the heat kernel smooths over longer timescales. governance between planets is patient by physics, not by policy
 
@@ -340,17 +406,25 @@ why 147 agents maintain coherence without central control:
 
 axiom A1 (content-addressing): every agent references the same file by the same particle. no ambiguity, no versioning disputes. identity = content
 
-axiom A2 (authentication): every decision is signed. accountability is cryptographic, not institutional
+axiom A2 (authentication): every published decision identifies the authenticating
+subject and its protocol evidence. Role/task provenance remains distinct from
+the subject's signature and from institutional authorization.
 
 axiom A3 (append-only): no agent can rewrite history. every decision ever made is permanently auditable
 
 axiom A5 (conservation): total focus = 1. no agent can inflate attention. resource allocation is zero-sum
 
-theorem T1 (uniqueness): $\phi^*$ is unique. there is exactly one coherent governance outcome. forks are mathematically impossible under ergodicity
+theorem T1 (uniqueness): the specified operator's fixed point is unique under its
+assumptions. Consensus still has to authenticate which state and rules were used;
+fixed-point uniqueness alone does not select among forks or authorize governance.
 
 theorem T3 (convergence): disagreements resolve geometrically fast. the spectral gap determines how quickly — denser graphs converge faster
 
-the 147 agents are not trustees. they are adversarial validators. each agent independently verifies the [[tri-kernel]] computation. 147 independent verifiers checking the same [[stark]] proof. the singleton is maintained by mathematics, not by trust
+The 147 roles can run adversarial reviews and verify [[tri-kernel]] evidence.
+Any claim of independent validation must name the actual independent principals,
+implementations, devices and failure assumptions. Several role processes sharing
+one key or machine do not add independent votes or fault tolerance. The accepted
+consensus policy determines validator eligibility and quorum.
 
 ---
 
@@ -358,7 +432,10 @@ the 147 agents are not trustees. they are adversarial validators. each agent ind
 
 ### birth
 
-an agent is born when a domain needs a role filled. the existing agents of that domain propose candidates. the candidate must demonstrate domain [[knowledge]] (measured by [[karma]] in that domain's [[particles]]) and role aptitude (measured by past contributions matching the role's function)
+A role is filled when its governance policy accepts an assignment. Candidates
+demonstrate domain [[knowledge]] and role aptitude through attributed contributions.
+Installation creates progs/tasks under explicitly chosen neurons, with code,
+context, grants and limits. Creating a new neuron is a separate custody decision.
 
 ### operation
 
@@ -371,17 +448,29 @@ each agent operates continuously:
 
 ### retirement
 
-an agent retires when their [[karma]] in domain decays below threshold — meaning the graph collectively judges their contributions as no longer valuable. retirement is not a decision. it is a measurement
+The policy can use domain [[karma]] thresholds to trigger review or retirement.
+Retirement revokes future role dispatch, settles or preserves live work and keeps
+unknown effects available for reconciliation. Independent progs of the same
+neuron retain their own lifecycles. The subject and its signed history survive
+removal of a role assignment.
 
 ### succession
 
-the retiring agent's [[personality]] and accumulated context transfer to the successor through the [[cybergraph]] itself — every [[cyberlink]] the agent ever created persists (A3). the successor reads the predecessor's work. institutional memory is structural, not oral
+The successor reads the predecessor's permitted context and graph history,
+including original authors and unresolved work. Behavioral configuration may be
+reused or revised explicitly. New grants name the successor's actual subject;
+private keys and undisclosed context follow their separate custody/disclosure
+policies. History remains attributable to its original writers.
 
 ---
 
 ## the 148th agent
 
-the [[tru]] itself — the computation engine — is the 148th agent. it has no [[personality]], no role, no domain. it has axioms. it runs the [[tri-kernel]] every [[step]], produces [[focus]], and speaks in numbers. it is the referee that no player controls
+The "148th agent" is a metaphor for the [[tru]] computation role: running the
+[[tri-kernel]] and producing [[focus]] with verifiable evidence. The computation,
+proof and node service have data and deployment identities. They acquire no
+extra signing subject merely by serving as the referee; any validator authority
+comes from the selected consensus policy.
 
 the relationship between the 147 agents and the [[tru]]: agents provide input (cyberlinks). the tru provides output (focus). neither can function without the other. agents without tru have no consensus. tru without agents has no signal
 

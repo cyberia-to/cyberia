@@ -4,19 +4,36 @@ alias: cyberia protocol, protocol
 crystal-type: pattern
 crystal-domain: cyberia
 crystal-size: deep
+status: proposal
 ---
 
 # cyberia protocol
 
 what cyberia adds on top of the [[cyb/robot]] architecture to become a sovereign network state. two layers: sovereignty (the state as a Card factory with tiers and jurisdictions) and markets (universal price discovery on every excludable Skill the state offers).
 
-both layers assume the Robot vocabulary — Body, Soul, Avatar, Name; Goal/Task/Skill/Event/Sensor; Sigma denominated in Coins and Cards; PLUMB operations; the accounting projection; the five storage shapes. read [[cyb/robot]] first.
+Both layers follow [cyb anatomy](../../cyb/anatomy.md) and
+[architecture](../../cyb/specs/architecture.md). A named robot attaches neurons;
+soul configures behavior, soma performs cognition, avatar visualizes the robot
+and body supplies devices/resources. Progs and tasks carry work IDs and retained
+state. Neurons carry authenticated authority. Sigma manages qualified subjects
+and assets; ward checks grants and vault performs scoped key operations.
+
+Coins, Cards, PLUMB operations and the accounting projection are application
+contracts. Their [domain roles](../../cyber/specs/domain-ladder.md) distinguish
+service, token book/issuer, graph partition and runtime work. This document
+proposes a governance/economic profile; adoption and enforcement follow each
+named network and legal wrapper.
 
 ---
 
 ## 1. sovereignty — the state as Skill catalog
 
-at state scale the protocol exposes specific Skills as methods residents can invoke. a state Robot is fundamentally a Card factory. it mints Cards (passports, permits, titles), denominates Coins (currency, taxes, transfers), and maintains the authoritative ledger.
+At state scale, services expose Skills residents can invoke. A state robot
+coordinates the progs that issue Cards (passports, permits, titles), account for
+Coins and retain their complete obligations. Issuer authority belongs to named
+neurons or an explicit collective policy. The state name and each service/role
+ID remain application data. Each mint, transfer and governance action captures
+its subject, network, payload and current grant before execution.
 
 residents relate to a state through tier depth. each tier is a superset of the previous:
 
@@ -30,7 +47,11 @@ residents relate to a state through tier depth. each tier is a superset of the p
 
 full funnel: [[ladder]]
 
-tiers are a permission model — they determine which Skills a Neuron can call. moving up the tiers is a one-way ratchet earned through demonstrated commitment.
+Tiers supply credential conditions for the Skills a neuron may invoke. A
+verified tier is checked alongside the current action grant and the service's
+admission policy; a role label alone grants no execution access. The proposed
+tier progression is a one-way ratchet earned through demonstrated commitment,
+with revocation, credential expiry and legal exceptions specified separately.
 
 states nest in jurisdictional hierarchy: planet → treaty body → state → region → municipality → parcel. rules cascade from parent to child; the more specific level overrides for its scope. navigation is voluntary — every entry is consent, every exit is withdrawal. the only involuntary subscription is birth.
 
@@ -124,9 +145,9 @@ non-fungible Spot Assets compound through the oracle. every new citizen makes ci
 - [[cyberia/protocol/marketplace-spec]] — contract interfaces and data structures
 - [[cyberia/protocol/maps]] — nested spatial scales (sector · block · district · region)
 - [[ladder]] — VISIT → STAY → SETTLE → BELONG (the fundamental funnel)
-- [[cyberia/foundation/governance]] — the 147 agents and the capitulation curve
+- [[cyberia/foundation/governance]] — the 147 organizational roles and the capitulation curve
 - [[cyberia/foundation/org]] — the seven lenses applied to specific cyberian entities
-- [[soma]] — the runtime that animates a single Robot
+- [[soma]] — cognition, durable tasks and tool orchestration over neuron execution
 
 ---
 

@@ -3,6 +3,7 @@ tags: cyberia, protocol, space, land, property, geometry
 alias: space accounting, spatial ownership, volume title, double ownership, 3d cadastre
 crystal-type: pattern
 crystal-domain: cyberia
+status: proposal
 ---
 # space accounting
 
@@ -13,6 +14,19 @@ a short whitepaper on exclusive ownership of three-dimensional space.
 **why.** graph edges and `owner_count(id) = 1` stop double *token* ownership. they do not stop double *place* ownership. without a geometry invariant, two Cards can name overlapping ground — the failure mode of every paper and most digital land registries. markets, cities, and off-world settlement all need the second invariant before the first is worth much.
 
 built on [[TSP-2]], [[marketplace]] (time), [[location proof]] and [[space doctrine]] (frames), [[services]] (land verbs). presentation lives in [[cyb]] / [[mir]] / Bevy and is never authority. intellectual debt to Galt Project's double-ownership analysis (polygon exclusivity + deposit challenge); this note generalizes it to 3D frames and the soft3 stack.
+
+This is a proposed application protocol. Its title issuer, owner, challenger and
+arbitrator are explicitly authorized subjects under a named network/governance
+profile. Frame, solid, Card, service and prog IDs identify data and work;
+they supply no implicit neuron keys. [Cyb architecture](../../cyb/specs/architecture.md)
+governs execution and the [domain model](../../cyber/specs/domain-ladder.md)
+separates spatial partitioning from graph sharding.
+
+Every mint/challenge/transfer captures its subject, network, exact payload and
+current grant. Progs retain unknown attempts and reservations through restart;
+rendered maps and local receipts keep their evidence distinct from settled title.
+The challenge profile must specify whether an overlapping candidate is pending
+or committed and how deposits, priority and expiry enforce the claimed invariant.
 
 → related: [[marketplace-spec]] calendars · [[land rights agreement]] · [[century index]]
 
@@ -216,8 +230,10 @@ survey error and crustal motion are **update** workflows (oracles / arbitration)
 ## 6 · presentation (soft3)
 
 ```text
-authority     graph + TSP-2 + SpaceIndex + challenge
-capability    [[ward]] gates mint / challenge / transfer
+authority     authenticated issuer/owner/challenger + accepted title rules
+state         graph + TSP-2 + SpaceIndex + challenge obligations
+execution     progs under captured neuron/network/grant
+capability    ward checks current permission; vault performs scoped signing
 present       optional Bevy WorldState::SpaceMap
               prysm / sugarloaf for title UI
               mir remains spectral graph only
@@ -260,7 +276,7 @@ on-chain land registry remains gated by legal wrappers where states exist; the *
 
 1. **spec** — this document; Prism + intersects + invariants (I1–I5)  
 2. **kernel** — pure Rust `prism_intersect`, R-tree index (seed from [[cyberia-my]] geometry if useful)  
-3. **ledger v0** — mint + deposit + pair challenge (log or CosmWasm / PLUMB)  
+3. **ledger v0** — mint + deposit + pair challenge in graph records or an explicit CosmWasm / PLUMB profile; Log renders retained history
 4. **CV maps** — import Phase-0 plot rings as proposed claims; run offline overlap audit  
 5. **marketplace hook** — calendar on SpaceClaim id for sublease  
 6. **SpaceMap view** — Bevy world, read-only then propose  
