@@ -32,11 +32,11 @@ no external manager sets goals. the [[metabolic]] signal IS the goal. $\dot{M} >
 
 ## goal trees on the cybergraph
 
-goals are [[particles]]. goal decomposition is [[cyberlinks]]. the goal tree IS the graph
+goals are [[files]]. goal decomposition is [[cyberlinks]]. the goal tree IS the graph
 
 ### the root goal
 
-one particle: `metabolic-growth`. focus $\phi^*$ on this particle = priority weight
+one file: `metabolic-growth`. focus $\phi^*$ on its particle = priority weight
 
 $$\dot{M}(t) = w_c \frac{\dot{\text{cap}}}{\text{cap}} + w_s \frac{\dot{J}}{J} + w_h \frac{\dot{H}}}{H}$$
 

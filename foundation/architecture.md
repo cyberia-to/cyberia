@@ -338,7 +338,7 @@ subsystem autonomy: each body is sovereign. the solar-system-level $\phi^*$ is a
 
 why 147 agents maintain coherence without central control:
 
-axiom A1 (content-addressing): every agent references the same particle by the same hash. no ambiguity, no versioning disputes. identity = content
+axiom A1 (content-addressing): every agent references the same file by the same particle. no ambiguity, no versioning disputes. identity = content
 
 axiom A2 (authentication): every decision is signed. accountability is cryptographic, not institutional
 

@@ -206,21 +206,21 @@ common substitutions to make:
 | node, vertex (in graph context) | particle                       |
 | edge, link                      | cyberlink                      |
 | user, actor, account            | neuron                         |
-| post, tweet, document, card     | particle                       |
+| post, tweet, document, card     | file                           |
 | knowledge graph                 | cybergraph                     |
 | smart contract                  | .tri program (or .nox program) |
 | wallet                          | neuron, sigma                  |
 | IPFS, content addressing layer  | radio (or BAO for streaming)   |
 
 the rule: before writing a term that names something in the cyber
-stack, check if there is a root particle for that concept. if yes,
+stack, check if there is a root file for that concept. if yes,
 use the root name. if the concept genuinely names something foreign
 (e.g. "IPFS CID" specifically refers to IPFS's convention, not
 cyber's), use the foreign term explicitly and qualify it.
 
-how to check: every root concept's particle has an `alias:` field in
+how to check: every root concept's file has an `alias:` field in
 its YAML frontmatter listing common substitutes. `grep -r "alias:.*<term>"
-~/cyber/cyber/root/` finds the root particle for any alias. when in
+~/cyber/cyber/root/` finds the root file for any alias. when in
 doubt, search the graph before writing.
 
 the failure mode to avoid: when writing about architecture that

@@ -46,7 +46,7 @@ the path to that runs through models. models are how intelligence is packaged, m
 
 cyber monopolizes the full cycle through four properties:
 
-**one format** — a single particle carries a complete model. compile knowledge from the graph into a model; reverse any existing model back into the graph. the format flows both ways. every other format is one-directional.
+**one format** — a single file carries a complete model. compile knowledge from the graph into a model; reverse any existing model back into the graph. the format flows both ways. every other format is one-directional.
 
 **shared delivery** — every user who downloads also serves. models share common parts across sizes. the network gets faster as it grows. no central server owns it.
 
