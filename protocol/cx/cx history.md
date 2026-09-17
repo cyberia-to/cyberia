@@ -10,7 +10,7 @@ the published level of the [[century-index]] over the decade ending 2026-09-17. 
 
 ## reading
 
-- over the decade the basket returned +6637.2% in dollars
+- over the decade the basket returned +6637.1% in dollars
 - the last twelve months: -13.3%
 - the range of the decade: 0.99 low, 83.36 high
 
@@ -118,7 +118,7 @@ quantities never change, so shares do. the basket was written at 35% crypto, 30%
 
 ## what a lease actually paid
 
-the machinery of §2 run over this decade: the basket priced in bitcoin, each annual step collared at +35%/−15%, the dual floor holding underneath. a lease signed on 2016-09-17 at one CX of rent invoiced $0.99 in its first year and $176.05 in its last — +67.7% a year, compounded.
+the machinery of §2 run over this decade: the basket priced in bitcoin, each annual step collared at +35%/−15%, the dual floor holding underneath. a lease signed on 2016-09-17 at one CX of rent invoiced $0.99 in its first year and $176.04 in its last — +67.7% a year, compounded.
 
 | year | basket in btc | rent owed | invoice |
 |---|---|---|---|
@@ -132,7 +132,7 @@ the machinery of §2 run over this decade: the basket priced in bitcoin, each an
 | 2023-09-17 | 0.00127882 | 0.00217708 | $52.24 |
 | 2024-09-17 | 0.00107290 | 0.00217708 | $115.08 |
 | 2025-09-17 | 0.00081177 | 0.00217708 | $208.49 |
-| 2026-09-17 | 0.00083314 | 0.00217708 | $176.05 |
+| 2026-09-17 | 0.00083314 | 0.00217708 | $176.04 |
 
 the collar never engaged. bitcoin outran the basket every single year, so the sat leg of the floor bound every year instead, holding the rent at exactly its year-zero satoshi. read as the protocol reads it: whenever bitcoin outruns the basket the lease is a bitcoin-standard obligation, and this decade it was one throughout. the tenant paid in dollars whatever bitcoin did.
 
@@ -140,8 +140,8 @@ the collar never engaged. bitcoin outran the basket every single year, so the sa
 
 | leg | fix (usd) | share |
 |---|---|---|
-| BTC | 80,865.07 | 52.2% |
-| ETH | 2,572.99 | 45.7% |
+| BTC | 80,864.52 | 52.2% |
+| ETH | 2,572.97 | 45.7% |
 | CNY | 0.144871 | 0.2% |
 | USD | 1 | 0.2% |
 | GOLD | 4,426.38 | 0.8% |
