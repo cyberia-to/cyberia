@@ -71,7 +71,7 @@ this series is a reconstruction from free public data — evidence and orientati
 |---|---|---|
 | BTC | Coinbase BTC-USD daily close | 2021-01-07 … 2026-09-18 · 2081 observations |
 | ETH | Coinbase ETH-USD daily close | 2021-01-07 … 2026-09-18 · 2081 observations |
-| CNY | ECB reference rate via Frankfurter | 2021-01-07 … 2026-09-17 · 1460 observations |
+| CNY | ECB reference rate via Frankfurter | 2021-01-07 … 2026-09-18 · 1461 observations |
 | USD | quote currency, fixed at 1 | 2021-01-07 … 2021-01-07 · 1 observations |
 | GOLD | LBMA gold PM fix (USD) | 1968-04-01 … 2026-09-17 · 14685 observations |
 | CU | IMF global copper price via FRED (monthly) | 1992-01-01 … 2026-07-01 · 415 observations |
@@ -102,8 +102,8 @@ of the 4 anniversaries after signing: the basket set the rent outright in 0 year
 
 | leg | fix (usd) | share |
 |---|---|---|
-| BTC | 80,758.02 | 23.6% |
-| ETH | 2,567.31 | 9.5% |
+| BTC | 80,764.32 | 23.6% |
+| ETH | 2,567.47 | 9.5% |
 | CNY | 0.144894 | 9.7% |
 | USD | 1 | 10.4% |
 | GOLD | 4,428.47 | 25.8% |
