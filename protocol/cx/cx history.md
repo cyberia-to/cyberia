@@ -102,8 +102,8 @@ of the 4 anniversaries after signing: the basket set the rent outright in 0 year
 
 | leg | fix (usd) | share |
 |---|---|---|
-| BTC | 80,756.65 | 23.6% |
-| ETH | 2,567.26 | 9.5% |
+| BTC | 80,758.02 | 23.6% |
+| ETH | 2,567.31 | 9.5% |
 | CNY | 0.144894 | 9.7% |
 | USD | 1 | 10.4% |
 | GOLD | 4,428.47 | 25.8% |
