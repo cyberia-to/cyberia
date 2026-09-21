@@ -6,12 +6,12 @@ crystal-domain: cyberia
 ---
 # cx history
 
-the published level of the [[century-index]] from its base date to 2026-09-20. one CX is the basket that cost $1 on 2022-01-07; today it costs $1.43. every price enters as a trailing 365-day average, so the series moves at the pace of a year, not a day — which is what a century-scale obligation asks of it.
+the published level of the [[century-index]] from its base date to 2026-09-21. one CX is the basket that cost $1 on 2022-01-07; today it costs $1.43. every price enters as a trailing 365-day average, so the series moves at the pace of a year, not a day — which is what a century-scale obligation asks of it.
 
 ## reading
 
 - since 2022-01-07 the basket returned +43.0% in dollars
-- the last twelve months: +6.9%
+- the last twelve months: +6.8%
 - the range since the base date: 0.83 low, 1.46 high
 
 ## quantities
@@ -69,8 +69,8 @@ this series is a reconstruction from free public data — evidence and orientati
 
 | leg | source | observed range |
 |---|---|---|
-| BTC | Coinbase BTC-USD daily close | 2021-01-07 … 2026-09-20 · 2083 observations |
-| ETH | Coinbase ETH-USD daily close | 2021-01-07 … 2026-09-20 · 2083 observations |
+| BTC | Coinbase BTC-USD daily close | 2021-01-07 … 2026-09-21 · 2084 observations |
+| ETH | Coinbase ETH-USD daily close | 2021-01-07 … 2026-09-21 · 2084 observations |
 | CNY | ECB reference rate via Frankfurter | 2021-01-07 … 2026-09-18 · 1461 observations |
 | USD | quote currency, fixed at 1 | 2021-01-07 … 2021-01-07 · 1 observations |
 | GOLD | LBMA gold PM fix (USD) | 1968-04-01 … 2026-09-18 · 14686 observations |
@@ -82,7 +82,7 @@ copper and uranium publish monthly and carry forward between prints, as a closed
 
 ## drift
 
-quantities never change, so shares do. the basket was written at 35% crypto, 30% fiat, 35% elements; since 2022-01-07 bitcoin and ether have given up 1.9 points of share against the rest, leaving the basket at 33.1% crypto today. this is the arithmetic of fixed quantities, not a flaw in the fixes — but over a 25-80 year lease it is the property that decides what the obligation actually tracks. the T4 review valve exists for exactly this question, and it moves at most one leg of at most 10% weight every fifth year.
+quantities never change, so shares do. the basket was written at 35% crypto, 30% fiat, 35% elements; since 2022-01-07 bitcoin and ether have given up 1.9 points of share against the rest, leaving the basket at 33.0% crypto today. this is the arithmetic of fixed quantities, not a flaw in the fixes — but over a 25-80 year lease it is the property that decides what the obligation actually tracks. the T4 review valve exists for exactly this question, and it moves at most one leg of at most 10% weight every fifth year.
 
 ## what a lease actually paid
 
@@ -102,13 +102,13 @@ of the 4 anniversaries after signing: the basket set the rent outright in 0 year
 
 | leg | fix (usd) | share |
 |---|---|---|
-| BTC | 80,574.37 | 23.6% |
-| ETH | 2,557.33 | 9.4% |
-| CNY | 0.144942 | 9.7% |
+| BTC | 80,494.23 | 23.6% |
+| ETH | 2,552.81 | 9.4% |
+| CNY | 0.144966 | 9.8% |
 | USD | 1 | 10.4% |
-| GOLD | 4,432.17 | 25.8% |
-| CU | 12,600.13 | 9.4% |
-| OIL | 84.75 | 4.1% |
-| UX | 67.70 | 7.1% |
+| GOLD | 4,434.05 | 25.8% |
+| CU | 12,609.85 | 9.4% |
+| OIL | 84.93 | 4.1% |
+| UX | 67.71 | 7.1% |
 
-the fix is published daily at [cyberia.my/cx](https://cyberia.my/cx) and rebuilt from source by [[cx]]. generated 2026-09-20.
+the fix is published daily at [cyberia.my/cx](https://cyberia.my/cx) and rebuilt from source by [[cx]]. generated 2026-09-21.
