@@ -182,6 +182,19 @@ conventional prefixes: `feat:`, `fix:`, `refactor:`, `docs:`, `test:`,
 before committing: zero lint warnings, all tests pass. if anything
 fails, fix before committing.
 
+## release train
+
+the release train is the one way a binary reaches a person. it runs for [[cyb]], [[cyber]] and [[soft3]] first; every other component joins by the same rules when its owner says so. the train is the control behind phase 1 of [[cyber/launch]].
+
+- truth is origin. a candidate is built only from committed, pushed inputs on the default branch of every repository it closes over. a working tree is never an input. `sources.json` records every sibling's HEAD; a dirty or unpushed input marks the candidate local, and a local candidate can never become a release.
+- one candidate every friday, 12:00 UTC, cut by an agent from origin: `candidate-YYYYMMDD.N`, a draft pre-release on GitHub carrying binaries per platform, `SHA256SUMS`, `sources.json`, `candidate.json` (the three versions and every sibling HEAD) and `release-validation.json` (every gate with its result). platforms: macOS arm64 and x64, Linux arm64 and x64; cyb adds the Android apk. no Windows, no iOS.
+- gates are executable and named in each repository's CLAUDE.md. a red gate is a red candidate; a red candidate is published as red with its evidence, never hidden and never fixed by hand on the artifact. cyb: `cargo check --tests --locked`, `cargo test`, `make fleet` green, the dmg and the apk build. cyber: `cargo build --release --locked`, `cargo test --locked`, `nu scripts/release.nu --locked-sources`, the graph builds with optica. soft3: `cargo test` in `crate/`, the node boots and answers `/status`, the conformance snapshot passes.
+- versions are semver. one bump is one pull request named `chore: <component> <version>` that touches `Cargo.toml`, `CHANGELOG.md` and the sibling pins in the other two repositories, and nothing else. tags are `v<version>` on the default branch. the phase-1 manifest `soft3/release/phase1.toml` pins the sibling revisions the train closes over; a sibling that drifted from its pin is a red gate, and the fix is a bump pull request, never a path edit in a working tree.
+- freeze: from the cut until the verdict nothing merges into the three default branches. fixes for the candidate go to `release/<date>` as `fix:` commits and are merged back after the verdict.
+- roles: agents cut candidates, run gates, write receipts and open bump pull requests. only the owner merges a bump, promotes a candidate to a release, publishes to crates.io or pushes a tag. an agent never does any of those four, and `make ship` in cyb is the owner's hand, not an agent's.
+- receipts live in `<repo>/audit/release-<date>/`: the commands run, their output, the hashes. release notes are a numbered list of what changed, each item linking its pull request, and every number in them comes from a receipt.
+- the launch page work log gets one row per candidate: date, versions, verdict, link.
+
 ## writing style
 
 state what something is directly. never use "this is not X, it is Y"
