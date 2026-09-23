@@ -194,6 +194,7 @@ the release train is the one way a binary reaches a person. it runs for [[cyb]],
 - roles: agents cut candidates, run gates, write receipts and open bump pull requests. only the owner merges a bump, promotes a candidate to a release, publishes to crates.io or pushes a tag. an agent never does any of those four, and `make ship` in cyb is the owner's hand, not an agent's.
 - receipts live in `<repo>/audit/release-<date>/`: the commands run, their output, the hashes. release notes are a numbered list of what changed, each item linking its pull request, and every number in them comes from a receipt.
 - the launch page work log gets one row per candidate: date, versions, verdict, link.
+- every agent reads these rules: Claude through CLAUDE.md, Codex, Kimi Code and Grok Build through AGENTS.md in the same directory; the two files say the same thing and this page is their source. global copies live in `~/.agents/AGENTS.md`, `~/.codex/AGENTS.md`, `~/.kimi-code/AGENTS.md`.
 
 ## writing style
 
