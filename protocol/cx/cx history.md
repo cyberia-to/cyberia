@@ -82,7 +82,7 @@ copper and uranium publish monthly and carry forward between prints, as a closed
 
 ## drift
 
-quantities never change, so shares do. the basket was written at 35% crypto, 30% fiat, 35% elements; since 2022-01-07 bitcoin and ether have given up 2.0 points of share against the rest, leaving the basket at 32.9% crypto today. this is the arithmetic of fixed quantities, not a flaw in the fixes — but over a 25-80 year lease it is the property that decides what the obligation actually tracks. the T4 review valve exists for exactly this question, and it moves at most one leg of at most 10% weight every fifth year.
+quantities never change, so shares do. the basket was written at 35% crypto, 30% fiat, 35% elements; since 2022-01-07 bitcoin and ether have given up 2.0 points of share against the rest, leaving the basket at 32.9% crypto today. this is the arithmetic of fixed quantities, not a flaw in the fixes — but over a 25-80 year lease it is the property that decides what the obligation actually tracks: the basket rides with the world, as the quantities were written.
 
 ## what a lease actually paid
 
