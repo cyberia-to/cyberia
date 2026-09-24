@@ -196,6 +196,17 @@ the release train is the one way a binary reaches a person. it runs for [[cyb]],
 - the launch page work log gets one row per candidate: date, versions, verdict, link.
 - every agent reads these rules: Claude through CLAUDE.md, Codex, Kimi Code and Grok Build through AGENTS.md in the same directory; the two files say the same thing and this page is their source. global copies live in `~/.agents/AGENTS.md`, `~/.codex/AGENTS.md`, `~/.kimi-code/AGENTS.md`.
 
+## moving a page out of cyber
+
+when a research page leaves the cyber wiki, nothing in it is thrown away by default. sort its content by what the code has done with it:
+
+- settled and implemented → the owner's spec, or a section in an existing explainer; the page's own claims are replaced by measured numbers where measurement exists.
+- a projection with a named assumption and an open question → the owner's `roadmap/`, one file per question, with the status the launch registry uses (proven · simulated · measured · open · blocked).
+- a cross-component argument that no single owner holds → `soft3/docs/` as an explainer, with each projection marked measured, refuted as stated, or open.
+- only duplicates of what already lives in a repo, and claims refuted and rewritten elsewhere, are deleted.
+
+the ledger row in `cyber/restructure.md` names where each part went; a deleted page's row is removed, never marked. old wiki-links keep resolving through `alias:` on the destination.
+
 ## writing style
 
 state what something is directly. never use "this is not X, it is Y"
