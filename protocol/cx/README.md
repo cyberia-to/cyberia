@@ -6,7 +6,7 @@ crystal-domain: cyberia
 ---
 # cx
 
-the published fix of the [[century-index]] — ticker CX. one CX is the basket that cost one dollar on the base date, so the level is a price: $1.43 on 2026-09-23, against $1 on 2022-01-07. the protocol page defines the instrument; this subgraph carries what it actually read.
+the published fix of the [[century-index]] — ticker CX. one CX is the basket that cost one dollar on the base date, so the level is a price: $1.42 on 2026-09-24, against $1 on 2022-01-07. the protocol page defines the instrument; this subgraph carries what it actually read.
 
 ## pages
 
@@ -30,7 +30,7 @@ the arithmetic is integer fixed-point end to end, so the same day's data yields 
 | ETH | crypto | 9.4% | 15% |
 | CNY | fiat | 9.8% | 15% |
 | USD | fiat | 10.4% | 15% |
-| GOLD | elements | 25.8% | 15% |
+| GOLD | elements | 25.9% | 15% |
 | CU | elements | 9.4% | 10% |
 | OIL | elements | 4.1% | 5% |
 | UX | elements | 7.1% | 5% |
