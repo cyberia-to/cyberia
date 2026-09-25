@@ -6,12 +6,12 @@ crystal-domain: cyberia
 ---
 # cx history
 
-the published level of the [[century-index]] from its base date to 2026-09-24. one CX is the basket that cost $1 on 2022-01-07; today it costs $1.42. every price enters as a trailing 365-day average, so the series moves at the pace of a year, not a day — which is what a century-scale obligation asks of it.
+the published level of the [[century-index]] from its base date to 2026-09-25. one CX is the basket that cost $1 on 2022-01-07; today it costs $1.42. every price enters as a trailing 365-day average, so the series moves at the pace of a year, not a day — which is what a century-scale obligation asks of it.
 
 ## reading
 
-- since 2022-01-07 the basket returned +43.0% in dollars
-- the last twelve months: +6.5%
+- since 2022-01-07 the basket returned +42.9% in dollars
+- the last twelve months: +6.4%
 - the range since the base date: 0.83 low, 1.46 high
 
 ## quantities
@@ -69,11 +69,11 @@ this series is a reconstruction from free public data — evidence and orientati
 
 | leg | source | observed range |
 |---|---|---|
-| BTC | Coinbase BTC-USD daily close | 2021-01-07 … 2026-09-24 · 2087 observations |
-| ETH | Coinbase ETH-USD daily close | 2021-01-07 … 2026-09-24 · 2087 observations |
-| CNY | ECB reference rate via Frankfurter | 2021-01-07 … 2026-09-23 · 1464 observations |
+| BTC | Coinbase BTC-USD daily close | 2021-01-07 … 2026-09-25 · 2088 observations |
+| ETH | Coinbase ETH-USD daily close | 2021-01-07 … 2026-09-25 · 2088 observations |
+| CNY | ECB reference rate via Frankfurter | 2021-01-07 … 2026-09-24 · 1465 observations |
 | USD | quote currency, fixed at 1 | 2021-01-07 … 2021-01-07 · 1 observations |
-| GOLD | LBMA gold PM fix (USD) | 1968-04-01 … 2026-09-23 · 14689 observations |
+| GOLD | LBMA gold PM fix (USD) | 1968-04-01 … 2026-09-24 · 14690 observations |
 | CU | IMF global copper price via FRED (monthly) | 1992-01-01 … 2026-07-01 · 415 observations |
 | OIL | Brent Europe spot via FRED (daily) | 1987-05-20 … 2026-09-22 · 9092 observations |
 | UX | IMF uranium price via FRED (monthly) | 1992-01-01 … 2026-07-01 · 415 observations |
@@ -102,13 +102,13 @@ of the 4 anniversaries after signing: the basket set the rent outright in 0 year
 
 | leg | fix (usd) | share |
 |---|---|---|
-| BTC | 80,267.72 | 23.5% |
-| ETH | 2,540.79 | 9.4% |
-| CNY | 0.145037 | 9.8% |
+| BTC | 80,203.34 | 23.5% |
+| ETH | 2,537.73 | 9.4% |
+| CNY | 0.145061 | 9.8% |
 | USD | 1 | 10.4% |
-| GOLD | 4,438.46 | 25.9% |
-| CU | 12,639.01 | 9.4% |
-| OIL | 85.14 | 4.1% |
-| UX | 67.76 | 7.1% |
+| GOLD | 4,439.87 | 25.9% |
+| CU | 12,648.73 | 9.4% |
+| OIL | 85.26 | 4.1% |
+| UX | 67.78 | 7.1% |
 
-the fix is published daily at [cyberia.my/cx](https://cyberia.my/cx) and rebuilt from source by [[cx]]. generated 2026-09-24.
+the fix is published daily at [cyberia.my/cx](https://cyberia.my/cx) and rebuilt from source by [[cx]]. generated 2026-09-25.
