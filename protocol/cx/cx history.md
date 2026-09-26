@@ -6,7 +6,7 @@ crystal-domain: cyberia
 ---
 # cx history
 
-the published level of the [[century-index]] from its base date to 2026-09-25. one CX is the basket that cost $1 on 2022-01-07; today it costs $1.42. every price enters as a trailing 365-day average, so the series moves at the pace of a year, not a day — which is what a century-scale obligation asks of it.
+the published level of the [[century-index]] from its base date to 2026-09-26. one CX is the basket that cost $1 on 2022-01-07; today it costs $1.42. every price enters as a trailing 365-day average, so the series moves at the pace of a year, not a day — which is what a century-scale obligation asks of it.
 
 ## reading
 
@@ -69,11 +69,11 @@ this series is a reconstruction from free public data — evidence and orientati
 
 | leg | source | observed range |
 |---|---|---|
-| BTC | Coinbase BTC-USD daily close | 2021-01-07 … 2026-09-25 · 2088 observations |
-| ETH | Coinbase ETH-USD daily close | 2021-01-07 … 2026-09-25 · 2088 observations |
-| CNY | ECB reference rate via Frankfurter | 2021-01-07 … 2026-09-24 · 1465 observations |
+| BTC | Coinbase BTC-USD daily close | 2021-01-07 … 2026-09-26 · 2089 observations |
+| ETH | Coinbase ETH-USD daily close | 2021-01-07 … 2026-09-26 · 2089 observations |
+| CNY | ECB reference rate via Frankfurter | 2021-01-07 … 2026-09-25 · 1466 observations |
 | USD | quote currency, fixed at 1 | 2021-01-07 … 2021-01-07 · 1 observations |
-| GOLD | LBMA gold PM fix (USD) | 1968-04-01 … 2026-09-24 · 14690 observations |
+| GOLD | LBMA gold PM fix (USD) | 1968-04-01 … 2026-09-25 · 14691 observations |
 | CU | IMF global copper price via FRED (monthly) | 1992-01-01 … 2026-07-01 · 415 observations |
 | OIL | Brent Europe spot via FRED (daily) | 1987-05-20 … 2026-09-22 · 9092 observations |
 | UX | IMF uranium price via FRED (monthly) | 1992-01-01 … 2026-07-01 · 415 observations |
@@ -102,13 +102,13 @@ of the 4 anniversaries after signing: the basket set the rent outright in 0 year
 
 | leg | fix (usd) | share |
 |---|---|---|
-| BTC | 80,203.34 | 23.5% |
-| ETH | 2,537.73 | 9.4% |
-| CNY | 0.145061 | 9.8% |
+| BTC | 80,131.93 | 23.5% |
+| ETH | 2,533.97 | 9.3% |
+| CNY | 0.145085 | 9.8% |
 | USD | 1 | 10.4% |
-| GOLD | 4,439.87 | 25.9% |
-| CU | 12,648.73 | 9.4% |
-| OIL | 85.26 | 4.1% |
-| UX | 67.78 | 7.1% |
+| GOLD | 4,441.20 | 25.9% |
+| CU | 12,658.45 | 9.4% |
+| OIL | 85.38 | 4.1% |
+| UX | 67.80 | 7.1% |
 
-the fix is published daily at [cyberia.my/cx](https://cyberia.my/cx) and rebuilt from source by [[cx]]. generated 2026-09-25.
+the fix is published daily at [cyberia.my/cx](https://cyberia.my/cx) and rebuilt from source by [[cx]]. generated 2026-09-26.
