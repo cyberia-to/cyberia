@@ -6,12 +6,12 @@ crystal-domain: cyberia
 ---
 # cx history
 
-the published level of the [[century-index]] from its base date to 2026-09-28. one CX is the basket that cost $1 on 2022-01-07; today it costs $1.42. every price enters as a trailing 365-day average, so the series moves at the pace of a year, not a day — which is what a century-scale obligation asks of it.
+the published level of the [[century-index]] from its base date to 2026-09-29. one CX is the basket that cost $1 on 2022-01-07; today it costs $1.42. every price enters as a trailing 365-day average, so the series moves at the pace of a year, not a day — which is what a century-scale obligation asks of it.
 
 ## reading
 
 - since 2022-01-07 the basket returned +42.9% in dollars
-- the last twelve months: +6.2%
+- the last twelve months: +6.1%
 - the range since the base date: 0.83 low, 1.46 high
 
 ## quantities
@@ -69,11 +69,11 @@ this series is a reconstruction from free public data — evidence and orientati
 
 | leg | source | observed range |
 |---|---|---|
-| BTC | Coinbase BTC-USD daily close | 2021-01-07 … 2026-09-28 · 2091 observations |
-| ETH | Coinbase ETH-USD daily close | 2021-01-07 … 2026-09-28 · 2091 observations |
+| BTC | Coinbase BTC-USD daily close | 2021-01-07 … 2026-09-29 · 2092 observations |
+| ETH | Coinbase ETH-USD daily close | 2021-01-07 … 2026-09-29 · 2092 observations |
 | CNY | ECB reference rate via Frankfurter | 2021-01-07 … 2026-09-28 · 1467 observations |
 | USD | quote currency, fixed at 1 | 2021-01-07 … 2021-01-07 · 1 observations |
-| GOLD | LBMA gold PM fix (USD) | 1968-04-01 … 2026-09-25 · 14691 observations |
+| GOLD | LBMA gold PM fix (USD) | 1968-04-01 … 2026-09-28 · 14692 observations |
 | CU | IMF global copper price via FRED (monthly) | 1992-01-01 … 2026-07-01 · 415 observations |
 | OIL | Brent Europe spot via FRED (daily) | 1987-05-20 … 2026-09-22 · 9092 observations |
 | UX | IMF uranium price via FRED (monthly) | 1992-01-01 … 2026-07-01 · 415 observations |
@@ -102,13 +102,13 @@ of the 4 anniversaries after signing: the basket set the rent outright in 0 year
 
 | leg | fix (usd) | share |
 |---|---|---|
-| BTC | 79,984.88 | 23.4% |
-| ETH | 2,526.34 | 9.3% |
-| CNY | 0.145134 | 9.8% |
+| BTC | 79,902.48 | 23.4% |
+| ETH | 2,522.29 | 9.3% |
+| CNY | 0.145157 | 9.8% |
 | USD | 1 | 10.4% |
-| GOLD | 4,443.90 | 25.9% |
-| CU | 12,677.89 | 9.4% |
-| OIL | 85.62 | 4.2% |
-| UX | 67.83 | 7.1% |
+| GOLD | 4,444.45 | 25.9% |
+| CU | 12,687.61 | 9.4% |
+| OIL | 85.75 | 4.2% |
+| UX | 67.85 | 7.1% |
 
-the fix is published daily at [cyberia.my/cx](https://cyberia.my/cx) and rebuilt from source by [[cx]]. generated 2026-09-28.
+the fix is published daily at [cyberia.my/cx](https://cyberia.my/cx) and rebuilt from source by [[cx]]. generated 2026-09-29.
