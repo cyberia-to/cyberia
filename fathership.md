@@ -28,9 +28,9 @@ the measure of the stance is three numbers, reported on the state board every we
 |---|---|---|---|
 | 0 | the loop on scaffolding: a work graph in the repositories, three artifacts per task, rings of control, a merge policy, council and pool across four vendors, boards rendered from the graph, the backlog cleared | every property below with phase 0 is proven; the launch worker runs again under the loop and produces merged work for a week without an incident | 2026-10 |
 | 1 | the dev dialect on cybergraph: a task is a file, its state is signed cyberlinks, `ready` is an inf query, boards are optica renders, agents read and write through cy; the scaffold and the graph run side by side, the scaffold written, the graph read | one week in which every board the owner reads is rendered from the graph and agrees with the scaffold | 2026-11 → 2026-12 |
-| 2 | the graph is the only truth: the scaffold is retired, GitHub is the wire (pull requests) and a mirror (projects for people who live there) | thirty days of the loop with no scaffold; `ready`, claims and boards answered by inf faster and more reliably than the scaffold did | 2027-01 |
+| 2 | the graph is the only truth: the scaffold is retired, a change travels as a [[patch]] over a channel per task, review and merge are signed cyberlinks, GitHub is a mirror only (pull requests and projects for people who live there) | thirty days of the loop with no scaffold; `ready`, claims and boards answered by inf faster and more reliably than the scaffold did; one week in which every merged change entered as a patch and GitHub only reflected it | 2027-01 |
 
-phase 1 is the dog-food that proves the product: the development of cyber runs on cyber. its ladder is already named: file, particle, cyberlink, neuron, inf, cy, optica. the scaffold exists so that the process works in weeks while the dialect is built in months, and its data model (hash ids, typed dependencies, atomic claims, compaction of closed work) is the shape the dialect will have, so the export is a session, not a project.
+phase 1 is the dog-food that proves the product: the development of cyber runs on cyber. its ladder is already named: file, particle, cyberlink, neuron, inf, cy, optica. the scaffold exists so that the process works in weeks while the dialect is built in months, and its data model (hash ids, typed dependencies, atomic claims, compaction of closed work) is the shape the dialect will have, so the export is a session, not a project. the same holds for the pull request: it is the wire of phases 0 and 1 and is replaced in phase 2 by the [[patch]] of `fs/patch/spec.md`, whose channel, signed operations and first-class conflicts are the shape a pull request already has, minus the snapshot.
 
 ## the loop
 
@@ -83,6 +83,9 @@ the registry is the owner's. states are the evidence axis of [[cyberia/dev]] § 
 | 23 | agents write to the graph through cy headless with their own neuron; a claim is a signed link | cy | 1 | open | — | 2026-12-15 |
 | 24 | the boards the owner reads are rendered from the graph for a week and agree with the scaffold | .github | 1 | open | — | 2026-12-31 |
 | 25 | the scaffold is retired; inf answers `ready`, claims and boards faster and more reliably than the scaffold did, measured over thirty days | cybergraph | 2 | open | — | 2027-01-31 |
+| 26 | a change is a patch: one channel per task, the pull request of phase 0 and 1 becomes a signed set of operations over particles and cyberlinks authored by the agent's neuron, with conflicts as first-class data; the spec is `fs/patch/spec.md` ([[patch]]) | fs | 2 | open | spec v0.1 written; no implementation | 2027-01-15 |
+| 27 | review and merge live in the graph: a reviewer's approval is a signed cyberlink to the patch, the merge policy of [[cyberia/dev]] is evaluated over those links, a merge is the channel union of § 7 of the spec, and rings run against the derived state of the channel | fs | 2 | open | — | 2027-01-31 |
+| 28 | GitHub is a mirror: every merged patch is reflected as a commit on the default branch and every open channel as a pull request, for people who live there; nothing originates on GitHub | .github | 2 | open | — | 2027-01-31 |
 
 ## council and pool
 
@@ -104,6 +107,7 @@ the quota ledger is a resource: councils first, the remainder feeds pools, an un
 | 2026-10-07 | kelvin starts at the kernel rungs (nox, trident, joy); decrements are planned by quarter |
 | 2026-10-07 | the owner's Mac stays the self-hosted runner for Metal, dmg, apk and fleet until a dedicated physical machine exists; every other gate runs on GitHub-hosted runners; the spending limit stays at zero |
 | 2026-10-07 | the pull request backlog is cleared by agents under the sweep rules; when in doubt, close and redo in the loop |
+| 2026-10-07 | in phase 2 GitHub is a mirror only; the wire of a change is the patch of `fs/patch/spec.md`: channel per task, signed operations, conflicts as data, merge as channel union |
 
 ## work log
 

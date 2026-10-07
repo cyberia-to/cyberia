@@ -28,6 +28,8 @@ work is a graph, never a list. a task is one unit of work with a hash id, an own
 
 phase 0 of [[cyberia/fathership]] keeps the graph in beads (`bd`) inside each repository; phase 1 mirrors it into [[cybergraph]] as files and signed cyberlinks; phase 2 retires the scaffold. an agent uses whichever is the writable truth of the current phase and never both.
 
+the pull request is the wire of a change in phases 0 and 1. in phase 2 the wire is the [[patch]] of `fs/patch/spec.md`: one channel per task, a signed set of operations over particles and cyberlinks authored by the agent's neuron, conflicts as first-class data, merge as channel union; review and the merge policy are evaluated over signed cyberlinks to the patch, and GitHub only mirrors the result. every rule of this page that names a pull request names the patch from then on.
+
 the registry rows of [[cyber/launch]] and the quarterly goals are the owner's; they spawn tasks. an agent never invents a row, a goal or a task that no row or goal asks for. a task discovered while working on another gets a `discovered-from` edge and waits its turn.
 
 GitHub issues are an inbox for people outside the loop. an issue becomes a task and closes with the task's link. no issue is the truth of any work. GitHub projects, when they exist, are a mirror of the graph for people who live there.
