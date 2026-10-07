@@ -75,11 +75,17 @@ the owner touches the loop at two points: the vision that spawns tasks, and the 
 
 ## the phases
 
-| phase | tasks live in | a change travels as | GitHub is | gate | when |
-|---|---|---|---|---|---|
-| 0 · scaffolding | beads inside each repository | a pull request | the wire | every phase-0 property proven; the launch worker runs a week under the loop without an incident | 2026-10 |
-| 1 · the dialect | [[cybergraph]] read, beads written, exported within a minute | a pull request | the wire | one week in which every board the owner reads is rendered from the graph and agrees with beads | 2026-11 → 2026-12 |
-| 2 · the graph | [[cybergraph]] only; beads retired | a [[patch]] over a channel per task | a mirror | thirty days without the scaffold; `ready`, claims and boards answered by inf faster than beads did; a week in which every merge entered as a patch | 2027-01 |
+| phase | tasks | change | GitHub | when |
+|---|---|---|---|---|
+| 0 · scaffolding | beads | pull request | the wire | 2026-10 |
+| 1 · the dialect | graph read, beads written | pull request | the wire | 2026-11 → 12 |
+| 2 · the graph | graph only | [[patch]] | a mirror | 2027-01 |
+
+gates:
+
+- phase 0 · every phase-0 property proven; the launch worker runs a week under the loop without an incident
+- phase 1 · one week in which every board the owner reads is rendered from [[cybergraph]] and agrees with beads; beads exports to the graph within a minute
+- phase 2 · thirty days without the scaffold; `ready`, claims and boards answered by inf faster than beads did; a week in which every merge entered as a [[patch]]
 
 phase 1 is the dog-food that proves the product: the development of cyber runs on cyber, on parts that already exist — file, particle, cyberlink, neuron, inf, cy, optica. the scaffold exists so that the process works in weeks while the dialect is built in months; its data model (hash ids, typed dependencies, atomic claims, compaction of closed work) is the shape the dialect will have, so the export is a session, not a project. the same holds for the pull request: the [[patch]] of `fs/patch/spec.md` has the shape a pull request already has — a channel, signed operations, first-class conflicts — minus the snapshot.
 
@@ -204,38 +210,38 @@ law `fs/patch/spec.md` ([[patch]]), [[cyberia/dev]] § the work graph · home `n
 
 ## property registry
 
-the registry is the owner's. state is the evidence axis: `open` · `simulated` · `measured` · `proven`, `blocked` naming what blocks. evidence for rows past `open` is listed under the table.
+the registry is the owner's. state is the evidence axis: `open` · `simulated` · `measured` · `proven`, `blocked` naming what blocks. each subsystem above lists its rows; evidence for rows past `open` follows the table.
 
-| # | property | subsystem | phase | state | close by |
-|---|---|---|---|---|---|
-| 1 | a work graph in the repositories: tasks, typed edges, `ready`, atomic claims (beads) | 1 | 0 | open | 2026-10-14 |
-| 2 | three artifacts before every merge: research, plan, generated change body | 2 | 0 | open | 2026-10-14 |
-| 3 | ring 0 executable in every ladder repository | 4 | 0 | open | 2026-10-21 |
-| 4 | ring 1 executable: product and dependents from `components.toml` | 4 | 0 | open | 2026-10-28 |
-| 5 | ring 2 is the release train over the whole ladder | 4 | 0 | measured | 2026-10-31 |
-| 6 | the semver floor is a law | 4 | 0 | open | 2026-10-21 |
-| 7 | the merge policy holds the token for ring 0 | 5 | 0 | open | 2026-10-21 |
-| 8 | council runs to convergence across four vendors | 3 | 0 | open | 2026-10-28 |
-| 9 | pool spends every vendor's quota on small tasks | 3 | 0 | open | 2026-10-28 |
-| 10 | the reviewer is always another vendor | 3 | 0 | open | 2026-10-21 |
-| 11 | kelvin declared for nox, trident, joy; drift is a red ring 1 | 4 | 0 | open | 2026-10-31 |
-| 12 | one status vocabulary across roadmaps, launch, status, graph | 6 | 0 | open | 2026-10-21 |
-| 13 | context in three layers: soul, pack per rung, research | 2 | 0 | open | 2026-10-28 |
-| 14 | boards rendered from the graph: state, product, component | 6 | 0 | open | 2026-10-31 |
-| 15 | a mayor runs daily with a digest to the owner | 5 | 0 | open | 2026-10-31 |
-| 16 | the refinery merges green batches and bisects red ones | 5 | 0 | open | 2026-11-07 |
-| 17 | the pull request backlog is cleared by the sweep rules | 5 | 0 | measured | 2026-10-08 |
-| 18 | the launch worker runs again under the loop | 5 | 0 | blocked | 2026-11-07 |
-| 19 | runners: GitHub-hosted plus the owner's Mac for Metal, dmg, apk, fleet; spending limit zero | 4 | 0 | open | 2026-10-21 |
-| 20 | GitHub issues are an inbox that becomes tasks | 1 | 0 | open | 2026-10-31 |
-| 21 | the dev dialect is specified: task as file, states as signed links, `ready` as inf | 7 | 1 | open | 2026-11-15 |
-| 22 | beads exports to cyberlinks within a minute | 1 | 1 | open | 2026-11-30 |
-| 23 | agents write to the graph through cy with their own neuron | 7 | 1 | open | 2026-12-15 |
-| 24 | the owner's boards come from the graph for a week and agree with beads | 7 | 1 | open | 2026-12-31 |
-| 25 | beads retired; inf answers `ready`, claims, boards faster, over thirty days | 1 | 2 | open | 2027-01-31 |
-| 26 | a change is a patch: channel per task, signed operations, conflicts as data | 7 | 2 | open | 2027-01-15 |
-| 27 | review and merge live in the graph as signed links; merge is channel union | 7 | 2 | open | 2027-01-31 |
-| 28 | GitHub is a mirror: merged patches as commits, open channels as pull requests | 7 | 2 | open | 2027-01-31 |
+| # | property | phase | state | close by |
+|---|---|---|---|---|
+| 1 | work graph in the repositories (beads) | 0 | open | 2026-10-14 |
+| 2 | three artifacts before every merge | 0 | open | 2026-10-14 |
+| 3 | ring 0 in every ladder repository | 0 | open | 2026-10-21 |
+| 4 | ring 1 computed from components.toml | 0 | open | 2026-10-28 |
+| 5 | ring 2 is the train over the whole ladder | 0 | measured | 2026-10-31 |
+| 6 | the semver floor is a law | 0 | open | 2026-10-21 |
+| 7 | the merge policy holds the ring 0 token | 0 | open | 2026-10-21 |
+| 8 | council converges across four vendors | 0 | open | 2026-10-28 |
+| 9 | pool spends every vendor's quota | 0 | open | 2026-10-28 |
+| 10 | the reviewer is another vendor | 0 | open | 2026-10-21 |
+| 11 | kelvin on nox, trident, joy; drift is red | 0 | open | 2026-10-31 |
+| 12 | one status vocabulary everywhere | 0 | open | 2026-10-21 |
+| 13 | context: soul, pack per rung, research | 0 | open | 2026-10-28 |
+| 14 | boards rendered from the graph | 0 | open | 2026-10-31 |
+| 15 | a mayor runs daily with a digest | 0 | open | 2026-10-31 |
+| 16 | the refinery merges green, bisects red | 0 | open | 2026-11-07 |
+| 17 | the pull request backlog is cleared | 0 | measured | 2026-10-08 |
+| 18 | the launch worker runs under the loop | 0 | blocked | 2026-11-07 |
+| 19 | runners: GitHub plus the owner's Mac | 0 | open | 2026-10-21 |
+| 20 | GitHub issues become tasks | 0 | open | 2026-10-31 |
+| 21 | the dev dialect is specified | 1 | open | 2026-11-15 |
+| 22 | beads exports to cyberlinks in a minute | 1 | open | 2026-11-30 |
+| 23 | agents write to the graph through cy | 1 | open | 2026-12-15 |
+| 24 | the owner's boards come from the graph | 1 | open | 2026-12-31 |
+| 25 | beads retired; inf answers `ready` | 2 | open | 2027-01-31 |
+| 26 | a change is a patch over a channel | 2 | open | 2027-01-15 |
+| 27 | review and merge are signed links | 2 | open | 2027-01-31 |
+| 28 | GitHub is a mirror | 2 | open | 2027-01-31 |
 
 evidence:
 
@@ -247,20 +253,18 @@ evidence:
 
 ## decisions
 
-| date | decision |
-|---|---|
-| 2026-10-07 | GitHub issues are an inbox, never the truth of work; a pull request is the wire of a change, never its record; boards are renders of the graph, GitHub projects a mirror at most |
-| 2026-10-07 | the scaffold is beads, chosen for a data model that is the shape of the dialect; export in phase 1, retirement in phase 2 |
-| 2026-10-07 | vendors by class of work, never by loyalty: council to convergence for the important, pool until the quota is spent for the small; the reviewer is always another vendor |
-| 2026-10-07 | the semver floor is a law: declared bump ≥ computed bump |
-| 2026-10-07 | kelvin starts at nox, trident, joy; decrements planned by quarter |
-| 2026-10-07 | the owner's Mac stays the self-hosted runner for Metal, dmg, apk, fleet until a dedicated machine exists; every other gate on GitHub-hosted runners; spending limit zero |
-| 2026-10-07 | the backlog is cleared by agents under the sweep rules; in doubt, close and redo in the loop |
-| 2026-10-07 | in phase 2 GitHub is a mirror only; the wire is the patch of `fs/patch/spec.md` |
+- 2026-10-07 · GitHub issues are an inbox, never the truth of work; a pull request is the wire of a change, never its record; boards are renders of the graph, GitHub projects a mirror at most
+- 2026-10-07 · the scaffold is beads, chosen for a data model that is the shape of the dialect; export in phase 1, retirement in phase 2
+- 2026-10-07 · vendors by class of work, never by loyalty: council to convergence for the important, pool until the quota is spent for the small; the reviewer is always another vendor
+- 2026-10-07 · the semver floor is a law: declared bump ≥ computed bump
+- 2026-10-07 · kelvin starts at nox, trident, joy; decrements planned by quarter
+- 2026-10-07 · the owner's Mac stays the self-hosted runner for Metal, dmg, apk, fleet until a dedicated machine exists; every other gate on GitHub-hosted runners; spending limit zero
+- 2026-10-07 · the backlog is cleared by agents under the sweep rules; in doubt, close and redo in the loop
+- 2026-10-07 · in phase 2 GitHub is a mirror only; the wire is the [[patch]] of `fs/patch/spec.md`
 
 ## work log
 
 | when | # | where | what | state |
 |---|---|---|---|---|
-| 2026-10-07 | 17 | .github | read-only triage of every open pull request into buckets | running |
-| 2026-10-07 | — | cyberia | this page and the rework of [[cyberia/dev]] | for the owner's reading |
+| 2026-10-07 | 17 | .github | read-only triage of 282 open pull requests | running |
+| 2026-10-07 | — | cyberia | this page; the rework of [[cyberia/dev]] | for reading |
