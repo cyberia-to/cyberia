@@ -30,7 +30,9 @@ phase 0 of [[cyberia/fathership]] keeps the graph in beads (`bd`) inside each re
 
 the pull request is the wire of a change in phases 0 and 1. in phase 2 the wire is the [[patch]] of `fs/patch/spec.md`: one channel per task, a signed set of operations over particles and cyberlinks authored by the agent's neuron, conflicts as first-class data, merge as channel union; review and the merge policy are evaluated over signed cyberlinks to the patch, and GitHub only mirrors the result. every rule of this page that names a pull request names the patch from then on.
 
-the registry rows of [[cyber/launch]] and the quarterly goals are the owner's; they spawn tasks. an agent never invents a row, a goal or a task that no row or goal asks for. a task discovered while working on another gets a `discovered-from` edge and waits its turn.
+the registry rows of [[cyber/launch]] and the goals of [[cyberia/goals]] are the owner's; they spawn tasks. an agent never invents a row, a goal or a task that no row or goal asks for. a task discovered while working on another gets a `discovered-from` edge and waits its turn.
+
+every task carries its lineage: `serves: <goal> · <product> · <clause>` names the goal of the quarter, the product whose definition the change falls under, and the clause of the canon or the specification it serves. a task without lineage is never `ready`. the canon — license, manifesto, purpose and mission, troika and ladder, product definitions, this law — is indexed in [[cyberia/fathership]] § the canon, and a change is accepted against it before anything else.
 
 GitHub issues are an inbox for people outside the loop. an issue becomes a task and closes with the task's link. no issue is the truth of any work. GitHub projects, when they exist, are a mirror of the graph for people who live there.
 
@@ -52,7 +54,7 @@ council is for research, plans, architecture optimization, audits and specificat
 
 pool is for small tasks: one function with its tests, one measurement written to `audit/`, one page. any vendor takes it on a cheap model; the dispatcher chooses by remaining quota and at random on a tie. a task that fails ring 0 twice leaves the pool and enters council as a short research: why this does not get done.
 
-the reviewer is always a different vendor than the implementer. a cheap model reviews a pool change; the best model reviews anything that touches a specification or reaches ring 1.
+the reviewer is always a different vendor than the implementer. a cheap model reviews a pool change; the best model reviews anything that touches a specification or reaches ring 1. the reviewer's first pass is the canon pass: does the change contradict the license, the manifesto, the mission, the product's definition, the ladder law or the vocabulary; a contradiction is labeled `decision` and never merged by policy, whatever the gates say.
 
 quota is a resource and the loop spends all of it: councils first, pools with the remainder, and a window left unspent is work lost. agents run in the vendor's cloud from the repository where that exists, and otherwise on the runner box, a Linux machine with every vendor's CLI under cron that pulls `ready` tasks. the owner's machine runs no agent; it runs gates.
 

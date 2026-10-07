@@ -24,6 +24,103 @@ three numbers on the state board measure the stance, every week:
 | time from a task becoming `ready` to its change merged | how fast the loop turns |
 | decisions brought to the owner, and how many were real ties | judgment or noise |
 
+## the canon
+
+the canon is what the father holds and what every change is accepted against. four layers, each with its documents, its keeper, its cadence and its role in acceptance. the index below is the only place that names all of them; every hub links here.
+
+<svg viewBox="0 0 900 290" width="100%" xmlns="http://www.w3.org/2000/svg" font-size="12" style="font-family:inherit" fill="none" stroke="currentColor" stroke-width="1">
+<defs><marker id="k" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="currentColor" stroke="none"/></marker></defs>
+<rect x="20" y="14" width="440" height="56" rx="6" stroke-width="2"/>
+<text x="32" y="34" fill="currentColor" stroke="none" font-weight="600">identity · 0K</text>
+<text x="32" y="52" fill="currentColor" stroke="none" opacity="0.8">license · manifesto · purpose, vision, mission</text>
+<text x="300" y="34" fill="currentColor" stroke="none" opacity="0.7">the owner alone, rarely</text>
+<rect x="20" y="80" width="440" height="56" rx="6"/>
+<text x="32" y="100" fill="currentColor" stroke="none" font-weight="600">strategy · by quarter</text>
+<text x="32" y="118" fill="currentColor" stroke="none" opacity="0.8">troika · ladder · launch phases · goals of the quarter</text>
+<text x="300" y="100" fill="currentColor" stroke="none" opacity="0.7">the owner, by proposal</text>
+<rect x="20" y="146" width="440" height="56" rx="6"/>
+<text x="32" y="166" fill="currentColor" stroke="none" font-weight="600">products · by release</text>
+<text x="32" y="184" fill="currentColor" stroke="none" opacity="0.8">big: README · litepaper · whitepaper · specs — mini: README · specs</text>
+<text x="300" y="166" fill="currentColor" stroke="none" opacity="0.7">product owner, accepted by decision</text>
+<rect x="20" y="212" width="440" height="56" rx="6"/>
+<text x="32" y="232" fill="currentColor" stroke="none" font-weight="600">law of work · by council</text>
+<text x="32" y="250" fill="currentColor" stroke="none" opacity="0.8">dev · fathership · quality · engineering · projects · documentation</text>
+<text x="300" y="232" fill="currentColor" stroke="none" opacity="0.7">council audits, the owner commits</text>
+<line x1="460" y1="42" x2="520" y2="42" marker-end="url(#k)"/><line x1="460" y1="108" x2="520" y2="108" marker-end="url(#k)"/><line x1="460" y1="174" x2="520" y2="174" marker-end="url(#k)"/><line x1="460" y1="240" x2="520" y2="240" marker-end="url(#k)"/>
+<rect x="522" y="14" width="358" height="254" rx="6" stroke-dasharray="4 3"/>
+<text x="534" y="34" fill="currentColor" stroke="none" font-weight="600">acceptance</text>
+<text x="534" y="58" fill="currentColor" stroke="none">1 · lineage: every task names the goal, the product</text>
+<text x="534" y="74" fill="currentColor" stroke="none">    and the clause it serves; no lineage, never ready</text>
+<text x="534" y="100" fill="currentColor" stroke="none">2 · canon pass: the reviewer's first pass; a contradiction</text>
+<text x="534" y="116" fill="currentColor" stroke="none">    with any layer is a decision, never a merge</text>
+<text x="534" y="142" fill="currentColor" stroke="none">3 · owner-only paths: canon files merge by the owner's hand</text>
+<text x="534" y="158" fill="currentColor" stroke="none">    (CODEOWNERS), every change is a decision row</text>
+<text x="534" y="184" fill="currentColor" stroke="none">4 · re-acceptance: a changed clause reopens every product</text>
+<text x="534" y="200" fill="currentColor" stroke="none">    that cites it; the mayor opens the tasks</text>
+<text x="534" y="226" fill="currentColor" stroke="none">5 · catalog lint: a product without a definition is red</text>
+<text x="534" y="242" fill="currentColor" stroke="none">    on the board; the registry carries the catalog</text>
+<text x="534" y="262" fill="currentColor" stroke="none" opacity="0.7">the layers get colder downward on the page: identity changes least</text>
+</svg>
+
+### the index
+
+| layer | document | what it holds |
+|---|---|---|
+| identity | [[cyber/license]] | the law in six words: don't trust, don't fear, don't beg |
+| identity | [[cyberia/foundation/manifesto]] | seven principles and the oath to life |
+| identity | [[cyberia/foundation/strategy]] § purpose, vision, mission | type 1 civilization · make planets think · build cyberstate, led by superintelligence |
+| strategy | [[cyberia/foundation/strategy]] § the troika | three sovereign forms: cyber the protocol, cyb the interface, cyberia the physical |
+| strategy | `soft3/release/components.toml` · [soft3.org/layers](https://soft3.org/layers) | the ladder: ten products, one per rung, the product line |
+| strategy | [[cyber/launch]] | the phases of the protocol launch; the single tracker of what ships |
+| strategy | [[cyberia/fathership]] | the phases of the way of working; this page |
+| strategy | [[cyberia/goals]] | the goals of the quarter, at most five, each with its measure |
+| products | README · litepaper · whitepaper · `specs/` of each rung | what each product is, for whom, done when; see § the product line |
+| law of work | [[cyberia/dev]] | the law every agent works by |
+| law of work | [[cyberia/quality]] · [[cyberia/engineering]] · [[cyberia/projects]] · [[cyberia/documentation]] · [[cyberia/refinement]] | review passes, pipeline contracts, repo layout, documentation, polishing |
+| doctrines | [[cyberia/foundation/space doctrine]] · `warriors/mining.md` · `warriors/interface.md` · `cyberstates/doctrine.md` · `endeka/foundation/axioms.md` | the law of one domain each, under the identity layer |
+
+the index is a property of the registry (29): a canon document that no hub links is a defect, and a value statement that lives outside this index has no force in acceptance.
+
+### how the father sets a law
+
+a law changes by one procedure, the same for every layer; the layers differ only in who proposes and how often.
+
+1. a proposal file in `cyberia/proposals/<date>-<slug>.md`, in the shape of a KEP: summary · motivation · what changes, quoted · what it contradicts in the canon today · acceptance criteria · the owner as approver. anyone may write it, an agent included.
+2. a council audit, adversarial round first: where does it contradict identity, strategy, a product definition, the vocabulary; which products cite the clause it changes.
+3. the owner's word: the owner commits the change to the canon file; canon paths are owner-only in CODEOWNERS, so no policy and no agent merges them. the decision lands as a row in § decisions with the proposal's link.
+4. re-acceptance: the mayor opens one task per product whose definition cites the changed clause; those tasks carry the lineage `serves: <proposal>` and the product's owner answers them within the quarter.
+5. cadence by layer: identity changes only by the owner's explicit act and is expected to change once in years; strategy by quarter, when goals are set; product definitions by release; the law of work whenever a council audit finds it wanting.
+
+the owner's own tools are therefore four files and one list: `cyberia/goals.md` for the quarter, § decisions here and in [[cyber/launch]] for verdicts, the canon index above for what is law, the proposals directory for what wants to become law, and the state board for what the loop brings him.
+
+## the product line
+
+every repository is a product: a mini product when it is a part, a big product when it is a rung of the ladder or a warrior. the definition is what acceptance checks a change against, so every product has one, and its size follows the product's.
+
+| product | definition | where |
+|---|---|---|
+| mini · a part, a crate, a page set | README: what it is, for whom, which rung and `part_of`, done when, owner; `specs/` for its contracts | the repository root |
+| big · a rung, a warrior | README as the door; a litepaper: the whole argument in ten minutes; a whitepaper: mechanisms, mathematics, proofs, `status: draft` allowed; `specs/`; `roadmap/` | the repository root, `specs/`, `roadmap/` |
+
+the README of every product carries the same five fields in its frontmatter: `product`, `rung`, `part_of`, `paper` (the litepaper and whitepaper paths, or `README` for a mini product), `done-when`. `components.toml` carries `paper =` for every component, and the registry in `.github` lints the catalog: a product without a definition is red on the component board.
+
+coverage of the ten rungs today, from the checkout of 2026-10-07:
+
+| rung | README | litepaper | whitepaper |
+|---|---|---|---|
+| 1 nox | yes | — | vision paper misplaced at `crystal/vision.md` |
+| 2 trident | yes | — | `trident/docs/explanation/vision.md`, 2026-05 |
+| 3 joy | interface spec only | — | — |
+| 4 cybergraph | yes | — | — |
+| 5 neural | yes | — | — |
+| 6 cy | yes | — | — |
+| 7 soft3 | yes | — | — |
+| 8 cyb | yes | — | `cyb/decide/whitepaper.md`, draft |
+| 9 cyber | yes | [[cyber/litepaper]] | [[cyber/whitepaper]], draft |
+| 10 cyberia | yes | — | [[cyberia/foundation/whitepaper]] |
+
+seven rungs have no litepaper and five have no paper at all. a litepaper is a council task: four vendors, one brief, convergence; the owner accepts it as a decision. property 35 tracks the seven.
+
 ## the map
 
 <svg viewBox="0 0 900 342" width="100%" xmlns="http://www.w3.org/2000/svg" font-size="12" style="font-family:inherit" fill="none" stroke="currentColor" stroke-width="1">
@@ -91,7 +188,7 @@ phase 1 is the dog-food that proves the product: the development of cyber runs o
 
 ## the subsystems
 
-seven subsystems make the loop. each names what it is, where its law is written, where it lives, and which properties of the registry prove it.
+the canon above is what the loop is accepted against; seven subsystems make the loop itself. each names what it is, where its law is written, where it lives, and which properties of the registry prove it.
 
 ### 1 · work graph
 
@@ -242,6 +339,14 @@ the registry is the owner's. state is the evidence axis: `open` · `simulated` �
 | 26 | a change is a patch over a channel | 2 | open | 2027-01-15 |
 | 27 | review and merge are signed links | 2 | open | 2027-01-31 |
 | 28 | GitHub is a mirror | 2 | open | 2027-01-31 |
+| 29 | the canon index is linked from every hub | 0 | open | 2026-10-14 |
+| 30 | `cyberia/goals.md` exists; dispatch orders by it | 0 | open | 2026-10-14 |
+| 31 | every task carries `serves:` lineage | 0 | open | 2026-10-21 |
+| 32 | the canon pass is the reviewer's first pass | 0 | open | 2026-10-21 |
+| 33 | canon paths are owner-only in CODEOWNERS | 0 | open | 2026-10-14 |
+| 34 | the product catalog is linted by the registry | 0 | open | 2026-10-28 |
+| 35 | the seven rungs without a litepaper have one | 0 | open | 2026-12-31 |
+| 36 | the contradictions below are decided | 0 | open | 2026-10-21 |
 
 evidence:
 
@@ -250,6 +355,17 @@ evidence:
 - 17 · `.github/audit/pr-sweep-2026-10-07.md`
 - 18 · paused since 2026-09-24 by the owner; waits for 1, 7, 9
 - 26 · `fs/patch/spec.md` v0.1 written; no implementation
+
+## decisions waiting
+
+the inventory of 2026-10-07 found these contradictions in the canon. each is the owner's; an agent writes the proposal, the owner decides.
+
+- D1 · civilization target: [[cyberia/foundation/strategy]] and `foundation/vision.md` say type 1; the organization profile and the soft3 rung say type 2. proposal: a sequence, type 1 is the purpose of the state on this planet, type 2 the destination of the stack.
+- D2 · one mission sentence: "cyberstate, led by superintelligence" (profile, strategy) · "guided by" (cyberia.to) · "the superintelligent nation" (manifesto, whitepaper) · "a network of cities" (cyberia README). proposal: the strategy's wording everywhere; the others become aliases.
+- D3 · troika and ladder: the troika is the strategic frame, the ladder the product line; soft3 is absent from the troika. proposal: rungs 1–7 and 9 belong to the cyber horse, 8 to cyb, 10 to cyberia, written into strategy § the troika.
+- D4 · cyber as "the god" (profile) and "the protocol for superintelligence" (README). proposal: the profile keeps the poetry, the README is the definition, the profile links it.
+- D5 · `cyberia/foundation/vision.md` speaks in the nomad-community voice of 2025; the whitepaper speaks as the nation. proposal: retire vision.md into the whitepaper's history section.
+- D6 · the nox vision paper lives at `crystal/vision.md`; `cyb-014/decide/whitepaper.md` duplicates `cyb/decide/whitepaper.md` byte for byte. proposal: move the first to `nox/docs/vision.md`, delete the second.
 
 ## decisions
 
