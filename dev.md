@@ -374,3 +374,5 @@ next to borrowed ones.
 ## platform
 
 macOS dev machine: BSD `sed` has no `\b` (use `[[:<:]]w[[:>:]]`); zsh does not word-split unquoted `$var`; `~/.cargo/bin` and `/opt/homebrew/bin` are on PATH; sibling repositories resolve by relative path from `~/cyber`. nushell for scripts; bash only where nushell cannot run.
+
+when localhost dies on the dev machine (connections to 127.0.0.1 stay `SYN_SENT`, `ping 127.0.0.1` loses every packet, a fresh listener on another port fails the same way), the cause is NordVPN's kill switch: pf loads `block drop all` without `set skip on lo0`. check with `sudo pfctl -s Interfaces -v` (lo0 without `(skip)`); fix by reloading the current rules with `set skip on lo0` prepended (`pfctl -s rules` → file → `pfctl -f`), as done 2026-10-07; the durable fix is NordVPN's own setting for local network access.
