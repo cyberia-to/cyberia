@@ -373,11 +373,10 @@ evidence:
 
 the inventory of 2026-10-07 found these contradictions in the canon. each is the owner's; an agent writes the proposal, the owner decides.
 
-- D1 · civilization target: [[cyberia/foundation/strategy]] and `foundation/vision.md` say type 1; the organization profile and the soft3 rung say type 2. proposal: a sequence, type 1 is the purpose of the state on this planet, type 2 the destination of the stack.
+- D1 · civilization target: [[cyberia/foundation/strategy]] and `cyber-valley/vision.md` say type 1; the organization profile and the soft3 rung say type 2. proposal: a sequence, type 1 is the purpose of the state on this planet, type 2 the destination of the stack.
 - D2 · one mission sentence: "cyberstate, led by superintelligence" (profile, strategy) · "guided by" (cyberia.to) · "the superintelligent nation" (manifesto, whitepaper) · "a network of cities" (cyberia README). proposal: the strategy's wording everywhere; the others become aliases.
 - D3 · troika and ladder: the troika is the strategic frame, the ladder the product line; soft3 is absent from the troika. proposal: rungs 1–7 and 9 belong to the cyber horse, 8 to cyb, 10 to cyberia, written into strategy § the troika.
 - D4 · cyber as "the god" (profile) and "the protocol for superintelligence" (README). proposal: the profile keeps the poetry, the README is the definition, the profile links it.
-- D5 · `cyberia/foundation/vision.md` speaks in the nomad-community voice of 2025; the whitepaper speaks as the nation. proposal: retire vision.md into the whitepaper's history section.
 - D6 · the nox vision paper lives at `crystal/vision.md`; `cyb-014/decide/whitepaper.md` duplicates `cyb/decide/whitepaper.md` byte for byte. proposal: move the first to `nox/docs/vision.md`, delete the second.
 
 ## decisions
@@ -390,6 +389,7 @@ the inventory of 2026-10-07 found these contradictions in the canon. each is the
 - 2026-10-07 · the owner's Mac stays the self-hosted runner for Metal, dmg, apk, fleet until a dedicated machine exists; every other gate on GitHub-hosted runners; spending limit zero
 - 2026-10-07 · the backlog is cleared by agents under the sweep rules; in doubt, close and redo in the loop
 - 2026-10-07 · in phase 2 GitHub is a mirror only; the wire is the [[patch]] of `fs/patch/spec.md`
+- 2026-10-07 · D5 decided: `cyberia/foundation/vision.md` is the valley's 2025 pitch and moves to `cyber-valley/vision.md` as [[cyber valley vision]]; the nation speaks in the whitepaper and the strategy
 
 ## work log
 
