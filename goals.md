@@ -12,10 +12,14 @@ the goals of the quarter. the owner writes them; at most five; each names its me
 
 ## 2026-Q4
 
-| goal | measure | serves | rows |
-|---|---|---|---|
-| G1 · bostrom and pussy reborn on soft3 | two chains live from the burial snapshots on 2026-11-05 | mission · the cyber horse · [[cyber/launch]] phase 1 | launch registry |
-| G2 · the loop in force | every phase-0 property of [[cyberia/fathership]] proven; the launch worker runs a week without an incident | law of work · fathership phase 0 | fathership 1–20, 29–36 |
+- G1 · bostrom and pussy reborn on soft3
+  - measure: two chains live from the burial snapshots on 2026-11-05
+  - serves: the mission · the cyber horse · [[cyber/launch]] phase 1
+  - rows: the launch registry
+- G2 · the loop in force
+  - measure: every phase-0 property of [[cyberia/fathership]] proven; the launch worker runs a week without an incident
+  - serves: the law of work · fathership phase 0
+  - rows: fathership 1–20, 29–36
 
 drawn from the active pages on 2026-10-07; the owner edits this table and nothing else orders the work.
 

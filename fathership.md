@@ -59,25 +59,40 @@ the canon is what the father holds and what every change is accepted against. fo
 <text x="534" y="200" fill="currentColor" stroke="none">    that cites it; the mayor opens the tasks</text>
 <text x="534" y="226" fill="currentColor" stroke="none">5 · catalog lint: a product without a definition is red</text>
 <text x="534" y="242" fill="currentColor" stroke="none">    on the board; the registry carries the catalog</text>
-<text x="534" y="262" fill="currentColor" stroke="none" opacity="0.7">the layers get colder downward on the page: identity changes least</text>
+<text x="534" y="262" fill="currentColor" stroke="none" opacity="0.7">colder downward: identity changes least</text>
 </svg>
 
 ### the index
 
-| layer | document | what it holds |
-|---|---|---|
-| identity | [[cyber/license]] | the law in six words: don't trust, don't fear, don't beg |
-| identity | [[cyberia/foundation/manifesto]] | seven principles and the oath to life |
-| identity | [[cyberia/foundation/strategy]] § purpose, vision, mission | type 1 civilization · make planets think · build cyberstate, led by superintelligence |
-| strategy | [[cyberia/foundation/strategy]] § the troika | three sovereign forms: cyber the protocol, cyb the interface, cyberia the physical |
-| strategy | `soft3/release/components.toml` · [soft3.org/layers](https://soft3.org/layers) | the ladder: ten products, one per rung, the product line |
-| strategy | [[cyber/launch]] | the phases of the protocol launch; the single tracker of what ships |
-| strategy | [[cyberia/fathership]] | the phases of the way of working; this page |
-| strategy | [[cyberia/goals]] | the goals of the quarter, at most five, each with its measure |
-| products | README · litepaper · whitepaper · `specs/` of each rung | what each product is, for whom, done when; see § the product line |
-| law of work | [[cyberia/dev]] | the law every agent works by |
-| law of work | [[cyberia/quality]] · [[cyberia/engineering]] · [[cyberia/projects]] · [[cyberia/documentation]] · [[cyberia/refinement]] | review passes, pipeline contracts, repo layout, documentation, polishing |
-| doctrines | [[cyberia/foundation/space doctrine]] · `warriors/mining.md` · `warriors/interface.md` · `cyberstates/doctrine.md` · `endeka/foundation/axioms.md` | the law of one domain each, under the identity layer |
+identity · the owner alone, rarely
+
+- [[cyber/license]] — the law in six words: don't trust, don't fear, don't beg
+- [[cyberia/foundation/manifesto]] — seven principles and the oath to life
+- [[cyberia/foundation/strategy]] § purpose, vision, mission — type 1 civilization · make planets think · build cyberstate, led by superintelligence
+
+strategy · the owner, by proposal, by quarter
+
+- [[cyberia/foundation/strategy]] § the troika — three sovereign forms: cyber the protocol, cyb the interface, cyberia the physical
+- `soft3/release/components.toml` and [soft3.org/layers](https://soft3.org/layers) — the ladder: ten products, one per rung, the product line
+- [[cyber/launch]] — the phases of the protocol launch; the single tracker of what ships
+- [[cyberia/fathership]] — the phases of the way of working; this page
+- [[cyberia/goals]] — the goals of the quarter, at most five, each with its measure
+
+products · the product owner proposes, a decision accepts
+
+- README · litepaper · whitepaper · `specs/` of each rung and warrior — what the product is, for whom, done when; § the product line
+
+law of work · council audits, the owner commits
+
+- [[cyberia/dev]] — the law every agent works by
+- [[cyberia/quality]] · [[cyberia/engineering]] · [[cyberia/projects]] · [[cyberia/documentation]] · [[cyberia/refinement]] — review passes, pipeline contracts, repo layout, documentation, polishing
+
+doctrines · the law of one domain each, under the identity layer
+
+- [[cyberia/foundation/space doctrine]] — claim beyond Earth
+- `warriors/mining.md` · `warriors/interface.md` — how a warrior mines and how it speaks
+- `cyberstates/doctrine.md` — what a state is
+- `endeka/foundation/axioms.md` — the family form; today an orphan with no inbound link
 
 the index is a property of the registry (29): a canon document that no hub links is a defect, and a value statement that lives outside this index has no force in acceptance.
 
@@ -97,26 +112,24 @@ the owner's own tools are therefore four files and one list: `cyberia/goals.md` 
 
 every repository is a product: a mini product when it is a part, a big product when it is a rung of the ladder or a warrior. the definition is what acceptance checks a change against, so every product has one, and its size follows the product's.
 
-| product | definition | where |
-|---|---|---|
-| mini · a part, a crate, a page set | README: what it is, for whom, which rung and `part_of`, done when, owner; `specs/` for its contracts | the repository root |
-| big · a rung, a warrior | README as the door; a litepaper: the whole argument in ten minutes; a whitepaper: mechanisms, mathematics, proofs, `status: draft` allowed; `specs/`; `roadmap/` | the repository root, `specs/`, `roadmap/` |
+- mini · a part, a crate, a page set — the README: what it is, for whom, which rung and `part_of`, done when, owner; `specs/` for its contracts
+- big · a rung, a warrior — the README as the door; a litepaper, the whole argument in ten minutes; a whitepaper, mechanisms, mathematics, proofs, `status: draft` allowed; `specs/`; `roadmap/`
 
 the README of every product carries the same five fields in its frontmatter: `product`, `rung`, `part_of`, `paper` (the litepaper and whitepaper paths, or `README` for a mini product), `done-when`. `components.toml` carries `paper =` for every component, and the registry in `.github` lints the catalog: a product without a definition is red on the component board.
 
-coverage of the ten rungs today, from the checkout of 2026-10-07:
+coverage of the ten rungs today, from the checkout of 2026-10-07; the paper paths are in the subsystem text and the registry:
 
 | rung | README | litepaper | whitepaper |
 |---|---|---|---|
-| 1 nox | yes | — | vision paper misplaced at `crystal/vision.md` |
-| 2 trident | yes | — | `trident/docs/explanation/vision.md`, 2026-05 |
-| 3 joy | interface spec only | — | — |
+| 1 nox | yes | — | misplaced in crystal |
+| 2 trident | yes | — | vision, 2026-05 |
+| 3 joy | spec only | — | — |
 | 4 cybergraph | yes | — | — |
 | 5 neural | yes | — | — |
 | 6 cy | yes | — | — |
 | 7 soft3 | yes | — | — |
-| 8 cyb | yes | — | `cyb/decide/whitepaper.md`, draft |
-| 9 cyber | yes | [[cyber/litepaper]] | [[cyber/whitepaper]], draft |
+| 8 cyb | yes | — | draft |
+| 9 cyber | yes | [[cyber/litepaper]] | [[cyber/whitepaper]] draft |
 | 10 cyberia | yes | — | [[cyberia/foundation/whitepaper]] |
 
 seven rungs have no litepaper and five have no paper at all. a litepaper is a council task: four vendors, one brief, convergence; the owner accepts it as a decision. property 35 tracks the seven.
