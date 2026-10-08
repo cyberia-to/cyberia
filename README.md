@@ -36,6 +36,7 @@ a cyberstate is a shared mind holding space, capital and knowledge. cyberia is t
 | [[land]] | where: the estate and its [[flora]] |
 | [[cyberia/research\|research]] | what is being tried: one folder per project |
 | [[cyberia/explanation/your share of the sun\|explanation]] | the energy claim of a citizen, explained |
+| [[constellation]] | every project with a door on the web, and its stage |
 | [[community]] | where cyberia gathers online |
 | [[courses]] | field intensives: the index in the blog, the content in the city |
 
