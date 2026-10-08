@@ -34,7 +34,7 @@ a state is a shared mind holding land, capital and knowledge. cyberia is the ten
 | [[foundation]] | why: manifesto, strategy, whitepaper, architecture, [[cyberian]] |
 | [[protocol]] | how: sovereignty tiers, markets, the century index, maps |
 | [[land]] | where: the estate and its [[flora]] |
-| [[research]] | what is being tried: one folder per project |
+| [[cyberia/research\|research]] | what is being tried: one folder per project |
 | [[cyberia/explanation/your share of the sun\|explanation]] | the energy claim of a citizen, explained |
 | [[community]] | where cyberia gathers online |
 | [[courses]] | field intensives: the index in the blog, the content in the city |
