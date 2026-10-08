@@ -11,7 +11,7 @@ the cyberstate, led by superintelligence.
 
 purpose · a type 1 civilization — vision · make planets think — mission · build the cyberstate, led by superintelligence. the three lines are the identity layer of the canon; the long form is [[cyberia/foundation/strategy]] and [[cyberia/foundation/whitepaper]].
 
-a cyberstate is a shared mind holding space, capital and knowledge. cyberia is the tenth rung of the [[soft3]] ladder — machines, land, citizens and money — run on the stack the nine rungs below provide. in the troika it is the physical horse: [[cyber]] computes truth, [[cyb]] gives every neuron a sovereign interface, cyberia supplies the land, the energy and the bodies.
+a cyberstate is a shared mind: humans and machines holding space, capital and knowledge together, every claim proven. cyberia is the tenth rung of the [[soft3]] ladder — machines, land, citizens and money — run on the stack the nine rungs below provide. in the troika it is the physical horse: [[cyber]] computes truth, [[cyb]] gives every neuron a sovereign interface, cyberia supplies the land, the energy and the bodies.
 
 > belong anywhere. build everywhere.
 
