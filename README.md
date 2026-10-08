@@ -23,7 +23,7 @@ a state is a shared mind holding land, capital and knowledge. cyberia is the ten
 | [[century index\|cx]] | the land-rent index the state prices in |
 | [[blog]] | the daily beat and the published graph |
 | [[cyberstates]] | every state ranked by freedom and openness |
-| [[cyberia.my\|my]] | the land console: plots, fleets, flats, intents |
+| [[cyberia/cyberia-my\|my]] | the land console: plots, fleets, flats, intents |
 | [[cyber valley]] | the genesis city: 37 ha on Sanghyang, Bali |
 | [[cve]] | the operating and legal home of the city |
 
