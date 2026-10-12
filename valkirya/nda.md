@@ -40,7 +40,7 @@ the agreement holds for twenty years from signing. the obligations of section 3 
 
 ## 6. breach
 
-a breach closes the recipient's path in the school. the discloser keeps the right to claim damages under the governing law.
+a breach closes the recipient's path in the school. the discloser keeps the right to claim damages under section 7.
 
 ## 7. law and reach
 
@@ -53,7 +53,7 @@ a claim goes, at the claimant's choice, to the courts of any country where the r
 the recipient signs in one of two ways and sends the result to [@st_joy](https://t.me/st_joy) in a private message:
 
 - with her key — a signature over the text of this version
-- by hand — on the PDF of this agreement, as a scan
+- by hand — on the [PDF of this agreement](media/valkirya-nda.pdf), as a scan
 
 the discloser countersigns and returns it. each side keeps one copy. signed copies live privately and never enter the graph.
 
