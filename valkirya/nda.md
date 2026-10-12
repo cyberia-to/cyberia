@@ -42,9 +42,11 @@ the agreement holds for twenty years from signing. the obligations of section 3 
 
 a breach closes the recipient's path in the school. the discloser keeps the right to claim damages under the governing law.
 
-## 7. law
+## 7. law and reach
 
-the law of the Republic of Armenia governs this agreement. disputes go to the courts of Yerevan.
+the agreement is multinational. it acts on the whole planet Earth and in major blockchains, Ethereum and Bitcoin first among them.
+
+a claim goes, at the claimant's choice, to the courts of any country where the recipient lives, works or holds assets, under that country's law, or to international arbitration. a signature made with a key is evidence in each of these venues.
 
 ## 8. signing
 
