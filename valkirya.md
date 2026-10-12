@@ -2,7 +2,7 @@
 tags: cyberia
 crystal-type: entity
 crystal-domain: cyberia
-alias: valkiria
+alias: valkiria, valkyra, valkyria, valkiriya, valkyrie, valkyrie school, school of empresses, empress school
 ---
 # valkirya
 
