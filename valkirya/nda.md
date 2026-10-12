@@ -36,7 +36,7 @@ the obligations cover information that is confidential at the moment of disclosu
 
 ## 5. term
 
-the agreement holds for five years from signing. the obligations of section 3 hold for the same five years, also after the recipient leaves the school or declines it.
+the agreement holds for twenty years from signing. the obligations of section 3 hold for the same twenty years, also after the recipient leaves the school or declines it.
 
 ## 6. breach
 
