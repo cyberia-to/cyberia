@@ -48,7 +48,12 @@ the law of the Republic of Armenia governs this agreement. disputes go to the co
 
 ## 8. signing
 
-the recipient signs by hand or by electronic signature and sends the signed copy to [@st_joy](https://t.me/st_joy). the discloser countersigns and returns it. each side keeps one copy. signed copies live privately and never enter the graph.
+the recipient signs in one of two ways and sends the result to [@st_joy](https://t.me/st_joy) in a private message:
+
+- with her key — a signature over the text of this version
+- by hand — on the PDF of this agreement, as a scan
+
+the discloser countersigns and returns it. each side keeps one copy. signed copies live privately and never enter the graph.
 
 | | discloser | recipient |
 |---|---|---|
