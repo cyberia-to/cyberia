@@ -6,7 +6,7 @@ alias: valkirya director, valkiria director, director of valkirya
 ---
 # director
 
-## looking for a director 👑
+## looking for a director 👩‍💼
 
 I am Joy. I am building [[cyberia]] — a network of cyberstates guided by [[superintelligence]].
 The first settlement is [Cyber Valley](https://cybervalley.io/) in [Bali](https://cyberia.my/map).
