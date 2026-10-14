@@ -38,6 +38,14 @@ emission to miners ≈ 77.8 k NOID/day ≈ **$14 k/day ≈ $5 M/year** at the 20
 
 a 200+ GH/s CPU network at a $2 M cap is a leveraged directional bet by miners, not an equilibrium. this asymmetry is the strongest single datapoint in the model.
 
+## layer 1.5. miner structure and dump-vs-hodl, measured
+
+measured 2026-10-13 against a live v2.0.3 node (`paranoid_getBlockHeader` over all ~221 k headers + `paranoid_getSlotsByOwner` per miner; script and raw data in `~/cyber/.tmp/noid-analytics/`):
+
+- **only 109 distinct mining addresses** have ever produced a block. the top-10 hold **96.3 %** of all blocks; the largest single address mined ≈ 1.97 M NOID (20 % of all miner supply). the network is ~100 entities, mostly always-on servers — the "thousands of MacBooks" hypothesis is refuted for the current era.
+- **retention at mining addresses ≈ 1.5 %**: 99.7 % of mined supply sits at addresses that moved essentially everything (retention < 10 %). reading: mined coins are churned or sold almost immediately — but on pruned data self-custody consolidation is indistinguishable from dumping, so 1.5 % is a *lower* bound for hodl, and the dump share proper needs exchange-deposit tagging.
+- implication for the model: the decentralization leg of the narrative is early — concentration reflects proving-node economics (always-on servers win the proof-gated race). the GUI-miner leg of distribution has not yet shown up on-chain. the SoV scenarios do not depend on miner count, but the "CPU commodity money" narrative needs this number to grow into the thousands before it is evidence rather than aspiration.
+
 ## layer 2. the comparable set
 
 | comp | ≈ cap | frame | NOID wins on | NOID loses on |
