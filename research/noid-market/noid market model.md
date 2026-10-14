@@ -31,7 +31,7 @@ the structural facts that matter for the market model:
 
 ## layer 1. the security-budget anchor
 
-emission to miners ≈ 77.8 k NOID/day ≈ **$14 k/day ≈ $5 M/year** at the 2026-10-10 exchange print, against a market cap of ≈ **$1.9 M** — the annual security budget exceeds the cap ≈ 2.6×. bitcoin's budget/cap ratio is ≈ 1 %/yr. two resolutions, and the market must pick:
+emission to miners ≈ 77.8 k NOID/day ≈ **$14 k/day ≈ $5 M/year** at the 2026-10-10 exchange print, against a market cap of ≈ **$1.9 M** — the annual security budget exceeds the cap ≈ 2.6×. **revision, 2026-10-13:** the cap has since crept to ≈ $3 M on thin liquidity, with no catalyst and no market-making — pre-narrative accumulation, the market beginning to discover the design before it has formulated the question (§0). the budget/cap imbalance persists (≈ 1.7×). bitcoin's budget/cap ratio is ≈ 1 %/yr. two resolutions, and the market must pick:
 
 - miners are mining *upward* (hashrate persists) → cap re-rates toward $300–500 M at the current budget;
 - the budget collapses to equilibrium yield → the cap settles in the niche floor.
