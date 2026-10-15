@@ -11,7 +11,7 @@ cyberia is an organism that builds things. this page says what it is made of, wh
 
 ## first principles
 
-1. the state is a mind. one shared mind, the [[cybergraph]], holds space, capital and knowledge; every act of the organism is a [[cyberlink]] cast by a [[neuron]] and settled by [[focus]].
+1. the state is a mind. one shared mind, the [[cybergraph]], holds space, capital and knowledge; every act of the organism is a [[cyber/cyberlink|cyberlink]] cast by a [[neuron]] and settled by [[focus]].
 2. everything is a file. a goal, a task, a product, a decision, a measurement, an event — each is one page with a particle, typed and dated, and nothing exists for the organism until it is a page. a list that someone maintains by hand is a copy; the pages are the truth, and every list, board or queue on this site is a query over them.
 3. the organism has seven lenses, from [[org]]: purpose and principles, which constrain everything; people, products, processes, projects and portfolio, which are its five folders. an entity of cyberia — the state, the company, a city, a council — is shaped the same way at any scale.
 4. work has five primitives, from [[soma]] § work. a goal is a desired state; a task is an instance of work toward it; a skill is a reusable way of working; an event is a point in time; a sensor perceives and fires. every other word of management reduces to these: a product is a goal kept alive, a process is a composite skill, a project is a task with sub-tasks, a decision is a review task, a gate is a sensor on a goal, a release is an event.
