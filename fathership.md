@@ -340,7 +340,7 @@ the registry is the owner's. state is the evidence axis: `open` · `simulated` �
 | 14 | boards rendered from the graph | 0 | open | 2026-10-31 |
 | 15 | a mayor runs daily with a digest | 0 | open | 2026-10-31 |
 | 16 | the refinery merges green, bisects red | 0 | open | 2026-11-07 |
-| 17 | the pull request backlog is cleared | 0 | measured | 2026-10-08 |
+| 17 | the pull request backlog is cleared | 0 | open | 2026-10-22 |
 | 18 | the launch worker runs under the loop | 0 | blocked | 2026-11-07 |
 | 19 | runners: GitHub plus the owner's Mac | 0 | open | 2026-10-21 |
 | 20 | GitHub issues become tasks | 0 | open | 2026-10-31 |
@@ -365,7 +365,6 @@ evidence:
 
 - 5 · `soft3/release/train.py`, `train_gates.py`; candidates cut since 2026-09-25
 - 13 · `ctx/build.nu` has provenance and atomic replace; the pinned list is by hand, dated 2026-09-13
-- 17 · `.github/audit/pr-sweep-2026-10-07.md`
 - 18 · paused since 2026-09-24 by the owner; waits for 1, 7, 9
 - 26 · `fs/patch/spec.md` v0.1 written; no implementation
 
@@ -395,5 +394,5 @@ the inventory of 2026-10-07 found these contradictions in the canon. each is the
 
 | when | # | where | what | state |
 |---|---|---|---|---|
-| 2026-10-07 | 17 | .github | read-only triage of 282 open pull requests | running |
+| 2026-10-07 | 17 | .github | read-only triage of 282 open pull requests | stopped with the session before writing its file; 307 open on 2026-10-15; redo |
 | 2026-10-07 | — | cyberia | this page; the rework of [[cyberia/dev]] | for reading |
