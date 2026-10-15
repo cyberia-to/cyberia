@@ -34,7 +34,7 @@ node 7 is the user of the delivery: a body that takes the product page as a scri
 
 ## lanes
 
-the lane of a unit is computed from the files it touches and the ladder's dependency graph, never declared by its author. contained: one repository, one part, covered by tests. wide: a contract, a shared crate, anything a rung above depends on; the specifications of rungs 1–7 are wide and pass the owner's hand. irreversible: production data, money, deletion, a public deploy that people already use; this lane does not open without the owner, and that is a lane, not a threshold.
+the lane of a unit is computed from the files it touches and the ladder's dependency graph, never declared by its author. contained: one repository, one part, covered by tests. wide: a contract, a shared crate, anything a rung above depends on; the specifications of rungs 1–7 are wide and pass the owner's hand. irreversible: production data, money, deletion, the production chain; this lane does not open without the owner, and that is a lane, not a threshold. the landings and decks — the doors of the products — stay wide for now: green checks and a clean trajectory open them, so the state moves fast; the day comes to freeze and stabilise them, and on that day they move to the irreversible lane by a decision, not by drift.
 
 ## the train
 

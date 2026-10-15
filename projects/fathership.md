@@ -59,4 +59,5 @@ review tasks of the owner with status done, by date.
 - 2026-10-07 · in phase 2 GitHub is a mirror; the wire is the [[patch]]
 - 2026-10-07 · d5: the 2025 vision page is the valley's pitch and lives in cyber valley
 - 2026-10-08 · d2: the mission sentence is "the cyberstate, led by superintelligence" everywhere
+- 2026-10-15 · landings and decks stay in the wide lane — fast now, frozen later by a decision
 - 2026-10-15 · the charter is one scheme; the development process is [[dev]] and [[deliver]]; fathership is the first project, not the law
