@@ -29,10 +29,16 @@ a cyberstate is a shared mind uniting space, capital and knowledge; cyberia buil
 
 ## this repository
 
+the seven lenses of [[org]] and the pages behind them.
+
 | section | what |
 |---|---|
-| [[foundation]] | why: manifesto, strategy, whitepaper, architecture, [[cyberian]] |
-| [[protocol]] | how: sovereignty tiers, markets, the century index, maps |
+| [[foundation]] | purpose and principles: manifesto, strategy, whitepaper, architecture, [[cyberian]] |
+| [[products]] | the goals kept alive: ten product pages and their dots |
+| [[deliver\|processes]] | how work moves: the one process, deliver |
+| [[fathership\|projects]] | task clusters: fathership, the first |
+| [[people]] | the roles and the bodies that carry them |
+| [[protocol]] | how the state computes: sovereignty tiers, markets, the century index, maps |
 | [[land]] | where: the estate and its [[flora]] |
 | [[cyberia/research\|research]] | what is being tried: one folder per project |
 | [[cyberia/explanation/your share of the sun\|explanation]] | the energy claim of a citizen, explained |
@@ -42,6 +48,6 @@ a cyberstate is a shared mind uniting space, capital and knowledge; cyberia buil
 
 ## the way of working
 
-[[cyberia/dev]] is the law every agent works by. [[cyberia/fathership]] is how the owner governs and the road to development on the [[cybergraph]]. [[cyberia/goals]] holds the goals of the quarter.
+[[dev]] is how cyberia works: its first principles, its objects, the charter as one scheme, the process [[deliver]], the roles and the views. [[fathership]] is the first project, which brings that page into force. [[goals]] holds the goals of the quarter.
 
 the flag: seven circles in a heptagon — the visible spectrum bent into a loop, each circle carrying its innate emotion and grown symbol per the [[color]] map.
