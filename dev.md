@@ -40,7 +40,7 @@ task status: `open → doing → done`, or `closed`, or `abandoned`. a task is r
 
 the charter is one scheme: what cyberia holds to, in the order it is held. every box is a page.
 
-<svg viewBox="0 0 900 420" width="100%" xmlns="http://www.w3.org/2000/svg" font-size="12" style="font-family:inherit" fill="none" stroke="currentColor" stroke-width="1">
+<svg viewBox="0 0 900 432" width="100%" xmlns="http://www.w3.org/2000/svg" font-size="12" style="font-family:inherit" fill="none" stroke="currentColor" stroke-width="1">
 <style>a text{fill:#4ade80}a:hover text{fill:#fff}text{fill:currentColor;stroke:none}</style>
 <rect x="20" y="12" width="860" height="78" rx="8" stroke-width="2"/>
 <text x="34" y="32" font-weight="600">identity · the owner's hand, once in years</text>
@@ -64,20 +64,22 @@ the charter is one scheme: what cyberia holds to, in the order it is held. every
 </g>
 <text x="34" y="190" opacity="0.8">kernel 1–3 · core 4–7 · apps 8–10 · no rung depends on a rung above it · specifications of 1–7 pass the owner's hand</text>
 <text x="34" y="208" opacity="0.8">a product page is a goal kept alive; its claims are dots: 🟢 measured · 🟡 target · 🔴 mock; the product is delivered when every dot is green</text>
-<rect x="20" y="236" width="420" height="92" rx="8"/>
+<rect x="20" y="236" width="420" height="104" rx="8"/>
 <a href="/cyberia/foundation/architecture"><text x="34" y="256" font-weight="600">people · 147 roles</text></a>
-<text x="34" y="276" opacity="0.8">7 roles × 21 domains: keeper · runner · sensor · counter · seer · bridge-in · bridge-out</text>
-<text x="34" y="292" opacity="0.8">7 councils by facet: form · mass · space · life · word · work · play</text>
-<text x="34" y="308" opacity="0.8">bodies today: claude · codex · kimi · grok · the genesis neurons master and joy</text>
-<rect x="460" y="236" width="420" height="92" rx="8"/>
+<text x="34" y="274" opacity="0.8">7 roles × 21 domains · 7 councils by facet</text>
+<text x="34" y="290" opacity="0.8">keeper · runner · sensor · counter · seer · bridge-in · bridge-out</text>
+<text x="34" y="306" opacity="0.8">form · mass · space · life · word · work · play</text>
+<text x="34" y="322" opacity="0.8">bodies today: claude · codex · kimi · grok · master · joy</text>
+<rect x="460" y="236" width="420" height="104" rx="8"/>
 <a href="/cyberia/processes/deliver"><text x="474" y="256" font-weight="600">process · deliver</text></a>
-<text x="474" y="276" opacity="0.8">propose → specify → build → check → release → measure</text>
-<text x="474" y="292" opacity="0.8">the owner renders verdicts; the roles do the rest</text>
-<text x="474" y="308" opacity="0.8">one score: M = cap · syntropy · happiness</text>
-<rect x="20" y="342" width="860" height="64" rx="8" stroke-dasharray="4 3"/>
-<text x="34" y="362" font-weight="600">the record · the cybergraph</text>
-<text x="34" y="382" opacity="0.8">every page a particle, every relation a signed cyberlink, every claim with evidence; boards, queues and registries are queries over it</text>
-<a href="/cyberia/projects/fathership"><text x="34" y="398" opacity="0.8">today the record runs on scaffolding — repositories and GitHub; the project that moves it onto the graph is fathership</text></a>
+<text x="474" y="274" opacity="0.8">propose → specify → build → check → release → measure</text>
+<text x="474" y="290" opacity="0.8">the owner renders verdicts; the roles do the rest</text>
+<text x="474" y="306" opacity="0.8">convergence for what matters, dispatch for what is small</text>
+<text x="474" y="322" opacity="0.8">one score: M = cap · syntropy · happiness</text>
+<rect x="20" y="354" width="860" height="64" rx="8" stroke-dasharray="4 3"/>
+<text x="34" y="374" font-weight="600">the record · the cybergraph</text>
+<text x="34" y="394" opacity="0.8">every page a particle, every relation a signed cyberlink, every claim with evidence; boards, queues and registries are queries over it</text>
+<a href="/cyberia/projects/fathership"><text x="34" y="410" opacity="0.8">today the record runs on scaffolding — repositories and GitHub; the project that moves it onto the graph is fathership</text></a>
 </svg>
 
 ## the process
