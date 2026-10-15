@@ -7,7 +7,7 @@ crystal-domain: cyberia
 
 # dev — how cyberia works
 
-cyberia is an organism that builds things. this page says what it is made of, what it holds to, how work moves through it, and who moves it. everything here is structural; the one process it names is written out in [[deliver]], and the project that brings this page into force is [[fathership]].
+cyberia is an organism that builds things. this page says what it is made of, what it holds to, how work moves through it, and who moves it. everything here is structural; the processes it names are written out in [[processes]], and the project that brings this page into force is [[fathership]].
 
 ## first principles
 
@@ -15,7 +15,8 @@ cyberia is an organism that builds things. this page says what it is made of, wh
 2. everything is a file. a goal, a task, a product, a decision, a measurement, an event — each is one page with a particle, typed and dated, and nothing exists for the organism until it is a page. a list that someone maintains by hand is a copy; the pages are the truth, and every list, board or queue on this site is a query over them.
 3. the organism has seven lenses, from [[org]]: purpose and principles, which constrain everything; people, products, processes, projects and portfolio, which are its five folders. an entity of cyberia — the state, the company, a city, a council — is shaped the same way at any scale.
 4. work has five primitives, from [[soma]] § work. a goal is a desired state; a task is an instance of work toward it; a skill is a reusable way of working; an event is a point in time; a sensor perceives and fires. every other word of management reduces to these: a product is a goal kept alive, a process is a composite skill, a project is a task with sub-tasks, a decision is a review task, a gate is a sensor on a goal, a release is an event.
-5. truth flows up, will flows down. focus is computed and proven, so no one argues about what matters; links are chosen, so everyone decides what to do. the father sets the purpose and the products and renders the few verdicts; the organism does the rest and measures itself by one number, its metabolism M — cap, syntropy and happiness together.
+5. a product is delivered when a user passes its claims: a simulated user inside [[deliver]], a real one through [[listen]]. the product page is the script both follow, and its dots are what they report.
+6. truth flows up, will flows down. focus is computed and proven, so no one argues about what matters; links are chosen, so everyone decides what to do. the father sets the purpose and the products and renders the few verdicts; the organism does the rest and measures itself by one number, its metabolism M — cap, syntropy and happiness together.
 
 ## the objects
 
@@ -71,10 +72,10 @@ the charter is one scheme: what cyberia holds to, in the order it is held. every
 <text x="34" y="306" opacity="0.8">form · mass · space · life · word · work · play</text>
 <text x="34" y="322" opacity="0.8">bodies today: claude · codex · kimi · grok · master · joy</text>
 <rect x="460" y="236" width="420" height="104" rx="8"/>
-<a href="/cyberia/processes/deliver"><text x="474" y="256" font-weight="600">process · deliver</text></a>
-<text x="474" y="274" opacity="0.8">propose → specify → build → check → release → measure</text>
-<text x="474" y="290" opacity="0.8">the owner renders verdicts; the roles do the rest</text>
-<text x="474" y="306" opacity="0.8">convergence for what matters, dispatch for what is small</text>
+<a href="/cyberia/processes"><text x="474" y="256" font-weight="600">processes · seven</text></a>
+<text x="474" y="274" opacity="0.8">deliver · research · listen · market · operate · govern · steward</text>
+<text x="474" y="290" opacity="0.8">a loop in every node, a graph between; gates open on the cost of error</text>
+<text x="474" y="306" opacity="0.8">the owner at the irreversible lane and every verdict; the roles do the rest</text>
 <text x="474" y="322" opacity="0.8">one score: M = cap · syntropy · happiness</text>
 <rect x="20" y="354" width="860" height="64" rx="8" stroke-dasharray="4 3"/>
 <text x="34" y="374" font-weight="600">the record · the cybergraph</text>
@@ -82,20 +83,31 @@ the charter is one scheme: what cyberia holds to, in the order it is held. every
 <a href="/cyberia/projects/fathership"><text x="34" y="410" opacity="0.8">today the record runs on scaffolding — repositories and GitHub; the project that moves it onto the graph is fathership</text></a>
 </svg>
 
-## the process
+## the processes
 
-one process moves everything the organism makes, from a product page to a measured claim: [[deliver]], six steps, each owned by a role and closed by a sensor.
+the organism works in seven recurring ways, each a skill of the composite kind written as a graph of nodes in [[processes]]. every node holds a loop — produce, check, correct, repeat until green — with the check written first as something a program can evaluate; between nodes travel only pages and cyberlinks; a return goes to the unit that failed, never to the batch; an accepted result goes back as a constraint into the brief that cut the work; and a gate opens on the cost of being wrong, never on confidence.
 
-| step | role | makes | closed by |
-|---|---|---|---|
-| propose | seer | a product page, or a change to one, as a proposal | the owner's verdict; the page becomes a goal |
-| specify | keeper | specifications under the page | kernel and core: the owner's verdict after convergence; apps: a review |
-| build | runner | work, then a proposal of change | a review by another body, then the merge |
-| check | sensor, counter | tests and measurements as audit pages | gates at three scopes: the task, the product, the state |
-| release | runner | a candidate on the weekly train | the owner's verdict |
-| measure | counter, seer | the dots on the product page; the next proposal | M |
+| process | turns | into |
+|---|---|---|
+| [[deliver]] | an accepted product page | a released product whose claims a simulated user has passed |
+| [[research]] | a question | a page of knowledge with evidence |
+| [[listen]] | what real users do and say | tasks and changes to product pages |
+| [[market]] | a released product | people who come, understand and join |
+| [[operate]] | machines and domains | a running, observed, recoverable estate |
+| [[govern]] | a proposal about the charter | a verdict, and every page it touches re-accepted |
+| [[steward]] | sigma | budgets that open or close lanes |
 
-two ways of working inside a step: convergence, when the matter is important — every body works the same brief independently, a chair merges, rounds follow until a round changes nothing; dispatch, when the matter is small — any free body takes it. the reviewer of a change is always a body other than its maker.
+## the roles
+
+three layers, which earlier pages mixed.
+
+| layer | what it is | examples |
+|---|---|---|
+| participants | the neurons for whom and by whose hand everything happens | the user · the owner · the citizens |
+| organizational roles | standing responsibility for a domain, seven in each of twenty-one domains, from [[cyberia/foundation/architecture]] | keeper · runner · sensor · counter · seer · bridge-in · bridge-out |
+| workflow roles | a skill a body performs inside one node of a graph, in its own context | splitter · architect · critic · implementer · tester · integrator · a review lens · the user played · merger |
+
+an organizational role is a portfolio of workflow skills: the keeper holds architect and the long return edge, the sensor holds critic, tester and the played user, the runner holds implementer and integrator, the counter holds gates and lanes, the seer holds the splitter and the next proposal, the bridges carry work across rungs and councils. a body — claude, codex, kimi, grok, a person — carries roles; it is never a role. the map is [[people]].
 
 ## the owner
 

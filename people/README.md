@@ -18,4 +18,17 @@ the agents of cyberia and the roles they carry, from [[org]]: a role is a portfo
 | counter | measure | measures, sets the dots, keeps receipts |
 | bridge-in, bridge-out | relation | carries work across rungs and across councils |
 
+workflow roles are the skills a body performs inside one node of a process, in its own context; each belongs to an organizational role's portfolio.
+
+| workflow role | held by | in which process |
+|---|---|---|
+| splitter | seer | intake of [[deliver]], frame of [[research]], sort of [[listen]] |
+| architect | keeper | design |
+| critic | sensor | design, build, story |
+| implementer, integrator | runner | build, integrate, make, apply |
+| tester, the user played | sensor | build, use |
+| review lens | one body per lens | review, by the passes of [[cyberia/quality]] |
+| gate, lanes, counts | counter | merge, weigh, count, open |
+| the voice | the owner | send |
+
 bodies today: claude, codex, kimi, grok; the genesis neurons master and joy hold the owner's verdicts. a council is the three domains of one facet — form · mass · space · life · word · work · play — and every component of the ladder names its facet in `soft3/release/components.toml`, so every task is born in its council.
