@@ -182,6 +182,29 @@ conventional prefixes: `feat:`, `fix:`, `refactor:`, `docs:`, `test:`,
 before committing: zero lint warnings, all tests pass. if anything
 fails, fix before committing.
 
+## no Node.js
+
+Node.js and its ecosystem are banned from every repository under
+`~/cyber` and from agent workflows: node, npm, npx, yarn, pnpm, bun,
+`package.json`, lockfiles, `node_modules`, playwright or puppeteer
+driven by node, any `.js`/`.mjs` tool run by node. browser JavaScript
+that a page ships is fine; a toolchain that needs node to build, test,
+deploy or check it is out. settled by the owner 2026-10-16, after node
+crept back once already.
+
+the replacements:
+
+- builds — Rust, trunk, static files; [[optica]] for graph sites
+- scripts — nushell or Python (stdlib first)
+- browser checks — Chrome or Brave headless (`--dump-dom`,
+  `--screenshot`) or a Python CDP client (`cyber/scripts/cdp.py`)
+- deploys — rsync, or a Python client of the host's API
+  (`cyber/scripts/netlify_deploy.py`)
+
+any dependency, tool, MCP server or CI step that drags node in is
+rejected. if a task seems to need it, find the Rust/Python path or ask
+the owner; never install it.
+
 ## release train
 
 the release train is the one way a binary reaches a person. it runs for [[cyb]], [[cyber]] and [[soft3]] first; every other component joins by the same rules when its owner says so. the train is the control behind phase 1 of [[cyber/launch]].
