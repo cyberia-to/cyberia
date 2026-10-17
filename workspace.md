@@ -1,6 +1,6 @@
 ---
 tags: cyber, article
-alias: project structure, repo layout, project conventions
+alias: project structure, repo layout, project conventions, project structure, workspace
 crystal-type: pattern
 crystal-domain: cyber
 ---

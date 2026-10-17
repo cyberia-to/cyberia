@@ -19,3 +19,4 @@ working research packs for [[cyberia]] — each folder is one project with a `RE
 | [[cyberia-my]] | cyberia.my fleets & flats land console |
 | [[tech]] | off-grid & materials stack — one folder per technology |
 | [[smart capital]] | capital for local and global development at citadel genesis |
+| [[noid-market]] | the NOID target market — store-of-value framing, comps, probabilistic cap model, and the state-management lessons for cyberstate assets |
