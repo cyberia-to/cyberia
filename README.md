@@ -22,7 +22,7 @@ a cyberstate is a shared mind uniting space, capital and knowledge; cyberia buil
 | [[cybernode]] | the machines the state runs on |
 | [[century index\|cx]] | the land-rent index the state prices in |
 | [[blog]] | the daily beat and the published graph |
-| [[cyberstates]] | every state ranked by freedom and openness |
+| [cyberstates](https://cyberstates.net) | every state ranked by freedom and openness |
 | [[cyberia/cyberia-my\|my]] | the land console: plots, fleets, flats, intents |
 | [[cyber valley]] | the genesis city: 37 ha on Sanghyang, Bali |
 | [[cve]] | the operating and legal home of the city |
