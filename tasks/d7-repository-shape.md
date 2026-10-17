@@ -29,15 +29,7 @@ serves: fathership
 
 ## proposal
 
-the rule: **a repository is the door of something that stays** — a product, a warrior, a network, the organization. parts are folders of their product's workspace and publish to crates.io from there. projects are pages and branches, never repositories. a part keeps its own repository only when it has its own audience under its own name; today that is honeycrisp and optica, and the list is a decision, not a drift.
-
-the cut the owner proposed on 2026-10-17, kernel apart from core, refines the rule by audience and cadence:
-
-- **core is one repository, `soft3`** — rungs 4–7: cybergraph (with file, neuron, tok, tru), neural (with inf, rune, eidos, mudra, spark, nu, rs, fs and the twelve seed repositories), cy (with glia, soma, seer, sigma, vault), radio, foculus, tade, soft3.js. one audience, the builders of the stack; one cadence, the weekly train; one door, soft3.org; the specs and `release/` already live there. the coupling is densest here, so one queue beats four.
-- **kernel is three repositories, `nox` · `trident` · `joy`** — the kernel's worth is that strangers use it, and strangers arrive by name: vm people at nox (with strata and hemera), language people at trident (its own site and the only kernel repository with search traffic), provers at joy (with lens, zheng, bbg). the kernel freezes by the semver law; what freezes lives apart from what moves weekly. honeycrisp stays apart for its own audience.
-- **the boundary is versioned**: soft3 depends on `cyber-nox`, `trident-lang`, `cyber-joy` from crates.io, never by path. every sibling pinned in `soft3/release/phase1.toml` — strata, hemera, lens, nox, zheng, bbg, radio, foculus — ends up inside nox, joy or soft3, so the pin file disappears, and "no component depends on a rung above its own" is checked by the compiler, not by review.
-
-the order: (1) rung 3 first — zheng, lens, bbg into joy — as the proof, one day, build green, old repositories archived with pointers; (2) nox gathers strata and hemera; (3) soft3 gathers rungs 4–7, one rung per week on the train, kernel crates consumed from crates.io; (4) rung 9 — true-cyber, ctx, uhash into cyber; (5) the cyberia shelf last, when the optica build mounts folders as it mounts repositories today. warriors, networks and the bootloader monuments stay. rungs 1–7: 45 repositories → 5; public overall: 75 → about 30, the archived pointers fading from the front page.
+the proposal with the table of moves is `soft3/proposals/repositories.md` (soft3 PR, 2026-10-17). in one paragraph: a repository is the door of something that stays — a product, a warrior, a network — and its parts are folders of its workspace, published from there; a project that is not yet a product is a folder of one repository, the lab, where the rules are loose on purpose. the owner's corrections of 2026-10-17 are in it: kernel stays three repositories (nox, trident, joy); the neural dialects stay apart; cy, cybernode and cyb merge their parts; the cyberia shelf and optica are still the owner's call.
 
 ## verdict
 
