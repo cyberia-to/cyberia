@@ -47,6 +47,7 @@ a query, listed here until the views are generated: review tasks of the owner wi
 - [[d3 troika and ladder]] — which rungs belong to which horse
 - [[d4 cyber the god or the protocol]] — the profile's poetry and the readme's definition
 - [[d6 misplaced pages]] — the nox vision in crystal; the duplicate cyb whitepaper
+- [[d7 repository shape]] — 118 repositories, three doors; fold parts into their product's repository, keep warriors and networks apart
 
 ## decisions
 
