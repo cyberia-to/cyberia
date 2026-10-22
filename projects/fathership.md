@@ -62,4 +62,5 @@ review tasks of the owner with status done, by date.
 - 2026-10-08 · d2: the mission sentence is "the cyberstate, led by superintelligence" everywhere
 - 2026-10-15 · landings and decks stay in the wide lane — fast now, frozen later by a decision
 - 2026-10-22 · the life-os development machine studied ([[development machine study]]): take admission by execution, capability over prose, a finite agenda on one snapshot; leave ledgers, a machine spec, the artifact zoo. expected effect: no new artifact type enters the process · check: the objects table of dev.md a month from now · outcome: —
+- 2026-10-22 · requirements pilot on the chain spec (soft3 PR, `feat/requirements-chain`): 45 ids, 95 cases, the map and the counter; first count 🔴 39 🟡 5 🟢 1 — 34 stale because every receipt predates 25 commits. expected effect: a fresh receipt at HEAD turns the stale rows and the counter becomes the chain's readiness number before 2026-11-05 · check: `scripts/requirements.py --dots` on soft3 main · outcome: —
 - 2026-10-15 · the charter is one scheme; the development process is [[dev]] and [[deliver]]; fathership is the first project, not the law
