@@ -30,12 +30,32 @@ one page per object, in the repository that owns it, typed by its frontmatter. `
 | project | task with sub-tasks | one page, sub-tasks as pages or rows | `projects/` | every sub-task done |
 | task | task, kind question · plan · work · proposal · review | one page: kind, status, owner, serves, evidence | `tasks/` of the owning repository | `done`, `closed` or `abandoned` |
 | decision | task, kind review, owner the father | one page: what is asked, both sides, the verdict | `tasks/` of the owning repository | the father's verdict |
-| specification | contract | `specs/` | the owning repository | superseded |
+| specification | contract | `specs/`: clauses with ids, each with its cases | the owning repository | superseded |
+| requirement map | measure | one table: requirement → code → test → receipt at a commit | `audit/` of the product | never; the counter reads it |
 | measurement, audit, receipt | measure | `audit/` | the owning repository | never; it is evidence |
 | release | event, release | the candidate's receipts | `audit/release-<date>/` | the father promotes or the week ends |
 | process | skill, composite | one page per process | `processes/` | superseded |
 
-task status: `open → doing → done`, or `closed`, or `abandoned`. a task is ready when nothing it waits for is open. claims on pages carry evidence words: `open → simulated → measured → proven`; on a product page the same three states are the dots.
+task status: `open → doing → done`, or `closed`, or `abandoned`. a task is ready when nothing it waits for is open. claims on pages carry evidence words: `open → simulated → measured → proven`, and `stale` when the receipt is older than the last commit that touched the claim's code; on a product page the same states are the dots: 🔴 open or stale · 🟡 simulated · 🟢 measured or proven.
+
+## the three laws of evidence
+
+learned from the life-os development machine ([[development machine study]]), whose forty-two runs measured them:
+
+1. **admission by execution.** a claim is green only when the gate re-ran its proof at a named commit. an author's report, a reviewer's approval and a green suite admit nothing; the counter admits, from `audit/`.
+2. **capability over prose.** a rule that forbids an actor something is enforced by a mechanism — a branch protection, a missing token, a hook, a removed tool — or it is not a rule. nine prompt-only rules in that machine failed; every mechanical one held. each "never" on this page and in the train names its mechanism or leaves.
+3. **a finite agenda on one snapshot.** a task names its outputs and checks before work starts, every reader of its result reads the same commit, every finding carries one id and its remaining obligations, and a panel closes by a recorded disposition in at most two rounds. the two runs of that machine that converged were the two bounded ones; the open-ended ones never did. the size of the task is the budget, not the number of calls.
+
+## requirements
+
+a specification is clauses with ids; a product page is claims that name them; the map in `audit/` says what closes each; the counter reads both and sets the dots. the form is the graph's own — pages, headings, tables — never a second index.
+
+- **a clause** is a heading with an id that survives rewording and moves: `CHAIN-ASERT-2 · the target follows ASERT with half-life 600 s`, with `parent:` and `invariant:` lines where they apply, and under it its **cases**, one row each: id, kind `positive` or `negative`, given, when, then. a clause without a case is a `placeholder`, and a claim that names it is 🔴 by construction.
+- **the map** is one table per product in `audit/<product>/map.md`: requirement · code · test · proof · state. code is a path or a symbol; test a selector; proof a receipt page at a commit. a requirement with no row is `open`.
+- **the states** are the evidence words above; `stale` is computed from git, never written by hand. three things stay separate: what is intended (the clause), what exists (the code and test), what was shown (the receipt).
+- **the owner of a link** is the clause for its cases and invariants and the map for code, test and proof; backlinks are the graph's, nothing is written twice.
+
+the pilot is [[soft3/specs/chain|chain]] with its conformance entries and the receipts in `soft3/audit/chain/`.
 
 ## the charter
 
