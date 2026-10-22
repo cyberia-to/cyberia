@@ -61,4 +61,5 @@ review tasks of the owner with status done, by date.
 - 2026-10-07 · d5: the 2025 vision page is the valley's pitch and lives in cyber valley
 - 2026-10-08 · d2: the mission sentence is "the cyberstate, led by superintelligence" everywhere
 - 2026-10-15 · landings and decks stay in the wide lane — fast now, frozen later by a decision
+- 2026-10-22 · the life-os development machine studied ([[development machine study]]): take admission by execution, capability over prose, a finite agenda on one snapshot; leave ledgers, a machine spec, the artifact zoo. expected effect: no new artifact type enters the process · check: the objects table of dev.md a month from now · outcome: —
 - 2026-10-15 · the charter is one scheme; the development process is [[dev]] and [[deliver]]; fathership is the first project, not the law
