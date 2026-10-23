@@ -52,17 +52,15 @@ measured 2026-10-13 against a live v2.0.3 node (`paranoid_getBlockHeader` over a
 
 ## layer 2. the comparable set
 
-| comp | ≈ cap | frame | NOID wins on | NOID loses on |
-|---|---|---|---|---|
-| bitcoin | ~$1.7 T | the only universally recognized SoV | verifiability horizon, post-quantum readiness | everything else |
-| monero | ~$3–4 B | CPU commodity money + privacy | O(1) verification, Cat-1 proof, CPU purity | 12 years of Lindy, real privacy, volumes |
-| kaspa | ~$3–4 B | fastest PoW | post-quantum, CPU accessibility | speed by orders of magnitude, listings |
-| quantus (QTC) | tens of M$ (new) | "a store of value, not a smart contract platform" — the direct frame rival | CPU, certified soundness, statelessness | hard cap 21 M (scarcity mimicry), 12 s blocks, GPU pools exist |
-| zcash | ~$0.6–1 B | privacy SoV | — | privacy is the product |
-| mina | ~$0.4–0.7 B | succinct chain | PoW trust model, hash-only assumption | ecosystem, programmability |
-| ergo | ~$0.1–0.2 B | PoW contracts + storage rent | post-quantum, CPU | applications |
-| QRL | ~$15–30 M | anti-quantum token niche | everything technical | — this is the floor without a narrative |
-| litecoin | ~$5–7 B | dead narrative, fair launch | liveness of development | listings, age |
+- **bitcoin** — ≈ cap: ~$1.7 T · frame: the only universally recognized SoV · NOID wins on: verifiability horizon, post-quantum readiness · NOID loses on: everything else
+- **monero** — ≈ cap: ~$3–4 B · frame: CPU commodity money + privacy · NOID wins on: O(1) verification, Cat-1 proof, CPU purity · NOID loses on: 12 years of Lindy, real privacy, volumes
+- **kaspa** — ≈ cap: ~$3–4 B · frame: fastest PoW · NOID wins on: post-quantum, CPU accessibility · NOID loses on: speed by orders of magnitude, listings
+- **quantus (QTC)** — ≈ cap: tens of M$ (new) · frame: "a store of value, not a smart contract platform" — the direct frame rival · NOID wins on: CPU, certified soundness, statelessness · NOID loses on: hard cap 21 M (scarcity mimicry), 12 s blocks, GPU pools exist
+- **zcash** — ≈ cap: ~$0.6–1 B · frame: privacy SoV · NOID loses on: privacy is the product
+- **mina** — ≈ cap: ~$0.4–0.7 B · frame: succinct chain · NOID wins on: PoW trust model, hash-only assumption · NOID loses on: ecosystem, programmability
+- **ergo** — ≈ cap: ~$0.1–0.2 B · frame: PoW contracts + storage rent · NOID wins on: post-quantum, CPU · NOID loses on: applications
+- **QRL** — ≈ cap: ~$15–30 M · frame: anti-quantum token niche · NOID wins on: everything technical · NOID loses on: — this is the floor without a narrative
+- **litecoin** — ≈ cap: ~$5–7 B · frame: dead narrative, fair launch · NOID wins on: liveness of development · NOID loses on: listings, age
 
 reading: NOID sits at the intersection of three niches — post-quantum (QRL+QTC), CPU-PoW (XMR), succinctness (MINA) — with no single competitor on all three axes. the duel that matters is with QTC for the "post-quantum store of value" frame: scarcity+speed (QTC) versus certified soundness+permanent verifiability (NOID).
 
@@ -79,12 +77,10 @@ anti-narratives (what the market will discount): 2–7 tx/s, ~1 MB proof per blo
 
 probability the SoV frame becomes NOID's leading frame: **≈ 45 %** (the most natural fit for its constraints; QTC fights for the same frame). conditional scenarios:
 
-| scenario | cap | P (within SoV) | driver |
-|---|---|---|---|
-| floor (LTC precedent, live dev) | $50–100 M | 15 % | an honest CPU-PoW with active development holds above the niche floor |
-| base | $150–400 M | 55 % | XMR-minus-privacy-plus-PQ at 1/10–1/20 of XMR |
-| bull | $1–3 B | 25 % | a real quantum-FUD cycle on bitcoin; NOID the only ready asset; 0.1–0.2 % of BTC |
-| tail | $3–8 B | 5 % | migration panic + capsule privacy on amounts shipped |
+- **floor (LTC precedent, live dev)** — cap: $50–100 M · P (within SoV): 15 % · driver: an honest CPU-PoW with active development holds above the niche floor
+- **base** — cap: $150–400 M · P (within SoV): 55 % · driver: XMR-minus-privacy-plus-PQ at 1/10–1/20 of XMR
+- **bull** — cap: $1–3 B · P (within SoV): 25 % · driver: a real quantum-FUD cycle on bitcoin; NOID the only ready asset; 0.1–0.2 % of BTC
+- **tail** — cap: $3–8 B · P (within SoV): 5 % · driver: migration panic + capsule privacy on amounts shipped
 
 unconditional expectation ≈ 0.45 × (0.15·75 + 0.55·275 + 0.25·2000 + 0.05·5500) ≈ **≈ $0.4 B** versus ≈ $1.9 M today. the expectation is dominated by the bull tail; the median is the $150–400 M base. **all probabilities are subjective judgments, not statistics** — the model's value is the explicitness, not the precision.
 

@@ -13,13 +13,35 @@ trigger: a change that must reach a machine; an alarm; a certificate, a domain o
 
 ## the graph
 
-| # | node | kind | role | makes | green when |
-|---|---|---|---|---|---|
-| 1 | plan | worker | runner | the change written as a runbook step: command, expected state, rollback | the rollback is written before the command |
-| 2 | stage | worker | runner | the change on a staging path or a backup first | a test passes where one exists: `nginx -t`, a probe, a dry run |
-| 3 | apply | gate | runner, the owner on the irreversible lane | the change on the machine | the probe from outside answers as expected; local probes are evidence, never the verdict |
-| 4 | observe | code node | sensor | monitors, logs, alarms | the alarm that would have caught this failure exists |
-| 5 | mirror | code node | keeper | the repository matches the machine; the runbook carries what was learned | `sync.sh` shows no drift |
+### 1 · plan · worker
+
+- role: runner
+- makes: the change written as a runbook step: command, expected state, rollback
+- green when: the rollback is written before the command
+
+### 2 · stage · worker
+
+- role: runner
+- makes: the change on a staging path or a backup first
+- green when: a test passes where one exists: `nginx -t`, a probe, a dry run
+
+### 3 · apply · gate
+
+- role: runner, the owner on the irreversible lane
+- makes: the change on the machine
+- green when: the probe from outside answers as expected; local probes are evidence, never the verdict
+
+### 4 · observe · code node
+
+- role: sensor
+- makes: monitors, logs, alarms
+- green when: the alarm that would have caught this failure exists
+
+### 5 · mirror · code node
+
+- role: keeper
+- makes: the repository matches the machine; the runbook carries what was learned
+- green when: `sync.sh` shows no drift
 
 ## return edges
 

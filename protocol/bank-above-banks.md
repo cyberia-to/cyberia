@@ -181,12 +181,10 @@ Everything else — fills, arbitrage, routing — is other people's transactions
 
 Temperature = value at an attacker's risk. The chart of accounts *is* the security model:
 
-| Account | Temp | Holds | Value to an attacker | Signs |
-|---|---|---|---|---|
-| **Reserve** | cold, timelocked multisig | all real value (ETH) | everything — hence cold and slow | 1–10 tx/month |
-| **Window buffer** | warm | bounded ETH + hub tokens; approvals for window strategies | bounded by buffer bands | ~weekly |
-| **Inventory** | hot | pre-minted cXXX quotas; approvals for all spoke strategies | ≈ nothing — self-minted tokens; the damage path runs through window quotas, i.e. bounded by the warm buffer | ~never (one-time approvals and ships) |
-| **Issuance** | contract | no balance — authority only | n/a — mint/burn on quota refills and contraction ops | with verb 2 |
+- ****Reserve**** — Temp: cold, timelocked multisig · Holds: all real value (ETH) · Value to an attacker: everything — hence cold and slow · Signs: 1–10 tx/month
+- ****Window buffer**** — Temp: warm · Holds: bounded ETH + hub tokens; approvals for window strategies · Value to an attacker: bounded by buffer bands · Signs: ~weekly
+- ****Inventory**** — Temp: hot · Holds: pre-minted cXXX quotas; approvals for all spoke strategies · Value to an attacker: ≈ nothing — self-minted tokens; the damage path runs through window quotas, i.e. bounded by the warm buffer · Signs: ~never (one-time approvals and ships)
+- ****Issuance**** — Temp: contract · Holds: no balance — authority only · Value to an attacker: n/a — mint/burn on quota refills and contraction ops · Signs: with verb 2
 
 Balance events by others (fills) concentrate on Inventory and the Window buffer and are power-law distributed across corridors — the top ~10 corridors carry 80–90% of fills; the median spoke sees a handful per day at launch; per-corridor economics span 3–4 orders of magnitude, so quotas and epochs are set per corridor tier, not uniformly. Profit distributions pay out of Reserve directly under the SCR gate — a separate profit wallet would add an account without adding a control. Keeper gas lives in operational dust, not in the chart.
 

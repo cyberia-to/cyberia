@@ -421,15 +421,13 @@ Scale to 3–5 sheep. Mesh network. Coordinated grazing algorithms. Bostrom inte
 
 ## 14. Risk Matrix
 
-| Risk | Probability | Impact | Mitigation |
-|------|------------|--------|------------|
-| Sheep rejects frame | Medium | Project blocker | Gradual habituation, breed selection, individual temperament screening |
-| Gasifier tar fouling | High | System downtime | Dolomite catalyst (cracks tars), regular cleaning schedule, cyclone filter |
-| Engine vibration stresses sheep | Medium | Animal welfare issue | Rubber damper mounts, low-RPM operation, vibration isolation layer in saddle |
-| Tropical heat + electronics | Medium | Component failure | Under-saddle shade mounting, passive heatsinking, conformal coating |
-| Rain/moisture (Bali) | High | Corrosion, shorts | IP65 enclosures, SS construction, frame drainage channels |
-| Sheep lies down / rolls | High | Mechanical damage | IMU auto-detects → engine shutdown, reinforced frame, quick-release mounts |
-| Fuel contamination | Medium | Engine/gasifier damage | Multi-stage filtration, settling time for waste oils, water separator |
+- **Sheep rejects frame** — Probability: Medium · Impact: Project blocker · Mitigation: Gradual habituation, breed selection, individual temperament screening
+- **Gasifier tar fouling** — Probability: High · Impact: System downtime · Mitigation: Dolomite catalyst (cracks tars), regular cleaning schedule, cyclone filter
+- **Engine vibration stresses sheep** — Probability: Medium · Impact: Animal welfare issue · Mitigation: Rubber damper mounts, low-RPM operation, vibration isolation layer in saddle
+- **Tropical heat + electronics** — Probability: Medium · Impact: Component failure · Mitigation: Under-saddle shade mounting, passive heatsinking, conformal coating
+- **Rain/moisture (Bali)** — Probability: High · Impact: Corrosion, shorts · Mitigation: IP65 enclosures, SS construction, frame drainage channels
+- **Sheep lies down / rolls** — Probability: High · Impact: Mechanical damage · Mitigation: IMU auto-detects → engine shutdown, reinforced frame, quick-release mounts
+- **Fuel contamination** — Probability: Medium · Impact: Engine/gasifier damage · Mitigation: Multi-stage filtration, settling time for waste oils, water separator
 
 ---
 

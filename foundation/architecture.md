@@ -62,12 +62,10 @@ this is by design. the [[Crystal]] must be seeded correctly. the first agents mu
 
 they carry this weight across four simultaneous levels:
 
-| level | role | what they do | stake mechanism |
-|---|---|---|---|
-| village | builders | 37 hectares on a volcano. solar, water, food, fiber. the physical substrate | land ownership, infrastructure investment |
-| company | operators | legal entities (PT PMA, MiDAO). contracts, employment. the jurisdictional interface | corporate equity, signing authority |
-| state | founders | deploy agents, seed [[Crystal]], allocate capital. the political act of sovereignty | [[bostrom]] stake, delegation weight |
-| planet | parents | write the protocol, design [[tri-kernel]], prove theorems. the intellectual act of creation | code authorship, parameter authority |
+- **village** — role: builders · what they do: 37 hectares on a volcano. solar, water, food, fiber. the physical substrate · stake mechanism: land ownership, infrastructure investment
+- **company** — role: operators · what they do: legal entities (PT PMA, MiDAO). contracts, employment. the jurisdictional interface · stake mechanism: corporate equity, signing authority
+- **state** — role: founders · what they do: deploy agents, seed [[Crystal]], allocate capital. the political act of sovereignty · stake mechanism: [[bostrom]] stake, delegation weight
+- **planet** — role: parents · what they do: write the protocol, design [[tri-kernel]], prove theorems. the intellectual act of creation · stake mechanism: code authorship, parameter authority
 
 all four levels run in parallel from day one. the village feeds the company that funds the state that runs the planet that guides the village. circular dependency — broken only by the founders' will to start
 

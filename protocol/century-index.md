@@ -34,16 +34,14 @@ F is the year-0 rent in dollars. the sat leg of the floor guarantees the lessor 
 
 eight primary assets — things the world prices directly, each with a deep liquid public fix. three layers: fiat of the present (30%), money that outlives fiat (50%), energy (20%).
 
-| leg | weight | layer | primary fix | fallback |
-|---|---|---|---|---|
-| BTC | 20% | hard money | Pyth BTC/USD daily close | [CME CF BRR](https://www.cfbenchmarks.com/data/indices/BRR), then median of 3 named exchanges |
-| ETH | 15% | hard money | Pyth ETH/USD daily close | [CME CF ETH RR](https://www.cfbenchmarks.com/data/indices/ETHUSD_RR), then median of 3 named exchanges |
-| GOLD | 15% | hard money | Pyth XAU/USD | [LBMA PM fix](https://www.lbma.org.uk/prices-and-data/precious-metal-prices), then [COMEX settle](https://www.cmegroup.com/markets/metals/precious/gold.html) |
-| CNY | 15% | today's fiat | Pyth USD/CNH (offshore quote — freely traded, no PBOC fixing) | [WM/Refinitiv](https://www.lseg.com/en/data-analytics/financial-benchmarks/wm-refinitiv-fx-benchmarks), then [PBOC parity](https://www.chinamoney.com.cn/english/bmkcpr/) |
-| USD | 15% | today's fiat | 1 (quote currency) | — |
-| CU | 10% | energy | [LME copper cash settle](https://www.lme.com/en/Metals/Non-ferrous/LME-Copper) | [COMEX HG settle](https://www.cmegroup.com/markets/metals/base/copper.html) |
-| OIL | 5% | energy | [ICE Brent front-month settle](https://www.ice.com/products/219/Brent-Crude-Futures) | [EIA Brent spot](https://www.eia.gov/dnav/pet/hist/RBRTED.htm) |
-| UX | 5% | energy | [CME UxC U3O8 front-month settle](https://www.cmegroup.com/markets/metals/other/uranium.html) | [UxC](https://www.uxc.com/) / [TradeTech](https://www.uranium.info/) weekly spot, [Sprott physical trust](https://sprott.com/investment-strategies/physical-commodity-funds/uranium/) NAV as market check |
+- **BTC** — weight: 20% · layer: hard money · primary fix: Pyth BTC/USD daily close · fallback: [CME CF BRR](https://www.cfbenchmarks.com/data/indices/BRR), then median of 3 named exchanges
+- **ETH** — weight: 15% · layer: hard money · primary fix: Pyth ETH/USD daily close · fallback: [CME CF ETH RR](https://www.cfbenchmarks.com/data/indices/ETHUSD_RR), then median of 3 named exchanges
+- **GOLD** — weight: 15% · layer: hard money · primary fix: Pyth XAU/USD · fallback: [LBMA PM fix](https://www.lbma.org.uk/prices-and-data/precious-metal-prices), then [COMEX settle](https://www.cmegroup.com/markets/metals/precious/gold.html)
+- **CNY** — weight: 15% · layer: today's fiat · primary fix: Pyth USD/CNH (offshore quote — freely traded, no PBOC fixing) · fallback: [WM/Refinitiv](https://www.lseg.com/en/data-analytics/financial-benchmarks/wm-refinitiv-fx-benchmarks), then [PBOC parity](https://www.chinamoney.com.cn/english/bmkcpr/)
+- **USD** — weight: 15% · layer: today's fiat · primary fix: 1 (quote currency)
+- **CU** — weight: 10% · layer: energy · primary fix: [LME copper cash settle](https://www.lme.com/en/Metals/Non-ferrous/LME-Copper) · fallback: [COMEX HG settle](https://www.cmegroup.com/markets/metals/base/copper.html)
+- **OIL** — weight: 5% · layer: energy · primary fix: [ICE Brent front-month settle](https://www.ice.com/products/219/Brent-Crude-Futures) · fallback: [EIA Brent spot](https://www.eia.gov/dnav/pet/hist/RBRTED.htm)
+- **UX** — weight: 5% · layer: energy · primary fix: [CME UxC U3O8 front-month settle](https://www.cmegroup.com/markets/metals/other/uranium.html) · fallback: [UxC](https://www.uxc.com/) / [TradeTech](https://www.uranium.info/) weekly spot, [Sprott physical trust](https://sprott.com/investment-strategies/physical-commodity-funds/uranium/) NAV as market check
 
 fixes are two-tier: aggregated on-chain oracle feeds first ([Pyth](https://pyth.network/price-feeds), 100+ first-party publishers, signed, historical via [benchmarks](https://docs.pyth.network/benchmarks); [Chainlink](https://data.chain.link/) second), institutional settles as the T3 fallback tier. every price enters as a trailing 365-day average of daily fixes — annual TWAP, immune to single-day manipulation. the index publishes 365 days a year; a closed market carries its last fix forward. the physical legs settle on exchanges — the settle IS the world price, and the oracle mirrors it on-chain.
 

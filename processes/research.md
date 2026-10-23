@@ -13,12 +13,29 @@ trigger: a question raised by any process — a unit returned three times, a cla
 
 ## the graph
 
-| # | node | kind | role | makes | green when |
-|---|---|---|---|---|---|
-| 1 | frame | splitter | seer | the question split into sub-questions that can each be answered independently | every sub-question names what evidence would settle it |
-| 2 | search | workers | one body per sub-question, each in its own context, reading pages and code before writing | an answer with sources | every claim carries a source line: a page, a file and line, a measurement |
-| 3 | converge | worker + critic | a chair merges, a disagreement list follows, rounds go one body at a time | one page | a round that changes nothing, or the third round |
-| 4 | keep | gate | keeper | the page placed where its readers are, linked, aliased | the page resolves every wiki-link, and the ledger names where its parts went |
+### 1 · frame · splitter
+
+- role: seer
+- makes: the question split into sub-questions that can each be answered independently
+- green when: every sub-question names what evidence would settle it
+
+### 2 · search · workers
+
+- role: one body per sub-question, each in its own context, reading pages and code before writing
+- makes: an answer with sources
+- green when: every claim carries a source line: a page, a file and line, a measurement
+
+### 3 · converge · worker + critic
+
+- role: a chair merges, a disagreement list follows, rounds go one body at a time
+- makes: one page
+- green when: a round that changes nothing, or the third round
+
+### 4 · keep · gate
+
+- role: keeper
+- makes: the page placed where its readers are, linked, aliased
+- green when: the page resolves every wiki-link, and the ledger names where its parts went
 
 ## return edges
 

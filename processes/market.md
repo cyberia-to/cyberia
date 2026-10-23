@@ -13,12 +13,29 @@ trigger: a release from [[deliver]]; a beat of the chronicle; a moment on the ca
 
 ## the graph
 
-| # | node | kind | role | makes | green when |
-|---|---|---|---|---|---|
-| 1 | story | worker + critic | seer writes, keeper grades against the charter | the one sentence and the one page for this release | every claim in it is a claim on the product page, marked |
-| 2 | make | workers | runner | the artifacts: the deck, the post, the thread, the clip, the mentor link | each artifact passes its own harness: fits every screen, every number marked, every link resolves |
-| 3 | send | gate | the voice of the state | the artifacts out through the doors: cyberia.to, the blog, x.com, the channels | the owner's hand on the public voice; the chronicle records what went out |
-| 4 | count | code node | counter | arrivals, passages, windows from lytics; mentions; the market | numbers with their source and method |
+### 1 · story · worker + critic
+
+- role: seer writes, keeper grades against the charter
+- makes: the one sentence and the one page for this release
+- green when: every claim in it is a claim on the product page, marked
+
+### 2 · make · workers
+
+- role: runner
+- makes: the artifacts: the deck, the post, the thread, the clip, the mentor link
+- green when: each artifact passes its own harness: fits every screen, every number marked, every link resolves
+
+### 3 · send · gate
+
+- role: the voice of the state
+- makes: the artifacts out through the doors: cyberia.to, the blog, x.com, the channels
+- green when: the owner's hand on the public voice; the chronicle records what went out
+
+### 4 · count · code node
+
+- role: counter
+- makes: arrivals, passages, windows from lytics; mentions; the market
+- green when: numbers with their source and method
 
 ## return edges
 

@@ -138,24 +138,22 @@ this is the asymmetry. digital agents are everywhere. agents with access to phys
 
 ### what the land holds
 
-| resource           | scale                                                                                                                                       | current yield               | potential                                                      |
-| ------------------ | ------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------- | -------------------------------------------------------------- |
-| volcanic soil      | 37 ha, 2m+ depth, cloud forest climate                                                                                                      | supports 200+ species       | 500+ species, full [[permaculture]] succession                 |
-| water              | 1M m³/year rainfall, persistent cloud cover                                                                                                 | 200 m³ storage, gravity-fed | aquaculture, hydropower micro-turbines                         |
-| fast-growing trees | bamboo (several types), [[trema]], [[albizia chinensis]], [[caliandra]], [[leucaena]], [[debregasia]], [[melastoma]], [[ficus]], tree ferns | rapid biomass               | construction, biochar feedstock, living fences, biomass energy |
-| coffee             | arabica at 800m cloud forest elevation                                                                                                      | 1 tonne/year harvest        | 5+ tonnes at full maturity, $500/kg roasted                    |
-| citrus             | oranges, limes, lemons, pomelo                                                                                                              | growing                     | cloud forest acidity ideal for citrus                          |
-| berries            | strawberries, mulberries, cape gooseberry                                                                                                   | growing                     | high-value fresh + processed                                   |
-| tropical fruit     | avocado, jackfruit, sapote                                                                                                                  | 500+ kg/year                | tonnes at orchard maturity                                     |
-| spices             | cinnamon, turmeric, galangal, ginger                                                                                                        | garden scale                | export-grade quantities                                        |
-| mushrooms          | 50+ wild species documented                                                                                                                 | foraging                    | cultivation: shiitake, oyster, lion's mane                     |
-| honey              | native stingless bees + apis cerana                                                                                                         | small scale                 | 100+ hives possible                                            |
-| medicinal plants   | tulsi, lemongrass, turmeric, gotu kola                                                                                                      | garden use                  | wellness product line                                          |
-| biochar            | fast-growing tree waste → pyrolysis                                                                                                         | experimental                | carbon credits + soil amendment                                |
-| minerals           | volcanic rock dust, zeolites                                                                                                                | untapped                    | soil amendment products, construction aggregate                |
-| biodiversity       | 100+ bird species, 50+ mushroom species, 20+ animals                                                                                        | documentation               | [[biome engineering]], ecotourism, research partnerships       |
-| carbon             | growing forest on former grassland                                                                                                          | accumulating                | verified carbon credits                                        |
-| energy             | 30 kW solar, equatorial sun year-round                                                                                                      | self-sufficient             | excess for battery storage, EV charging                        |
+- **volcanic soil** — scale: 37 ha, 2m+ depth, cloud forest climate · current yield: supports 200+ species · potential: 500+ species, full [[permaculture]] succession
+- **water** — scale: 1M m³/year rainfall, persistent cloud cover · current yield: 200 m³ storage, gravity-fed · potential: aquaculture, hydropower micro-turbines
+- **fast-growing trees** — scale: bamboo (several types), [[trema]], [[albizia chinensis]], [[caliandra]], [[leucaena]], [[debregasia]], [[melastoma]], [[ficus]], tree ferns · current yield: rapid biomass · potential: construction, biochar feedstock, living fences, biomass energy
+- **coffee** — scale: arabica at 800m cloud forest elevation · current yield: 1 tonne/year harvest · potential: 5+ tonnes at full maturity, $500/kg roasted
+- **citrus** — scale: oranges, limes, lemons, pomelo · current yield: growing · potential: cloud forest acidity ideal for citrus
+- **berries** — scale: strawberries, mulberries, cape gooseberry · current yield: growing · potential: high-value fresh + processed
+- **tropical fruit** — scale: avocado, jackfruit, sapote · current yield: 500+ kg/year · potential: tonnes at orchard maturity
+- **spices** — scale: cinnamon, turmeric, galangal, ginger · current yield: garden scale · potential: export-grade quantities
+- **mushrooms** — scale: 50+ wild species documented · current yield: foraging · potential: cultivation: shiitake, oyster, lion's mane
+- **honey** — scale: native stingless bees + apis cerana · current yield: small scale · potential: 100+ hives possible
+- **medicinal plants** — scale: tulsi, lemongrass, turmeric, gotu kola · current yield: garden use · potential: wellness product line
+- **biochar** — scale: fast-growing tree waste → pyrolysis · current yield: experimental · potential: carbon credits + soil amendment
+- **minerals** — scale: volcanic rock dust, zeolites · current yield: untapped · potential: soil amendment products, construction aggregate
+- **biodiversity** — scale: 100+ bird species, 50+ mushroom species, 20+ animals · current yield: documentation · potential: [[biome engineering]], ecotourism, research partnerships
+- **carbon** — scale: growing forest on former grassland · current yield: accumulating · potential: verified carbon credits
+- **energy** — scale: 30 kW solar, equatorial sun year-round · current yield: self-sufficient · potential: excess for battery storage, EV charging
 
 ### vertical integration: soil to customer
 
