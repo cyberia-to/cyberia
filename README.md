@@ -17,7 +17,7 @@ a cyberstate is a shared mind uniting space, capital and knowledge; cyberia buil
 
 ## the chronicle
 
-[[blog]] is infrastructure of the state, not a project: the daily beat and the published graph, cyberia.blog, where every page of every repository is read. the projects of the state — cybernode, the century index, cyberstates, the land console, cyber valley, cve and the rest — are listed with their doors and stages in [[constellation]].
+the state is a mind, and a mind nobody can read is not shared. [[blog]] is where the mind is read: every page of every repository, published at cyberia.blog with its links and its history, day after day. that makes it infrastructure, not a project — a project is work that closes, and the chronicle never closes, it is kept, like a road. the projects of the state — cybernode, the century index, cyberstates, the land console, cyber valley, cve — stand in [[constellation]], each with its door and its stage.
 
 ## this repository
 
