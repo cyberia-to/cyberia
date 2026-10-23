@@ -31,7 +31,7 @@ why cyberia exists — identity before machinery. the documents live at the root
 
 ## the chronicle
 
-the state is a mind, and a mind nobody can read is not shared. [[blog]] is where the mind is read: every page of every repository, published at cyberia.blog with its links and its history, day after day. that makes it infrastructure, not a project — a project is work that closes, and the chronicle never closes, it is kept, like a road. the projects of the state — cybernode, the century index, cyberstates, the land console, cyber valley, cve — stand in [[cyberia/projects|projects]], each with its page, its domain and its stage. the [[courses]] are posts of the chronicle too: a course on the day it was announced, every lecture on the day it was given — [[edge city patagonia 2025]] and its six lectures were the first.
+a state is a shared mind; the [[blog]] is how it is read — every page of every repository, published at cyberia.blog, every day. it never closes, so it is infrastructure. work that closes is a project: [[cyberia/projects|projects]]. the [[courses]] are posts.
 
 ## this repository
 
