@@ -11,7 +11,7 @@ serves: fathership
 
 # d3 · the troika and the ladder
 
-the troika in [[cyberia/foundation/strategy]] names three sovereign forms; the ladder names ten products; soft3 is absent from the troika.
+the troika in [[cyberia/strategy]] names three sovereign forms; the ladder names ten products; soft3 is absent from the troika.
 
 ## for
 

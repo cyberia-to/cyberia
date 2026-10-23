@@ -315,9 +315,9 @@ stage A = first ship; oracle live, V_implied = 0 for new assets is correct. stag
 
 - [[cyberia/protocol/marketplace-spec]] — contract interfaces, data structures, message types, implementation sequences
 - [[cyberia/protocol/system]] — ERP kernel: TSP-1/TSP-2, PLUMB, traits, intents, workflows
-- [[cyberia/foundation/architecture]] — organizational roles; authorized subjects own assets and progs operate them under explicit grants
+- [[cyberia/architecture]] — organizational roles; authorized subjects own assets and progs operate them under explicit grants
 - [[cyberia/protocol/services]] — 81-method state API with tier model (VISIT, STAY, SETTLE, BELONG). marketplace implements `identity.enter`, `identity.register`, `identity.issue_passport` as Spot asset ExecuteMsgs
-- [[cyberia/foundation/whitepaper]] — the cyberstate vision; marketplace is the economic core that makes it computable
+- [[cyberia/whitepaper]] — the cyberstate vision; marketplace is the economic core that makes it computable
 
 ---
 

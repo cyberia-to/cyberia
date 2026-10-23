@@ -7,7 +7,7 @@ crystal-domain: cyberia
 
 # people
 
-the agents of cyberia and the roles they carry, from [[org]]: a role is a portfolio of skills, a person or a body is what carries it. the full design — 147 assignments, 7 roles in 21 domains, 7 councils, the genesis neurons, succession — is [[cyberia/foundation/architecture]].
+the agents of cyberia and the roles they carry, from [[org]]: a role is a portfolio of skills, a person or a body is what carries it. the full design — 147 assignments, 7 roles in 21 domains, 7 councils, the genesis neurons, succession — is [[cyberia/architecture]].
 
 | role | carries | in [[deliver]] |
 |---|---|---|

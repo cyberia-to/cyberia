@@ -289,7 +289,7 @@ startup society → cyber state → civilization
 
 ## 14. the [[manifesto]]
 
-→ [[cyberia/foundation/manifesto]]
+→ [[cyberia/manifesto]]
 
 ---
 

@@ -11,7 +11,7 @@ serves: fathership
 
 # d1 · civilization target
 
-[[cyberia/foundation/strategy]] and the valley's 2025 vision say type 1; the organization profile and the soft3 rung say type 2.
+[[cyberia/strategy]] and the valley's 2025 vision say type 1; the organization profile and the soft3 rung say type 2.
 
 ## for
 

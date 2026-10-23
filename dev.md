@@ -65,10 +65,10 @@ the charter is one scheme: what cyberia holds to, in the order it is held. every
 <style>a text{fill:#4ade80}a:hover text{fill:#fff}text{fill:currentColor;stroke:none}</style>
 <rect x="20" y="12" width="860" height="78" rx="8" stroke-width="2"/>
 <text x="34" y="32" font-weight="600">identity · the owner's hand, once in years</text>
-<a href="/cyberia/foundation/strategy"><rect x="34" y="42" width="204" height="36" rx="5"/><text x="136" y="58" text-anchor="middle">purpose · vision · mission</text><text x="136" y="72" text-anchor="middle" opacity="0.7" font-size="10.5">type 1 · make planets think · cyberstate</text></a>
+<a href="/cyberia/strategy"><rect x="34" y="42" width="204" height="36" rx="5"/><text x="136" y="58" text-anchor="middle">purpose · vision · mission</text><text x="136" y="72" text-anchor="middle" opacity="0.7" font-size="10.5">type 1 · make planets think · cyberstate</text></a>
 <a href="/cyber/license"><rect x="246" y="42" width="204" height="36" rx="5"/><text x="348" y="58" text-anchor="middle">license</text><text x="348" y="72" text-anchor="middle" opacity="0.7" font-size="10.5">don't trust · don't fear · don't beg</text></a>
-<a href="/cyberia/foundation/manifesto"><rect x="458" y="42" width="204" height="36" rx="5"/><text x="560" y="58" text-anchor="middle">manifesto</text><text x="560" y="72" text-anchor="middle" opacity="0.7" font-size="10.5">seven principles · the oath to life</text></a>
-<a href="/cyberia/foundation/strategy"><rect x="670" y="42" width="204" height="36" rx="5"/><text x="772" y="58" text-anchor="middle">the troika</text><text x="772" y="72" text-anchor="middle" opacity="0.7" font-size="10.5">cyber · cyb · cyberia</text></a>
+<a href="/cyberia/manifesto"><rect x="458" y="42" width="204" height="36" rx="5"/><text x="560" y="58" text-anchor="middle">manifesto</text><text x="560" y="72" text-anchor="middle" opacity="0.7" font-size="10.5">seven principles · the oath to life</text></a>
+<a href="/cyberia/strategy"><rect x="670" y="42" width="204" height="36" rx="5"/><text x="772" y="58" text-anchor="middle">the troika</text><text x="772" y="72" text-anchor="middle" opacity="0.7" font-size="10.5">cyber · cyb · cyberia</text></a>
 <rect x="20" y="104" width="860" height="118" rx="8"/>
 <text x="34" y="124" font-weight="600">products · the ladder, one page per rung, accepted by the owner</text>
 <g font-size="11">
@@ -86,7 +86,7 @@ the charter is one scheme: what cyberia holds to, in the order it is held. every
 <text x="34" y="190" opacity="0.8">kernel 1–3 · core 4–7 · apps 8–10 · no rung depends on a rung above it · specifications of 1–7 pass the owner's hand</text>
 <text x="34" y="208" opacity="0.8">a product page is a goal kept alive; its claims are dots: 🟢 measured · 🟡 target · 🔴 mock; the product is delivered when every dot is green</text>
 <rect x="20" y="236" width="420" height="104" rx="8"/>
-<a href="/cyberia/foundation/architecture"><text x="34" y="256" font-weight="600">people · 147 roles</text></a>
+<a href="/cyberia/architecture"><text x="34" y="256" font-weight="600">people · 147 roles</text></a>
 <text x="34" y="274" opacity="0.8">7 roles × 21 domains · 7 councils by facet</text>
 <text x="34" y="290" opacity="0.8">keeper · runner · sensor · counter · seer · bridge-in · bridge-out</text>
 <text x="34" y="306" opacity="0.8">form · mass · space · life · word · work · play</text>
@@ -124,7 +124,7 @@ three layers, which earlier pages mixed.
 | layer | what it is | examples |
 |---|---|---|
 | participants | the neurons for whom and by whose hand everything happens | the user · the owner · the citizens |
-| organizational roles | standing responsibility for a domain, seven in each of twenty-one domains, from [[cyberia/foundation/architecture]] | keeper · runner · sensor · counter · seer · bridge-in · bridge-out |
+| organizational roles | standing responsibility for a domain, seven in each of twenty-one domains, from [[cyberia/architecture]] | keeper · runner · sensor · counter · seer · bridge-in · bridge-out |
 | workflow roles | a skill a body performs inside one node of a graph, in its own context | splitter · architect · critic · implementer · tester · integrator · a review lens · the user played · merger |
 
 an organizational role is a portfolio of workflow skills: the keeper holds architect and the long return edge, the sensor holds critic, tester and the played user, the runner holds implementer and integrator, the counter holds gates and lanes, the seer holds the splitter and the next proposal, the bridges carry work across rungs and councils. a body — claude, codex, kimi, grok, a person — carries roles; it is never a role. the map is [[people]].

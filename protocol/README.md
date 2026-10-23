@@ -145,8 +145,8 @@ non-fungible Spot Assets compound through the oracle. every new citizen makes ci
 - [[cyberia/protocol/marketplace-spec]] — contract interfaces and data structures
 - [[cyberia/protocol/maps]] — nested spatial scales (sector · block · district · region)
 - [[ladder]] — VISIT → STAY → SETTLE → BELONG (the fundamental funnel)
-- [[cyberia/foundation/governance]] — the 147 organizational roles and the capitulation curve
-- [[cyberia/foundation/org]] — the seven lenses applied to specific cyberian entities
+- [[cyberia/governance]] — the 147 organizational roles and the capitulation curve
+- [[cyberia/org]] — the seven lenses applied to specific cyberian entities
 - [[soma]] — cognition, durable tasks and tool orchestration over neuron execution
 
 ---
