@@ -18,11 +18,11 @@ let products = ($ladder | each {|r|
   let repo = ($home | path join $r.repo)
   let audit = ($repo | path join "audit")
   let maps = (if ($audit | path exists) { glob ($audit | path join "*" "map.md") } else { [] })
-  let counter = ($repo | path join "scripts" "requirements.py")
+  let counter = ($repo | path join "scripts" "requirements.nu")
   let dots = (if (($maps | length) > 0) and ($counter | path exists) {
     $maps | each {|m|
       let name = ($m | path dirname | path basename)
-      let out = (do { cd $repo; ^python3 scripts/requirements.py --spec $"specs/($name).md" --map $"audit/($name)/map.md" --dots } | complete)
+      let out = (do { cd $repo; ^nu scripts/requirements.nu --spec $"specs/($name).md" --map $"audit/($name)/map.md" --dots } | complete)
       $"($name): ($out.stdout | str trim)"
     } | str join "; "
   } else { "—" })
