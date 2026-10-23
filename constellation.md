@@ -20,6 +20,9 @@ every project of [[cyberia]] that has a door on the web, with the stage it is at
 | [cyberia.my](https://cyberia.my) | the interface · mockup |
 | [cyberia.capital](https://cyberia.capital) | the capital of cyberia in ethereum and beyond · design stage |
 | [cybervalley.io](https://cybervalley.io) | autonomous genesis city in the heart of Bali · launch soon |
+| [cybernode.ai](https://cybernode.ai) | the machines the state runs on; the node of rung 7 · proposed |
+| [[century index\|cx]] | the land-rent index the state prices in · spec |
+| [[cve]] | the operating and legal home of the city · private |
 | [oxytocin.my](https://oxytocin.my) | leasehold estate as cyberstate |
 | [rockets.estate](https://rockets.estate) | self-sustainable properties and eco-villages |
 | [github.com/cyberia-to](https://github.com/cyberia-to) | the source — everything in the open |
