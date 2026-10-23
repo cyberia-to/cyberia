@@ -11,15 +11,15 @@ the goals cyberia keeps alive, from [[org]]: one page per product, the page is t
 
 | rung | product | page | dots |
 |---|---|---|---|
-| 1 | nox · machine | — | — |
-| 2 | trident · weapon | [trident.pink](https://trident.pink) | — |
-| 3 | joy · warrior | — | — |
-| 4 | cybergraph · brain | — | — |
-| 5 | neural · language | — | — |
-| 6 | cy · agent | — | — |
-| 7 | soft3 · network | [soft3.org](https://soft3.org), [new.soft3.org](https://new.soft3.org) | — |
-| 8 | cyb · robot | [cyb.ai](https://cyb.ai) | — |
-| 9 | cyber · superintelligence | [cyber.page](https://cyber.page) | — |
-| 10 | cyberia · state | [cyberia.to](https://cyberia.to) | — |
+| 1 | [[nox]] · machine | — | — |
+| 2 | [[trident]] · weapon | [trident.pink](https://trident.pink) | — |
+| 3 | [[joy]] · warrior | — | — |
+| 4 | [[cybergraph]] · brain | — | — |
+| 5 | [[neural]] · language | — | — |
+| 6 | [[cy]] · agent | — | — |
+| 7 | [[soft3]] · network | [soft3.org](https://soft3.org), [new.soft3.org](https://new.soft3.org) | — |
+| 8 | [[cyb]] · robot | [cyb.ai](https://cyb.ai) | — |
+| 9 | [[cyber]] · superintelligence | [cyber.page](https://cyber.page) | — |
+| 10 | [[cyberia]] · state | [cyberia.to](https://cyberia.to) | — |
 
 a dash in the page column means the product has no page yet and therefore no accepted goal; a dash in the dots column means the page carries no marked claims yet. the ladder itself and the parts of each rung are in `soft3/release/components.toml`; the warriors and the shelves outside the ladder are in the registry of the organization.

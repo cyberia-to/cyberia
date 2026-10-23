@@ -39,9 +39,9 @@ the seven lenses of [[org]] and the pages behind them.
 
 | section | what |
 |---|---|
-| [[products]] | the goals kept alive: ten product pages and their dots |
+| [[products]] | the goals kept alive: ten pages, their dots |
 | [[deliver\|processes]] | how work moves: the one process, deliver |
-| [[cyberia/projects\|projects]] | work that closes: fathership, the first; every project with its page, its domain and its stage |
+| [[cyberia/projects\|projects]] | work that closes: [[fathership]] first |
 | [[people]] | the roles and the bodies that carry them |
 | [[protocol]] | how the state computes: sovereignty tiers, markets, the century index, maps |
 | [[cyberia/explanation/your share of the sun\|explanation]] | the energy claim of a citizen, explained |

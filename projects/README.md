@@ -9,18 +9,18 @@ crystal-domain: cyberia
 
 the projects lens of [[org]]: work that closes. a project is a task with sub-tasks ([[dev]] § the objects); it has an owner, a status and a page, and when every sub-task is done it is over — unlike a product, which is kept alive, and unlike the chronicle, which is infrastructure. a project's domain is an attribute of the project, as a product's is of the product; the registry of every domain the state holds is cybernode's, at [domains.cybernode.ai](https://domains.cybernode.ai).
 
-| project | page | domain | stage |
-|---|---|---|---|
-| fathership | [[fathership]] | — | doing |
-| cybernode | [[cybernode]] | cybernode.ai | proposed as rung 7 |
-| bostrom reborn | [[bostrom]] | bostrom.network | 2026-11-05 |
+| project | domain | stage |
+|---|---|---|
+| [[fathership]] | — | doing |
+| [[cybernode]] | cybernode.ai | proposed as rung 7 |
+| [[bostrom\|bostrom reborn]] | bostrom.network | 2026-11-05 |
 | century index | [[century index\|cx]] | — | spec |
-| cyberstates | cyberstates | cyberstates.net | live |
-| cyber valley | [[cyber valley]] | cybervalley.io | launch soon |
-| cve | [[cve]] | — | private |
-| cyberia capital | — | cyberia.capital | design stage |
-| the meme state | — | cyberia.meme | live |
-| rockets | — | rockets.estate | eco-villages |
+| cyberstates | cyberstates.net | live |
+| [[cyber valley]] | cybervalley.io | launch soon |
+| [[cve]] | — | private |
+| cyberia capital | cyberia.capital | design stage |
+| the meme state | cyberia.meme | live |
+| [[rockets]] | rockets.estate | eco-villages |
 | cyb.land | [[cyberia/projects/cyb-land/README\|cyb-land]] | cyb.land | live |
 | oxytocin | [[cyberia/projects/oxytocin/README\|oxytocin]] | oxytocin.my | leasehold estate as cyberstate |
 | the land console | [[cyberia/projects/cyberia-my/README\|my]] | cyberia.my | mockup |
