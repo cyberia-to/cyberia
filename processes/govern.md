@@ -13,29 +13,12 @@ trigger: a proposal — a task of kind proposal whose subject is a page of the c
 
 ## the graph
 
-### 1 · propose · worker
-
-- role: anyone, an agent included
-- makes: the proposal: summary, motivation, the change quoted, what it contradicts today, acceptance criteria
-- green when: every contradiction with the charter is named
-
-### 2 · audit · workers
-
-- role: every body, adversarial first
-- makes: where it breaks identity, strategy, a product page, the vocabulary; which pages cite the clause
-- green when: a disagreement list, converged or at its third round
-
-### 3 · verdict · gate
-
-- role: the owner
-- makes: the decision on the task page: for, against, the verdict
-- green when: written by the owner's hand
-
-### 4 · amend · code node
-
-- role: keeper
-- makes: the charter page changed, the decision logged, the pages that cite the clause reopened as tasks
-- green when: every citing page has a task; the scheme on [[dev]] resolves
+| node | role | makes | green when |
+|---|---|---|---|
+| 1 propose · worker | anyone, an agent included | the proposal: summary, motivation, the change quoted, what it contradicts, acceptance criteria | every contradiction with the charter named |
+| 2 audit · workers | every body, adversarial first | where it breaks identity, strategy, a product page, the vocabulary; which pages cite the clause | a disagreement list, converged or at its third round |
+| 3 verdict · gate | the owner | the decision on the task page: for, against, the verdict | written by the owner's hand |
+| 4 amend · code node | keeper | the charter changed, the decision logged, the citing pages reopened as tasks | every citing page has a task; the scheme on [[dev]] resolves |
 
 ## return edges
 

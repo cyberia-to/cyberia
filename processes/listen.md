@@ -13,29 +13,12 @@ trigger: a sensor fires — an issue arrives, lytics shows a path people take or
 
 ## the graph
 
-### 1 · gather · code node
-
-- role: —
-- makes: signals from every inbox: GitHub issues, lytics, channels, support, the markets
-- green when: every signal has a source, a time and the product it concerns
-
-### 2 · sort · splitter
-
-- role: bridge-in
-- makes: signals grouped by the claim on a product page they touch; noise set aside with a reason
-- green when: every kept signal names a page and a claim
-
-### 3 · weigh · worker
-
-- role: counter
-- makes: the weight of each group: how many, how often, what it costs the claim
-- green when: a number with its method
-
-### 4 · propose · worker
-
-- role: seer
-- makes: a task for [[deliver]] or a change to the product page
-- green when: the proposal names the claim, the evidence and the lane
+| node | role | makes | green when |
+|---|---|---|---|
+| 1 gather · code node | — | signals from every inbox: issues, lytics, channels, support, the markets | every signal has a source, a time and a product |
+| 2 sort · splitter | bridge-in | signals grouped by the claim they touch; noise set aside with a reason | every kept signal names a page and a claim |
+| 3 weigh · worker | counter | the weight of each group: how many, how often, what it costs the claim | a number with its method |
+| 4 propose · worker | seer | a task for [[deliver]] or a change to the product page | the proposal names the claim, the evidence and the lane |
 
 ## return edges
 

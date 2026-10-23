@@ -13,53 +13,24 @@ trigger: a product page accepted by the owner, or a change to one that [[listen]
 
 ## the graph
 
-### 1 · intake · splitter
+| node | role | makes | green when |
+|---|---|---|---|
+| 1 intake · splitter | seer | claims cut into units by blast radius, each a task with its lane | the unit names its claim, requirement ids, lane, outputs and checks |
+| 2 design · worker + critic | keeper writes, sensor grades | a design per unit, at most five rounds | the design traces to the claim, names its files and tests |
+| 3 build · workers | runner implements, sensor tests, each with its own critic | a change and its tests per unit | tests exit 0; the diff stays inside the design's files |
+| 4 integrate · code node | — | every test tier over the merged units, then the fleet | all tiers and the fleet green |
+| 5 review · workers | one body per lens, all reading one commit | a verdict per lens; findings with one id each | every lens green or every finding disposed, in at most two rounds |
+| 6 merge · gate | counter | the change on the default branch | the lane's condition |
+| 7 use · worker | sensor plays the user | the claims walked end to end, a receipt per claim | every claim passed; the counter sets the dot |
+| 8 release · gate | runner cuts, the owner promotes | a candidate on the weekly train | the owner's verdict |
 
-- role: seer
-- makes: the page's claims cut into units by blast radius, each a task with its lane
-- green when: every unit names its claim and its requirement ids, its lane, its outputs and its checks before any work starts; the task page's first commit is the task, a change of scope is a dated line on it
+notes on the nodes:
 
-### 2 · design · worker + critic
-
-- role: keeper writes, sensor grades
-- makes: a design per unit, at most five rounds
-- green when: the critic's checks pass: the design traces to the claim, names its files, names its tests
-
-### 3 · build · workers
-
-- role: runner implements, sensor tests, each with its own critic, each in its own context
-- makes: a change and its tests per unit
-- green when: tests exit 0; the diff touches only the files of the design
-
-### 4 · integrate · code node
-
-- role: —
-- makes: every test tier over the merged units: unit, integration, end to end; then the fleet — the products that use a changed part built and tested against it
-- green when: all tiers exit 0 and the fleet is green; a synthetic green is not evidence that a consumer still works
-
-### 5 · review · workers
-
-- role: one body per lens: the twelve passes of [[cyberia/quality]], alignment with the charter, a second model; every lens reads the same commit
-- makes: a verdict per lens; findings with one canonical id each and the obligations that remain
-- green when: every lens green, or every finding disposed by a recorded decision; at most two rounds, a third is a diagnosis of the cut, not another call; a red lens returns the unit
-
-### 6 · merge · gate
-
-- role: counter
-- makes: the change on the default branch
-- green when: the lane's condition: contained → green checks; wide → green checks and a clean trajectory; irreversible → the owner
-
-### 7 · use · worker
-
-- role: sensor plays the user
-- makes: the page's claims walked as a user would, end to end, with a receipt per claim at a named commit
-- green when: every claim passed; the counter sets the dot from the receipt, never from the report; a receipt older than the last commit touching the claim's code is stale
-
-### 8 · release · gate
-
-- role: runner cuts, the owner promotes
-- makes: a candidate on the weekly train with receipts
-- green when: the owner's verdict
+- intake: the task page's first commit is the task; a change of scope is a dated line on it, never an edit of the first sentence.
+- integrate: the fleet is the products that use a changed part, built and tested against it; a synthetic green is not evidence that a consumer still works.
+- review: the lenses are the twelve passes of [[cyberia/quality]], alignment with the charter and a second model; a finding keeps one canonical id and its remaining obligations; a third round is a diagnosis of the cut, not another call.
+- merge: contained → green checks; wide → green checks and a clean trajectory; irreversible → the owner.
+- use: the receipt names the commit; a receipt older than the last commit touching the claim's code is stale, and the dot comes from the receipt, never from the report.
 
 node 7 is the user of the delivery: a body that takes the product page as a script and does what a person would — opens the door, follows the path, reads the numbers — and records what it saw. its harness is code where it can be code (the deck players and phone ledgers under `/tmp/jsd` are the shape); its judgment is one line per claim with the evidence. real users belong to [[listen]].
 

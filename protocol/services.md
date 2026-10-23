@@ -32,14 +32,16 @@ When people say "ledger" they mean the graph filtered to edges where the object 
 
 Tokens are the things that move through the graph. Not just money — everything.
 
-- **Currency** — Fungible: yes · Transferable: yes · Expires: no · Revocable: no · Examples: USD, EUR, BTC
-- **Title** — Fungible: no · Transferable: yes · Expires: no · Revocable: no · Examples: Land deed, vehicle registration
-- **Permit** — Fungible: no · Transferable: sometimes · Expires: yes · Revocable: yes · Examples: Visa, building permit, trade license
-- **Credential** — Fungible: no · Transferable: no · Expires: yes · Revocable: yes · Examples: Passport, medical license, diploma
-- **Vote** — Fungible: no · Transferable: no · Expires: yes · Revocable: no · Examples: Election ballot
-- **Claim** — Fungible: no · Transferable: yes · Expires: yes · Revocable: yes · Examples: Insurance policy, pension right
-- **Share** — Fungible: yes · Transferable: yes · Expires: no · Revocable: no · Examples: Company equity, coop membership
-- **Record** — Fungible: no · Transferable: no · Expires: no · Revocable: no · Examples: Birth certificate, death record, court judgment
+| Token type | Fungible | Transferable | Expires | Revocable | Examples |
+|-----------|:--------:|:------------:|:-------:|:---------:|---------|
+| Currency | yes | yes | no | no | USD, EUR, BTC |
+| Title | no | yes | no | no | Land deed, vehicle registration |
+| Permit | no | sometimes | yes | yes | Visa, building permit, trade license |
+| Credential | no | no | yes | yes | Passport, medical license, diploma |
+| Vote | no | no | yes | no | Election ballot |
+| Claim | no | yes | yes | yes | Insurance policy, pension right |
+| Share | yes | yes | no | no | Company equity, coop membership |
+| Record | no | no | no | no | Birth certificate, death record, court judgment |
 
 Every object in the old model — passport, ID card, building permit, employment contract, marriage certificate, patent — is a token. It gets minted, assigned to a holder, optionally transferred, and eventually expires or gets revoked. The lifecycle is the same for all of them.
 
@@ -128,10 +130,12 @@ governance.vote():
 
 A person's relationship with a state determines which tokens they can hold and which workflows they can initiate. This relationship has four depths:
 
-- ****VISIT**** — Duration: days/weeks · What it means: You are physically present. The state knows you exist because you crossed the border. You can hold temporary tokens: entry permit, tourist SIM, emergency care.
-- ****STAY**** — Duration: months/years · What it means: You have registered in the system. The state has your address. You can hold medium-term tokens: bank account, work permit, business registration, insurance.
-- ****SETTLE**** — Duration: years/decade · What it means: You are permanently established. The state considers you a long-term stakeholder. You can hold permanent tokens: property title, permanent residence, pension, professional credentials.
-- ****BELONG**** — Duration: forever · What it means: You are a full member of the state. You hold the governance token: passport, voting rights, right to run for office. The state will protect you anywhere on Earth. You can pass tokens to the next generation.
+| Tier | Duration | What it means |
+|------|----------|--------------|
+| **VISIT** | days/weeks | You are physically present. The state knows you exist because you crossed the border. You can hold temporary tokens: entry permit, tourist SIM, emergency care. |
+| **STAY** | months/years | You have registered in the system. The state has your address. You can hold medium-term tokens: bank account, work permit, business registration, insurance. |
+| **SETTLE** | years/decade | You are permanently established. The state considers you a long-term stakeholder. You can hold permanent tokens: property title, permanent residence, pension, professional credentials. |
+| **BELONG** | forever | You are a full member of the state. You hold the governance token: passport, voting rights, right to run for office. The state will protect you anywhere on Earth. You can pass tokens to the next generation. |
 
 Each tier is a superset of the previous. BELONG includes everything from SETTLE, which includes everything from STAY, which includes everything from VISIT. Moving up the tiers is a one-way ratchet — each step requires the previous step and typically years of demonstrated commitment.
 

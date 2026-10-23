@@ -22,19 +22,19 @@ cyberia is an organism that builds things. this page says what it is made of, wh
 
 one page per object, in the repository that owns it, typed by its frontmatter. `kind` and `status` follow [[soma]]; `serves` names the goal a page exists for, so every page has a lineage up to the purpose.
 
-| object · primitive | page · lives in | closes when |
-|---|---|---|
-| **purpose, principles** · charter | `README.md` of the entity · the entity's repository | never |
-| **product** · goal, product, maintain | the product page, every claim marked 🟢 measured · 🟡 target · 🔴 mock · the product's repository, as its door | never; it is kept alive |
-| **goal of a quarter** · goal, outcome, strategic | one page per goal · `goals/` | its sensor fires |
-| **project** · task with sub-tasks | one page, sub-tasks as pages or rows · `projects/` | every sub-task done |
-| **task** · task, kind question · plan · work · proposal · review | one page: kind, status, owner, serves, evidence · `tasks/` of the owning repository | `done`, `closed` or `abandoned` |
-| **decision** · task, kind review, owner the father | one page: what is asked, both sides, the verdict · `tasks/` of the owning repository | the father's verdict |
-| **specification** · contract | `specs/`: clauses with ids, each with its cases · the owning repository | superseded |
-| **requirement map** · measure | one table: requirement → code → test → receipt at a commit · `audit/` of the product | never; the counter reads it |
-| **measurement, audit, receipt** · measure | `audit/` · the owning repository | never; it is evidence |
-| **release** · event, release | the candidate's receipts · `audit/release-<date>/` | the father promotes or the week ends |
-| **process** · skill, composite | one page per process · `processes/` | superseded |
+| object | primitive | page | lives in | closes when |
+|---|---|---|---|---|
+| purpose, principles | charter | the entity's `README.md` | the entity's repository | never |
+| product | goal, product | the product page, claims with dots | the product's repository | never |
+| goal of a quarter | goal, outcome | one page per goal | `goals/` | its sensor fires |
+| project | task with sub-tasks | one page, sub-tasks as pages or rows | `projects/` | every sub-task done |
+| task | task | kind, status, owner, serves, evidence | `tasks/` of the owner | `done`, `closed`, `abandoned` |
+| decision | task, kind review | what is asked, both sides, the verdict | `tasks/` of the owner | the father's verdict |
+| specification | contract | clauses with ids and cases | `specs/` | superseded |
+| requirement map | measure | requirement → code → test → receipt | `audit/` of the product | never |
+| receipt | measure | the measurement and its commit | `audit/` | never |
+| release | event | the candidate's receipts | `audit/release-<date>/` | promoted, or the week ends |
+| process | skill | one page per process | `processes/` | superseded |
 
 task status: `open → doing → done`, or `closed`, or `abandoned`. a task is ready when nothing it waits for is open. claims on pages carry evidence words: `open → simulated → measured → proven`, and `stale` when the receipt is older than the last commit that touched the claim's code; on a product page the same states are the dots: 🔴 open or stale · 🟡 simulated · 🟢 measured or proven.
 
@@ -135,7 +135,7 @@ the owner holds three things and nothing else: the charter, the product pages, a
 
 ## the views
 
-a view is a query over pages; none is written by hand. [[cyberia/views|views]] carries them as optica queries (`{{query …}}` over page properties), run by the graph on every render; what pages cannot show — pull requests, the requirement counters, receipt ages, the train — `cyberia/scripts/views.nu` senses once an hour into [[cyberia/views/sensors|sensors]] (launchd `to.cyberia.views`). a table on any page of this repository has at most four columns or short cells; a wide table becomes a list.
+a view is a query over pages; none is written by hand. [[cyberia/views|views]] carries them as optica queries (`{{query …}}` over page properties), run by the graph on every render; what pages cannot show — pull requests, the requirement counters, receipt ages, the train — `cyberia/scripts/views.nu` senses once an hour into [[cyberia/views/sensors|sensors]] (launchd `to.cyberia.views`). a table on any page of this repository keeps its cells short; the prose a cell cannot hold goes in notes under the table.
 
 | view | query |
 |---|---|

@@ -64,11 +64,13 @@ Empirical hierarchy of drivers (regressions across HDI groups):
 
 Aspiration is realized through capability. Barriers are NOT equal — each has its own removal mechanics:
 
-- **Legal access (no channel)** — Who it traps: most of the trapped · Removed by: policy: expansion of free-movement zones, new programs · Removal speed: instant, binary · Who "sells" the removal: states
-- **Money for the cycle ($2–15k)** — Who it traps: the poorest · Removed by: lending against future income · Removal speed: months · Who "sells" the removal: recruiters, diaspora, microfinance
-- **Skills/language** — Who it traps: the middle · Removed by: training for export (Philippine model) · Removal speed: years · Who "sells" the removal: education machines
-- **Information/networks** — Who it traps: the first in their graph · Removed by: endogenously: each mover opens their graph · Removal speed: cascades by itself · Who "sells" the removal: diasporas
-- **Roots (family, age, property)** — Who it traps: older, married · Removed by: almost never removed
+| Barrier | Who it traps | Removed by | Removal speed | Who "sells" the removal |
+|---|---|---|---|---|
+| Legal access (no channel) | most of the trapped | policy: expansion of free-movement zones, new programs | instant, binary | states |
+| Money for the cycle ($2–15k) | the poorest | lending against future income | months | recruiters, diaspora, microfinance |
+| Skills/language | the middle | training for export (Philippine model) | years | education machines |
+| Information/networks | the first in their graph | endogenously: each mover opens their graph | cascades by itself | diasporas |
+| Roots (family, age, property) | older, married | almost never removed | — | — |
 
 **Key takeaway:** the trapped = latent supply. Historical jumps in migration are not surges of desire but the construction of capability corridors (EU-2004, Gulf recruitment, Canada's Express Entry, humanitarian paroles). Forecasting flows = forecasting who builds the next corridor, and where.
 
@@ -108,10 +110,12 @@ Channels interconvert: student→worker→settler (a large share of "new permane
 **Headcount hypothesis (base — stock of ~40M):** N0 ~28M (70%) · N1 ~8M (20%) · N2 ~2–3M (6–8%) · N3 ~0.3M (<1%).
 Proxies: N1 — share of nomads naming banking/taxes as a systemic problem in surveys (~half have encountered it, ~a fifth treat it as systemic risk); N2 — flag-theory content audiences (millions of subscribers for top channels, Estonia's e-Residency 100k+) minus idle interest; N3 — cumulative CBI/RBI buyers over a decade + DIY assemblers with 2+ residencies.
 
-- ****N0 — asleep** (unaware)** — State: the status question does not exist · Signs: visa runs as routine, "taxes later", one passport · Lever to the next stage: shock: frozen account, tax letter, border refusal, closed visa loophole
-- ****N1 — hurting** (problem-aware)** — State: risk recognized, solution imagined in the old frame "must settle somewhere" · Signs: anxiety over banking, taxes, children, an aging passport · Lever to the next stage: content + word of mouth: learning that "settle" is not the only answer. Risk: the false exit — capitulating into the settlement channel
-- ****N2 — seeking** (solution-aware)** — State: want multi-jurisdictionality itself, but the market sells junk · Signs: buy patches (golden visas with presence requirements, single-layer tax advice), self-assemble with costly mistakes · Lever to the next stage: methodology/product. What they seek doesn't even have an accepted name
-- ****N3 — building** (architects)** — State: rooting rejected deliberately; goal: a portfolio with no presence requirement in any node · Signs: engineering-grade jurisdiction screening (RAVI-class), aware of the "passport with vs without presence clock" divide · Lever to the next stage: — source of methodology for N2, proof of existence for N1
+| Stage | State | Signs | Lever to the next stage |
+|---|---|---|---|
+| **N0 — asleep** (unaware) | the status question does not exist | visa runs as routine, "taxes later", one passport | shock: frozen account, tax letter, border refusal, closed visa loophole |
+| **N1 — hurting** (problem-aware) | risk recognized, solution imagined in the old frame "must settle somewhere" | anxiety over banking, taxes, children, an aging passport | content + word of mouth: learning that "settle" is not the only answer. Risk: the false exit — capitulating into the settlement channel |
+| **N2 — seeking** (solution-aware) | want multi-jurisdictionality itself, but the market sells junk | buy patches (golden visas with presence requirements, single-layer tax advice), self-assemble with costly mistakes | methodology/product. What they seek doesn't even have an accepted name |
+| **N3 — building** (architects) | rooting rejected deliberately; goal: a portfolio with no presence requirement in any node | engineering-grade jurisdiction screening (RAVI-class), aware of the "passport with vs without presence clock" divide | — source of methodology for N2, proof of existence for N1 |
 
 **Implications:**
 1. The "market gap" (layer 8, item 4) refined: there is no product for N2–N3, but N0–N1 *demand* is also unformed — the market is underdeveloped on both sides.
@@ -139,15 +143,17 @@ The product-buyer incompatibility point: physical-presence requirements (183+ da
 
 One good (status) sold for eight currencies — price discrimination by ability to pay:
 
-- **Blood** — Source: birth (inherited) · ~people/yr: ~1.5M (incl. ~0.3M ancestry tracks) · Channel: parent/child reunification, ancestry repatriation (jus sanguinis) · Note: cannot be issued — the lottery was drawn before birth
-- **Marriage** — Source: union (created by choice) · ~people/yr: ~1.8M · Channel: spousal track · Note: the only "kinship by choice" → hence the policing (sham checks, 3-yr clocks)
-- **Sponsorship** — Source: others' graph (a third party pays) · ~people/yr: ~0.3M · Channel: Canada's PSR, US parole tracks (U4U, CHNV), BVOR · Note: the only mechanism for buying a slot NOT for oneself; crowdfunded corridor; diasporas are the main payer
-- **Study** — Source: lifetime · ~people/yr: ~2.6M (incl. families) · Channel: degree-as-ticket, 5–10 yr clocks · Note: $150–200B to universities
-- **Labor** — Source: skill · ~people/yr: ~11M (incl. temporary + families) · Channel: HQS, points, permits, shift work · Note: largest by headcount; most buy temporary status
-- **Suffering** — Source: condition (paid by oneself, upfront) · ~people/yr: ~7M move / ~1M granted · Channel: asylum for those who arrive + resettlement · Note: stock of 120M: a century-long queue
-- **Money** — Source: capital · ~people/yr: ~0.3M people (100k families) · Channel: CBI/RBI, investor residency · Note: $20–25B/yr, ×1000 average ticket
-- **Ideology** — Source: conviction · ~people/yr: thousands · Channel: decree 702, values-based visas · Note: a 2024+ currency, growth frontier
-- **Club citizenship** — Source: inherited membership · ~people/yr: ~4–5M · Channel: free movement: EU/EEA, ECOWAS, Mercosur, intra-GCC, EAEU · Note: Blood one generation removed; no transaction at the border
+| Currency | Source | ~people/yr | Channel | Note |
+|---|---|---|---|---|
+| Blood | birth (inherited) | ~1.5M (incl. ~0.3M ancestry tracks) | parent/child reunification, ancestry repatriation (jus sanguinis) | cannot be issued — the lottery was drawn before birth |
+| Marriage | union (created by choice) | ~1.8M | spousal track | the only "kinship by choice" → hence the policing (sham checks, 3-yr clocks) |
+| Sponsorship | others' graph (a third party pays) | ~0.3M | Canada's PSR, US parole tracks (U4U, CHNV), BVOR | the only mechanism for buying a slot NOT for oneself; crowdfunded corridor; diasporas are the main payer |
+| Study | lifetime | ~2.6M (incl. families) | degree-as-ticket, 5–10 yr clocks | $150–200B to universities |
+| Labor | skill | ~11M (incl. temporary + families) | HQS, points, permits, shift work | largest by headcount; most buy temporary status |
+| Suffering | condition (paid by oneself, upfront) | ~7M move / ~1M granted | asylum for those who arrive + resettlement | stock of 120M: a century-long queue |
+| Money | capital | ~0.3M people (100k families) | CBI/RBI, investor residency | $20–25B/yr, ×1000 average ticket |
+| Ideology | conviction | thousands | decree 702, values-based visas | a 2024+ currency, growth frontier |
+| Club citizenship | inherited membership | ~4–5M | free movement: EU/EEA, ECOWAS, Mercosur, intra-GCC, EAEU | Blood one generation removed; no transaction at the border |
 
 **Metric (v0.10, final form):** people/yr per lane = principals + their accompanying dependents, allocated to the principal's currency (an investor's family is part of the Money transaction, a worker's family part of Labor). Dependent share per lane follows k: ≈1 for Gulf contracts (families barred), ≈2–3 for investor and skilled tracks. Blood and Marriage count only those whose own relationship IS the basis. Suffering is metered in movers and already counts family units.
 
