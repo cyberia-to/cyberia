@@ -25,7 +25,6 @@ the projects lens of [[org]]: work that closes. a project is a task with sub-tas
 | [[cyberia/projects/oxytocin/README\|oxytocin]] | oxytocin.my | leasehold estate as cyberstate |
 | [[cyberia/projects/cyberia-my/README\|the land console]] | cyberia.my | mockup |
 | [[cyberia/projects/events/README\|events]] | — | tickets and events platform |
-| [[cyberia/projects/mimi/README\|mimi]] | — | LLM assistant over Telegram, Logseq, GitHub |
 | [[cyberia/projects/genome-protocol/README\|genome protocol]] | — | research: attested genome and kinship proofs |
 | [[cyberia/projects/migration-market/README\|migration market]] | — | research: status currencies, funnel, nomad model |
 | [[cyberia/projects/cyber-sheep/README\|cyber sheep]] | — | research: autonomous energy platform on a biomechanical chassis |

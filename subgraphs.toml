@@ -4,11 +4,6 @@
 # a child mounts at cyberia/<name> and lives as a sibling checkout, ~/cyber/<name>.
 
 [[subgraph]]
-name = "mimi"
-visibility = "private"
-# content lives inside cyberia repo tree: cyberia/research/mimi (not a separate mount)
-
-[[subgraph]]
 name = "midao"
 visibility = "private"
 
