@@ -1,0 +1,29 @@
+# the children of cyberia — read by optica, sync.nu and the publish clone step
+# after the root census (cyberia-blog/subgraphs.toml) declares cyberia itself.
+# same fields as the root census; `parent` is implied (cyberia) and may be omitted.
+# a child mounts at cyberia/<name> and lives as a sibling checkout, ~/cyber/<name>.
+
+[[subgraph]]
+name = "mimi"
+visibility = "private"
+# content lives inside cyberia repo tree: cyberia/research/mimi (not a separate mount)
+
+[[subgraph]]
+name = "midao"
+visibility = "private"
+
+
+[[subgraph]]
+name = "events"
+local-only = true
+visibility = "private"
+archived = true
+# content at cyberia/research/events (not a separate mount); github still cyberia-to/my
+
+[[subgraph]]
+name = "cyberia-my"
+visibility = "public"
+
+[[subgraph]]
+name = "cybland"
+visibility = "private"
