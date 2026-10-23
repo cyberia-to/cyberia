@@ -26,7 +26,7 @@ subtotal: $144 USD
 | guests | _adults · kids · animals_ |
 | notes | _allergies, mobility, kids ages, etc._ |
 
-[continue to payment →](/cyberia/research/cyb-land/cart/pay)
+[continue to payment →](/cyberia/projects/cyb-land/cart/pay)
 
 ## payment options
 

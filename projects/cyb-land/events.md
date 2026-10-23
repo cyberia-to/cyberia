@@ -26,9 +26,9 @@ per night, single private camp. seven camps available across the estate.
 
 | sku | rate per night | |
 |---|---|---|
-| camp, working day | $20 | [+ add](/cyberia/research/cyb-land/cart) |
-| camp, weekend | $30 | [+ add](/cyberia/research/cyb-land/cart) |
-| camp, holiday or moon | $50 | [+ add](/cyberia/research/cyb-land/cart) |
+| camp, working day | $20 | [+ add](/cyberia/projects/cyb-land/cart) |
+| camp, weekend | $30 | [+ add](/cyberia/projects/cyb-land/cart) |
+| camp, holiday or moon | $50 | [+ add](/cyberia/projects/cyb-land/cart) |
 
 available camps: {{query (and (page-tags [[camp]]) (not (page-property :type "public")))}}
 
@@ -36,6 +36,6 @@ available camps: {{query (and (page-tags [[camp]]) (not (page-property :type "pu
 
 organising something larger? request a tailored proposal — venue, food, lodging, programming, support.
 
-[request a proposal →](/cyberia/research/cyb-land/cart)
+[request a proposal →](/cyberia/projects/cyb-land/cart)
 
-[view cart →](/cyberia/research/cyb-land/cart)
+[view cart →](/cyberia/projects/cyb-land/cart)

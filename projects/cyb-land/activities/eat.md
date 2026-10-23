@@ -47,4 +47,4 @@ most food comes from our farm or neighbouring farms. cheese and olive oil are th
 
 diverse [[plant]] sources, protein from legumes and animals, fermented foods for gut health. [[medicinal]] plants and [[spice]] crops add bioactive compounds for immunity.
 
-[view cart →](/cyberia/research/cyb-land/cart)
+[view cart →](/cyberia/projects/cyb-land/cart)

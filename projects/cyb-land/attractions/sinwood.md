@@ -13,9 +13,9 @@ new moon, day before, day after — the glow peaks at the dark of the moon.
 
 | sku | indonesian | foreigner | |
 |---|---|---|---|
-| sinwood new moon, >16 men | $250 | $400 | [+ add](/cyberia/research/cyb-land/cart) |
-| sinwood new moon, woman <42 | $100 | $200 | [+ add](/cyberia/research/cyb-land/cart) |
-| sinwood new moon, kid <10 + animals | $50 | $100 | [+ add](/cyberia/research/cyb-land/cart) |
+| sinwood new moon, >16 men | $250 | $400 | [+ add](/cyberia/projects/cyb-land/cart) |
+| sinwood new moon, woman <42 | $100 | $200 | [+ add](/cyberia/projects/cyb-land/cart) |
+| sinwood new moon, kid <10 + animals | $50 | $100 | [+ add](/cyberia/projects/cyb-land/cart) |
 
 
 existing

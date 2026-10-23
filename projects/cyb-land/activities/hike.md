@@ -20,9 +20,9 @@ self-guided is free with any ticket. add a guide for context, plant lore, and sa
 
 | sku | duration | price | |
 |---|---|---|---|
-| guide, sacred path | 1 hour | $15 | [+ add](/cyberia/research/cyb-land/cart) |
-| guide, sanghyang black | 5 hours | $30 | [+ add](/cyberia/research/cyb-land/cart) |
-| guide, sunrise hiking | 4 hours | $30 | [+ add](/cyberia/research/cyb-land/cart) |
+| guide, sacred path | 1 hour | $15 | [+ add](/cyberia/projects/cyb-land/cart) |
+| guide, sanghyang black | 5 hours | $30 | [+ add](/cyberia/projects/cyb-land/cart) |
+| guide, sunrise hiking | 4 hours | $30 | [+ add](/cyberia/projects/cyb-land/cart) |
 
 ## poems
 
@@ -47,4 +47,4 @@ self-guided is free with any ticket. add a guide for context, plant lore, and sa
 - melayang tinggi — bintang menari
 - peluk dunia — sepenuh hati
 
-[view cart →](/cyberia/research/cyb-land/cart)
+[view cart →](/cyberia/projects/cyb-land/cart)

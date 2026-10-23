@@ -37,8 +37,8 @@ venue fees and revenue share are negotiated per event.
 
 | sku | | |
 |---|---|---|
-| event proposal — single date | by review | [request →](/cyberia/research/cyb-land/cart) |
-| event proposal — recurring (monthly+) | by review | [request →](/cyberia/research/cyb-land/cart) |
-| residency proposal — multi-day | by review | [request →](/cyberia/research/cyb-land/cart) |
+| event proposal — single date | by review | [request →](/cyberia/projects/cyb-land/cart) |
+| event proposal — recurring (monthly+) | by review | [request →](/cyberia/projects/cyb-land/cart) |
+| residency proposal — multi-day | by review | [request →](/cyberia/projects/cyb-land/cart) |
 
-[view cart →](/cyberia/research/cyb-land/cart)
+[view cart →](/cyberia/projects/cyb-land/cart)

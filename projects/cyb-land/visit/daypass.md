@@ -23,15 +23,15 @@ base entrance only. think of it as the visa — you're in, you can roam:
 
 | sku | indonesian | foreigner | |
 |---|---|---|---|
-| daypass, working day, >16 men | $4 | $7 | [+ add](/cyberia/research/cyb-land/cart) |
-| daypass, working day, women + kids | $2 | $4 | [+ add](/cyberia/research/cyb-land/cart) |
-| daypass, weekend, >16 men | $5 | $10 | [+ add](/cyberia/research/cyb-land/cart) |
-| daypass, weekend, women + kids | $3 | $5 | [+ add](/cyberia/research/cyb-land/cart) |
-| daypass, holiday or moon, >16 men | $8 | $15 | [+ add](/cyberia/research/cyb-land/cart) |
-| daypass, holiday or moon, women + kids | $4 | $8 | [+ add](/cyberia/research/cyb-land/cart) |
+| daypass, working day, >16 men | $4 | $7 | [+ add](/cyberia/projects/cyb-land/cart) |
+| daypass, working day, women + kids | $2 | $4 | [+ add](/cyberia/projects/cyb-land/cart) |
+| daypass, weekend, >16 men | $5 | $10 | [+ add](/cyberia/projects/cyb-land/cart) |
+| daypass, weekend, women + kids | $3 | $5 | [+ add](/cyberia/projects/cyb-land/cart) |
+| daypass, holiday or moon, >16 men | $8 | $15 | [+ add](/cyberia/projects/cyb-land/cart) |
+| daypass, holiday or moon, women + kids | $4 | $8 | [+ add](/cyberia/projects/cyb-land/cart) |
 
 ## upgrade to nightpass
 
 vehicles parked after 22:00 are upgraded to a [[nightpass]] (overnight, full estate access).
 
-[+ add to cart →](/cyberia/research/cyb-land/cart)
+[+ add to cart →](/cyberia/projects/cyb-land/cart)

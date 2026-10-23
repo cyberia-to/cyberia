@@ -55,4 +55,4 @@ vehicles left on the estate after 22:00 on a daypass are upgraded to a [[nightpa
 - [[sound]] — music in public venues
 - [[security]] — guards, first aid, emergency response
 
-[view cart →](/cyberia/research/cyb-land/cart)
+[view cart →](/cyberia/projects/cyb-land/cart)

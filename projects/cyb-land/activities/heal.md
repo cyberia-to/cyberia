@@ -15,8 +15,8 @@ includes hot steam, [[bath broom]], cold plunge, [[herbal tea]]. session capacit
 
 | sku | session | indonesian | foreigner | |
 |---|---|---|---|---|
-| banya, morning | 08:00 | $10 | $20 | [+ add](/cyberia/research/cyb-land/cart) |
-| banya, afternoon | 16:00 | $10 | $20 | [+ add](/cyberia/research/cyb-land/cart) |
+| banya, morning | 08:00 | $10 | $20 | [+ add](/cyberia/projects/cyb-land/cart) |
+| banya, afternoon | 16:00 | $10 | $20 | [+ add](/cyberia/projects/cyb-land/cart) |
 
 ## massage
 
@@ -24,8 +24,8 @@ includes hot steam, [[bath broom]], cold plunge, [[herbal tea]]. session capacit
 
 | sku | duration | indonesian | foreigner | |
 |---|---|---|---|---|
-| massage, 60 min | 60 min | $8 | $15 | [+ add](/cyberia/research/cyb-land/cart) |
-| massage, 90 min | 90 min | $10 | $20 | [+ add](/cyberia/research/cyb-land/cart) |
+| massage, 60 min | 60 min | $8 | $15 | [+ add](/cyberia/projects/cyb-land/cart) |
+| massage, 90 min | 90 min | $10 | $20 | [+ add](/cyberia/projects/cyb-land/cart) |
 
 ## meditation
 
@@ -33,6 +33,6 @@ includes hot steam, [[bath broom]], cold plunge, [[herbal tea]]. session capacit
 
 | sku | per day | |
 |---|---|---|
-| meditation mat, rent | $2 | [+ add](/cyberia/research/cyb-land/cart) |
+| meditation mat, rent | $2 | [+ add](/cyberia/projects/cyb-land/cart) |
 
-[view cart →](/cyberia/research/cyb-land/cart)
+[view cart →](/cyberia/projects/cyb-land/cart)

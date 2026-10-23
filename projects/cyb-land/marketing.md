@@ -157,4 +157,4 @@ month 6–12:
 - double down on whichever stack is outperforming
 - referral program for past visitors (token-based)
 
-[view cart →](/cyberia/research/cyb-land/cart)
+[view cart →](/cyberia/projects/cyb-land/cart)

@@ -9,4 +9,4 @@ bring your own cushion or rent a mat at the entrance.
 
 | sku | per day | |
 |---|---|---|
-| meditation mat, rent | $2 | [+ add](/cyberia/research/cyb-land/cart) |
+| meditation mat, rent | $2 | [+ add](/cyberia/projects/cyb-land/cart) |

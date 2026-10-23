@@ -35,9 +35,9 @@ the first sustainable nature-tech society in the world. 37 ha of owned land in n
 
 | sku | minimum | structure | |
 |---|---|---|---|
-| seed equity, [[cve]] | $50,000 | pma share | [request →](/cyberia/research/cyb-land/cart) |
-| layer co-investment | $100,000 | project sub-entity | [request →](/cyberia/research/cyb-land/cart) |
-| land acquisition | $250,000 | direct title + lease-back | [request →](/cyberia/research/cyb-land/cart) |
-| anchor partnership | $1,000,000+ | board seat + custom terms | [request →](/cyberia/research/cyb-land/cart) |
+| seed equity, [[cve]] | $50,000 | pma share | [request →](/cyberia/projects/cyb-land/cart) |
+| layer co-investment | $100,000 | project sub-entity | [request →](/cyberia/projects/cyb-land/cart) |
+| land acquisition | $250,000 | direct title + lease-back | [request →](/cyberia/projects/cyb-land/cart) |
+| anchor partnership | $1,000,000+ | board seat + custom terms | [request →](/cyberia/projects/cyb-land/cart) |
 
 this is a private offering subject to indonesian law and pma regulation. our commitment: full transparency, strong compliance, long-term alignment.

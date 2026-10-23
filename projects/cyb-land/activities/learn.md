@@ -14,4 +14,4 @@ cyb.land is an open educational platform. any indonesian talent can host their e
 
 - [[host]] — venue, audience, infrastructure for your educational event
 
-[view cart →](/cyberia/research/cyb-land/cart)
+[view cart →](/cyberia/projects/cyb-land/cart)

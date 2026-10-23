@@ -32,11 +32,11 @@ everything in [[daypass]] plus:
 
 | sku | indonesian | foreigner | |
 |---|---|---|---|
-| nightpass, working day, >16 men | $10 | $20 | [+ add](/cyberia/research/cyb-land/cart) |
-| nightpass, working day, women + kids | $5 | $10 | [+ add](/cyberia/research/cyb-land/cart) |
-| nightpass, weekend, >16 men | $13 | $25 | [+ add](/cyberia/research/cyb-land/cart) |
-| nightpass, weekend, women + kids | $6 | $12 | [+ add](/cyberia/research/cyb-land/cart) |
-| nightpass, holiday or moon, >16 men | $18 | $35 | [+ add](/cyberia/research/cyb-land/cart) |
-| nightpass, holiday or moon, women + kids | $9 | $18 | [+ add](/cyberia/research/cyb-land/cart) |
+| nightpass, working day, >16 men | $10 | $20 | [+ add](/cyberia/projects/cyb-land/cart) |
+| nightpass, working day, women + kids | $5 | $10 | [+ add](/cyberia/projects/cyb-land/cart) |
+| nightpass, weekend, >16 men | $13 | $25 | [+ add](/cyberia/projects/cyb-land/cart) |
+| nightpass, weekend, women + kids | $6 | $12 | [+ add](/cyberia/projects/cyb-land/cart) |
+| nightpass, holiday or moon, >16 men | $18 | $35 | [+ add](/cyberia/projects/cyb-land/cart) |
+| nightpass, holiday or moon, women + kids | $9 | $18 | [+ add](/cyberia/projects/cyb-land/cart) |
 
-[+ add to cart →](/cyberia/research/cyb-land/cart)
+[+ add to cart →](/cyberia/projects/cyb-land/cart)

@@ -22,10 +22,10 @@ open to all visitors with a [[daypass]] or higher. the park walk is free with en
 
 | sku | | |
 |---|---|---|
-| growing workshop — launch day | $10 | [+ add](/cyberia/research/cyb-land/cart) |
+| growing workshop — launch day | $10 | [+ add](/cyberia/projects/cyb-land/cart) |
 
 ## location
 
 [[bridge]] district — 500 m northeast of the main [[citadel]] gate, signposted from the entrance road.
 
-[view cart →](/cyberia/research/cyb-land/cart)
+[view cart →](/cyberia/projects/cyb-land/cart)

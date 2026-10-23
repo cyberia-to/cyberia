@@ -42,4 +42,4 @@ four peaks reachable from the site:
 
 book a [[daypass]] or [[nightpass]] for full access. for camping, see [[stay]].
 
-[view cart →](/cyberia/research/cyb-land/cart)
+[view cart →](/cyberia/projects/cyb-land/cart)

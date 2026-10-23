@@ -39,4 +39,4 @@ monthly passes start mid-month or month-start, your choice. see [[visit/visas|vi
 - [[stay]] — [[glamping]], [[tent rent]], camp sites
 - [[eat]] — [[organiq]] day and evening doses, [[picnic]], [[grazing]]
 
-[view cart →](/cyberia/research/cyb-land/cart)
+[view cart →](/cyberia/projects/cyb-land/cart)

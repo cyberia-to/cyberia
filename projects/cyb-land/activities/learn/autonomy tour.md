@@ -22,7 +22,7 @@ monthly tour from founders. visit the working systems, learn the pattern, take i
 
 | sku | duration | price | |
 |---|---|---|---|
-| autonomy tour, group, bahasa | 2 hours | 300k IDR | [+ add](/cyberia/research/cyb-land/cart) |
-| autonomy tour, group, english | 2 hours | 500k IDR | [+ add](/cyberia/research/cyb-land/cart) |
+| autonomy tour, group, bahasa | 2 hours | 300k IDR | [+ add](/cyberia/projects/cyb-land/cart) |
+| autonomy tour, group, english | 2 hours | 500k IDR | [+ add](/cyberia/projects/cyb-land/cart) |
 
-[view cart →](/cyberia/research/cyb-land/cart)
+[view cart →](/cyberia/projects/cyb-land/cart)
