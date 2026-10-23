@@ -2,7 +2,3 @@ target/
 dist/
 node_modules/
 
-# independent project repos nested under projects (own git remotes)
-projects/events/
-projects/cyberia-my/
-projects/mimi/

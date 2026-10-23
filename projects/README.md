@@ -9,6 +9,8 @@ crystal-domain: cyberia
 
 the projects lens of [[org]]: work that closes. a project is a task with sub-tasks ([[dev]] § the objects); it has an owner, a status and a page, and when every sub-task is done it is over — unlike a product, which is kept alive, and unlike the chronicle, which is infrastructure. a project's domain is an attribute of the project, as a product's is of the product; the registry of every domain the state holds is cybernode's, at [domains.cybernode.ai](https://domains.cybernode.ai).
 
+this folder is the registry: one file per project, its passport — what it is, its domain, its repository, its stage, what it serves. a project that needs more than a passport keeps the rest in its own repository, never in a folder here.
+
 | project | domain | stage |
 |---|---|---|
 | [[fathership]] | — | doing |
@@ -24,7 +26,7 @@ the projects lens of [[org]]: work that closes. a project is a task with sub-tas
 | [[cyberia/projects/etherland\|etherland]] | cyb.land | live |
 | [[cyberia/projects/oxytocin\|oxytocin]] | oxytocin.my | concept |
 | [[cyberia/projects/cyberia-my\|the land console]] | cyberia.my | mockup |
-| [[cyberia/projects/events\|events]] | — | concept |
+| [[cyberia/projects/events\|events]] | — | paused |
 | [[cyberia/projects/genome-protocol\|genome protocol]] | — | research |
 | [[cyberia/projects/migration-market\|migration market]] | — | research |
 | [[cyberia/projects/cyber-sheep\|cyber sheep]] | — | research |

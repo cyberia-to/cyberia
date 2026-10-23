@@ -13,7 +13,7 @@ name = "events"
 local-only = true
 visibility = "private"
 archived = true
-# content at cyberia/research/events (not a separate mount); github still cyberia-to/my
+# the code stays in github cyberia-to/my; the passport is cyberia/projects/events.md
 
 [[subgraph]]
 name = "cyberia-my"
