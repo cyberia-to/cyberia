@@ -17,7 +17,7 @@ a cyberstate is a shared mind uniting space, capital and knowledge; cyberia buil
 
 ## the chronicle
 
-the state is a mind, and a mind nobody can read is not shared. [[blog]] is where the mind is read: every page of every repository, published at cyberia.blog with its links and its history, day after day. that makes it infrastructure, not a project — a project is work that closes, and the chronicle never closes, it is kept, like a road. the projects of the state — cybernode, the century index, cyberstates, the land console, cyber valley, cve — stand in [[cyberia/projects|projects]], each with its page, its domain and its stage.
+the state is a mind, and a mind nobody can read is not shared. [[blog]] is where the mind is read: every page of every repository, published at cyberia.blog with its links and its history, day after day. that makes it infrastructure, not a project — a project is work that closes, and the chronicle never closes, it is kept, like a road. the projects of the state — cybernode, the century index, cyberstates, the land console, cyber valley, cve — stand in [[cyberia/projects|projects]], each with its page, its domain and its stage. the [[courses]] are posts of the chronicle too: a course on the day it was announced, every lecture on the day it was given — [[edge city patagonia 2025]] and its six lectures were the first.
 
 ## this repository
 
@@ -34,7 +34,6 @@ the seven lenses of [[org]] and the pages behind them.
 | [[cve/land\|land]] | where: the estate's soil, in [[cve]] — biomes, climate, water, and the plants by use ([[nitrogener]], [[landscape]]) |
 | [[cyberia/explanation/your share of the sun\|explanation]] | the energy claim of a citizen, explained |
 | [[community]] | where cyberia gathers online |
-| [[courses]] | field intensives: the index in the blog, the content in the city |
 
 ## the way of working
 
