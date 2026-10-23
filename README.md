@@ -31,7 +31,7 @@ the seven lenses of [[org]] and the pages behind them.
 | [[cyberia/projects\|projects]] | work that closes: fathership, the first; every project with its page, its domain and its stage |
 | [[people]] | the roles and the bodies that carry them |
 | [[protocol]] | how the state computes: sovereignty tiers, markets, the century index, maps |
-| [[cve/land\|land]] | where: the estate's soil, in [[cve]]; its plants by use in organiq — [[nitrogener]], [[landscape]], [[cover]] |
+| [[cve/land\|land]] | where: the estate's soil, in [[cve]] — biomes, climate, water, and the plants by use ([[nitrogener]], [[landscape]]) |
 | [[cyberia/explanation/your share of the sun\|explanation]] | the energy claim of a citizen, explained |
 | [[community]] | where cyberia gathers online |
 | [[courses]] | field intensives: the index in the blog, the content in the city |
