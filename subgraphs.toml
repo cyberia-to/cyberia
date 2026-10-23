@@ -18,7 +18,3 @@ archived = true
 [[subgraph]]
 name = "cyberia-my"
 visibility = "public"
-
-[[subgraph]]
-name = "cybland"
-visibility = "private"

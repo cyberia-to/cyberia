@@ -21,7 +21,7 @@ the projects lens of [[org]]: work that closes. a project is a task with sub-tas
 | cyberia capital | cyberia.capital | design stage |
 | the meme state | cyberia.meme | live |
 | [[rockets]] | rockets.estate | eco-villages |
-| [[cyberia/projects/cyb-land\|cyb.land]] | cyb.land | live |
+| [[cyberia/projects/etherland\|etherland]] | cyb.land | live |
 | [[cyberia/projects/oxytocin\|oxytocin]] | oxytocin.my | concept |
 | [[cyberia/projects/cyberia-my\|the land console]] | cyberia.my | mockup |
 | [[cyberia/projects/events\|events]] | — | concept |
