@@ -14,7 +14,7 @@ the projects lens of [[org]]: work that closes. a project is a task with sub-tas
 | [[fathership]] | — | doing |
 | [[cybernode]] | cybernode.ai | proposed as rung 7 |
 | [[bostrom\|bostrom reborn]] | bostrom.network | 2026-11-05 |
-| [[century index\|century index]] | — | spec |
+| [[century index]] | — | spec |
 | cyberstates | cyberstates.net | live |
 | [[cyber valley]] | cybervalley.io | launch soon |
 | [[cve]] | — | private |
