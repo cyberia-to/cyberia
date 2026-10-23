@@ -135,7 +135,7 @@ the owner holds three things and nothing else: the charter, the product pages, a
 
 ## the views
 
-a view is a query over pages; none is written by hand.
+a view is a query over pages; none is written by hand. `cyberia/scripts/views.py` renders them hourly into [[cyberia/views|views]] — the bridge with its alerts and five numbers, then products, flow, father and experiments; the launchd job is `to.cyberia.views`.
 
 | view | query |
 |---|---|
