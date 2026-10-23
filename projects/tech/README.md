@@ -20,7 +20,7 @@ off-grid and materials stack for [[cyberia]] — each folder is one technology w
 | [[biochar]] | [[soil, heat and carbon]] |
 | [[biofilter]] | — |
 | [[cube]] | the idea is to create modular, but simple architecture for cubic autonomous building |
-| [[energy and water system]] | → **[[edge-city-patagonia-2025/energy and water system]]** (moved with [[edge-city-patagon |
+| [[energy and water system]] | → **[[energy and water system]]** (moved with [[edge-city-patagon |
 | [[energy autonomy]] | practically that means that [[citadel]] neither wish external energy nor requires to expor |
 | [[engine]] | device converting [[energy]] into mechanical work |
 | [[gas generator]] | — |
