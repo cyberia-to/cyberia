@@ -373,9 +373,9 @@ three vital signs determine whether the civilization is alive
 
 $$M(t) = \text{cap}(t)^{w_c} \cdot J(t)^{w_s} \cdot H(t)^{w_h}$$
 
-the derivative $\dot{M}$ is the reward signal. the 147 agents optimize collectively for rising $M$ — not for any single metric. gaming one signal at the expense of others lowers the compound
+the derivative $\dot{M}$ is the reward signal of the network as a whole. gaming one signal at the expense of others lowers the compound
 
-the three metabolic weights $(w_c, w_s, w_h)$ are the only normative choice the system cannot make autonomously. they define what "health" means. the 147 agents set them through explicit consensus — the one thing that requires a vote
+the mechanism is a property of the core, not of cyberia: it is specified in [[soft3/proposals/metabolic-oracle|the metabolic oracle]] — the three signs as an epoch record of the root chain, $M$ in fixed point, $\dot{M}$ governing every parameter the protocol may retune, and the weights $(w_c, w_s, w_h)$ — the only normative choice the system cannot make autonomously, what "health" means — set by the one stake vote the chain has. the 147 agents read $M$ as the weather and vote on the weights like any neuron with active stake; they do not own the measure
 
 ---
 
