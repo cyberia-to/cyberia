@@ -21,15 +21,15 @@ the projects lens of [[org]]: work that closes. a project is a task with sub-tas
 | cyberia capital | cyberia.capital | design stage |
 | the meme state | cyberia.meme | live |
 | [[rockets]] | rockets.estate | eco-villages |
-| [[cyberia/projects/cyb-land/README\|cyb.land]] | cyb.land | live |
-| [[cyberia/projects/oxytocin/README\|oxytocin]] | oxytocin.my | leasehold estate as cyberstate |
-| [[cyberia/projects/cyberia-my/README\|the land console]] | cyberia.my | mockup |
-| [[cyberia/projects/events/README\|events]] | — | tickets and events platform |
-| [[cyberia/projects/genome-protocol/README\|genome protocol]] | — | research: attested genome and kinship proofs |
-| [[cyberia/projects/migration-market/README\|migration market]] | — | research: status currencies, funnel, nomad model |
-| [[cyberia/projects/cyber-sheep/README\|cyber sheep]] | — | research: autonomous energy platform on a biomechanical chassis |
-| [[cyberia/projects/noid-market/README\|noid market]] | — | research: the NOID target market |
-| [[cyberia/projects/smart capital\|smart capital]] | — | research: capital at citadel genesis |
-| [[cyberia/projects/tech/README\|tech]] | — | research: off-grid and materials stack, one folder per technology |
+| [[cyberia/projects/cyb-land\|cyb.land]] | cyb.land | live |
+| [[cyberia/projects/oxytocin\|oxytocin]] | oxytocin.my | concept |
+| [[cyberia/projects/cyberia-my\|the land console]] | cyberia.my | mockup |
+| [[cyberia/projects/events\|events]] | — | concept |
+| [[cyberia/projects/genome-protocol\|genome protocol]] | — | research |
+| [[cyberia/projects/migration-market\|migration market]] | — | research |
+| [[cyberia/projects/cyber-sheep\|cyber sheep]] | — | research |
+| [[cyberia/projects/noid-market\|noid market]] | — | research |
+| [[cyberia/projects/smart capital\|smart capital]] | — | research |
+| [[cyberia/projects/tech\|tech]] | — | research |
 
 research packs — a project whose output is a page of knowledge — sit in the same table and the same folder since 2026-10-23 (they were `research/`). the ten products and their doors are on [[products]]; the source of everything is [github.com/cyberia-to](https://github.com/cyberia-to).
