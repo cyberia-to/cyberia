@@ -17,7 +17,7 @@ a cyberstate is a shared mind uniting space, capital and knowledge; cyberia buil
 
 ## the chronicle
 
-the state is a mind, and a mind nobody can read is not shared. [[blog]] is where the mind is read: every page of every repository, published at cyberia.blog with its links and its history, day after day. that makes it infrastructure, not a project — a project is work that closes, and the chronicle never closes, it is kept, like a road. the projects of the state — cybernode, the century index, cyberstates, the land console, cyber valley, cve — stand in [[constellation]], each with its door and its stage.
+the state is a mind, and a mind nobody can read is not shared. [[blog]] is where the mind is read: every page of every repository, published at cyberia.blog with its links and its history, day after day. that makes it infrastructure, not a project — a project is work that closes, and the chronicle never closes, it is kept, like a road. the projects of the state — cybernode, the century index, cyberstates, the land console, cyber valley, cve — stand in [[cyberia/projects|projects]], each with its page, its domain and its stage.
 
 ## this repository
 
@@ -28,13 +28,12 @@ the seven lenses of [[org]] and the pages behind them.
 | [[foundation]] | purpose and principles: manifesto, strategy, whitepaper, architecture, [[cyberian]] |
 | [[products]] | the goals kept alive: ten product pages and their dots |
 | [[deliver\|processes]] | how work moves: the one process, deliver |
-| [[fathership\|projects]] | task clusters: fathership, the first |
+| [[cyberia/projects\|projects]] | work that closes: fathership, the first; every project with its page, its domain and its stage |
 | [[people]] | the roles and the bodies that carry them |
 | [[protocol]] | how the state computes: sovereignty tiers, markets, the century index, maps |
 | [[land]] | where: the estate and its [[flora]] |
 | [[cyberia/research\|research]] | what is being tried: one folder per project |
 | [[cyberia/explanation/your share of the sun\|explanation]] | the energy claim of a citizen, explained |
-| [[constellation]] | every project with a door on the web, and its stage |
 | [[community]] | where cyberia gathers online |
 | [[courses]] | field intensives: the index in the blog, the content in the city |
 
