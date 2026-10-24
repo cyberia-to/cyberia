@@ -61,7 +61,7 @@ the lane of a unit is computed from the files it touches and the ladder's depend
 
 ## the train
 
-node 8 is the release train: a candidate every friday 12:00 utc from the default branches, `candidate-YYYYMMDD.N`, binaries per platform, `SHA256SUMS`, `sources.json`, `candidate.json`, `release-validation.json`, receipts in `audit/release-<date>/`, a freeze from the cut to the verdict. a red gate is published red with its evidence, never fixed by hand on the artifact. the owner alone promotes, publishes, tags. the versions of the ladder follow the lanes: contained is a patch, wide a minor, a change the whole state depends on a major; the declared bump is at least the computed one.
+node 8 is the release train: a candidate **every day at 12:00 utc** (the owner, 2026-10-24; fridays only before that — the cron change is soft3#246 and cyber#153) from the default branches, `candidate-YYYYMMDD.N`, binaries per platform, `SHA256SUMS`, `sources.json`, `candidate.json`, `release-validation.json`, receipts in `audit/release-<date>/`, a freeze from the cut to the verdict. a red gate is published red with its evidence, never fixed by hand on the artifact. the owner alone promotes, publishes, tags. the versions of the ladder follow the lanes: contained is a patch, wide a minor, a change the whole state depends on a major; the declared bump is at least the computed one.
 
 ## pages
 
