@@ -55,7 +55,7 @@ a specification is clauses with ids; a product page is claims that name them; th
 - **the states** are the evidence words above; `stale` is computed from git, never written by hand. three things stay separate: what is intended (the clause), what exists (the code and test), what was shown (the receipt).
 - **the owner of a link** is the clause for its cases and invariants and the map for code, test and proof; backlinks are the graph's, nothing is written twice.
 
-the pilot is [[soft3/specs/chain|chain]] with its conformance entries and the receipts in `soft3/audit/chain/`.
+the pilot is [[cybernode/specs/chain|chain]] with its conformance entries and the receipts in `cybernode/audit/chain/`.
 
 ## the charter
 
@@ -144,7 +144,7 @@ a view is a query over pages; none is written by hand. [[cyberia/views|views]] c
 | a role board | tasks by role and status, ready first |
 | the state board | the ladder with each product's dots, red gates, the verdict queue, M |
 | the log of decisions | review tasks of the father with status done, by date |
-| the estate | every machine with its config, uptime, load, disks and units; every agent with its roles, body, host, models and mandate; the jobs, endpoints and accounts — `cybernode/estate.toml` is what should be, `cybernode/scripts/estate.py` probes what is every 15 minutes (launchd `to.cyberia.estate`) into [[the estate board]], private to the localhost graph |
+| the estate | every machine with its config, uptime, load, disks and units; every agent with its roles, body, host, models and mandate; the jobs, endpoints and accounts — `apparatus/estate.toml` is what should be, `apparatus/scripts/estate.py` probes what is every 15 minutes (launchd `to.cyberia.estate`) into [[the estate board]], private to the localhost graph |
 
 ## conduct
 
