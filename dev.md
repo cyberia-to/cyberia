@@ -135,7 +135,7 @@ the owner holds three things and nothing else: the charter, the product pages, a
 
 ## the views
 
-a view is a query over pages; none is written by hand. [[cyberia/views|views]] carries them as optica queries (`{{query …}}` over page properties), run by the graph on every render; what pages cannot show — pull requests, the requirement counters, receipt ages, the train — `cyberia/scripts/views.nu` senses once an hour into [[cyberia/views/sensors|sensors]] (launchd `to.cyberia.views`). a table on any page of this repository keeps its cells short; the prose a cell cannot hold goes in notes under the table.
+a view is a query over pages; none is written by hand. [[cyberia/views|views]] carries them as optica queries (`{{query …}}` over page properties), run by the graph on every render; what pages cannot show — pull requests, the requirement counters, receipt ages, the train — `cyberia/scripts/views.nu` senses once an hour into [[cyberia/views/sensors|sensors]] (launchd `to.cyberia.views`); what executes — machines, agents, jobs, money — is [[the estate board]] (owner, 2026-10-27: a board that abstracts away what runs where and by whom does not manage execution). a table on any page of this repository keeps its cells short; the prose a cell cannot hold goes in notes under the table.
 
 | view | query |
 |---|---|
@@ -144,6 +144,7 @@ a view is a query over pages; none is written by hand. [[cyberia/views|views]] c
 | a role board | tasks by role and status, ready first |
 | the state board | the ladder with each product's dots, red gates, the verdict queue, M |
 | the log of decisions | review tasks of the father with status done, by date |
+| the estate | every machine with its config, uptime, load, disks and units; every agent with its roles, body, host, models and mandate; the jobs, endpoints and accounts — `cybernode/estate.toml` is what should be, `cybernode/scripts/estate.py` probes what is every 15 minutes (launchd `to.cyberia.estate`) into [[the estate board]], private to the localhost graph |
 
 ## conduct
 

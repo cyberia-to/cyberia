@@ -18,7 +18,7 @@ trigger: a change that must reach a machine; an alarm; a certificate, a domain o
 | 1 plan · worker | runner | the change as a runbook step: command, expected state, rollback | the rollback is written before the command |
 | 2 stage · worker | runner | the change on a staging path or a backup first | a test passes where one exists: `nginx -t`, a probe, a dry run |
 | 3 apply · gate | runner; the owner on the irreversible lane | the change on the machine | the probe from outside answers as expected |
-| 4 observe · code node | sensor | monitors, logs, alarms | the alarm that would have caught this failure exists |
+| 4 observe · code node | sensor | monitors, logs, alarms; the machine's row in `cybernode/estate.toml` and its live line on [[the estate board]] | the alarm that would have caught this failure exists |
 | 5 mirror · code node | keeper | the repository matches the machine; the runbook carries what was learned | `sync.sh` shows no drift |
 
 apply: local probes are evidence, never the verdict.
