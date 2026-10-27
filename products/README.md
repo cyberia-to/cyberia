@@ -17,7 +17,7 @@ the goals cyberia keeps alive, from [[org]]: one page per product, the page is t
 | 4 | [[cybergraph]] · brain | — | — |
 | 5 | [[neural]] · language | — | — |
 | 6 | [[cy]] · agent | — | — |
-| 7 | [[soft3]] · network | [soft3.org](https://soft3.org), [new.soft3.org](https://new.soft3.org) | — |
+| 7 | [[cybernode]] · network | [cybernode.ai](https://cybernode.ai) · the stack: [soft3.org](https://soft3.org) | — |
 | 8 | [[cyb]] · robot | [cyb.ai](https://cyb.ai) | — |
 | 9 | [[cyber]] · superintelligence | [cyber.page](https://cyber.page) | — |
 | 10 | [[cyberia]] · state | [cyberia.to](https://cyberia.to) | — |
