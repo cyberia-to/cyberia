@@ -162,6 +162,7 @@ how any body behaves while it works. the doctrine behind each line is in [[cyber
 
 ## house rules
 
+- the graph is in english: every page, every table, every quoted word of the owner (translated, never pasted in russian) — the owner, 2026-10-27. repository files that render as pages follow the same rule.
 - git: commit after every logical unit, one change per commit, conventional prefixes (`feat:` `fix:` `refactor:` `docs:` `test:` `chore:`), the message says why; stage by explicit paths; never amend, rebase, reset, stash or force-push shared branches; no AI co-authorship trailers; a body pushes only its own branch; other people's working trees under `~/cyber/<repo>` are never edited — work in a worktree. zero warnings and green tests before a commit, else `wip:` with the first error quoted.
 - placement: contracts in `specs/`, evidence in `audit/` with the command and revision for every number, explanations in `docs/`; the layout of the workspace and its repositories is [[workspace]].
 - moving a page out of a wiki: settled and implemented → the owner's spec; a projection with an open question → the owner's `roadmap/`; a cross-component argument → `soft3/docs/`; only duplicates and refuted claims are deleted; the ledger in `cyber/restructure.md` names where each part went, and the source index loses the row rather than gaining a note.
