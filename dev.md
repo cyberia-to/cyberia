@@ -144,7 +144,7 @@ a view is a query over pages; none is written by hand. [[cyberia/views|views]] c
 | a role board | tasks by role and status, ready first |
 | the state board | the ladder with each product's dots, red gates, the verdict queue, M |
 | the log of decisions | review tasks of the father with status done, by date |
-| the estate | every machine with its config, uptime, load, disks and units; every agent with its roles, body, host, models and mandate; the jobs, endpoints and accounts — `apparatus/estate.toml` is what should be, `apparatus/scripts/estate.py` probes what is every 15 minutes (launchd `to.cyberia.estate`) into [[the estate board]], private to the localhost graph |
+| the estate | every machine with its config, uptime, load, disks and units; every agent with its roles, body, host, models and mandate; the jobs, endpoints and accounts — `apparatus/estate.toml` is what should be, `apparatus/scripts/estate.py` probes what is every 15 minutes (launchd `to.cyberia.estate`) into [[the estate board]], private to the localhost graph; the same data, with every tick and trigger, the train, the owner's queue, the domains, the ledgers and the plan, is the cockpit at localhost:8899 (`apparatus/cockpit/`, `scripts/cockpit.py`) — gold first, the rest in tabs |
 
 ## conduct
 
