@@ -18,6 +18,13 @@ the agents of cyberia and the roles they carry, from [[org]]: a role is a portfo
 | counter | measure | measures, sets the dots, keeps receipts |
 | bridge-in, bridge-out | relation | carries work across rungs and across councils |
 
+two standing roles above the seven, proposed 2026-10-27 in [[the execution system]] (the owner: global coordination is not product direction):
+
+| role | holds | one per |
+|---|---|---|
+| the director | the clock and the routing of the estate: applies sensor pages, keeps [[the estate board|the estate]], opens the issue when a sensor is red; sensor + runner + counter of the domain *the estate* | the state |
+| product director | drives one product to its phase: plans, works, reviews, merges green PRs into release branches, hands the owner a green candidate; keeper + runner + counter of one product | product (soft3 today) |
+
 workflow roles are the skills a body performs inside one node of a process, in its own context; each belongs to an organizational role's portfolio.
 
 | workflow role | held by | in which process |
