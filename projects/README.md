@@ -13,6 +13,7 @@ this folder is the registry: one file per project, its passport — what it is, 
 
 | project | domain | stage |
 |---|---|---|
+| [[cyberia/projects/pussy\|pussy]] | spacepussy.ai | 2026-11-05 |
 | [[fathership]] | — | doing |
 | [[cybernode]] | cybernode.ai | proposed as rung 7 |
 | [[bostrom\|bostrom reborn]] | bostrom.network | 2026-11-05 |
