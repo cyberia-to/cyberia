@@ -194,5 +194,6 @@ cyber has its own ontology. in any cyber project — specs, code, commit message
 | OKR | goal with a sensor |
 | sprint, epic | project |
 | trigger, verdict, telemetry | sensor |
+| transaction, tx, message | signal — a bundle of cyberlinks a neuron commits in one step, with one proof ([[cybergraph/specs/signal\|signal]]); the owner, 2026-11-02 |
 
 when the architecture borrows from another stack — Bevy, ECS, wgpu, REST — its vocabulary pulls cyber terms into its idiom; resist, and keep cyber names next to borrowed ones.
