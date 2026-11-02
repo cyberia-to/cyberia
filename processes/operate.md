@@ -7,7 +7,7 @@ crystal-domain: cyberia
 
 # operate
 
-how the machines, domains, keys and sites of the state keep running, stay observed and come back after a failure. the record is [[cybernode]]: the server is the truth, the repository mirrors it, and the sync is the first and last step of every change.
+how the machines, domains, keys and sites of the state keep running, stay observed and come back after a failure. the record is [[apparatus]]: the server is the truth, the repository mirrors it, and the sync is the first and last step of every change.
 
 trigger: a change that must reach a machine; an alarm; a certificate, a domain or a key nearing its end; a runbook that proved wrong.
 
@@ -34,4 +34,4 @@ contained: a static site's docroot, a monitor, a DNS record that has a backup of
 
 ## pages
 
-the runbooks and mirrors in [[cybernode]]; incidents as tasks of kind issue; what was learned on the runbook, dated.
+the runbooks and mirrors in [[apparatus]]; incidents as tasks of kind issue; what was learned on the runbook, dated.

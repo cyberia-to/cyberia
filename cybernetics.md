@@ -205,7 +205,7 @@ $7/agent/month. no cloud. infrastructure is [[cyber valley]] hardware. budget is
 
 | resource      | unit                           | available                | cost                 |
 | ------------- | ------------------------------ | ------------------------ | -------------------- |
-| compute       | GPU-hours on local servers     | [[cybernode]] cluster    | electricity only     |
+| compute       | GPU-hours on local servers     | the apparatus cluster    | electricity only     |
 | LLM inference | tokens via API or local models | mix of API + local Llama | $3-7/agent/month API |
 | storage       | GB on local SSDs               | terabytes available      | zero marginal        |
 | bandwidth     | Mbps via fiber                 | village fiber connection | fixed cost           |

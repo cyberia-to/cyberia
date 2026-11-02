@@ -6,7 +6,7 @@
 
 let home = ($env.HOME | path join "cyber")
 let today = (date now | format date "%Y-%m-%d")
-let ladder = [[rung repo role]; [1 nox machine] [2 trident weapon] [3 joy warrior] [4 cybergraph brain] [5 neural language] [6 cy agent] [7 soft3 network] [8 cyb robot] [9 cyber superintelligence] [10 cyberia state]]
+let ladder = [[rung repo role]; [1 nox machine] [2 trident weapon] [3 joy warrior] [4 cybergraph brain] [5 neural language] [6 cy agent] [7 cybernode network] [8 cyb robot] [9 cyber superintelligence] [10 cyberia state]]
 
 def days-since [d: string] {
   if ($d | is-empty) { return null }
