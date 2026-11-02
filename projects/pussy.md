@@ -23,6 +23,8 @@ translated (no link exists): "there will be no freeze on 2 November — we work 
 
 so the task now reads: launch pussy's network public and revertible. a revert is a rule of the protocol that every node follows the same way, with no signature behind it (2026-11-01: "without signatures"), not an operator resyncing by hand. today `cybernode/specs/chain.md` has only the reorg limit of 119 blocks (§5.2) and the foundation checkpoints (§5.3, key zero); nothing rewinds deeper. the director's row P9 carries it (`soft3/release/director/plan.md`, D19, [soft3#654](https://github.com/cyberia-to/soft3/pull/654)).
 
+the shape of the revert, from the owner's answers of the same day (translated): "who triggers the revert — for now, me; provide an address that we will write in. any block can be set. transactions after it are dropped, of course — if we use this mechanism, every client replays its links. the network is plainly not financial now: it is collective learning, an experiment, and for some time it must be understood that security grows. there are no wallets or explorers at first — only cyb, and we will support it there." so: one revert authority key in the genesis params, held by the owner; a revert to any height H drops every block and transaction above H; [[cyb]] replays its neuron's links after a revert; pussy is presented in public as an experiment in collective learning whose security grows with time.
+
 ## the measure
 
 pussy's chain is live in public from its burial snapshot, mined by more than one host, its state readable at a public endpoint, and a revert by the protocol's own rule rehearsed on the alpha network before genesis; red date 2026-11-05 13:37:00 UTC, earlier if ready.
@@ -59,6 +61,8 @@ asked with the launch decision on [[cyber/launch]] and in the director's plan (`
 | the stand off Hetzner, deimos and jupiter retired (director P3) | done 2026-11-01 |
 | a rehearsal of the stand on the new peer set, 24 h of agreed epoch records (registry row 41) | open |
 | revert in the protocol: the spec amendment with options, the chosen rule implemented, a revert rehearsed on the alpha network (director P9) | open |
+| the owner's revert authority key: supplied by the owner, written into the genesis params of pussy and pussy-rc, both re-blessed | open |
+| cyb follows a revert: learns it from the node and replays its neuron's links | open |
 | the alpha network: the stand on two peers (194.107.163.6 + agent-a), live since 2026-11-01 19:47 UTC, `pussy-rc` genesis `d20bab4b…`, block 0 `d4d34a70…` | doing |
 | the known holes published; spacepussy.ai shows the attempt and the holes (today it says "no date") | open |
 | genesis 13:37:00 UTC, the miners, a public endpoint | open |
