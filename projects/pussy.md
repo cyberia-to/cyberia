@@ -17,9 +17,15 @@ the first project of the state since 2026-11-01: [[bootloader/tokens/$PUSSY|spac
 
 translated from the owner's message (no link exists): "this thread exists to force the launch of spacepussy $PUSSY as soon as possible — little is left. make it the top-priority project in the apparatus and re-think every task in the pool against it. pussy launches in its public form, but [[tru]] and [[foculus]] must be full — fully on proofs, without signatures of course, with live state. the red date stays 5 November, earlier is allowed. turn the machine on and don't slow down — prepare, build, assemble; we really have to launch."
 
+## the owner's word · 2026-11-02
+
+translated (no link exists): "there will be no freeze on 2 November — we work until the end. add to the project that our task now is to launch a network with the possibility of a revert — the state is public and easy to revert — this has to be built right into the protocol."
+
+so the task now reads: launch pussy's network public and revertible. a revert is a rule of the protocol that every node follows the same way, with no signature behind it (2026-11-01: "without signatures"), not an operator resyncing by hand. today `cybernode/specs/chain.md` has only the reorg limit of 119 blocks (§5.2) and the foundation checkpoints (§5.3, key zero); nothing rewinds deeper. the director's row P9 carries it (`soft3/release/director/plan.md`, D19, [soft3#654](https://github.com/cyberia-to/soft3/pull/654)).
+
 ## the measure
 
-pussy's chain is live in public from its burial snapshot, mined by more than one host, its state readable at a public endpoint; red date 2026-11-05 13:37:00 UTC, earlier if ready.
+pussy's chain is live in public from its burial snapshot, mined by more than one host, its state readable at a public endpoint, and a revert by the protocol's own rule rehearsed on the alpha network before genesis; red date 2026-11-05 13:37:00 UTC, earlier if ready.
 
 ## the target and the distance · 2026-11-01
 
@@ -38,7 +44,7 @@ the target is the owner's sentence above. the distance is measured from the repo
 
 the two halves of the target do not meet on 2026-11-05: the proof layers measure in weeks, the date in days. one of two, the owner's:
 
-1. genesis on the date from the qualified stand: public, live state, no checkpoint key, natively validated; the proof layers (transaction proofs, block proofs, the φ* relation, foculus's sound proofs, the reports rule set) ship as height-activated rule sets, each a named hole of [[cyber/launch]] until its fork lands. this is the owner's own rule of 2026-10-30 ("go on the air as soon as possible with the holes known and named in public"), and the freeze of 2026-11-02 then binds only the genesis binary while the proof work runs beside it. recommended.
+1. genesis on the date from the qualified stand: public, live state, no checkpoint key, natively validated; the proof layers (transaction proofs, block proofs, the φ* relation, foculus's sound proofs, the reports rule set) ship as height-activated rule sets, each a named hole of [[cyber/launch]] until its fork lands. this is the owner's own rule of 2026-10-30 ("go on the air as soon as possible with the holes known and named in public"), and the protocol revert of 2026-11-02 is what makes a hole cheap to undo. recommended. there is no freeze (the owner, 2026-11-02).
 2. genesis waits until the chain is full and proven; no date.
 
 asked with the launch decision on [[cyber/launch]] and in the director's plan (`soft3/release/director/plan.md`, D16).
@@ -50,8 +56,10 @@ asked with the launch decision on [[cyber/launch]] and in the director's plan (`
 | the owner's choice above, and (a) of [cyber#154](https://github.com/cyberia-to/cyber/pull/154): pussy ships from the pinned stand | open |
 | the body-malleation fix [soft3#350](https://github.com/cyberia-to/soft3/pull/350) and the halt sentence [soft3#479](https://github.com/cyberia-to/soft3/pull/479) | open |
 | pussy's chain id and block-0 id pinned in the binary (`params.rs` carries zeros; today `--genesis` by hand) | open |
-| the stand on cyberproxy and agent-a, deimos and jupiter retired (director P3) | doing |
+| the stand off Hetzner, deimos and jupiter retired (director P3) | done 2026-11-01 |
 | a rehearsal of the stand on the new peer set, 24 h of agreed epoch records (registry row 41) | open |
+| revert in the protocol: the spec amendment with options, the chosen rule implemented, a revert rehearsed on the alpha network (director P9) | open |
+| the alpha network: the stand on two peers (194.107.163.6 + agent-a), live since 2026-11-01 19:47 UTC, `pussy-rc` genesis `d20bab4b…`, block 0 `d4d34a70…` | doing |
 | the known holes published; spacepussy.ai shows the attempt and the holes (today it says "no date") | open |
 | genesis 13:37:00 UTC, the miners, a public endpoint | open |
 | the proof layers as rule sets: transaction proofs, block relation, φ* relation, foculus sound proofs, reports rule set | open |
