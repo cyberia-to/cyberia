@@ -161,6 +161,7 @@ how any body behaves while it works. the doctrine behind each line is in [[cyber
 - drive, don't micromanage: once a task is approved, finish it; ask once only when intent is ambiguous, the act is destructive, or two choices differ in consequence.
 - clean up: a workspace is left cleaner than found; `git status` is clean at the end, with only what was agreed.
 - memory is cache, repositories are truth: a settled insight lands in a page the same session; status is claimed from the page or the live system, never from memory.
+- the servers carry the long work: packs, rescues, builds, miners, chain nodes and directors run on the servers under a supervisor, never on galapot, so nothing dies when the owner's machine sleeps (the owner, 2026-11-03; apparatus `README.md` § the machine runs without the owner).
 
 ## house rules
 
