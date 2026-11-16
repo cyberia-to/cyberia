@@ -12,15 +12,16 @@ the goals cyberia keeps alive, from [[org]]: one page per product, the page is t
 | rung | product | page | dots |
 |---|---|---|---|
 | 1–7 | [[soft3]] · the stack | [soft3.org](https://soft3.org) | — |
-| 1 | [[nox]] · machine | — | — |
+| 1 | [[nox]] · machine | [nox.band](https://nox.band) | — |
 | 2 | [[trident]] · weapon | [trident.pink](https://trident.pink) | — |
-| 3 | [[joy]] · warrior | — | — |
-| 4 | [[cybergraph]] · brain | — | — |
-| 5 | [[neural]] · language | — | — |
-| 6 | [[cy]] · agent | — | — |
+| 3 | [[joy]] · warrior | [joy.technology](https://joy.technology) | — |
+| 4 | [[cybergraph]] · brain | [cybergraph.link](https://cybergraph.link) | — |
+| 5 | [[neural]] · language | [neural.how](https://neural.how) | — |
+| 6 | [[cy]] · agent | [cy.army](https://cy.army) | — |
 | 7 | [[cybernode]] · network | [cybernode.ai](https://cybernode.ai) · the stack: [soft3.org](https://soft3.org) | — |
 | 8 | [[cyb]] · robot | [cyb.ai](https://cyb.ai) | — |
 | 9 | [[cyber]] · superintelligence | [cyber.page](https://cyber.page) | — |
+| 9 | [[aos]] · the game of cyber | [aos.show](https://aos.show) | — |
 | 9 | [[$CYB]] · token of cyber | [cyb.money](https://cyb.money) | — |
 | 9 | [[pussy\|$PUSSY]] · token of cyber | [spacepussy.ai](https://spacepussy.ai) | — |
 | 9 | [[bostrom\|$BOOT]] · token of cyber | [bostrom.network](https://bostrom.network) | — |
@@ -33,6 +34,8 @@ the goals cyberia keeps alive, from [[org]]: one page per product, the page is t
 | 10 | [[meme state\|the meme state]] · the meme state of cyberia | [cyberia.meme](https://cyberia.meme) | — |
 | 10 | [[cyberia capital]] · the capital of cyberia | [cyberia.capital](https://cyberia.capital) | — |
 | 10 | [[rockets]] · the eco-villages of cyberia | [rockets.estate](https://rockets.estate) | — |
-| 10 | [[cyberia/projects/etherland\|etherland]] · the visitor product of cyber valley | [cyb.land](https://cyb.land) | — |
+| 10 | [[cyberia/projects/etherland\|etherland]] · the visitor product of cyber valley | [etherland.site](https://etherland.site) · [cyb.land](https://cyb.land) | — |
+| 10 | [[cyberia/projects/etherland/attractions/sinwood\|sinwood]] · attraction of etherland | [sinwood.site](https://sinwood.site) | — |
+| 10 | [[cyber-valley/districts/citadel/avalon\|avalon]] · estate of cyber valley | [avalon.spot](https://avalon.spot) | — |
 
 a dash in the page column means the product has no page yet and therefore no accepted goal; a dash in the dots column means the page carries no marked claims yet. the ladder itself and the parts of each rung are in `soft3/release/components.toml`; the warriors and the shelves outside the ladder are in the registry of the organization.
