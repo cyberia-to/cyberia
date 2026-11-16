@@ -32,24 +32,24 @@ the apparatus collects projects from the bottom: `apparatus/scripts/projects_col
 | [[cyberia/projects/noid-market\|noid market]] | a page of knowledge | — | research |
 | [[cyberia/projects/smart capital\|smart capital]] | a page of knowledge | — | research |
 | [[soft3/projects/cybernode\|cybernode]] | the node carved out of soft3 as rung 7, its own repository | 2026-10-27 | done |
-| [[foculus/projects/view-certificates\|view certificates]] | > finality as evidence, not declaration: the quorum certificate without the | 2026-09-09 | draft |
+| [[foculus/projects/view-certificates\|view certificates]] | > finality as evidence, not declaration: the quorum certificate without the | — | draft |
 | [[kadek/projects/soft3-alignment\|kadek on soft3]] | Status: applied to specs, 2026-09-25. | — | proposed |
-| [[mudra/projects/private-recovery-index\|private recovery index]] | make opening or restoring a private wallet depend on the wallet result requested, | 2026-09-12 | draft |
-| [[soft3/projects/component-page-canon\|One component, one page: the URL canon]] | > every component of the stack answers at one canonical address on | 2026-08-12 | draft |
+| [[mudra/projects/private-recovery-index\|private recovery index]] | make opening or restoring a private wallet depend on the wallet result requested, | — | draft |
+| [[soft3/projects/component-page-canon\|One component, one page: the URL canon]] | > every component of the stack answers at one canonical address on | — | draft |
 | [[soft3/projects/cybergraph-sync-tade-architecture\|cybergraph-sync-tade-architecture]] | > Superseded in part: the sync repo has since merged into foculus — the structural-sync substrate and the fork-choice that completes its merge are now one crate | 2026-06-07 | done |
-| [[soft3/projects/goldilocks-parano1d\|goldilocks-parano1d]] | > parano1d is a production proof-native chain: 393 kLOC, 20 crates, mainnet live since 2026-08-21, every block carrying a recursive validity proof, PoW ordering | 2026-10-13 | proposed |
-| [[soft3/projects/metabolic-oracle\|the metabolic oracle]] | status: proposed · date: 2026-10-23 · owner's call: "this mechanism — without the agents — belongs in the core of cyber, not in cyberia's architecture." | 2026-10-23 | proposed |
-| [[soft3/projects/network-planes\|network-planes]] | > builds on cybergraph + sync + tade (2026-06, implemented), which merged the sync repo into foculus to kill two owners of one mechanism, and on component bound | 2026-10-07 | proposed |
-| [[soft3/projects/network-repos\|network-repos]] | the owner, 2026-10-17: every network has a configuration — a set of contracts (plumb), the genesis distribution, the starting parameters, the starting graph: a  | 2026-10-17 | proposed |
-| [[soft3/projects/privacy-frozen\|privacy-frozen]] | hemera note (2026-10-16): the hemera#15 decision this page waits for is taken — hemera 0.4 (x⁷ in every round, 6 + 6 + 48 rounds, 32-byte digest kept) is the fr | 2026-10-16 | proposed |
-| [[soft3/projects/proof-system-repair\|one proof — the repair of zheng]] | hemera note (2026-10-16): the hash row below is decided — hemera 0.4 (hemera#15: x⁷ in every round, 6 + 6 + 48 rounds, Poseidon2 reference matrices, 32-byte dig | 2026-10-09 | proposed |
-| [[soft3/projects/proven-present\|proven-present]] | the property, fixed by the owner on 2026-10-17 as a base property of the system, cross-cutting and necessary: | 2026-10-17 | proposed |
-| [[soft3/projects/rooted-civilization\|rooted-civilization]] | > soft3.org sells a machine: collective, private, provable computing, thirty features, seven verbs. | 2026-10-13 | proposed |
-| [[soft3/projects/state-economics\|state-economics]] | > two products, three channels, four rules, one curve. | 2026-10-17 | proposed |
-| [[soft3/projects/steps-blocks-epochs\|steps-blocks-epochs]] | > soft3 has proofs (zheng), a state organ (bbg), a graph (cybergraph), a compiler (trident), a mining spec (fold-mining) — and no working blockchain. | 2026-10-12 | proposed |
-| [[soft3/projects/tade-one-exchange\|tade-one-exchange]] | > builds on cybergraph + sync + tade (implemented 2026-06), which made tade the wire substrate under radio and foculus. | 2026-10-07 | proposed |
-| [[soft3/projects/term\|term]] | > three inheritances, one language. | 2026-10-13 | proposed |
-| [[soft3/projects/vault-secret-custody\|Vault has its own home]] | Vault is now an independent component in | 2026-09-16 | superseded |
+| [[soft3/projects/goldilocks-parano1d\|goldilocks-parano1d]] | > parano1d is a production proof-native chain: 393 kLOC, 20 crates, mainnet live since 2026-08-21, every block carrying a recursive validity proof, PoW ordering | — | proposed |
+| [[soft3/projects/metabolic-oracle\|the metabolic oracle]] | status: proposed · date: 2026-10-23 · owner's call: "this mechanism — without the agents — belongs in the core of cyber, not in cyberia's architecture." | — | proposed |
+| [[soft3/projects/network-planes\|network-planes]] | > builds on cybergraph + sync + tade (2026-06, implemented), which merged the sync repo into foculus to kill two owners of one mechanism, and on component bound | — | proposed |
+| [[soft3/projects/network-repos\|network-repos]] | the owner, 2026-10-17: every network has a configuration — a set of contracts (plumb), the genesis distribution, the starting parameters, the starting graph: a | — | proposed |
+| [[soft3/projects/privacy-frozen\|privacy-frozen]] | hemera note (2026-10-16): the hemera#15 decision this page waits for is taken — hemera 0.4 (x⁷ in every round, 6 + 6 + 48 rounds, 32-byte digest kept) is the fr | — | proposed |
+| [[soft3/projects/proof-system-repair\|one proof — the repair of zheng]] | hemera note (2026-10-16): the hash row below is decided — hemera 0.4 (hemera#15: x⁷ in every round, 6 + 6 + 48 rounds, Poseidon2 reference matrices, 32-byte dig | — | proposed |
+| [[soft3/projects/proven-present\|proven-present]] | the property, fixed by the owner on 2026-10-17 as a base property of the system, cross-cutting and necessary: | — | proposed |
+| [[soft3/projects/rooted-civilization\|rooted-civilization]] | > soft3.org sells a machine: collective, private, provable computing, thirty features, seven verbs. | — | proposed |
+| [[soft3/projects/state-economics\|state-economics]] | > two products, three channels, four rules, one curve. | — | proposed |
+| [[soft3/projects/steps-blocks-epochs\|steps-blocks-epochs]] | > soft3 has proofs (zheng), a state organ (bbg), a graph (cybergraph), a compiler (trident), a mining spec (fold-mining) — and no working blockchain. | — | proposed |
+| [[soft3/projects/tade-one-exchange\|tade-one-exchange]] | > builds on cybergraph + sync + tade (implemented 2026-06), which made tade the wire substrate under radio and foculus. | — | proposed |
+| [[soft3/projects/term\|term]] | > three inheritances, one language. | — | proposed |
+| [[soft3/projects/vault-secret-custody\|Vault has its own home]] | Vault is now an independent component in | — | superseded |
 | [[zheng/projects/dynamic-noun-memory\|Dynamic noun memory for native execution]] | This project extends the native Zheng execution relation toward computed | — | draft |
 | [[zheng/projects/tagged-symbolic-relation\|Experimental tagged symbolic relation]] | This project defines execution::tagged, an opt-in circuit kernel. | — | draft |
 
