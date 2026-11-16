@@ -6,11 +6,11 @@ crystal-domain: cyberia
 ---
 # cx
 
-the published fix of the [[century-index]] — ticker CX. one CX is the basket that cost one dollar on the base date, so the level is a price: $1.41 on 2026-11-16, against $1 on 2022-01-07. the protocol page defines the instrument; this subgraph carries what it actually read.
+the published fix of the [[century-index]] — ticker CX. one CX is the basket that cost one dollar on the base date, so the level is a price: $1.31 on 2026-11-16, against $1 on 2022-01-07. the protocol page defines the instrument; this subgraph carries what it actually read.
 
 ## pages
 
-- [[cx history]] — the monthly level since the base date, the quantities, the sources
+- [[cx history]] — the monthly level since the base date, today's holdings, the sources
 - [[century-index]] — the protocol: basket, collar, floor, contract theses
 
 ## how the fix is built
@@ -18,21 +18,22 @@ the published fix of the [[century-index]] — ticker CX. one CX is the basket t
 1. pull each leg from its public source
 2. carry every fix onto a dense daily calendar — a closed market holds its last print
 3. average each leg over the trailing 365 days
-4. hold the quantities fixed from the base date and sum them at today's averages
+4. chain the weighted daily returns: each day the index earns Σ wᵢ · P̄ᵢ(t)/P̄ᵢ(t−1), the basket rebalanced to its weights every day
+5. read the death rule: a leg whose average closes below a tenth of its peak since the base date leaves the basket, weight pro rata to the rest, never to return
 
 the arithmetic is integer fixed-point end to end, so the same day's data yields the same level on any machine — the index is reproducible by anyone holding the sources, which is the whole point of an obligation nobody has to be trusted about.
 
-## the basket today
+## the basket
 
-| leg | group | share | weight at base |
+| leg | group | weight | of peak |
 |---|---|---|---|
-| BTC | crypto | 22.4% | 20% |
-| ETH | crypto | 8.6% | 15% |
-| CNY | fiat | 10.0% | 15% |
-| USD | fiat | 10.6% | 15% |
-| GOLD | elements | 26.1% | 15% |
-| CU | elements | 10.0% | 10% |
-| OIL | elements | 4.5% | 5% |
-| UX | elements | 7.4% | 5% |
+| BTC | crypto | 20% | 73% |
+| ETH | crypto | 15% | 72% |
+| CNY | fiat | 15% | 93% |
+| USD | fiat | 15% | 100% |
+| GOLD | elements | 15% | 99% |
+| CU | elements | 10% | 100% |
+| OIL | elements | 5% | 91% |
+| UX | elements | 5% | 98% |
 
-shares drift as prices move; the quantities behind them never do. measured in itself the index is constant, so the obligation carries no numéraire.
+the weights hold every day by construction. measured in itself the index is constant, so the obligation carries no numéraire; a lease owes a number of CX.

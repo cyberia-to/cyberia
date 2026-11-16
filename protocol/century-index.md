@@ -6,19 +6,22 @@ crystal-domain: cyberia
 ---
 # century index
 
-the unit of account for century-scale obligations — ticker CX. a fixed basket of eight world assets: whoever owes the index owes quantities, and the quantities never change. first application — long-duration payment streams: land leases, city concessions, infrastructure rents ([[development|cyber valley]] instrument B is the first consumer; model annex in §6). as the ecosystem matures, [[marketplace]] listings and treasury accounts quote in the same unit.
+the unit of account for century-scale obligations — ticker CX. eight world assets at fixed weights, rebalanced every day: whoever owes the index owes CX, and the weights never change. first application — long-duration payment streams: land leases, city concessions, infrastructure rents ([[development|cyber valley]] instrument B is the first consumer; model annex in §6). as the ecosystem matures, [[marketplace]] listings and treasury accounts quote in the same unit.
 
 ## 1. why
 
-a 25–80 year lease outlives every currency it could be written in. the local currency debases fastest; the reserve currency compounded ~1.25x US CPI over 2020–2025 alone; the land itself outgrows any number fixed in year 0. the century index makes the payment a portfolio instead of a number — rent is a fixed set of quantities, and its value moves with the world. a city is a 50-year project funded by 25-year leases: the [[development|bootstrapped city]] stands on rent that keeps its value.
+a 25–80 year lease outlives every currency it could be written in. the local currency debases fastest; the reserve currency compounded ~1.25x US CPI over 2020–2025 alone; the land itself outgrows any number fixed in year 0. the century index makes the payment a portfolio instead of a number — rent is a number of CX, and what a CX buys moves with the world. a city is a 50-year project funded by 25-year leases: the [[development|bootstrapped city]] stands on rent that keeps its value.
 
 ## 2. definition
 
-at signing (t₀) the annual rent R₀ splits by weight wᵢ into fixed quantities at the reference prices:
+the index is its weights. eight legs at fixed weights wᵢ; each day CX earns the weighted return of its legs at trailing 365-day average prices P̄ᵢ:
 
-    qᵢ = wᵢ · R₀ / Pᵢ(t₀)        R(t) = Σ qᵢ · Pᵢ(t)
+    I(t) = I(t−1) · Σ wᵢ · P̄ᵢ(t) / P̄ᵢ(t−1)        I(2022-01-07) = $1
+    R(t) = R₀ · I(t) / I(t₀)                       — the rent, a number of CX
 
-the tenant owes satoshi, wei, gold grams, yuan, dollars, copper tonnes, barrels, and pounds of yellowcake — settled in the payment currency at published fixes. renewals scale the same way: L(T) = L₀ · I(T)/I(t₀). the sum is arithmetic, SDR-style: an asset going to zero costs the index at most that asset's weight (T2).
+the basket is rebalanced to its weights every day: a leg that ran is sold back to its weight, a leg that fell is bought back to it. CX is therefore the same portfolio for everyone on every day, and its composition owes nothing to the base date — the base is the day one CX cost one dollar, a normalisation and nothing more. one CX holds wᵢ · I(t) / P̄ᵢ(t) of each leg; the holdings change daily, the weights never. the tenant owes R₀ CX, settled in the payment currency at published fixes; renewals scale the same way, L(T) = L₀ · I(T)/I(t₀).
+
+death of a leg. buying what falls has a price: a leg going to zero would take a rebalanced index with it, geometrically, at the power of its weight. so a leg leaves the basket the day its trailing average closes below one tenth of its highest trailing average since the base date; its weight goes pro rata to the remaining legs from the next day, and it never returns. the fall that crosses the line is paid, the recovery, if any, is not collected. the most a leg can cost the index is 1 − 0.1^wᵢ: 37% for bitcoin, 29% for a 15% leg, 11% for a 5% leg. a fixed-quantity basket would have lost at most the weight itself, once — and would have drifted into whichever leg ran, which over a century is the larger failure for a unit of account.
 
 measured in itself the index is constant, so the obligation carries no numéraire. a ruler is needed only where the contract clamps and guarantees — the collar and the floor — and the ruler is bitcoin:
 
@@ -56,54 +59,44 @@ the primary-asset rule keeps the rest out: equity indices are claims on institut
 - reset: annual, on the contract anniversary, using the TWAP window that ends 30 days before payment — the tenant knows the invoice a month ahead
 - collar: +35%/−15% per year in sats. +35% is wide enough to deliver the full historical index path (a ±20% collar surrendered a quarter of it); −15% halves the descent toward the floor. undelivered increase does not carry over
 - settlement conversion happens after the collar and is never capped — devaluation of the local currency flows through in full
-- backtest, 2020→2025 year-end prices: the basket returned 2.17x against ~1.25x US CPI; run through the machine, the invoice path is 1.00 → 1.80 → 1.00 → 2.16 → 4.07 → 3.54, the fiat floor holding 2022 at exactly year-0 dollars. uncollared from 2015 the basket runs 579x — the collar is structural, not cosmetic
+- backtest, the [[cx]] reconstruction at trailing-average prices from the 2022-01-07 base: one CX cost $1.32 on 2026-11-16, and no leg has approached the death line (bitcoin and ether sit at 73% of their peak averages, the rest above 90%). run through the machine, a lease of the base date invoiced $1 → $1 → $1 → $1.93 → $2.49 over four anniversaries: the dollar floor held 2023 and 2024 at year-0 dollars while bitcoin was below its base, then bitcoin outran the basket — the basket in sats fell 56% over 2024–2026 — and the collar held the sat rent's descent to 15% a year while the dollar invoice rose with bitcoin. the collar is structural, not cosmetic
 - the crypto weight is the lessor's asymmetry: the floor caps downside at year-0 value, the collar meters upside, so the lessor holds a call whose value grows with basket volatility. the tenant's compensation lives in the negotiated R₀, never in the formula
 
 ## 5. contract theses
 
 model clauses; the annex algorithm is the contract, reproducible by a junior accountant from public data.
 
-- T1 annex: weights, t₀ prices, quantities qᵢ, fix sources with fallbacks, collar/floor, one worked invoice. prevails over prose. model: §6.
-- T2 fix death ≠ asset death: an asset falling — even to zero — triggers nothing (the sleeve rides down); only death of a price SOURCE triggers replacement, which must price the same asset.
+- T1 annex: R₀ in CX, I(t₀), the weights, the rebalance and death rule of §2, fix sources with fallbacks, collar/floor, one worked invoice. prevails over prose. model: §6.
+- T2 fix death ≠ asset death: death of a price SOURCE triggers replacement, which must price the same asset (T3). death of the ASSET is the §2 rule and nothing else — the leg leaves at a tenth of its peak average, its weight goes pro rata to the rest, no party decides anything. a fall short of the line triggers nothing; the basket rides it.
 - T3 cessation waterfall: dead = administrator cessation, 30 days unpublished, or methodology change. then: named fallback → regulator-designated successor (LIBOR→SOFR pattern) → equivalent fix by independent expert → last TWAP frozen as a bridge, never a settlement.
 - T5 recomputation: tenant may recompute any invoice from public sources within 30 days; recomputation prevails, manifest errors corrected retroactively. index disputes are arithmetic, never renegotiation.
 - T6 settlement: the formula adapts to local currency law — e.g. Indonesia ([UU 7/2011](https://peraturan.bpk.go.id/Details/39197/uu-no-7-tahun-2011)) requires IDR settlement at [JISDOR](https://www.bi.go.id/en/statistik/informasi-kurs/jisdor/default.aspx) on the invoice date.
-- T7 continuity: the annex survives assignment, sublease, succession; renewals reference the same t₀ quantities. quantities, not parties, define the obligation.
+- T7 continuity: the annex survives assignment, sublease, succession; renewals reference the same R₀ in CX. the index, not the parties, defines the obligation.
 - T8 oracle precedence: the on-chain fix (§7) is evidence and automation; on divergence the annex computation from public fixes prevails.
 
 ## 6. model annex
 
-worked example at R₀ = $100,000/yr with indicative spot fixes of 2026-07-31; a signed annex replaces them with the 365-day TWAP fixes at signing.
+worked example at R₀ = $100,000/yr with indicative fixes; a signed annex replaces them with the published index and the 365-day TWAP bitcoin fix at signing.
 
 | parameter | value |
 |---|---|
-| R₀ (year-0 rent) | $100,000 |
+| R₀ (year-0 rent) | $100,000 = 80,000 CX at I(t₀) = $1.25 |
 | F (fiat floor leg) | $100,000 |
-| weights BTC/ETH/GOLD/CNY/USD/CU/OIL/UX | 20/15/15/15/15/10/5/5 |
+| weights BTC/ETH/GOLD/CNY/USD/CU/OIL/UX | 20/15/15/15/15/10/5/5, rebalanced daily |
+| death rule | a leg below a tenth of its peak 365-day average since 2022-01-07 leaves, weight pro rata, never returns |
 | collar | +35% / −15% per year, in sats |
 | numéraire | BTC · fixes USD-quoted |
 | reset | annual anniversary, TWAP window ends 30 days before payment |
 | settlement | IDR at JISDOR on invoice date (UU 7/2011) |
 
-quantities, fixed for the life of the contract:
-
-| leg | t₀ fix (example) | quantity qᵢ |
-|---|---|---|
-| BTC | $62,626 | 0.31935618 BTC (31,935,618 sats) |
-| ETH | $1,857.97 | 8.073327 ETH |
-| GOLD | $4,039.38/oz | 115.501 g |
-| CNY | 6.765736 /USD (CNH quote) | ¥101,486.04 |
-| USD | 1 | $15,000.00 |
-| CU | $13,552.04/t | 737.90 kg |
-| OIL | $91.82/bbl | 54.454 bbl |
-| UX | $80.00/lb U3O8 (indicative assessment level) | 62.50 lb |
+the obligation is 80,000 CX a year for the life of the contract. what one CX holds on any day is published with the fix — on the example date, wᵢ · $1.25 / P̄ᵢ of each leg — and is nobody's to set.
 
 derived: X(t₀) = $62,626 · S₀ = R₀/X(t₀) = 1.596781 BTC = 159,678,089 sats.
 
-worked invoice, hypothetical year-1 TWAP fixes — BTC $75,000 · ETH $2,200 · GOLD $4,400 · OIL $85 · CU $14,500/t · U3O8 $90/lb · USD/CNY 7.00 · JISDOR 19,000:
+worked invoice, hypothetical year-1 TWAP fixes — the index at I(t₁) = $1.356291 (+8.5%), BTC $75,000, JISDOR 19,000:
 
-1. mark quantities to market: I(t₁) = Σ qᵢ·Pᵢ = $108,503.30
-2. price in bitcoin: S(t₁) = I/X = 108,503.30 / 75,000 = 1.446711 BTC
+1. mark the rent to the index: R₀ · I(t₁)/I(t₀) = 80,000 CX · $1.356291 = $108,503.30
+2. price in bitcoin: S(t₁) = 108,503.30 / 75,000 = 1.446711 BTC
 3. collar [S₀·0.85, S₀·1.35] = [1.357264, 2.155654] → 1.446711 passes unclamped
 4. dual floor: max(S₀ = 1.596781, F/X = 100,000/75,000 = 1.333333) = 1.596781 → floor BINDS
 5. R(t₁) = 1.596781 BTC = 159,678,089 sats
