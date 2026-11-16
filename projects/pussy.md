@@ -63,7 +63,7 @@ asked with the launch decision on [[cyber/launch]] and in the director's plan (`
 | revert in the protocol: the spec amendment with options, the chosen rule implemented, a revert rehearsed on the alpha network (director P9) | open |
 | the owner's revert authority key: supplied by the owner, written into the genesis params of pussy and pussy-rc, both re-blessed | open |
 | cyb follows a revert: learns it from the node and replays its neuron's links | open |
-| the alpha network: the stand on two peers (194.107.163.6 + agent-a), live since 2026-11-01 19:47 UTC, `pussy-rc` genesis `d20bab4b…`, block 0 `d4d34a70…` | doing |
+| the alpha network: the stand on two peers (edge-b + agent-a), live since 2026-11-01 19:47 UTC, restarted 2026-11-12 16:42 UTC from P9d's genesis (`pussy-rc` genesis `c1950dee…`, block 0 `ff4b56ea…`); since 2026-11-12 edge-b alone — agent-a's node left with the lease's volume, awaits redeploy (P13) | doing |
 | the known holes published; spacepussy.ai shows the attempt and the holes (today it says "no date") | open |
 | genesis 13:37:00 UTC, the miners, a public endpoint | open |
 | the proof layers as rule sets: transaction proofs, block relation, φ* relation, foculus sound proofs, reports rule set | open |
