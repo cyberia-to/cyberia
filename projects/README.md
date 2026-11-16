@@ -27,7 +27,6 @@ the apparatus collects projects from the bottom: `apparatus/scripts/projects_col
 | [[cyberia/projects/events\|events]] | — | — | paused |
 | [[cyberia/projects/genome-protocol\|genome protocol]] | a page of knowledge | — | research |
 | [[cyberia/projects/migration-market\|migration market]] | a page of knowledge | — | research |
-| [[cyberia/projects/cyber-sheep\|cyber sheep]] | a page of knowledge | — | research |
 | [[cyberia/projects/tech\|tech tree]] | a page of knowledge | — | research |
 | [[cyberia/projects/noid-market\|noid market]] | a page of knowledge | — | research |
 | [[cyberia/projects/smart capital\|smart capital]] | a page of knowledge | — | research |
@@ -49,6 +48,7 @@ the apparatus collects projects from the bottom: `apparatus/scripts/projects_col
 | [[soft3/projects/steps-blocks-epochs\|steps-blocks-epochs]] | > soft3 has proofs (zheng), a state organ (bbg), a graph (cybergraph), a compiler (trident), a mining spec (fold-mining) — and no working blockchain. | — | proposed |
 | [[soft3/projects/tade-one-exchange\|tade-one-exchange]] | > builds on cybergraph + sync + tade (implemented 2026-06), which made tade the wire substrate under radio and foculus. | — | proposed |
 | [[soft3/projects/term\|term]] | > three inheritances, one language. | — | proposed |
+| [[cyberia/projects/cyber-sheep\|cyber sheep]] | a page of knowledge | — | research |
 | [[soft3/projects/vault-secret-custody\|Vault has its own home]] | Vault is now an independent component in | — | superseded |
 | [[zheng/projects/dynamic-noun-memory\|Dynamic noun memory for native execution]] | This project extends the native Zheng execution relation toward computed | — | draft |
 | [[zheng/projects/tagged-symbolic-relation\|Experimental tagged symbolic relation]] | This project defines execution::tagged, an opt-in circuit kernel. | — | draft |
