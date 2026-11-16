@@ -33,6 +33,7 @@ the apparatus collects projects from the bottom: `apparatus/scripts/projects_col
 | [[cyberia/projects/smart capital\|smart capital]] | cyberia | a page of knowledge | — | research |
 | [[soft3/projects/cybernode\|cybernode]] | cybernode | the node carved out of soft3, its own repository | 2026-10-27 | done |
 | [[foculus/projects/view-certificates\|view certificates]] | cybernode | finality as evidence, not declaration: the quorum certificate without the | — | draft |
+| [[kadek/projects/first-release\|the first release of kadek]] | cyb | kadek v0.1.0: the first tagged release, carrying the foundation the closure order names phases 1 and 2 — clocks, configuration, admission, provenance, presentat | — | accepted |
 | [[kadek/projects/soft3-alignment\|kadek on soft3]] | cyb | final audit. | — | proposed |
 | [[mudra/projects/private-recovery-index\|private recovery index]] | neural | make opening or restoring a private wallet depend on the wallet result requested, | — | draft |
 | [[soft3/projects/component-page-canon\|One component, one page: the URL canon]] | soft3 | every component of the stack answers at one canonical address on | — | draft |
@@ -52,6 +53,5 @@ the apparatus collects projects from the bottom: `apparatus/scripts/projects_col
 | [[soft3/projects/vault-secret-custody\|Vault has its own home]] | cy | Vault is now an independent component in | — | superseded |
 | [[zheng/projects/dynamic-noun-memory\|Dynamic noun memory for native execution]] | joy | This project extends the native Zheng execution relation toward computed | — | draft |
 | [[zheng/projects/tagged-symbolic-relation\|Experimental tagged symbolic relation]] | joy | This project defines execution::tagged, an opt-in circuit kernel. | — | draft |
-| [[kadek/projects/first-release\|the first release of kadek]] | cyb | kadek v0.1.0: the first tagged release, carrying the foundation the closure order names phases 1 and 2 — clocks, configuration, admission, provenance, presentat | — | accepted |
 
 research packs — a project whose output is a page of knowledge — sit in the same table and the same folder since 2026-10-23 (they were `research/`). moved to [[products]] on 2026-11-16 because they are kept alive, not delivered: cyber valley, the land console (my cyberia), cve, cyberstates, the meme state, etherland, cyberia capital, rockets. the source of everything is [github.com/cyberia-to](https://github.com/cyberia-to).
