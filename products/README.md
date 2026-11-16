@@ -11,6 +11,7 @@ the goals cyberia keeps alive, from [[org]]: one page per product, the page is t
 
 | rung | product | page | dots |
 |---|---|---|---|
+| 1–7 | [[soft3]] · the stack | [soft3.org](https://soft3.org) | — |
 | 1 | [[nox]] · machine | — | — |
 | 2 | [[trident]] · weapon | [trident.pink](https://trident.pink) | — |
 | 3 | [[joy]] · warrior | — | — |
