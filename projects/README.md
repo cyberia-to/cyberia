@@ -11,28 +11,22 @@ the projects lens of [[org]]: work that closes. a project is a task with sub-tas
 
 this folder is the registry: one file per project, its passport — what it is, its domain, its repository, its stage, what it serves. a project that needs more than a passport keeps the rest in its own repository, never in a folder here.
 
-| project | domain | stage |
-|---|---|---|
-| [[cyberia/projects/pussy\|pussy]] | spacepussy.ai | 2026-11-05 |
-| [[fathership]] | — | doing |
-| [[cybernode]] | cybernode.ai | executed 2026-10-27 |
-| [[bostrom\|bostrom reborn]] | bostrom.network | 2026-11-05 |
-| [[century index]] | — | spec |
-| cyberstates | cyberstates.net | live |
-| [[cyber valley]] | cybervalley.io | launch soon |
-| [[cve]] | — | private |
-| cyberia capital | cyberia.capital | design stage |
-| the meme state | cyberia.meme | live |
-| [[rockets]] | rockets.estate | eco-villages |
-| [[cyberia/projects/etherland\|etherland]] | cyb.land | live |
-| [[cyberia/projects/oxytocin\|oxytocin]] | oxytocin.my | concept |
-| [[cyberia/projects/cyberia-my\|the land console]] | cyberia.my | mockup |
-| [[cyberia/projects/events\|events]] | — | paused |
-| [[cyberia/projects/genome-protocol\|genome protocol]] | — | research |
-| [[cyberia/projects/migration-market\|migration market]] | — | research |
-| [[cyberia/projects/cyber-sheep\|cyber sheep]] | — | research |
-| [[cyberia/projects/noid-market\|noid market]] | — | research |
-| [[cyberia/projects/smart capital\|smart capital]] | — | research |
-| [[cyberia/projects/tech\|tech]] | — | research |
+a project is finite: it has a delivery, a date and a declaration — the page its link opens (the owner, 2026-11-16). what is kept alive and measured by revenue and capacity is a product and lives on [[products]]; a site is a product's door, never a project's. the order of this table is the priority: the first row is worked first. the owner moves a row up or down here, by hand or from the cockpit's projects tab, and every move is a commit — the history of priorities is the history of this file.
 
-research packs — a project whose output is a page of knowledge — sit in the same table and the same folder since 2026-10-23 (they were `research/`). the ten products and their doors are on [[products]]; the source of everything is [github.com/cyberia-to](https://github.com/cyberia-to).
+| project | delivery | date | stage |
+|---|---|---|---|
+| [[cyberia/projects/pussy\|launch spacepussy]] | the public pussy chain live with proofs, revertible, on the explorer | by readiness; the red date 2026-11-05 passed | doing |
+| [[cyberia/projects/century-index\|launch century index]] | the index published every day at cx.cyberia.my, and the first lease priced in CX signed | — | doing |
+| [[fathership]] | — | — | doing |
+| [[bostrom\|launch bostrom]] | bostrom reborn as a public soft3 chain from its burial snapshot | 2026-11-05 passed | open |
+| [[cyberia/projects/events\|events]] | — | — | paused |
+| [[cyberia/projects/oxytocin\|oxytocin]] | the concept of the one-threshold space in Sayan, Ubud | — | concept |
+| [[cyberia/projects/genome-protocol\|genome protocol]] | a page of knowledge | — | research |
+| [[cyberia/projects/migration-market\|migration market]] | a page of knowledge | — | research |
+| [[cyberia/projects/cyber-sheep\|cyber sheep]] | a page of knowledge | — | research |
+| [[cyberia/projects/noid-market\|noid market]] | a page of knowledge | — | research |
+| [[cyberia/projects/smart capital\|smart capital]] | a page of knowledge | — | research |
+| [[cybernode]] | the node carved out of soft3 as rung 7, its own repository | 2026-10-27 | done |
+| [[cyberia/projects/tech\|tech]] | a page of knowledge | — | research |
+
+research packs — a project whose output is a page of knowledge — sit in the same table and the same folder since 2026-10-23 (they were `research/`). moved to [[products]] on 2026-11-16 because they are kept alive, not delivered: cyber valley, the land console (my cyberia), cve, cyberstates, the meme state, etherland, cyberia capital, rockets. the source of everything is [github.com/cyberia-to](https://github.com/cyberia-to).
