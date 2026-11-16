@@ -21,11 +21,11 @@ the goals cyberia keeps alive, from [[org]]: one page per product, the page is t
 | 7 | [[cybernode]] · network | [cybernode.ai](https://cybernode.ai) | — |
 | 8 | [[cyb]] · robot | [cyb.ai](https://cyb.ai) | — |
 | 9 | [[cyber]] · superintelligence | [cyber.page](https://cyber.page) | — |
-| 9 | [[aos]] · the game of cyber | [aos.show](https://aos.show) | — |
 | 9 | [[$CYB]] · token of cyber | [cyb.money](https://cyb.money) | — |
 | 9 | [[pussy\|$PUSSY]] · token of cyber | [spacepussy.ai](https://spacepussy.ai) | — |
 | 9 | [[bostrom\|$BOOT]] · token of cyber | [bostrom.network](https://bostrom.network) | — |
 | 10 | [[cyberia]] · state | [cyberia.to](https://cyberia.to) | — |
+| 10 | [[aos]] · the game of cyberia | [aos.show](https://aos.show) | — |
 | 10 | [[cyber valley]] · city of cyberia | [cybervalley.io](https://cybervalley.io) | — |
 | 10 | [[cyberia/projects/etherland\|etherland]] · district of cyber valley | [etherland.site](https://etherland.site) | — |
 | 10 | [[cyberia/projects/etherland/attractions/sinwood\|sinwood]] · district of cyber valley | [sinwood.site](https://sinwood.site) | — |
