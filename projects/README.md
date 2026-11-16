@@ -28,6 +28,7 @@ the apparatus collects projects from the bottom: `apparatus/scripts/projects_col
 | [[cyberia/projects/genome-protocol\|genome protocol]] | a page of knowledge | — | research |
 | [[cyberia/projects/migration-market\|migration market]] | a page of knowledge | — | research |
 | [[cyberia/projects/tech\|tech tree]] | a page of knowledge | — | research |
+| [[soft3/projects/state-economics\|state-economics]] | > two products, three channels, four rules, one curve. | — | proposed |
 | [[cyberia/projects/noid-market\|noid market]] | a page of knowledge | — | research |
 | [[cyberia/projects/smart capital\|smart capital]] | a page of knowledge | — | research |
 | [[soft3/projects/cybernode\|cybernode]] | the node carved out of soft3 as rung 7, its own repository | 2026-10-27 | done |
@@ -44,7 +45,6 @@ the apparatus collects projects from the bottom: `apparatus/scripts/projects_col
 | [[soft3/projects/proof-system-repair\|one proof — the repair of zheng]] | hemera note (2026-10-16): the hash row below is decided — hemera 0.4 (hemera#15: x⁷ in every round, 6 + 6 + 48 rounds, Poseidon2 reference matrices, 32-byte dig | — | proposed |
 | [[soft3/projects/proven-present\|proven-present]] | the property, fixed by the owner on 2026-10-17 as a base property of the system, cross-cutting and necessary: | — | proposed |
 | [[soft3/projects/rooted-civilization\|rooted-civilization]] | > soft3.org sells a machine: collective, private, provable computing, thirty features, seven verbs. | — | proposed |
-| [[soft3/projects/state-economics\|state-economics]] | > two products, three channels, four rules, one curve. | — | proposed |
 | [[soft3/projects/steps-blocks-epochs\|steps-blocks-epochs]] | > soft3 has proofs (zheng), a state organ (bbg), a graph (cybergraph), a compiler (trident), a mining spec (fold-mining) — and no working blockchain. | — | proposed |
 | [[soft3/projects/tade-one-exchange\|tade-one-exchange]] | > builds on cybergraph + sync + tade (implemented 2026-06), which made tade the wire substrate under radio and foculus. | — | proposed |
 | [[soft3/projects/term\|term]] | > three inheritances, one language. | — | proposed |
