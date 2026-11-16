@@ -26,7 +26,7 @@ a project is finite: it has a delivery, a date and a declaration — the page it
 | [[cyberia/projects/cyber-sheep\|cyber sheep]] | a page of knowledge | — | research |
 | [[cyberia/projects/noid-market\|noid market]] | a page of knowledge | — | research |
 | [[cyberia/projects/smart capital\|smart capital]] | a page of knowledge | — | research |
-| [[cybernode]] | the node carved out of soft3 as rung 7, its own repository | 2026-10-27 | done |
 | [[cyberia/projects/tech\|tech]] | a page of knowledge | — | research |
+| [[cybernode]] | the node carved out of soft3 as rung 7, its own repository | 2026-10-27 | done |
 
 research packs — a project whose output is a page of knowledge — sit in the same table and the same folder since 2026-10-23 (they were `research/`). moved to [[products]] on 2026-11-16 because they are kept alive, not delivered: cyber valley, the land console (my cyberia), cve, cyberstates, the meme state, etherland, cyberia capital, rockets. the source of everything is [github.com/cyberia-to](https://github.com/cyberia-to).
