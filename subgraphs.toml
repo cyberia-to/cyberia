@@ -18,3 +18,8 @@ archived = true
 [[subgraph]]
 name = "cyberia-my"
 visibility = "public"
+
+[[subgraph]]
+name = "cx"
+visibility = "public"
+# the century index: specs/century-index.md and the daily fix pipeline, github cyberia-to/cx
