@@ -6,7 +6,7 @@ crystal-domain: cyberia
 status: doing
 owner: master
 serves: G1
-stage: 2026-11-05
+stage: by readiness
 ---
 
 # pussy
@@ -24,6 +24,10 @@ translated (no link exists): "there will be no freeze on 2 November — we work 
 so the task now reads: launch pussy's network public and revertible. a revert is a rule of the protocol that every node follows the same way, with no signature behind it (2026-11-01: "without signatures"), not an operator resyncing by hand. today `cybernode/specs/chain.md` has only the reorg limit of 119 blocks (§5.2) and the foundation checkpoints (§5.3, key zero); nothing rewinds deeper. the director's row P9 carries it (`soft3/release/director/plan.md`, D19, [soft3#654](https://github.com/cyberia-to/soft3/pull/654)).
 
 the shape of the revert, from the owner's answers of the same day (translated): "who triggers the revert — for now, me; provide an address that we will write in. any block can be set. transactions after it are dropped, of course — if we use this mechanism, every client replays its links. the network is plainly not financial now: it is collective learning, an experiment, and for some time it must be understood that security grows. there are no wallets or explorers at first — only cyb, and we will support it there." so: one revert authority key in the genesis params, held by the owner; a revert to any height H drops every block and transaction above H; [[cyb]] replays its neuron's links after a revert; pussy is presented in public as an experiment in collective learning whose security grows with time.
+
+## the owner's word · 2026-11-04
+
+translated (no link exists): "for genesis tomorrow we are not ready. my decision does not change: the full implementation of the rewards specification is necessary; change every document that contradicts it; without it I will not launch the chain — this is the most important thing in the project: the proof of work must really sample values by the rewards distribution; launch agents on the servers to finish, test and carry it; a completely finished rewards specification, without notes about what is undone." the date leaves the project; the gate is [[rewards]] §7–§8 complete and running as the chain's proof of work (director D20, P14, P15 — [soft3#680](https://github.com/cyberia-to/soft3/pull/680)).
 
 ## the measure
 
