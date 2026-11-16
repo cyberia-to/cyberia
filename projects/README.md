@@ -15,7 +15,7 @@ a project is finite: it has a delivery, a date and a declaration — the page it
 
 | project | delivery | date | stage |
 |---|---|---|---|
-| [[cyberia/projects/pussy\|launch spacepussy]] | the public pussy chain live with proofs, revertible, on the explorer | by readiness; the red date 2026-11-05 passed | doing |
+| [[cyberia/projects/pussy\|launch spacepussy]] | the public pussy chain live with proofs, revertible, on the explorer | by readiness (red date 2026-11-05 passed) | doing |
 | [[cyberia/projects/century-index\|launch century index]] | the index published every day at cx.cyberia.my, and the first lease priced in CX signed | — | doing |
 | [[fathership]] | — | — | doing |
 | [[bostrom\|launch bostrom]] | bostrom reborn as a public soft3 chain from its burial snapshot | 2026-11-05 passed | open |
