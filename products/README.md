@@ -27,10 +27,10 @@ the goals cyberia keeps alive, from [[org]]: one page per product, the page is t
 | 10 | [[cyberia]] · state | [cyberia.to](https://cyberia.to) | — |
 | 10 | [[aos]] · the game of cyberia | [aos.show](https://aos.show) | — |
 | 10 | [[cyber valley]] · city of cyberia | [cybervalley.io](https://cybervalley.io) | — |
-| 10 | [[cyberia/projects/etherland\|etherland]] · district of cyber valley | [etherland.site](https://etherland.site) | — |
 | 10 | [[cyberia/projects/etherland/attractions/sinwood\|sinwood]] · district of cyber valley | [sinwood.site](https://sinwood.site) | — |
 | 10 | [[cyber-valley/districts/citadel/avalon\|avalon]] · district of cyber valley | [avalon.spot](https://avalon.spot) | — |
 | 10 | [[rockets]] · district of cyber valley | [rockets.estate](https://rockets.estate) | — |
+| 10 | [[cyberia/projects/etherland\|etherland]] · district of cyber valley | [etherland.site](https://etherland.site) | — |
 | 10 | [[my\|my cyberia]] · space management of cyberia | [cyberia.my](https://cyberia.my) | — |
 | 10 | [[cx]] · the century index of cyberia | [cx.cyberia.my](https://cx.cyberia.my) | — |
 | 10 | [[apparatus]] · the operations of cyberia | [apparatus.cyberia.my](http://apparatus.cyberia.my) | — |
