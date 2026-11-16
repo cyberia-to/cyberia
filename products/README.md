@@ -23,5 +23,6 @@ the goals cyberia keeps alive, from [[org]]: one page per product, the page is t
 | 9 | [[bostrom]] · network of cyber | [bostrom.network](https://bostrom.network) | — |
 | 9 | [[pussy]] · network of cyber | [spacepussy.ai](https://spacepussy.ai) | — |
 | 10 | [[cyberia]] · state | [cyberia.to](https://cyberia.to) | — |
+| 10 | [[cyber valley]] · city of cyberia | [cybervalley.io](https://cybervalley.io) | — |
 
 a dash in the page column means the product has no page yet and therefore no accepted goal; a dash in the dots column means the page carries no marked claims yet. the ladder itself and the parts of each rung are in `soft3/release/components.toml`; the warriors and the shelves outside the ladder are in the registry of the organization.
