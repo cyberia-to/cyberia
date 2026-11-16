@@ -24,8 +24,8 @@ a project is finite: it has a delivery, a date and a declaration — the page it
 | [[cyberia/projects/genome-protocol\|genome protocol]] | a page of knowledge | — | research |
 | [[cyberia/projects/migration-market\|migration market]] | a page of knowledge | — | research |
 | [[cyberia/projects/cyber-sheep\|cyber sheep]] | a page of knowledge | — | research |
-| [[cyberia/projects/noid-market\|noid market]] | a page of knowledge | — | research |
 | [[cyberia/projects/tech\|tech tree]] | a page of knowledge | — | research |
+| [[cyberia/projects/noid-market\|noid market]] | a page of knowledge | — | research |
 | [[cyberia/projects/smart capital\|smart capital]] | a page of knowledge | — | research |
 | [[soft3/proposals/cybernode\|cybernode]] | the node carved out of soft3 as rung 7, its own repository | 2026-10-27 | done |
 
