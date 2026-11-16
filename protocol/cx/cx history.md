@@ -72,7 +72,7 @@ this series is a reconstruction from free public data — evidence and orientati
 |---|---|---|
 | BTC | Coinbase BTC-USD daily close | 2021-01-07 … 2026-11-16 · 2140 observations |
 | ETH | Coinbase ETH-USD daily close | 2021-01-07 … 2026-11-16 · 2140 observations |
-| CNY | ECB reference rate via Frankfurter | 2021-01-07 … 2026-11-13 · 1501 observations |
+| CNY | ECB reference rate via Frankfurter | 2021-01-07 … 2026-11-16 · 1502 observations |
 | USD | quote currency, fixed at 1 | 2021-01-07 … 2021-01-07 · 1 observations |
 | GOLD | PAXG-USD daily close, Yahoo Finance (one token = one troy ounce; LBMA PM fix as fallback) | 2020-11-16 … 2026-11-16 · 2192 observations |
 | CU | IMF global copper price via FRED (monthly) | 1992-01-01 … 2026-09-01 · 417 observations |
@@ -103,11 +103,11 @@ of the 4 anniversaries after signing: the basket set the rent outright in 0 year
 
 | leg | fix (usd) | share |
 |---|---|---|
-| BTC | 75,824.54 | 22.4% |
-| ETH | 2,320.41 | 8.6% |
+| BTC | 75,824.12 | 22.4% |
+| ETH | 2,320.44 | 8.6% |
 | CNY | 0.146371 | 10.0% |
 | USD | 1 | 10.6% |
-| GOLD | 4,448.03 | 26.1% |
+| GOLD | 4,448.00 | 26.1% |
 | CU | 13,318.30 | 10.0% |
 | OIL | 92.51 | 4.5% |
 | UX | 69.47 | 7.4% |
