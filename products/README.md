@@ -21,8 +21,9 @@ the goals cyberia keeps alive, from [[org]]: one page per product, the page is t
 | 7 | [[cybernode]] · network | [cybernode.ai](https://cybernode.ai) · the stack: [soft3.org](https://soft3.org) | — |
 | 8 | [[cyb]] · robot | [cyb.ai](https://cyb.ai) | — |
 | 9 | [[cyber]] · superintelligence | [cyber.page](https://cyber.page) | — |
-| 9 | [[bostrom]] · network of cyber | [bostrom.network](https://bostrom.network) | — |
-| 9 | [[pussy]] · network of cyber | [spacepussy.ai](https://spacepussy.ai) | — |
+| 9 | [[$CYB]] · token of cyber | [cyb.money](https://cyb.money) | — |
+| 9 | [[pussy\|$PUSSY]] · token of cyber | [spacepussy.ai](https://spacepussy.ai) | — |
+| 9 | [[bostrom\|$BOOT]] · token of cyber | [bostrom.network](https://bostrom.network) | — |
 | 10 | [[cyberia]] · state | [cyberia.to](https://cyberia.to) | — |
 | 10 | [[cyber valley]] · city of cyberia | [cybervalley.io](https://cybervalley.io) | — |
 
