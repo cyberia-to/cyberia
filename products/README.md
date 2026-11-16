@@ -26,7 +26,7 @@ the goals cyberia keeps alive, from [[org]]: one page per product, the page is t
 | 9 | [[bostrom\|$BOOT]] · token of cyber | [bostrom.network](https://bostrom.network) | — |
 | 10 | [[cyberia]] · state | [cyberia.to](https://cyberia.to) | — |
 | 10 | [[cyber valley]] · city of cyberia | [cybervalley.io](https://cybervalley.io) | — |
-| 10 | [[my\|cyberia.my]] · space management of cyberia | [cyberia.my](https://cyberia.my) | — |
+| 10 | [[my\|my cyberia]] · space management of cyberia | [cyberia.my](https://cyberia.my) | — |
 | 10 | [[cx]] · the century index of cyberia | [cx.cyberia.my](https://cx.cyberia.my) | — |
 | 10 | [[apparatus]] · the operations of cyberia | [apparatus.cyberia.my](http://apparatus.cyberia.my) | — |
 
