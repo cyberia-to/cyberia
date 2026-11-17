@@ -7,6 +7,7 @@ status: doing
 owner: master
 serves: G1
 stage: by readiness
+view: launch
 ---
 
 # pussy
