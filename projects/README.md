@@ -32,6 +32,7 @@ the apparatus collects projects from the bottom: `apparatus/scripts/projects_col
 | [[cyberia/projects/noid-market\|noid market]] | cyberia | a page of knowledge | — | research |
 | [[cyberia/projects/smart capital\|smart capital]] | cyberia | a page of knowledge | — | research |
 | [[soft3/projects/cybernode\|cybernode]] | cybernode | the node carved out of soft3, its own repository | 2026-10-27 | done |
+| [[apparatus/projects/command\|command from the apparatus]] | cyberia | The owner, or a person the owner names, writes a command in the apparatus and signs it with a web3 wallet. | — | doing |
 | [[foculus/projects/view-certificates\|view certificates]] | cybernode | finality as evidence, not declaration: the quorum certificate without the | — | draft |
 | [[kadek/projects/first-release\|the first release of kadek]] | cyb | kadek v0.1.0: the first tagged release, carrying the foundation the closure order names phases 1 and 2 — clocks, configuration, admission, provenance, presentat | — | accepted |
 | [[kadek/projects/soft3-alignment\|kadek on soft3]] | cyb | final audit. | — | proposed |
@@ -53,7 +54,6 @@ the apparatus collects projects from the bottom: `apparatus/scripts/projects_col
 | [[soft3/projects/vault-secret-custody\|Vault has its own home]] | cy | Vault is now an independent component in | — | superseded |
 | [[zheng/projects/dynamic-noun-memory\|Dynamic noun memory for native execution]] | joy | This project extends the native Zheng execution relation toward computed | — | draft |
 | [[zheng/projects/tagged-symbolic-relation\|Experimental tagged symbolic relation]] | joy | This project defines execution::tagged, an opt-in circuit kernel. | — | draft |
-| [[apparatus/projects/command\|command from the apparatus]] | cyberia | The owner, or a person the owner names, writes a command in the apparatus and signs it with a web3 wallet. | — | doing |
 | [[cyberia-my/projects/globe\|the globe]] | cyberia | the owner, 2026-11-17: the home of cyberia.my becomes a globe, and the map is the primary way to use the site. | — | proposed |
 | [[cyberia-blog/projects/chronicle\|the chronicle — initializing the blog]] | cyberia | The whole history of the project, from every source, read and told as one chronology: interesting, understandable and connected, with the price of BOOT running  | — | accepted |
 
