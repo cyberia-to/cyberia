@@ -22,6 +22,7 @@ the apparatus collects projects from the bottom: `apparatus/scripts/projects_col
 | [[cyberia/projects/pussy\|launch spacepussy]] | $PUSSY | the public pussy chain live with proofs, revertible, on the explorer | by readiness (red date 2026-11-05 passed) | doing |
 | [[cyberia/projects/century-index\|launch century index]] | cx | the index published every day at cx.cyberia.my, and the first lease priced in CX signed | — | doing |
 | [[apparatus/projects/command\|command from the apparatus]] | cyberia | The owner, or a person the owner names, writes a command in the apparatus and signs it with a web3 wallet. | — | doing |
+| [[cyberia-blog/projects/chronicle\|the chronicle — initializing the blog]] | cyberia | The whole history of the project, from every source, read and told as one chronology: interesting, understandable and connected, with the price of BOOT running  | — | accepted |
 | [[fathership]] | cyberia | — | — | doing |
 | [[cyberia/projects/oxytocin\|sell oxytocin]] | cyberia | the one-threshold space in Sayan, Ubud, sold — everything for the sale is there, it has to sell | — | doing |
 | [[bostrom\|launch bostrom]] | $BOOT | bostrom reborn as a public soft3 chain from its burial snapshot — after spacepussy launches and is debugged | after launch spacepussy | open |
@@ -31,7 +32,6 @@ the apparatus collects projects from the bottom: `apparatus/scripts/projects_col
 | [[cyberia/projects/tech\|tech tree]] | cyberia | a page of knowledge | — | research |
 | [[soft3/projects/state-economics\|state-economics]] | soft3 | two products, three channels, four rules, one curve. | — | proposed |
 | [[cyberia/projects/noid-market\|noid market]] | cyberia | a page of knowledge | — | research |
-| [[cyberia-blog/projects/chronicle\|the chronicle — initializing the blog]] | cyberia | The whole history of the project, from every source, read and told as one chronology: interesting, understandable and connected, with the price of BOOT running  | — | accepted |
 | [[cyberia/projects/smart capital\|smart capital]] | cyberia | a page of knowledge | — | research |
 | [[soft3/projects/cybernode\|cybernode]] | cybernode | the node carved out of soft3, its own repository | 2026-10-27 | done |
 | [[foculus/projects/view-certificates\|view certificates]] | cybernode | finality as evidence, not declaration: the quorum certificate without the | — | draft |
