@@ -55,5 +55,6 @@ the apparatus collects projects from the bottom: `apparatus/scripts/projects_col
 | [[zheng/projects/tagged-symbolic-relation\|Experimental tagged symbolic relation]] | joy | This project defines execution::tagged, an opt-in circuit kernel. | — | draft |
 | [[apparatus/projects/command\|command from the apparatus]] | cyberia | The owner, or a person the owner names, writes a command in the apparatus and signs it with a web3 wallet. | — | doing |
 | [[cyberia-my/projects/globe\|the globe]] | cyberia | the owner, 2026-11-17: the home of cyberia.my becomes a globe, and the map is the primary way to use the site. | — | proposed |
+| [[cyberia-blog/projects/chronicle\|the chronicle — initializing the blog]] | cyberia | The whole history of the project, from every source, read and told as one chronology: interesting, understandable and connected, with the price of BOOT running  | — | accepted |
 
 research packs — a project whose output is a page of knowledge — sit in the same table and the same folder since 2026-10-23 (they were `research/`). moved to [[products]] on 2026-11-16 because they are kept alive, not delivered: cyber valley, the land console (my cyberia), cve, cyberstates, the meme state, etherland, cyberia capital, rockets. the source of everything is [github.com/cyberia-to](https://github.com/cyberia-to).
