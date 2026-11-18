@@ -63,5 +63,6 @@ the apparatus collects projects from the bottom: `apparatus/scripts/projects_col
 | [[soft3/projects/assumptions-registry\|the assumptions registry]] | soft3 | — | The stack keeps one list of everything it assumes and cannot prove. | — | proposed |
 | [[soft3/projects/protocol-proofs\|proofs of protocols]] | soft3 | — | A proof system is three statements, and each has a different kind of proof: | — | draft |
 | [[soft3/projects/receipt\|receipt]] | soft3 | — | A proof is evidence. | — | proposed |
+| [[apparatus/projects/fleet\|fleet]] | cyberia | — | The owner, 2026-11-18: merge machines, services and agents into one entity. | — | proposed |
 
 research packs — a project whose output is a page of knowledge — sit in the same table and the same folder since 2026-10-23 (they were `research/`). moved to [[products]] on 2026-11-16 because they are kept alive, not delivered: cyber valley, the land console (my cyberia), cve, cyberstates, the meme state, etherland, cyberia capital, rockets. the source of everything is [github.com/cyberia-to](https://github.com/cyberia-to).
