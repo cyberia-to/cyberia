@@ -25,6 +25,7 @@ the apparatus collects projects from the bottom: `apparatus/scripts/projects_col
 | [[apparatus/projects/command\|command from the apparatus]] | cyberia | The owner, or a person the owner names, writes a command in the apparatus and signs it with a web3 wallet. | — | doing |
 | [[fathership]] | cyberia | — | — | doing |
 | [[cyberia/projects/oxytocin\|sell oxytocin]] | cyberia | the one-threshold space in Sayan, Ubud, sold — everything for the sale is there, it has to sell | — | doing |
+| [[cyberculture\|civics]] | cyberia | the six slots of cyberculture filled at cyberia: cosmology, calendar, ritual, canon (the library of concepts), etiquette, aesthetics | — | proposed |
 | [[bostrom\|launch bostrom]] | $BOOT | bostrom reborn as a public soft3 chain from its burial snapshot — after spacepussy launches and is debugged | after launch spacepussy | open |
 | [[cyberia/projects/events\|events]] | cyberia | — | — | paused |
 | [[cyberia/projects/genome-protocol\|genome protocol]] | cyberia | a page of knowledge | — | research |
