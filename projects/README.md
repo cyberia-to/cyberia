@@ -24,8 +24,8 @@ the apparatus collects projects from the bottom: `apparatus/scripts/projects_col
 | [[cyberia-blog/projects/chronicle\|the chronicle — initializing the blog]] | cyberia | — | The whole history of the project, from every source, read and told as one chronology: interesting, understandable and connected, with the price of BOOT running | — | accepted |
 | [[apparatus/projects/command\|command from the apparatus]] | cyberia | — | The owner, or a person the owner names, writes a command in the apparatus and signs it with a web3 wallet. | — | doing |
 | [[fathership]] | cyberia | — | — | — | doing |
-| [[kadek/projects/first-release\|the first release of kadek]] | cyb | — | kadek v0.1.0: the first tagged release, carrying the foundation the closure order names phases 1 and 2 — clocks, configuration, admission, provenance, presentat | — | accepted |
 | [[cyberia/projects/oxytocin\|sell oxytocin]] | cyberia | — | the one-threshold space in Sayan, Ubud, sold — everything for the sale is there, it has to sell | — | doing |
+| [[cyberculture\|civics]] | cyberia | — | the six slots of cyberculture filled at cyberia: cosmology, calendar, ritual, canon (the library of concepts), etiquette, aesthetics | — | proposed |
 | [[bostrom\|launch bostrom]] | $BOOT | — | bostrom reborn as a public soft3 chain from its burial snapshot — after spacepussy launches and is debugged | after launch spacepussy | open |
 | [[cyberia/projects/events\|events]] | cyberia | — | — | — | paused |
 | [[cyberia/projects/genome-protocol\|genome protocol]] | cyberia | — | a page of knowledge | — | research |
@@ -36,6 +36,7 @@ the apparatus collects projects from the bottom: `apparatus/scripts/projects_col
 | [[cyberia/projects/smart capital\|smart capital]] | cyberia | — | a page of knowledge | — | research |
 | [[soft3/projects/cybernode\|cybernode]] | cybernode | — | the node carved out of soft3, its own repository | 2026-10-27 | done |
 | [[foculus/projects/view-certificates\|view certificates]] | cybernode | — | finality as evidence, not declaration: the quorum certificate without the | — | draft |
+| [[kadek/projects/first-release\|the first release of kadek]] | cyb | — | kadek v0.1.0: the first tagged release, carrying the foundation the closure order names phases 1 and 2 — clocks, configuration, admission, provenance, presentat | — | accepted |
 | [[kadek/projects/soft3-alignment\|kadek on soft3]] | cyb | — | final audit. | — | proposed |
 | [[mudra/projects/private-recovery-index\|private recovery index]] | neural | — | make opening or restoring a private wallet depend on the wallet result requested, | — | draft |
 | [[soft3/projects/component-page-canon\|One component, one page: the URL canon]] | soft3 | — | every component of the stack answers at one canonical address on | — | draft |
