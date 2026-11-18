@@ -60,5 +60,8 @@ the apparatus collects projects from the bottom: `apparatus/scripts/projects_col
 | [[zheng/projects/tagged-symbolic-relation\|Experimental tagged symbolic relation]] | joy | — | This project defines execution::tagged, an opt-in circuit kernel. | — | draft |
 | [[cyberia-my/projects/globe\|the globe]] | cyberia | — | the owner, 2026-11-17: the home of cyberia.my becomes a globe, and the map is the primary way to use the site. | 2026-11-17 | done |
 | [[cyberia-my/projects/imagery\|imagery]] | cyberia | — | the owner, 2026-11-18: "maybe we think about a resource for serving satellite imagery?" — this page is that thought, for a decision. | — | proposed |
+| [[soft3/projects/assumptions-registry\|the assumptions registry]] | soft3 | — | The stack keeps one list of everything it assumes and cannot prove. | — | proposed |
+| [[soft3/projects/protocol-proofs\|proofs of protocols]] | soft3 | — | A proof system is three statements, and each has a different kind of proof: | — | draft |
+| [[soft3/projects/receipt\|receipt]] | soft3 | — | A proof is evidence. | — | proposed |
 
 research packs — a project whose output is a page of knowledge — sit in the same table and the same folder since 2026-10-23 (they were `research/`). moved to [[products]] on 2026-11-16 because they are kept alive, not delivered: cyber valley, the land console (my cyberia), cve, cyberstates, the meme state, etherland, cyberia capital, rockets. the source of everything is [github.com/cyberia-to](https://github.com/cyberia-to).
