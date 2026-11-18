@@ -23,8 +23,8 @@ the apparatus collects projects from the bottom: `apparatus/scripts/projects_col
 | [[cyberia/projects/century-index\|launch century index]] | cx | button | the index published every day at cx.cyberia.my, and the first lease priced in CX signed | — | doing |
 | [[cyberia/projects/button\|button]] | cyberia | — | a plot on cyberia.my sold with the button: paid by bank or by crypto, its documents signed and registered, the right recorded | — | accepted |
 | [[cyberia-blog/projects/chronicle\|the chronicle — initializing the blog]] | cyberia | — | The whole history of the project, from every source, read and told as one chronology: interesting, understandable and connected, with the price of BOOT running | — | accepted |
-| [[apparatus/projects/command\|command from the apparatus]] | cyberia | — | The owner, or a person the owner names, writes a command in the apparatus and signs it with a web3 wallet. | — | doing |
 | [[fathership]] | cyberia | — | — | — | doing |
+| [[apparatus/projects/command\|command from the apparatus]] | cyberia | — | The owner, or a person the owner names, writes a command in the apparatus and signs it with a web3 wallet. | — | doing |
 | [[kadek/projects/first-release\|the first release of kadek]] | cyb | — | kadek v0.1.0: the first tagged release, carrying the foundation the closure order names phases 1 and 2 — clocks, configuration, admission, provenance, presentat | — | accepted |
 | [[cyberia/projects/oxytocin\|sell oxytocin]] | cyberia | — | the one-threshold space in Sayan, Ubud, sold — everything for the sale is there, it has to sell | — | doing |
 | [[cyberculture\|civics]] | cyberia | — | the six slots of cyberculture filled at cyberia: cosmology, calendar, ritual, canon (the library of concepts), etiquette, aesthetics | — | proposed |
