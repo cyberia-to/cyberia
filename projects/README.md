@@ -58,5 +58,6 @@ the apparatus collects projects from the bottom: `apparatus/scripts/projects_col
 | [[zheng/projects/dynamic-noun-memory\|Dynamic noun memory for native execution]] | joy | — | This project extends the native Zheng execution relation toward computed | — | draft |
 | [[zheng/projects/tagged-symbolic-relation\|Experimental tagged symbolic relation]] | joy | — | This project defines execution::tagged, an opt-in circuit kernel. | — | draft |
 | [[cyberia-my/projects/globe\|the globe]] | cyberia | — | the owner, 2026-11-17: the home of cyberia.my becomes a globe, and the map is the primary way to use the site. | 2026-11-17 | done |
+| [[apparatus/projects/combine\|the combine]] | cyberia | — | Every pull request of the organisation passes the inspection of the whole infrastructure before the owner sees it: whether it serves a project and a product, wh | — | doing |
 
 research packs — a project whose output is a page of knowledge — sit in the same table and the same folder since 2026-10-23 (they were `research/`). moved to [[products]] on 2026-11-16 because they are kept alive, not delivered: cyber valley, the land console (my cyberia), cve, cyberstates, the meme state, etherland, cyberia capital, rockets. the source of everything is [github.com/cyberia-to](https://github.com/cyberia-to).
