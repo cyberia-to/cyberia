@@ -22,6 +22,7 @@ the apparatus collects projects from the bottom: `apparatus/scripts/projects_col
 | [[cyberia/projects/pussy\|launch spacepussy]] | $PUSSY | — | the public pussy chain live with proofs, revertible, on the explorer | by readiness (red date 2026-11-05 passed) | doing |
 | [[cyberia/projects/century-index\|launch century index]] | cx | button | the index published every day at cx.cyberia.my, and the first lease priced in CX signed | — | doing |
 | [[cyberia/projects/button\|button]] | cyberia | — | a plot on cyberia.my sold with the button: paid by bank or by crypto, its documents signed and registered, the right recorded | — | accepted |
+| [[soft3/projects/state-economics\|state-economics]] | soft3 | launch spacepussy | two products, three channels, four rules, one curve. | — | proposed |
 | [[apparatus/projects/combine\|the combine]] | cyberia | — | Every pull request of the organisation passes the inspection of the whole infrastructure before the owner sees it: whether it serves a project and a product, wh | — | doing |
 | [[cyberia-blog/projects/chronicle\|the chronicle — initializing the blog]] | cyberia | — | The whole history of the project, from every source, read and told as one chronology: interesting, understandable and connected, with the price of BOOT running | — | accepted |
 | [[fathership]] | cyberia | — | — | — | doing |
@@ -34,7 +35,6 @@ the apparatus collects projects from the bottom: `apparatus/scripts/projects_col
 | [[cyberia/projects/genome-protocol\|genome protocol]] | cyberia | — | a page of knowledge | — | research |
 | [[cyberia/projects/migration-market\|migration market]] | cyberia | — | a page of knowledge | — | research |
 | [[cyberia/projects/tech\|tech tree]] | cyberia | — | a page of knowledge | — | research |
-| [[soft3/projects/state-economics\|state-economics]] | soft3 | — | two products, three channels, four rules, one curve. | — | proposed |
 | [[cyberia/projects/noid-market\|noid market]] | cyberia | — | a page of knowledge | — | research |
 | [[cyberia/projects/smart capital\|smart capital]] | cyberia | — | a page of knowledge | — | research |
 | [[soft3/projects/cybernode\|cybernode]] | cybernode | — | the node carved out of soft3, its own repository | 2026-10-27 | done |
