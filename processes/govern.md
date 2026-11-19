@@ -17,8 +17,9 @@ trigger: a proposal — a task of kind proposal whose subject is a page of the c
 |---|---|---|---|
 | 1 propose · worker | anyone, an agent included | the proposal: summary, motivation, the change quoted, what it contradicts, acceptance criteria | every contradiction with the charter named |
 | 2 audit · workers | every body, adversarial first | where it breaks identity, strategy, a product page, the vocabulary; which pages cite the clause | a disagreement list, converged or at its third round |
-| 3 verdict · gate | the owner | the decision on the task page: for, against, the verdict | written by the owner's hand |
-| 4 amend · code node | keeper | the charter changed, the decision logged, the citing pages reopened as tasks | every citing page has a task; the scheme on [[dev]] resolves |
+| 3 prepare · worker + checker | seer writes, a program checks | the decision as a card: one closed question, what it changes for the state with the number measured, what waiting costs, the risk and how it is undone, where the owner tries the result, a recommendation, two or three options — in his words, at most 120 words. a question of the form of the work is sorted out here and decided by the house rule, and never reaches him | the card passes its check |
+| 4 verdict · gate | the owner | his answer to the card: one of its options | written by the owner's hand |
+| 5 amend · code node | keeper | the charter changed, the decision logged, the citing pages reopened as tasks | every citing page has a task; the scheme on [[dev]] resolves |
 
 ## return edges
 
