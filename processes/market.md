@@ -16,9 +16,15 @@ trigger: a release from [[deliver]]; a beat of the chronicle; a moment on the ca
 | node | role | makes | green when |
 |---|---|---|---|
 | 1 story · worker + critic | seer writes, keeper grades | the one sentence and the one page of this release | every claim in it is a marked claim of the product page |
-| 2 make · workers | runner | the artifacts: deck, post, thread, clip, mentor link | each passes its harness: every screen, every number marked, every link resolves |
+| 2 make · workers | runner | the artifacts: deck, post, thread, film, mentor link | each passes its harness: every screen, every number marked, every link resolves |
 | 3 send · gate | the voice of the state | the artifacts out through the doors: cyberia.to, the blog, x.com, the channels | the owner's hand on the public voice; the chronicle records it |
 | 4 count · code node | counter | arrivals, passages, windows from lytics; mentions; the market | numbers with their source and method |
+
+## skills
+
+make holds one worker per kind of artifact. a kind that fails in its own ways has its own skill, a graph of its own inside the node:
+
+- [[video production]] — the story as a film: script, shoot, cut, watch, hand over.
 
 ## return edges
 
