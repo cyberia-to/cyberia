@@ -65,6 +65,6 @@ the apparatus collects projects from the bottom: `apparatus/scripts/projects_col
 | [[soft3/projects/receipt\|define the receipt]] | soft3 | — | A proof is evidence. | — | proposed |
 | [[apparatus/projects/fleet\|merge agents into one fleet]] | apparatus | — | The owner, 2026-11-18: merge machines, services and agents into one entity. | — | proposed |
 | [[apparatus/projects/triggers\|turn contractions into triggers]] | apparatus | — | The owner, 2026-11-18: contractions now merge into processes, but with thought. | 2026-11-18 | done |
-| [[midao/projects/midao-registration\|midao registration]] | $CAP | — | the legal body of $CAP formed in the Marshall Islands: a certificate, an operating agreement on its on-chain governance, and an account the button pays into | — | doing |
+| [[midao/projects/midao-registration\|midao registration]] | $CAP | button | the legal body of $CAP formed in the Marshall Islands: a certificate, an operating agreement on its on-chain governance, and an account the button pays into | — | doing |
 
 research packs — a project whose output is a page of knowledge — sit in the same table and the same folder since 2026-10-23 (they were `research/`). moved to [[products]] on 2026-11-16 because they are kept alive, not delivered: cyber valley, the land console (my cyberia), cve, cyberstates, the meme state, etherland, cyberia capital, rockets. the source of everything is [github.com/cyberia-to](https://github.com/cyberia-to).
