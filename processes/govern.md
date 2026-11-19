@@ -17,11 +17,11 @@ trigger: a proposal — a task of kind proposal whose subject is a page of the c
 |---|---|---|---|
 | 1 propose · worker | anyone, an agent included | the proposal: summary, motivation, the change quoted, what it contradicts, acceptance criteria | every contradiction with the charter named |
 | 2 audit · workers | every body, adversarial first | where it breaks identity, strategy, a product page, the vocabulary; which pages cite the clause | a disagreement list, converged or at its third round |
-| 3 prepare · worker + code node | seer writes, a program checks | the decision as a card: one closed question, two or three options, in the owner's words | the card passes the program's check |
+| 3 prepare · worker + code node | seer writes, a program checks | the decision prepared on its page: one closed question, two or three options, in the owner's words | the prepared page passes the program's check |
 | 4 verdict · gate | the owner | the decision on the task page: for, against, the verdict | written by the owner's hand |
 | 5 amend · code node | keeper | the charter changed, the decision logged, the citing pages reopened as tasks | every citing page has a task; the scheme on [[dev]] resolves |
 
-prepare: the card's standard is apparatus `combine/decision.md` — seven fields, at most 120 words in all, the words banned in them, and the act each option carries out when it is signed; the program that judges a card against it is apparatus `scripts/combine_decide.py`, and a card that fails it twice stays in the machine's hands and never reaches the owner. the same page sorts which questions are his at all: a question of the form of the work — a split, an order of merging, a waiver, a naming, a format — takes the default of the house rules on [[dev]], is written down in one line saying which rule decided it, and never becomes a card.
+prepare: the standard a prepared decision is held to is apparatus `combine/decision.md` — seven fields, at most 120 words in all, the words banned in them, and the act each option carries out when it is signed; the program that judges a page against it is apparatus `scripts/combine_decide.py`, and a page that fails it twice stays in the machine's hands and never reaches the owner. the same page sorts which questions are his at all: a question of the form of the work — a split, a naming, a format — takes the default of the house rules on [[dev]] (the git rule, one change per commit; filenames portable to NTFS; the writing rule), is written down in one line saying which rule decided it, and is settled by the machine.
 
 ## return edges
 
