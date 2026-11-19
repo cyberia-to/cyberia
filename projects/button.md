@@ -48,6 +48,7 @@ a move of shares (between holders, or into the company as a plot's contribution)
 
 | sub-task | status |
 |---|---|
+| the legal person that sells and is paid: the Marshall Islands entity of $CAP, [[midao registration]] | open — not formed yet; it blocks payment and signing |
 | the legal map: the instrument for each right, confirmed with the notary, with its taxes | open |
 | the plot card and the button on cyberia.my | open |
 | payment by bank and by crypto, matched to the plot and receipted | open |
@@ -62,5 +63,5 @@ a move of shares (between holders, or into the company as a plot's contribution)
 
 - which plots of Gesing go first, and at what price and terms (the owner)
 - the notary and PPAT who confirm the legal map and sign through the system
-- the bank account and the crypto address the button pays into, and who reconciles them
+- the bank account and the crypto address the button pays into, and who reconciles them; both must stand in the name of the entity that [[midao registration]] forms
 - whether the owner's and the agent's own documents are signed on paper with the notary, or electronically where the law allows it
