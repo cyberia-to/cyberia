@@ -21,50 +21,50 @@ the apparatus collects projects from the bottom: `apparatus/scripts/projects_col
 | --- | --- | --- | --- | --- | --- |
 | [[cyberia/projects/pussy\|launch spacepussy]] | $PUSSY | — | the public pussy chain live with proofs, revertible, on the explorer | by readiness (red date 2026-11-05 passed) | doing |
 | [[cyberia/projects/century-index\|launch century index]] | cx | button | the index published every day at cx.cyberia.my, and the first lease priced in CX signed | — | doing |
-| [[cyberia/projects/button\|button]] | cyberia | — | a plot on cyberia.my sold with the button: paid by bank or by crypto, its documents signed and registered, the right recorded | — | accepted |
-| [[soft3/projects/state-economics\|state-economics]] | soft3 | launch spacepussy | two products, three channels, four rules, one curve. | — | proposed |
-| [[apparatus/projects/combine\|the combine]] | cyberia | — | Every pull request of the organisation passes the inspection of the whole infrastructure before the owner sees it: whether it serves a project and a product, wh | — | doing |
-| [[cyberia-blog/projects/chronicle\|the chronicle — initializing the blog]] | cyberia | — | The whole history of the project, from every source, read and told as one chronology: interesting, understandable and connected, with the price of BOOT running | — | accepted |
+| [[cyberia/projects/button\|button]] | my cyberia | — | a plot on cyberia.my sold with the button: paid by bank or by crypto, its documents signed and registered, the right recorded | — | accepted |
+| [[soft3/projects/state-economics\|design state economics]] | soft3 | launch spacepussy | two products, three channels, four rules, one curve. | — | proposed |
+| [[apparatus/projects/combine\|the combine]] | apparatus | — | Every pull request of the organisation passes the inspection of the whole infrastructure before the owner sees it: whether it serves a project and a product, wh | — | doing |
+| [[cyberia-blog/projects/chronicle\|write the chronicle]] | cyberia | — | The whole history of the project, from every source, read and told as one chronology: interesting, understandable and connected, with the price of BOOT running | — | accepted |
 | [[fathership]] | cyberia | — | — | — | doing |
-| [[apparatus/projects/command\|command from the apparatus]] | cyberia | fathership | The owner, or a person the owner names, writes a command in the apparatus and signs it with a web3 wallet. | — | doing |
-| [[kadek/projects/first-release\|the first release of kadek]] | cyb | — | kadek v0.1.0: the first tagged release, carrying the foundation the closure order names phases 1 and 2 — clocks, configuration, admission, provenance, presentat | — | accepted |
+| [[apparatus/projects/command\|command from the apparatus]] | apparatus | fathership | The owner, or a person the owner names, writes a command in the apparatus and signs it with a web3 wallet. | — | doing |
+| [[kadek/projects/first-release\|ship the first kadek release]] | cyb | — | kadek v0.1.0: the first tagged release, carrying the foundation the closure order names phases 1 and 2 — clocks, configuration, admission, provenance, presentat | — | accepted |
 | [[cyberia/projects/oxytocin\|sell oxytocin]] | cyberia | — | the one-threshold space in Sayan, Ubud, sold — everything for the sale is there, it has to sell | — | doing |
-| [[cyberculture\|civics]] | cyberia | — | the six slots of cyberculture filled at cyberia: cosmology, calendar, ritual, canon (the library of concepts), etiquette, aesthetics | — | proposed |
+| [[cyberculture\|fill the civics of cyberia]] | cyberia | — | the six slots of cyberculture filled at cyberia: cosmology, calendar, ritual, canon (the library of concepts), etiquette, aesthetics | — | proposed |
 | [[bostrom\|launch bostrom]] | $BOOT | — | bostrom reborn as a public soft3 chain from its burial snapshot — after spacepussy launches and is debugged | after launch spacepussy | open |
-| [[cyberia/projects/events\|events]] | cyberia | — | — | — | paused |
-| [[cyberia/projects/genome-protocol\|genome protocol]] | cyberia | — | a page of knowledge | — | research |
-| [[cyberia/projects/migration-market\|migration market]] | cyberia | — | a page of knowledge | — | research |
-| [[cyberia/projects/tech\|tech tree]] | cyberia | — | a page of knowledge | — | research |
-| [[cyberia/projects/noid-market\|noid market]] | cyberia | — | a page of knowledge | — | research |
-| [[cyberia/projects/smart capital\|smart capital]] | cyberia | — | a page of knowledge | — | research |
-| [[soft3/projects/cybernode\|cybernode]] | cybernode | — | the node carved out of soft3, its own repository | 2026-10-27 | done |
-| [[foculus/projects/view-certificates\|view certificates]] | cybernode | — | finality as evidence, not declaration: the quorum certificate without the | — | draft |
-| [[kadek/projects/soft3-alignment\|kadek on soft3]] | cyb | — | final audit. | — | proposed |
-| [[mudra/projects/private-recovery-index\|private recovery index]] | neural | — | make opening or restoring a private wallet depend on the wallet result requested, | — | draft |
-| [[soft3/projects/component-page-canon\|One component, one page: the URL canon]] | soft3 | — | every component of the stack answers at one canonical address on | — | draft |
-| [[soft3/projects/cybergraph-sync-tade-architecture\|cybergraph-sync-tade-architecture]] | soft3 | — | Superseded in part: the sync repo has since merged into foculus — the structural-sync substrate and the fork-choice that completes its merge are now one crate. | 2026-06-07 | done |
-| [[soft3/projects/goldilocks-parano1d\|goldilocks-parano1d]] | soft3 | — | parano1d is a production proof-native chain: 393 kLOC, 20 crates, mainnet live since 2026-08-21, every block carrying a recursive validity proof, PoW ordering o | — | proposed |
-| [[soft3/projects/metabolic-oracle\|the metabolic oracle]] | soft3 | — | cyberia's architecture carried a mechanism that answers one question for a whole network: *is it alive?* It was written for cyberia's 147 agents. | — | proposed |
-| [[soft3/projects/network-planes\|network-planes]] | soft3 | — | builds on cybergraph + sync + tade (2026-06, implemented), which merged the sync repo into foculus to kill two owners of one mechanism, and on component boundar | — | proposed |
-| [[soft3/projects/network-repos\|network-repos]] | soft3 | — | the owner, 2026-10-17: every network has a configuration — a set of contracts (plumb), the genesis distribution, the starting parameters, the starting graph: a | — | proposed |
-| [[soft3/projects/privacy-frozen\|privacy-frozen]] | soft3 | — | hemera note (2026-10-16): the hemera#15 decision this page waits for is taken — hemera 0.4 (x⁷ in every round, 6 + 6 + 48 rounds, 32-byte digest kept) is the fr | — | proposed |
-| [[soft3/projects/proof-system-repair\|one proof — the repair of zheng]] | joy | — | hemera note (2026-10-16): the hash row below is decided — hemera 0.4 (hemera#15: x⁷ in every round, 6 + 6 + 48 rounds, Poseidon2 reference matrices, 32-byte dig | — | proposed |
-| [[soft3/projects/proven-present\|proven-present]] | soft3 | — | the property, fixed by the owner on 2026-10-17 as a base property of the system, cross-cutting and necessary: | — | proposed |
-| [[soft3/projects/rooted-civilization\|rooted-civilization]] | soft3 | — | soft3.org sells a machine: collective, private, provable computing, thirty features, seven verbs. | — | proposed |
-| [[soft3/projects/steps-blocks-epochs\|steps-blocks-epochs]] | soft3 | — | soft3 has proofs (zheng), a state organ (bbg), a graph (cybergraph), a compiler (trident), a mining spec (fold-mining) — and no working blockchain. | — | proposed |
-| [[soft3/projects/tade-one-exchange\|tade-one-exchange]] | soft3 | — | builds on cybergraph + sync + tade (implemented 2026-06), which made tade the wire substrate under radio and foculus. | — | proposed |
-| [[soft3/projects/term\|term]] | soft3 | — | three inheritances, one language. | — | proposed |
-| [[cyberia/projects/cyber-sheep\|cyber sheep]] | cyberia | — | a page of knowledge | — | research |
-| [[soft3/projects/vault-secret-custody\|Vault has its own home]] | cy | — | Vault is now an independent component in | — | superseded |
-| [[zheng/projects/dynamic-noun-memory\|Dynamic noun memory for native execution]] | joy | — | This project extends the native Zheng execution relation toward computed | — | draft |
-| [[zheng/projects/tagged-symbolic-relation\|Experimental tagged symbolic relation]] | joy | — | This project defines execution::tagged, an opt-in circuit kernel. | — | draft |
-| [[cyberia-my/projects/globe\|the globe]] | cyberia | — | the owner, 2026-11-17: the home of cyberia.my becomes a globe, and the map is the primary way to use the site. | 2026-11-17 | done |
-| [[cyberia-my/projects/imagery\|imagery]] | cyberia | — | the owner, 2026-11-18: "maybe we think about a resource for serving satellite imagery?" — this page is that thought, for a decision. | — | proposed |
-| [[soft3/projects/assumptions-registry\|the assumptions registry]] | soft3 | — | The stack keeps one list of everything it assumes and cannot prove. | — | proposed |
-| [[soft3/projects/protocol-proofs\|proofs of protocols]] | soft3 | — | A proof system is three statements, and each has a different kind of proof: | — | draft |
-| [[soft3/projects/receipt\|receipt]] | soft3 | — | A proof is evidence. | — | proposed |
-| [[apparatus/projects/fleet\|fleet]] | cyberia | — | The owner, 2026-11-18: merge machines, services and agents into one entity. | — | proposed |
-| [[apparatus/projects/triggers\|triggers]] | cyberia | — | The owner, 2026-11-18: contractions now merge into processes, but with thought. | 2026-11-18 | done |
+| [[cyberia/projects/events\|host events]] | cyberia | — | — | — | paused |
+| [[cyberia/projects/genome-protocol\|research genome protocol]] | cyberia | — | a page of knowledge | — | research |
+| [[cyberia/projects/migration-market\|research migration market]] | cyberia | — | a page of knowledge | — | research |
+| [[cyberia/projects/tech\|research tech tree]] | cyberia | — | a page of knowledge | — | research |
+| [[cyberia/projects/noid-market\|research noid market]] | cyberia | — | a page of knowledge | — | research |
+| [[cyberia/projects/smart capital\|research smart capital]] | cyberia | — | a page of knowledge | — | research |
+| [[soft3/projects/cybernode\|carve cybernode out of soft3]] | cybernode | — | the node carved out of soft3, its own repository | 2026-10-27 | done |
+| [[foculus/projects/view-certificates\|prove finality with view certificates]] | cybernode | — | finality as evidence, not declaration: the quorum certificate without the | — | draft |
+| [[kadek/projects/soft3-alignment\|align kadek with soft3]] | cyb | — | final audit. | — | proposed |
+| [[mudra/projects/private-recovery-index\|build private recovery index]] | neural | — | make opening or restoring a private wallet depend on the wallet result requested, | — | draft |
+| [[soft3/projects/component-page-canon\|give each component one page]] | soft3 | — | every component of the stack answers at one canonical address on | — | draft |
+| [[soft3/projects/cybergraph-sync-tade-architecture\|merge cybergraph sync and tade]] | soft3 | — | Superseded in part: the sync repo has since merged into foculus — the structural-sync substrate and the fork-choice that completes its merge are now one crate. | 2026-06-07 | done |
+| [[soft3/projects/goldilocks-parano1d\|port the proof gated chain to zheng]] | soft3 | — | parano1d is a production proof-native chain: 393 kLOC, 20 crates, mainnet live since 2026-08-21, every block carrying a recursive validity proof, PoW ordering o | — | proposed |
+| [[soft3/projects/metabolic-oracle\|move the metabolic oracle into the core]] | soft3 | — | cyberia's architecture carried a mechanism that answers one question for a whole network: *is it alive?* It was written for cyberia's 147 agents. | — | proposed |
+| [[soft3/projects/network-planes\|cut the network into planes]] | soft3 | — | builds on cybergraph + sync + tade (2026-06, implemented), which merged the sync repo into foculus to kill two owners of one mechanism, and on component boundar | — | proposed |
+| [[soft3/projects/network-repos\|make each network a repository]] | soft3 | — | the owner, 2026-10-17: every network has a configuration — a set of contracts (plumb), the genesis distribution, the starting parameters, the starting graph: a | — | proposed |
+| [[soft3/projects/privacy-frozen\|freeze the privacy design]] | soft3 | — | hemera note (2026-10-16): the hemera#15 decision this page waits for is taken — hemera 0.4 (x⁷ in every round, 6 + 6 + 48 rounds, 32-byte digest kept) is the fr | — | proposed |
+| [[soft3/projects/proof-system-repair\|repair zheng into one proof]] | joy | — | hemera note (2026-10-16): the hash row below is decided — hemera 0.4 (hemera#15: x⁷ in every round, 6 + 6 + 48 rounds, Poseidon2 reference matrices, 32-byte dig | — | proposed |
+| [[soft3/projects/proven-present\|prove every block]] | soft3 | — | the property, fixed by the owner on 2026-10-17 as a base property of the system, cross-cutting and necessary: | — | proposed |
+| [[soft3/projects/rooted-civilization\|add what rooted civilization needs]] | soft3 | — | soft3.org sells a machine: collective, private, provable computing, thirty features, seven verbs. | — | proposed |
+| [[soft3/projects/steps-blocks-epochs\|define the consensus clock]] | soft3 | — | soft3 has proofs (zheng), a state organ (bbg), a graph (cybergraph), a compiler (trident), a mining spec (fold-mining) — and no working blockchain. | — | proposed |
+| [[soft3/projects/tade-one-exchange\|make tade the one exchange format]] | soft3 | — | builds on cybergraph + sync + tade (implemented 2026-06), which made tade the wire substrate under radio and foculus. | — | proposed |
+| [[soft3/projects/term\|build term for programmable rights]] | soft3 | — | three inheritances, one language. | — | proposed |
+| [[cyberia/projects/cyber-sheep\|research cyber sheep]] | cyberia | — | a page of knowledge | — | research |
+| [[soft3/projects/vault-secret-custody\|give vault its own home]] | cy | — | Vault is now an independent component in | — | superseded |
+| [[zheng/projects/dynamic-noun-memory\|add dynamic noun memory]] | joy | — | This project extends the native Zheng execution relation toward computed | — | draft |
+| [[zheng/projects/tagged-symbolic-relation\|try tagged symbolic relation]] | joy | — | This project defines execution::tagged, an opt-in circuit kernel. | — | draft |
+| [[cyberia-my/projects/globe\|the globe]] | my cyberia | — | the owner, 2026-11-17: the home of cyberia.my becomes a globe, and the map is the primary way to use the site. | 2026-11-17 | done |
+| [[cyberia-my/projects/imagery\|serve our own satellite imagery]] | my cyberia | — | the owner, 2026-11-18: "maybe we think about a resource for serving satellite imagery?" — this page is that thought, for a decision. | — | proposed |
+| [[soft3/projects/assumptions-registry\|keep the assumptions registry]] | soft3 | — | The stack keeps one list of everything it assumes and cannot prove. | — | proposed |
+| [[soft3/projects/protocol-proofs\|prove the protocols]] | soft3 | — | A proof system is three statements, and each has a different kind of proof: | — | draft |
+| [[soft3/projects/receipt\|define the receipt]] | soft3 | — | A proof is evidence. | — | proposed |
+| [[apparatus/projects/fleet\|merge agents into one fleet]] | apparatus | — | The owner, 2026-11-18: merge machines, services and agents into one entity. | — | proposed |
+| [[apparatus/projects/triggers\|turn contractions into triggers]] | apparatus | — | The owner, 2026-11-18: contractions now merge into processes, but with thought. | 2026-11-18 | done |
 | [[midao/projects/midao-registration\|midao registration]] | $CAP | — | the legal body of $CAP formed in the Marshall Islands: a certificate, an operating agreement on its on-chain governance, and an account the button pays into | — | doing |
 
 research packs — a project whose output is a page of knowledge — sit in the same table and the same folder since 2026-10-23 (they were `research/`). moved to [[products]] on 2026-11-16 because they are kept alive, not delivered: cyber valley, the land console (my cyberia), cve, cyberstates, the meme state, etherland, cyberia capital, rockets. the source of everything is [github.com/cyberia-to](https://github.com/cyberia-to).

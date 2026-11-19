@@ -6,6 +6,7 @@ crystal-domain: cyberia
 status: doing
 owner: master
 serves: G1
+blocks: launch bostrom
 stage: by readiness
 view: launch
 ---
