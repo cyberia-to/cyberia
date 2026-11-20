@@ -3,12 +3,12 @@ tags: cyber, cyberia, process, skill
 alias: video production, video, the video skill, clip, film
 crystal-type: skill
 crystal-domain: cyberia
-status: proposed
+status: accepted
 ---
 
 # video production
 
-a skill of [[market]], inside its node 2, make: how the story of a release becomes a film that a person watches to the end and understands. the owner, 2026-11-19: video production is added as a separate skill of the market process.
+a skill of [[market]], inside its node 2, make: how the story of a release becomes a film that a person watches to the end and understands. the owner, 2026-11-19: video production is added as a separate skill of the market process. accepted by the owner, 2026-11-20.
 
 it is a skill of its own because a film fails in ways a page does not: it has time, sound and a first three seconds, and one wrong number in it cannot be corrected by an edit of a page — the film is cut again. the unit is one film. a film that speaks is green when a viewer who has seen nothing else says back the story's one sentence; a loop, which carries no sentence, is green when that viewer names the product or the one feeling the loop left.
 
