@@ -50,6 +50,7 @@ a move of shares (between holders, or into the company as a plot's contribution)
 |---|---|
 | the legal person that sells and is paid: the Marshall Islands entity of $CAP, [[midao registration]] | open — not formed yet; it blocks payment and signing |
 | the legal map: the instrument for each right, confirmed with the notary, with its taxes | open |
+| base cartography: the layers, plots and buildings a plot is drawn, checked and verified on — the ground of the card, of add your plot and of agents ([[cyberia-my/projects/cartography]], the owner 2026-11-21) | doing — first slice in cyberia-my#41 |
 | the plot card and the button on cyberia.my | open |
 | payment by bank and by crypto, matched to the plot and receipted | open |
 | compliance checks before signing: KYC, AML, source of funds, foreign limits, taxes | open |
