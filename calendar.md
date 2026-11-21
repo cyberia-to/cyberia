@@ -17,8 +17,8 @@ five clocks run at once, each at its own speed. a neuron of the organisation kno
 | block | seconds | the chain's own time: each block is an irreversible tick of [[cyber]] |
 | sun | the day, 24 h, counted in UTC | the candidate of the release train at 12:00; the day's work |
 | week | seven days | one standing review a day, the table below |
-| moon | 29.53 days, new moon to new moon | money is counted by the moon: the books close at the new moon, the report goes out at the full moon ([[lunar-based]], [[new and full moon]], `cve/management.md` § moonly processes) |
-| season | the year: dry from April, wet from September on the land of [[cyber valley]] | the harvests, the season's preparation, the year's assessment |
+| moon | 29.53 days, new moon to new moon | the month of the organisation: a date is written in [[lunar machine time]], `D.M.Y` — the lunar day, the moon of the year, the year since 1970 (21 November 2026 is `12.11.56`). money is counted by the moon: the books close at the new moon, the report goes out at the full moon ([[lunar-based]], [[new and full moon]], `cve/management.md` § moonly processes) |
+| year | the machine year of 12 or 13 moons, counted from 1970 ([[mt]]); on the land of [[cyber valley]] dry from April, wet from September | the harvests, the preparation of the season, the assessment of the year, and the dates that return: the calendar slot of [[cyberculture]] gathers people on them without a reminder |
 
 ## the rhythm
 
