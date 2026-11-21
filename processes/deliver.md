@@ -29,7 +29,7 @@ notes on the nodes:
 - integrate: the fleet is the products that use a changed part, built and tested against it; a synthetic green is not evidence that a consumer still works.
 - review: the lenses are the twelve passes of [[cyberia/quality]], alignment with the charter and a second model; a finding keeps one canonical id and its remaining obligations; a third round is a diagnosis of the cut, not another call.
 - merge: contained → green checks; wide → green checks and a clean trajectory; irreversible → the owner.
-- use: the receipt names the commit; a receipt older than the last commit touching the claim's code is stale, and the dot comes from the receipt, never from the report.
+- use: the door of a change is its own host, `<number>.patch.<domain>` — the pull request's number and the product's domain — where the production build of that commit is served from the root; a path or a parameter of another site is no door. the receipt names the commit; a receipt older than the last commit touching the claim's code is stale, and the dot comes from the receipt, never from the report.
 
 node 7 is the user of the delivery: a body that takes the product page as a script and does what a person would — opens the door, follows the path, reads the numbers — and records what it saw. its harness is code where it can be code (the deck players and phone ledgers under `/tmp/jsd` are the shape); its judgment is one line per claim with the evidence. real users belong to [[listen]].
 
