@@ -7,7 +7,7 @@ crystal-domain: cyberia
 
 # release
 
-how what [[deliver]] merged becomes a version that production serves. one graph of five skills, started by three clocks — the trains of the day, the week and the moon. a train leaves at its time, takes what is ready, and what is not ready waits for the next.
+how what [[deliver]] merged becomes a version that production serves: three trains in a line — the day, the week, the moon — each started by its own clock and each a skill of its own. a train leaves at its time, takes what is ready, and what is not ready waits for the next.
 
 trigger: a clock of the [[cyberia/calendar|calendar]] — every day at 12:00 utc, Friday at 12:00 utc, the full moon.
 
@@ -17,13 +17,13 @@ work has five primitives ([[dev]] § first principles 4): a goal, a task, a skil
 
 | word | primitive | in this process |
 |---|---|---|
-| release, the process | a composite skill | the graph below: five skills that carry one version from what is merged to what production serves |
+| release, the process | a composite skill | the graph below: three trains in a line, each a skill of five steps that carries a version from what is merged to what production serves |
 | a train | a sensor: a clock | a trigger of this process. it fires at its time and starts one run |
-| a run of a train | a task | one pass of the five skills with the train's arguments: its scope, its gates, its digit, who opens the gate |
+| a run of a train | a task | one pass of the train's own skill, on its own page: its scope, its gates, its digit, who opens the gate |
 | a release | an event | what a run leaves: a version at a point in time |
 | the release culture, the trackers | goals and their sensors | what the runs are measured against |
 
-so the three trains are three triggers of one process, each a row of the registry of triggers like every other clock of the organism; the releases are this process's events; and a fourth train would be a fourth trigger with its arguments, never a new graph. two things define a process — its unit and what starts it:
+so the three trains are three triggers of one process, each a row of the registry of triggers like every other clock of the organism, and each wakes its own node; the releases are this process's events; and a fourth train would be a fourth node with its skill page and its trigger. two things define a process — its unit and what starts it:
 
 | process | unit | started by | ends when |
 |---|---|---|---|
@@ -34,25 +34,19 @@ so the three trains are three triggers of one process, each a row of the registr
 
 | node | role | makes | green when |
 |---|---|---|---|
-| 1 gather · code node | — | the set: what is merged and not yet released, in the scope of this scale | every change of the set is on a main line of origin; the set names its repositories and commits |
-| 2 prove · code node | sensor | the gates run on the set as a whole | green; a red set is recorded red with what broke it, and nothing of it travels |
-| 3 cut · gate | runner; the owner at the scale of the moon | the version: a tag on the commit and a release with the changelog of what it carries | the gate of the scale opens |
-| 4 carry · code node | runner | what the release serves, put live from it: the door, the site, the service, the binaries | production holds the released version |
-| 5 confirm · worker | sensor | a receipt: the door answers from the new version | the receipt names the version it saw |
+| 1 day · code node | runner | the last digit of one repository: its changes of this week, live the same day | every repository with a fresh change and green gates is released; a red one is recorded red |
+| 2 week · code node | runner, sensor | the second digit of every repository that changed, proved as one integrated set | the set is green and its versions are cut; a red set names what broke it |
+| 3 moon · gate | the owner | one product release of [[cyberia]], named by its moon in [[lunar machine time]] | the owner's signed word |
 
-## the three trains and their arguments
+the nodes are a line: a change the day cannot take — older than a week, or across repositories — waits for the week; the moon names what the weeks made. each node is woken by its own clock, its train.
 
-| | the day | the week | the moon |
-|---|---|---|---|
-| clock | every day, 12:00 utc | Friday, 12:00 utc | the full moon |
-| scope of the set (node 1) | one repository, by itself: its changes of the last week | every repository that changed, as one integrated set | the product: every repository of the release culture at its version |
-| the gates (node 2) | the repository's own, on its head | every test tier and the fleet on the integrated set — the stack's train | every claim of every product page walked on the released set |
-| the version (node 3) | the last digit | the second digit | the moon's own name, `year.moon` in [[lunar machine time]]: `56.11` |
-| who opens the gate | the machine, on green | the machine, on green | the owner, by a signed answer to a prepared decision |
-| what is carried (node 4) | production, the same day | the release line and the candidate | one product release of [[cyberia]], one changelog, beside the moon's report |
-| takes from | deliver: merged changes | the days: what a day could not take — a backlog older than a week, a change across repositories | the weeks: the versions as they stand |
+## skills
 
-a version has three numbers, `vX.Y.Z`. the scales nest: a change that a day's train cannot take waits for the week's, and the moon's names what the weeks made.
+each train is a skill with a graph of its own inside its node — the same five steps, gather, prove, cut, carry, confirm, set to its scale. a train is changed on its own page: its scope, its gates, its digit, who opens its gate; the others do not move.
+
+- [[day train]] — one repository by itself, every day at 12:00 utc: the last digit, deployed.
+- [[week train]] — the integrated set, Friday at 12:00 utc: the second digit.
+- [[moon train]] — the product, at the full moon: one release under the moon's name, by the owner's word.
 
 ## return edges
 
