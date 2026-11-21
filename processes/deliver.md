@@ -70,9 +70,9 @@ a change is delivered when it is live, and it goes live only by a release: what 
 | clock | the sun: every day, 12:00 utc | the week: Friday, 12:00 utc | the moon: the full moon |
 | scope | one repository, by itself | every repository that changed, together | the whole product: every repository of the release culture |
 | version | the last digit | the second digit | the moon's own name, `year.moon` in [[lunar machine time]] — the release of this moon is `56.11` |
-| what it takes | changes merged since the last release, each contained: small, tested, ready to travel | the main lines of the week, merged into one set | the last green release of the week of each repository |
+| what it takes | changes merged since the last release, all of them within the last week: small, tested, ready to travel. an older backlog is no patch and waits for the week | the main lines of the week, as one set | every repository of the release culture at its version |
 | what it proves | the repository's own gates on the commit it cuts | every test tier and the fleet on the integrated set; the pins of the siblings moved by one bump | node 7 walks every claim of every product page on the released set |
-| who promotes | the machine, when the lane is contained; a wide change waits for the week | the machine, when the set is green | the owner |
+| who promotes | the machine, when the gates on the head are green | the machine: the stack's repositories when the train on the integrated set is green, a repository outside the stack on its own green | the owner, by a signed answer to a prepared decision |
 | where it lands | production, the same day: the door, the site, the service | the release line and the candidate with its binaries | the product release of [[cyberia]]: one changelog, the moon report beside the money's |
 | red | published red with its evidence; nothing goes live; the unit returns to its node | the set is published red; the repository that broke it is named and returns | the release waits for the next moon; what was red is the first unit of the moon |
 
@@ -80,16 +80,18 @@ the day's release is what keeps a merged change from waiting: on 21 November 202
 
 ### the release culture
 
-a repository is in the release culture when it carries four things: a version in its manifest, a changelog, its gates named in its `AGENTS.md`, and a door or an artifact where a release is seen. a repository outside it is delivered by nobody's promise. the moon's release lists which are in and which are not; bringing one in is a unit of deliver.
+a repository is in the release culture when it has a version — a tag `vX.Y.Z` on its main line — and gates that run on its head: its checks, or the commands the apparatus names for it (`apparatus/release/culture.toml`). the release itself writes the changelog, from the changes it carries, and where the repository serves something the release deploys it and names its door. a repository outside the culture is delivered by nobody's promise. the moon's release lists which are in and what each of the others lacks; bringing one in is a unit of deliver.
 
 ### the triggers
 
-| trigger | fires | starts | where it lives |
-|---|---|---|---|
-| the day's cut | every day, 12:00 utc | node 8 in every repository of the release culture that has a merged change since its last release | a workflow of the repository; for what a server serves, the machine's deploy step from origin |
-| the week's cut | Friday, 12:00 utc | node 9 once, over the organisation | one workflow in the stack's root, which the others answer |
-| the moon's cut | the full moon | node 10 once | the apparatus, which knows the moon; the owner's verdict is asked as a prepared decision |
-| a red release | a release published red | the return edge to the node that produced the change | the combine |
+| trigger | fires | starts |
+|---|---|---|
+| the day's cut | every day, 12:00 utc | node 8 in every repository of the release culture that has a merged change since its last release |
+| the week's cut | Friday, 12:00 utc | node 9 once: the stack's train on the integrated set, then the second digit where it is green |
+| the moon's cut | the full moon | node 10 once: a draft of the product's release and the owner's decision |
+| a red release | a release recorded red | the return edge to the node that produced the change |
+
+all three leave by one clock, the release clock of the apparatus (`scripts/release.py tick`, every ten minutes): it reads the time, cuts what is due from origin under the machine's own name, and writes the picture the cockpit draws.
 
 ### the trackers
 
@@ -105,7 +107,7 @@ each release is seen by numbers that are measured, never reported. the cockpit d
 | the moon's coverage | repositories of the release culture in the last moon's release, of all the products | it grows toward all |
 | the moon's streak | consecutive moons released on the full moon | it grows |
 
-measured on 21 November 2026, before any of this runs: 7 of 26 products have a release at all; the newest is 50 days old; the stack's root has 492 commits since its release; the train's last two runs were cancelled, and its schedule on the main lines is still weekly while this page said daily.
+measured on 21 November 2026, the day the three releases began to run: 17 of 118 repositories are in the release culture; all 17 carry changes older than a week, 3,901 in all; 5 have red gates on their head; 7 of 26 products have a release at all and the newest is 50 days old; the train's last two runs were cancelled.
 
 every release is cut from the default branches, with `SHA256SUMS`, `sources.json`, `candidate.json`, `release-validation.json` and receipts in `audit/release-<date>/`, and a freeze from the cut to the verdict. a red gate is published red with its evidence, never fixed by hand on the artifact. the owner alone tags and publishes the moon's release; the day's and the week's are tagged by the machine under its own name. 
 the versions of the ladder follow the lanes: contained is a patch, wide a minor, a change the whole state depends on a major; the declared bump is at least the computed one.
