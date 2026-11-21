@@ -18,6 +18,12 @@ new moon, day before, day after — the glow peaks at the dark of the moon.
 | sinwood new moon, kid <10 + animals | $50 | $100 | [+ add](/cyberia/projects/etherland/cart) |
 
 
+## sub-tasks
+
+| sub-task | status |
+|---|---|
+| doc-work-reading | open |
+
 existing
 
 - [[canopy]]
