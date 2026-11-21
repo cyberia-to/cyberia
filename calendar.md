@@ -12,7 +12,7 @@ the time of the organisation, kept in one place: the clocks it lives by, the rhy
 
 five clocks run at once, each at its own speed. a neuron of the organisation knows where it stands in each.
 
-| clock | cycle | what it carries |
+| name | cycle | what it carries |
 |---|---|---|
 | block | seconds | the chain's own time: each block is an irreversible tick of [[cyber]] |
 | sun | the day, 24 h, counted in UTC | the candidate of the release train at 12:00; the day's work |
@@ -44,7 +44,6 @@ what is ahead and happens once, or once a year. a row lands here by a signed com
 
 | when | event | kind | whose | link |
 |---|---|---|---|---|
-| 2027-01-01 | test event | event | — | — |
 | every April | dry season preparation: water rationing, fire prevention, mulching | season | cyber valley | — |
 | every May | the coffee harvest begins | season | cyber valley | — |
 | every September | wet season preparation: drainage, erosion control, the greenhouse | season | cyber valley | — |
