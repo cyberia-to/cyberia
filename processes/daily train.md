@@ -1,14 +1,14 @@
 ---
 tags: cyber, cyberia, process, skill
-alias: day train, the day's train, release of the day, daily release
+alias: daily train, day train, the day's train, release of the day, daily release
 crystal-type: skill
 crystal-domain: cyberia
 status: accepted
 ---
 
-# day train
+# daily train
 
-a skill of [[release]], inside its node 1, day: how one repository's fresh changes become its next patch version, live the same day. the owner, 2026-11-21: the three trains are our train, each its own configuration.
+a skill of [[release]], inside its node 1, daily: how one repository's fresh changes become its next patch version, live the same day. the owner, 2026-11-21: the three trains are our train, each its own configuration.
 
 trigger: the clock, every day at 12:00 utc.
 
@@ -27,7 +27,7 @@ trigger: the clock, every day at 12:00 utc.
 | argument | value |
 |---|---|
 | scope | one repository, by itself |
-| takes | changes merged within the last week; an older backlog waits for the [[week train]] |
+| takes | changes merged within the last week; an older backlog waits for the [[weekly train]] |
 | digit | the last: `vX.Y.Z+1` |
 | gate opened by | the machine, on green |
 | carried to | production, the same day |

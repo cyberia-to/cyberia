@@ -1,14 +1,14 @@
 ---
 tags: cyber, cyberia, process, skill
-alias: week train, the week's train, release of the week, weekly release, the integrated set
+alias: weekly train, week train, the week's train, release of the week, weekly release, the integrated set
 crystal-type: skill
 crystal-domain: cyberia
 status: accepted
 ---
 
-# week train
+# weekly train
 
-a skill of [[release]], inside its node 2, week: how the week's changes of every repository are proved together and become the next minor versions. the owner, 2026-11-21: the three trains are our train, each its own configuration.
+a skill of [[release]], inside its node 2, weekly: how the week's changes of every repository are proved together and become the next minor versions. the owner, 2026-11-21: the three trains are our train, each its own configuration.
 
 trigger: the clock, Friday at 12:00 utc.
 
@@ -27,7 +27,7 @@ trigger: the clock, Friday at 12:00 utc.
 | argument | value |
 |---|---|
 | scope | every repository that changed, as one set |
-| takes | what the [[day train]] could not: a backlog older than a week, a change across repositories |
+| takes | what the [[daily train]] could not: a backlog older than a week, a change across repositories |
 | digit | the second: `vX.Y+1.0` |
 | gate opened by | the machine, on a green set |
 | carried to | the release line and the candidate |

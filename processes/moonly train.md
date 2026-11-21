@@ -1,14 +1,14 @@
 ---
 tags: cyber, cyberia, process, skill
-alias: moon train, the moon's train, release of the moon, the product release, moonly release
+alias: moonly train, moon train, the moon's train, release of the moon, the product release, moonly release
 crystal-type: skill
 crystal-domain: cyberia
 status: accepted
 ---
 
-# moon train
+# moonly train
 
-a skill of [[release]], inside its node 3, moon: how the versions the weeks made become one product release of [[cyberia]] under its moon's name. the owner, 2026-11-21: the three trains are our train, each its own configuration.
+a skill of [[release]], inside its node 3, moonly: how the versions the weeks made become one product release of [[cyberia]] under its moon's name. the owner, 2026-11-21: the three trains are our train, each its own configuration.
 
 trigger: the full moon: a daily clock that waits for it.
 
@@ -27,7 +27,7 @@ trigger: the full moon: a daily clock that waits for it.
 | argument | value |
 |---|---|
 | scope | the whole product |
-| takes | the versions as the [[week train]] left them |
+| takes | the versions as the [[weekly train]] left them |
 | name | the moon's own, `year.moon` in [[lunar machine time]]: `56.11` |
 | gate opened by | the owner |
 | carried to | the releases of [[cyberia]] |
