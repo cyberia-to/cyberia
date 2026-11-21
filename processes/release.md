@@ -7,20 +7,28 @@ crystal-domain: cyberia
 
 # release
 
-how what [[deliver]] merged becomes a version that production serves. a release is a train: it leaves by the clock, takes what is ready, and what is not ready waits for the next. one graph of five skills, run at three scales — the day, the week, the moon — each scale taking what the smaller one produced.
+how what [[deliver]] merged becomes a version that production serves. one graph of five skills, started by three clocks — the trains of the day, the week and the moon. a train leaves at its time, takes what is ready, and what is not ready waits for the next.
 
 trigger: a clock of the [[cyberia/calendar|calendar]] — every day at 12:00 utc, Friday at 12:00 utc, the full moon.
 
-## what is a process, what is a skill, what is a train
+## the train in the five primitives
 
-a skill is one thing a body does to a unit: cut it, make it, transform it, open or return it. a process is a skill of the composite kind: a graph of skills that carries one kind of unit from its trigger to its end. two things define a process — its unit and what starts it.
+work has five primitives ([[dev]] § first principles 4): a goal, a task, a skill, an event, a sensor. a process is a composite skill; a release is an event. the rest follows, and nothing here is a kind of its own:
+
+| word | primitive | in this process |
+|---|---|---|
+| release, the process | a composite skill | the graph below: five skills that carry one version from what is merged to what production serves |
+| a train | a sensor: a clock | a trigger of this process. it fires at its time and starts one run |
+| a run of a train | a task | one pass of the five skills with the train's arguments: its scope, its gates, its digit, who opens the gate |
+| a release | an event | what a run leaves: a version at a point in time |
+| the release culture, the trackers | goals and their sensors | what the runs are measured against |
+
+so the three trains are three triggers of one process, each a row of the registry of triggers like every other clock of the organism; the releases are this process's events; and a fourth train would be a fourth trigger with its arguments, never a new graph. two things define a process — its unit and what starts it:
 
 | process | unit | started by | ends when |
 |---|---|---|---|
 | [[deliver]] | one atomic change | an event: a page accepted, a change proposed | the change is on the main line and walked by a user |
 | release | one version | a clock | production serves the version |
-
-a train is a run of this process at one scale. the three trains are the same five skills with different arguments; they are no three processes, and a fourth scale would be a row in the table below, never a new graph.
 
 ## the graph
 
@@ -32,7 +40,7 @@ a train is a run of this process at one scale. the three trains are the same fiv
 | 4 carry · code node | runner | what the release serves, put live from it: the door, the site, the service, the binaries | production holds the released version |
 | 5 confirm · worker | sensor | a receipt: the door answers from the new version | the receipt names the version it saw |
 
-## the three scales
+## the three trains and their arguments
 
 | | the day | the week | the moon |
 |---|---|---|---|
