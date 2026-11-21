@@ -66,6 +66,7 @@ the apparatus collects projects from the bottom: `apparatus/scripts/projects_col
 | [[apparatus/projects/fleet\|merge agents into one fleet]] | apparatus | — | — | The owner, 2026-11-18: merge machines, services and agents into one entity. | — | proposed |
 | [[apparatus/projects/triggers\|turn contractions into triggers]] | apparatus | — | — | The owner, 2026-11-18: contractions now merge into processes, but with thought. | 2026-11-18 | done |
 | [[midao/projects/midao-registration\|midao registration]] | $CAP | button | — | the legal body of $CAP formed in the Marshall Islands: a certificate, an operating agreement on its on-chain governance, and an account the button pays into | — | doing |
+| [[cyberia-my/projects/cartography\|base cartography]] | my | button | — | on cyberia.my a person draws points, lines, plots and buildings on their own layers over the one globe, verifies a boundary standing on it, and publishes by one signature | — | accepted |
 | [[apparatus/projects/calendar\|the calendar]] | apparatus | — | — | the owner, 2026-11-21: "a separate screen of the organisation's calendar — where events land in the future, and where everyone sees his priorities for now. | — | accepted |
 | [[cyberia-my/projects/listings\|the land market]] | my | — | — | the owner, 2026-11-20: an admin interface and a funnel for the owners who want to place their plots on the map for sale or lease. | — | proposed |
 
