@@ -51,28 +51,29 @@ docs/
 ├── explanation/     conceptual understanding
 └── README.md        index with links to all four quadrants
 
-reference/           canonical specification (separate from docs/)
-├── language.md      types, operators, builtins
-├── grammar.md       formal grammar
-├── ir.md            intermediate representation
-├── props/           design proposals (not yet spec)
-│   └── README.md    proposal lifecycle: draft → accepted → rejected → implemented
-└── quality.md       review methodology
+specs/               the contract (separate from docs/)
+├── README.md        the index of the contract, with the status of every spec
+└── <subject>.md     one spec per subject: formats, invariants, acceptance
+
+roadmap/             proposals: what is meant and not yet true, one file per question
+audit/               evidence: what was checked, when, at which revision
 ```
+
+the whole layout of a repository and the meaning of each group is [[workspace]].
 
 ## source of truth
 
-`reference/` is canonical. if reference/ and code disagree, resolve
-in reference/ first, then propagate to code. if implementation reveals
-the reference is wrong or incomplete, update the reference to match
+`specs/` is canonical. if specs/ and code disagree, resolve
+in specs/ first, then propagate to code. if implementation reveals
+the spec is wrong or incomplete, update the spec to match
 reality.
 
-reference/ is not documentation — it is specification. docs/ explains
-and teaches. reference/ defines.
+specs/ is specification. docs/ explains
+and teaches. specs/ defines.
 
 ## design proposals
 
-proposals for future changes live in `reference/props/`. each proposal
+proposals for future changes live in `roadmap/`. each proposal
 is a standalone markdown file with status frontmatter:
 
 | status      | meaning                                        |
@@ -86,6 +87,6 @@ proposals are not spec. they document desire before commitment.
 
 ## spec before code
 
-write the reference entry before writing the implementation. the spec
+write the spec before writing the implementation. the spec
 is the contract. the code fulfills it. if you cannot specify what a
 feature does before building it, you do not understand it yet.
