@@ -56,6 +56,31 @@ the files of the root: `README.md` in 103, `LICENSE` in 30, `AGENTS.md` in 41, `
 
 for a graph or a landing page a missing `specs/` is right; for a component it is a hole. this report does not say which is which.
 
+## the product's folders
+
+the evidence behind [[repository]] § where it lives today: the folders of a whole product — its plan, its faces, its operation — counted the same way over the same 113 heads, by `python3 /tmp/repo_survey2.py` (one `git ls-tree --name-only HEAD` per repository, the names below matched at the root). the pages inside `projects/` and `tasks/` were counted by `ls` in the working clones of cyberia and apparatus.
+
+| folder | repositories |
+|---|---|
+| `projects/` | apparatus (7 pages), cyberia (16), cyberia-blog, kadek, midao |
+| `tasks/` | apparatus (24 pages), cyber, cyberia (5) |
+| `journal/` | apparatus |
+| `processes/` | apparatus, cyberia |
+| `release/` | apparatus, cyber, soft3 |
+| `servers/` | apparatus |
+| `deploy/` | cybernode, soft3 |
+| `dns/`, `access/`, `combine/`, `sites/` | apparatus |
+| `data/` | none |
+| `site/` | soft3 |
+| `landing/` | cyb, cyber, trident |
+| `app/` | go-cyber, mail, omi |
+| `apps/`, `shell/`, `product/` | cyb |
+| `examples/` | cyber, mudra, neuron, prysm, quanta, simulation, trisha, vault |
+
+`Cargo.toml` stands at the root of 52 repositories, 15 of them beside an `rs/`; six repositories with an `rs/` have no manifest at the root: bbg, cybernode, inf, lytics, neural, tok. the product line it is measured against is the 26 rows of [[products]]; the components are the 79 `[[component]]` tables of `soft3/release/components.toml`.
+
+the limits: three repositories whose names begin with a dot (`.BOOT`, `.CYB`, `.PUSSY`) carry a `site/` and stand outside the 113, as the method's `*/` leaves them out.
+
 ## the revisions
 
 the head of each repository at the time of the measurement:
