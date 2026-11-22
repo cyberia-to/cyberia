@@ -56,7 +56,7 @@ each train is a skill with a graph of its own inside its node — the same five 
 
 ## the release culture
 
-a repository is in the release culture when it has a version — a tag `vX.Y.Z` on its main line — and gates that run on its head: its checks, or the commands the apparatus names for it (`apparatus/release/culture.toml`). the release itself writes the changelog, from the changes it carries. a repository outside the culture is delivered by nobody's promise.
+a repository is in the release culture when it has a version — a tag `vX.Y.Z` on its main line — and gates that run on its head: its checks, or the commands the apparatus names for it (`apparatus/release/culture.toml`). the release itself writes the changelog, from the changes it carries. every change in it stands with its link: the pull request it came by and the issues that request and its commits name; a change pushed with no pull request is linked to its own commit, and the notes say so. a change without a link is not in a release. a repository outside the culture is delivered by nobody's promise.
 
 ## the trackers
 
