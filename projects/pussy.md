@@ -30,6 +30,12 @@ the shape of the revert, from the owner's answers of the same day (translated): 
 
 translated (no link exists): "for genesis tomorrow we are not ready. my decision does not change: the full implementation of the rewards specification is necessary; change every document that contradicts it; without it I will not launch the chain — this is the most important thing in the project: the proof of work must really sample values by the rewards distribution; launch agents on the servers to finish, test and carry it; a completely finished rewards specification, without notes about what is undone." the date leaves the project; the gate is [[rewards]] §7–§8 complete and running as the chain's proof of work (director D20, P14, P15 — [soft3#680](https://github.com/cyberia-to/soft3/pull/680)).
 
+## the owner's word · 2026-11-21
+
+translated (no link exists), on a reader's question of what a stake on truth is: "the losing side must always pay; the winning side must have additional benefits." and on the serum and the market standing in the plans as a later rule set: "I can say for sure that those must be defined before launch — so something is literally wrong in our plans. check and structure it using tasks and projects. I think it is a project for launching spacepussy; it cannot be done by a simple order."
+
+so the gate of 2026-11-04 widens from the work of [[rewards]] §7–§8 to the honesty of §5: the serum, the market on a link, the losing side's payment to the winning side, karma and the annuity are on the chain at genesis. the row "serum, ICBS, annuity … unwired building blocks" of the table below and the "reports rule set" of the critical path are this project's distance; the project that carries it is tru `projects/truth-market-at-genesis.md` ([tru#48](https://github.com/cyberia-to/tru/pull/48)), seven tasks, the first of them one contract. what a reader is told the mechanism is: [tru#47](https://github.com/cyberia-to/tru/pull/47).
+
 ## the measure
 
 pussy's chain is live in public from its burial snapshot, mined by more than one host, its state readable at a public endpoint, and a revert by the protocol's own rule rehearsed on the alpha network before genesis; red date 2026-11-05 13:37:00 UTC, earlier if ready.
@@ -71,7 +77,10 @@ asked with the launch decision on [[cyber/launch]] and in the director's plan (`
 | the alpha network: the stand on two peers (front-primary + agent-host), live since 2026-11-01 19:47 UTC, restarted 2026-11-12 16:42 UTC from P9d's genesis (`pussy-rc` genesis `c1950dee…`, block 0 `ff4b56ea…`); since 2026-11-12 front-primary alone — agent-host's node left with the lease's volume, awaits redeploy (P13) | doing |
 | the known holes published; spacepussy.ai shows the attempt and the holes (today it says "no date") | open |
 | genesis 13:37:00 UTC, the miners, a public endpoint | open |
-| the proof layers as rule sets: transaction proofs, block relation, φ* relation, foculus sound proofs, reports rule set | open |
+| the hybrid economy at genesis: emission by the law of adaptive hybrid consensus economics — a security floor derived from attack economics plus the fees, the whole allocation curve, feedback on observed errors — in place of the constant subsidy with a hard cap the chain runs (the owner, 2026-11-22: "a project for the correctness of inflation as a component of the launch"; soft3 `projects/hybrid-economy-at-genesis.md` on `release/phase1`; the long form restored by [cyber#161](https://github.com/cyberia-to/cyber/pull/161)) | open: H1 the contract, H2 the dynamics simulated, H3 the proofs made whole — none started |
+| activation — repair the valence: the serum needs a side and a prediction from every staker and the three-valued valence carries one; two records under the owner's decision, one signed number on the link or a second link (the owner, 2026-11-21: "a blocker for the launch of pussy"; soft3 `projects/activation.md` on `release/phase1`) | open: V1, both candidates on the scorer, not started; the truth market below waits for it |
+| the truth market at genesis: the serum, the market on a link, the losing side's payment, karma, the annuity — one contract, then the engine, the chain, cyb and a rehearsal (the owner, 2026-11-21; tru `projects/truth-market-at-genesis.md`, [tru#48](https://github.com/cyberia-to/tru/pull/48)) | open: T1, the contract, not started |
+| the proof layers as rule sets: transaction proofs, block relation, φ* relation, foculus sound proofs | open |
 
 ## the pool, re-thought against pussy · 2026-11-01
 
