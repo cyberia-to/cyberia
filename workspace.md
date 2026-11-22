@@ -82,9 +82,9 @@ what was called `reference/` is `specs/`. ten repositories still carry the old n
 
 ## the plan
 
-`roadmap/` holds what is meant and not yet true: one file per open question, with a status in its frontmatter — `draft`, `proposal`, `accepted`, `implemented`, `refuted`. an accepted proposal that is implemented moves its substance into `specs/` and keeps a line in the roadmap that says where it went. a refuted one stays, for its reasons. `proposals/` in a repository that has it is the same thing under an older name.
+`roadmap/` holds what is meant and not yet true: one file per open question, with a status in its frontmatter — `draft`, `accepted`, `rejected`, `implemented`, each meaning what [[documentation]] § design proposals says it means. an accepted proposal that is implemented moves its substance into `specs/` and keeps a line in the roadmap that says where it went. a rejected one stays, for its reasons. `proposals/` in a repository that has it is the same thing under an older name.
 
-`projects/` and `tasks/` are the plan of the organisation and live in the cyberia repository and in apparatus: a project is a goal with a measure, a task is a unit of [[deliver]].
+`projects/` and `tasks/` are the plan of the organisation and live in the cyberia repository and in apparatus: a project is a task with sub-tasks, a task is a unit of [[deliver]].
 
 ## the evidence
 
@@ -104,7 +104,7 @@ a repository names its siblings by relative path from the home, `../<repository>
 
 ## measured
 
-over the 114 repositories of the home on 22 November 2026, by `git ls-tree` of each head:
+over the 113 repositories of the home on 22 November 2026, by `git ls-tree` of each head; the command, the limits and the revision of every repository are in [[repository layout audit 2026-11-22]]:
 
 | directory | repositories | | directory | repositories |
 |---|---|---|---|---|
@@ -115,12 +115,12 @@ over the 114 repositories of the home on 22 November 2026, by `git ls-tree` of e
 | `scripts/` | 20 | | `tests/` | 14 |
 | `.github/` | 37 | | `reference/` | 10 |
 
-`README.md` stands in 104, `AGENTS.md` in 42, `CHANGELOG.md` in 13.
+`README.md` stands in 103, `AGENTS.md` in 41, `CHANGELOG.md` in 13.
 
 what does not yet fit the standard, each a unit of [[deliver]] and none of them changed by this page:
 
 - `reference/` in ten repositories — apparatus, cyb, gaw, pearla, rs, tolya, trident, vitalina, xena, zenda — is the contract under its old name.
 - `proposals/` in soft3 and foculus is `roadmap/` under its old name.
 - soft3 holds its Rust in `crate/`; the standard name is `rs/`.
-- 72 repositories have no `AGENTS.md`, 78 have no `specs/`; for a graph or a landing that is right, for a component it is a hole.
+- 72 repositories have no `AGENTS.md`, 77 have no `specs/`; for a graph or a landing that is right, for a component it is a hole.
 - `.claude/` is committed in 28 repositories; what in it is a plan belongs in `roadmap/`, what is a report belongs in `audit/`.
