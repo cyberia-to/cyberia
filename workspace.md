@@ -7,7 +7,7 @@ crystal-domain: cyber
 
 # workspace — the standard repository
 
-how a repository of cyberia is laid out, and what each group of its directories means for the product. the layout is read by people, by agents and by machines: the combine (apparatus `combine/`) decides from it how a change travels, and the [[release]] decides from it what a version carries. measured on 22 November 2026 over the 114 repositories of the home; the counts are in the last section.
+how a repository of cyberia is laid out, and what each group of its directories means for the product. the layout is read by people, by agents and by machines: the combine (apparatus `combine/`) decides from it how a change travels, and the [[release]] decides from it what a version carries. measured on 22 November 2026 over the 113 repositories of the home; the counts are in the last section.
 
 ## the layout
 
