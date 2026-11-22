@@ -59,7 +59,7 @@ roadmap/             proposals: what is meant and not yet true, one file per que
 audit/               evidence: what was checked, when, at which revision
 ```
 
-the whole layout of a repository and the meaning of each group is [[workspace]].
+the whole folder of a product and the meaning of each group is [[repository]].
 
 ## source of truth
 
